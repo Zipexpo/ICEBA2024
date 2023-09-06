@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "./static/css/main.fa1090be.css",
-    "main.js": "./static/js/main.2b0c1265.js",
+    "main.js": "./static/js/main.0f33a36a.js",
     "static/media/campus-entrance-fall.png": "./static/media/campus-entrance-fall.f05fce16ae45395796e8.png",
     "static/media/NSF_4-Color_bitmap_Logo.png": "./static/media/NSF_4-Color_bitmap_Logo.fb7efe9286a9b499c590.png",
     "static/media/campus-entrance-fall.jpg": "./static/media/campus-entrance-fall.0ea1d45f81606e57e5e1.jpg",
     "static/media/2020.png": "./static/media/2020.8b3db6ac22b987decbb2.png",
     "static/media/img.png": "./static/media/img.f7801be0a3213ba1d22f.png",
     "static/media/Praveen Kumar Donta.png": "./static/media/Praveen Kumar Donta.52c612244de56aa9a5a5.png",
+    "static/media/IKEEE.jpg": "./static/media/IKEEE.6e8f77e4fe54db50e9ce.jpg",
     "static/media/Brian Larkins.jpg": "./static/media/Brian Larkins.551630b60450cef6be3b.jpg",
     "static/media/Weisong Shi.jpg": "./static/media/Weisong Shi.6ddb62d837b498f4a422.jpg",
     "static/media/IMG_8708.JPG": "./static/media/IMG_8708.26e6891197ee5bb66301.JPG",
-    "static/media/header.JPG": "./static/media/header.26e6891197ee5bb66301.JPG",
+    "static/media/header.JPG": "./static/media/header.98bdaf53c262baa06b07.JPG",
     "static/media/venueHolder.png": "./static/media/venueHolder.53dc42a817587559862f.png",
     "static/media/IMG_8712.jpg": "./static/media/IMG_8712.14cb06d1f5d6e3b95873.jpg",
     "static/media/Ngan Nguyen.jpg": "./static/media/Ngan Nguyen.e57a7e2ebce58a634d7d.jpg",
+    "static/media/KHTN.png": "./static/media/KHTN.bc914623d1ea8f5feeed.png",
     "static/media/inside1.jpeg": "./static/media/inside1.bfbc5018206cca0e51fa.jpeg",
     "static/media/features-split-top-01.png": "./static/media/features-split-top-01.f4fabdab0417842c9877.png",
     "static/media/inside2.jpeg": "./static/media/inside2.0fef70e4a647e0ee22ba.jpeg",
@@ -33,12 +35,14 @@
     "static/media/U of Campinas.png": "./static/media/U of Campinas.757986d48c5e7ed761fa.png",
     "static/media/Auluck-Nitin.jpeg": "./static/media/Auluck-Nitin.f5f64d3469aa3d4b82ef.jpeg",
     "static/media/IMG_8707.JPG": "./static/media/IMG_8707.4c8e477e4e1ffcdab743.JPG",
+    "static/media/ieej-logo-b.jpg": "./static/media/ieej-logo-b.9d8432b677e0352dba0b.jpg",
     "static/media/Pamela Delgado.jpg": "./static/media/Pamela Delgado.2255cc26370a3126ea5b.jpg",
     "static/media/Ben McCamish.jpg": "./static/media/Ben McCamish.7098004e3a0bfe1a6c6e.jpg",
     "static/media/Alan Sill.jpg": "./static/media/Alan Sill.626d23c3119e13f64b17.jpg",
     "static/media/Tommy Dang.jpg": "./static/media/Tommy Dang.5c35b6939373252d5768.jpg",
     "static/media/cloudbuslogo.png": "./static/media/cloudbuslogo.e8114478e2f0de367db6.png",
     "static/media/unknown.jpg": "./static/media/unknown.ad7d5e3b781869ba749a.jpg",
+    "static/media/IEEE_VN_Logo_Rect.jpg": "./static/media/IEEE_VN_Logo_Rect.c061e04b3cf3cb9300f0.jpg",
     "static/media/IEEE_logo.jpg": "./static/media/IEEE_logo.52e039f46fd97039a08c.jpg",
     "static/media/IMG_8706.JPG": "./static/media/IMG_8706.1da1045aae2abfe4f6f0.JPG",
     "static/media/IMG_8709.JPG": "./static/media/IMG_8709.d1ba3358124f3a84dbd6.JPG",
@@ -54,6 +58,7 @@
     "static/media/ACM1.png": "./static/media/ACM1.bc1441c681c3d76451ed.png",
     "static/media/Ganesh Neelakanta Iyer.jpg": "./static/media/Ganesh Neelakanta Iyer.7018e027b00c30212fb6.jpg",
     "static/media/news-image-01.jpg": "./static/media/news-image-01.bf244d866a8b256913d9.jpg",
+    "static/media/tohoku-university-logo.png": "./static/media/tohoku-university-logo.76805cd7ac850cc2f512.png",
     "static/media/Kenneth Johnson.jpg": "./static/media/Kenneth Johnson.bd1e1c2a8c2801150638.jpg",
     "static/media/Xinghui Zhao.jpg": "./static/media/Xinghui Zhao.e0469c58f2b932b1a40a.jpg",
     "static/media/Nalini Venkatasubramanian.jpg": "./static/media/Nalini Venkatasubramanian.557b6e94bf9aa09d8baf.jpg",
@@ -64,6 +69,7 @@
     "static/media/team-member-05.jpg": "./static/media/team-member-05.4c3f902e22b89dcadfc1.jpg",
     "static/media/ACM2.png": "./static/media/ACM2.c1ba0a9de29ee19eff7c.png",
     "static/media/Jianwu Wang.jpg": "./static/media/Jianwu Wang.a0b886c498fc9d2b6d6f.jpg",
+    "static/media/kookmin.png": "./static/media/kookmin.20ed94289f3e638a67b7.png",
     "static/media/team-member-04.jpg": "./static/media/team-member-04.69b86ca32cd52de93e6b.jpg",
     "static/media/clients-02.svg": "./static/media/clients-02.cd0c7ac7dfcccb8d2ca5.svg",
     "static/media/clients-04.svg": "./static/media/clients-04.5d044abcb90d5bba17bc.svg",
@@ -105,10 +111,10 @@
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
     "main.fa1090be.css.map": "./static/css/main.fa1090be.css.map",
-    "main.2b0c1265.js.map": "./static/js/main.2b0c1265.js.map"
+    "main.0f33a36a.js.map": "./static/js/main.0f33a36a.js.map"
   },
   "entrypoints": [
     "static/css/main.fa1090be.css",
-    "static/js/main.2b0c1265.js"
+    "static/js/main.0f33a36a.js"
   ]
 }
