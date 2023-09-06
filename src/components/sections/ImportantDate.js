@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
 import {timeFormat} from 'd3'
+import {isArray} from "lodash";
 const propTypes = {
   ...SectionProps.types
 }
@@ -19,10 +20,12 @@ const defaultProps = {
 //     // {key:'Conference',date: ['12/6/2021','12/9/2021']},
 // ]
 const _event = [
-    {key:'Paper Submissions Due (Final)',date: '9/15/2022'},
-    {key:'Notification of Acceptance',date: '10/15/2022'},
-    {key:'Camera ready papers due',date: '10/31/2022'},
-    {key:'Early registration Deadline',date: '11/15/2022'},
+    {key:'Abstract  submission',date: '9/30/2023'},
+    {key:'Full paper submission',date: '10/15/2023'},
+    {key:'Conference Schedule notice and registration',date: '10/30/2023'},
+    {key:'Conference day',date: ['11/25/2023','11/26/2023']},
+    {key:'Information on publication process',date: '12/15/2023'},
+    {key:'Payment fee by bank transfer or cash',date: '11/25/2023',prefix:'before'},
     // {key:'Conference',date: ['12/6/2021','12/9/2021']},
 ]
 class ImportantDate extends React.Component {
@@ -71,8 +74,16 @@ class ImportantDate extends React.Component {
                             {(event??_event).map(e=><li key={e.key} className="tiles-item reveal-from-top" data-reveal-delay="200" style={{maxWidth:'unset'}}>
                                 <div className={"time-card tiles-item-inner has-shadow"}>
                                     <div className={"time"}>
-                                        <h3>{e.date==='TBD'?"TBD":timeFormat('%d')(new Date(e.date))}</h3>
-                                        <strong>{timeFormat('%b')(new Date(e.date))}</strong>
+                                        {e.prefix&&<h6 style={{margin:0}}>{e.prefix}</h6>}
+                                        {
+                                            isArray(e.date)?<>
+                                                <h3>{e.date.map(d=>timeFormat('%d')(new Date(d))).join('-')}</h3>
+                                                <strong>{timeFormat('%b')(new Date(e.date[0]))}</strong>
+                                            </>:<>
+                                                <h3>{e.date==='TBD'?"TBD":timeFormat('%d')(new Date(e.date))}</h3>
+                                                <strong>{timeFormat('%b')(new Date(e.date))}</strong>
+                                            </>
+                                        }
                                     </div>
                                     <span>{e.key}</span>
                                 </div>

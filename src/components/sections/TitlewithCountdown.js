@@ -66,18 +66,19 @@ class TitlewithCountdown extends React.Component {
               <div className="split-item">
                 <div className="hero-content split-item-content center-content-mobile">
                   <h2 className="mt-0 mb-16 reveal-from-left">
-                    15th IEEE/ACM International Conference on Utility and Cloud Computing (UCC2022)
+                    The 4th  International Conference on Engineering Physics, MEMS-Biosensors and Applications  (4th ICEBA2023)
                   </h2>
                   <p className="mt-0 mb-32 reveal-from-left" data-reveal-delay="200">
-                    December 6-9, 2022 - Vancouver, Washington, USA
+                    November 24-25, 2023 - VNUHCM-University of Science
+                    227 Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city, Vietnam
                   </p>
-                  <Countdown date={new Date('12/6/2022')}/>
-                  <div className="reveal-from-left" data-reveal-delay="400">
-                      <p className="mt-32">Concurrent conference <Button size="large" color="primary" variant="text" href={"https://bdcat-conference.org/"}>BDCAT 2022</Button> </p>
-                    {/*<Button tag="a" color="primary" href="https://cruip.com/" wideMobile>*/}
-                    {/*  Pricing and plans*/}
-                    {/*</Button>*/}
-                  </div>
+                  <Countdown date={new Date('11/24/2023')}/>
+                  {/*<div className="reveal-from-left" data-reveal-delay="400">*/}
+                  {/*    <p className="mt-32">Concurrent conference <Button size="large" color="primary" variant="text" href={"https://bdcat-conference.org/"}>BDCAT 2022</Button> </p>*/}
+                  {/*  /!*<Button tag="a" color="primary" href="https://cruip.com/" wideMobile>*!/*/}
+                  {/*  /!*  Pricing and plans*!/*/}
+                  {/*  /!*</Button>*!/*/}
+                  {/*</div>*/}
                 </div>
                 <div className="hero-figure is-3d split-item-image illustration-element-01 reveal-from-right">
                   <Image

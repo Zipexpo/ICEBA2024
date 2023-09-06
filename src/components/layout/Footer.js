@@ -44,11 +44,23 @@ class Footer extends React.Component {
             )}>
             <div className="footer-top space-between text-xxs">
               <Logo />
-              <FooterSocial />
+              <div className="footer-block">
+                <div className="footer-block-title">Address</div>
+                <p>227 Nguyen Van Cu Street, District 5, Ho Chi Minh city, Vietnam.</p>
+              </div>
+              <div className="footer-block">
+                <div className="footer-block-title">Email</div>
+                <a href = "mailto: 4iceba2023@gmail.com">4iceba2023@gmail.com</a>
+              </div>
+              <div className="footer-block">
+                <div className="footer-block-title">Contact</div>
+                <p>Office of Faculty of Physics and Engineering Physics, A Building</p>
+              </div>
+              {/*<FooterSocial />*/}
             </div>
             <div className="footer-bottom space-between text-xxs invert-order-desktop">
               {/*<FooterNav />*/}
-              <div className="footer-copyright">&copy; 2022 UCC 2022, all rights reserved</div>
+              <div className="footer-copyright">&copy; 2023 ICEBA2023, all rights reserved</div>
             </div>
           </div>
         </div>

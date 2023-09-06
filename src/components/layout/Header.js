@@ -134,21 +134,21 @@ class Header extends React.Component {
                       <li>
                         <Link to="/chairs-committees" onClick={this.closeMenu}>CHAIRS & COMMITTEES</Link>
                       </li>
-                      <li>
-                        <Link to="/workshops" onClick={this.closeMenu}>Workshops</Link>
-                      </li>
-                      <li>
-                        <Link to="/poster" onClick={this.closeMenu}>Call for poster</Link>
-                      </li>
+                      {/*<li>*/}
+                      {/*  <Link to="/workshops" onClick={this.closeMenu}>Workshops</Link>*/}
+                      {/*</li>*/}
+                      {/*<li>*/}
+                      {/*  <Link to="/poster" onClick={this.closeMenu}>Call for poster</Link>*/}
+                      {/*</li>*/}
                       <li>
                         <Link to="/keynotes" onClick={this.closeMenu}>Keynotes</Link>
                       </li>
-                      <li>
-                        <Link to="/travel-award" onClick={this.closeMenu}>Travel Award</Link>
-                      </li>
-                      <li>
-                        <Link to="/doctoral-symposium" onClick={this.closeMenu}>DOCTORAL SYMPOSIUM</Link>
-                      </li>
+                      {/*<li>*/}
+                      {/*  <Link to="/travel-award" onClick={this.closeMenu}>Travel Award</Link>*/}
+                      {/*</li>*/}
+                      {/*<li>*/}
+                      {/*  <Link to="/doctoral-symposium" onClick={this.closeMenu}>DOCTORAL SYMPOSIUM</Link>*/}
+                      {/*</li>*/}
                       <li>
                         <Link to="/venue" onClick={this.closeMenu}>Venue</Link>
                       </li>

@@ -49,35 +49,43 @@ class Sponsor extends React.Component {
           <div
             className={innerClasses}
           >
-            <h2>Technical Supports</h2>
+            <h2>Organization</h2>
             <ul className="list-reset">
+              <li><h4>Co-Host</h4></li>
               <li className="reveal-scale-up" data-reveal-delay="200">
                 <Image
-                  src={require('./../../assets/images/IEEE_VN_Logo_Rect.jpg')}
-                  alt="IEEE Vietnam Section"
-                  width={150}
+                  src={require('./../../assets/images/KHTN.png')}
+                  alt="University of Science (VNUHCM)"
+                  title="University of Science (VNUHCM)"
+                  width={200}
                   height={30} />
               </li>
               <li className="reveal-scale-up">
                 <Image
-                  src={require('./../../assets/images/ieej-logo-b.jpg')}
-                  alt="Institute Electrical Engineer of Japan (IEEJ, Japan)"
-                  width={80}
+                  src={require('./../../assets/images/tohoku-university-logo.png')}
+                  alt="Tohoku University (Japan)"
+                  title="Tohoku University (Japan)"
+                  width={230}
                   height={39} />
               </li>
+            </ul>
+            <ul className="list-reset">
+              <li><h4>Co-Organizers</h4></li>
               <li className="reveal-scale-up" data-reveal-delay="200">
                 <Image
-                  src={require('./../../assets/images/IKEEE.jpg')}
-                  alt="Institute of Korean Electrical& Electronic Engineers (IKEEE, Korea)"
-                  width={200}
-                  height={31} />
+                    src={require('./../../assets/images/kookmin.png')}
+                    alt="Kookmin University (Korea)"
+                    title="Kookmin University (Korea)"
+                    width={100}
+                    height={31} />
               </li>
               <li className="reveal-scale-up" data-reveal-delay="400">
                 <Image
-                  src={require('./../../assets/images/HSIA.png')}
-                  alt="Ho Chi Minh Semiconducting Industrial Association (HSIA)"
-                  width={100}
-                  height={30} />
+                    src={require('./../../assets/images/Griffith_University_logo.png')}
+                    alt="Griffith University (Australia)"
+                    title="Griffith University (Australia)"
+                    width={100}
+                    height={30} />
               </li>
             </ul>
           </div>

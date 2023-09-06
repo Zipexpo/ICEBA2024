@@ -6,6 +6,7 @@ import ImportantDate from '../components/sections/ImportantDate';
 import Social from '../components/sections/Social';
 import Cta from '../components/sections/Cta';
 import {TwitterTimelineEmbed} from "react-twitter-embed";
+import Organization from "../components/sections/Organization";
 
 class Home extends React.Component {
   render() {
@@ -14,8 +15,9 @@ class Home extends React.Component {
         <TitlewithCountdown imageFill className="illustration-section-01" />
         <FeaturesSplit invertMobile imageFill className="illustration-section-03" />
         <ImportantDate  topDivider className="gradient-section" />
+          <Organization topDivider bottomDivider />
         <Sponsor topDivider bottomDivider />
-         <Social topDivider bottomDivider />
+         {/*<Social topDivider bottomDivider />*/}
       </React.Fragment>
     );
   }

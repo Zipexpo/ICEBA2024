@@ -79,13 +79,10 @@ class FeaturesSplit extends React.Component {
               <div className="split-item reveal-from-top">
                 <div className={"container-lg"} >
                   <h3 className="mt-0 mb-16">
-                    UCC
+                    The scope of ICEBA2023 Conference
                   </h3>
                   <p>
-                    Cloud computing has firmly established itself as an indispensable utility for the digital age. Cloud services consumers expect and rely on sufficient computing power, the availability of data and media, and that these will be accessible across a range of devices.
-                  </p>
-                  <p>
-                    The expectation now is that Cloud services providers are capable of maintaining streamed services that are always available. Also, social and technological challenges are met with the development and adoption of new technologies that provide a safer, more secure, and richer digital experience for users and customers. Therefore, it is essential that sound scientific principles underpinning cloud technology and its economic value to both service providers and consumers are expressed and understood.
+                    The purpose of the 4th ICEBA2023 is to link the researchers, scientists from Vietnam, Australia and Asian countries in the field of Engineering Physics and microelectronics and semiconductors for their applications in biomedical engineering, health sciences, hi-tech agriculture and smart cities.  Besides, we also contribute to promoting international cooperation activities on join research projects and international co-publications.
                   </p>
                 </div>
               </div>
@@ -93,14 +90,20 @@ class FeaturesSplit extends React.Component {
               <div className="split-item reveal-from-top">
                 <div className="split-item-content center-content-mobile">
                   <h3 className="mt-0 mb-16">
-                    UCC 2022
+                    The subject areas
                   </h3>
                   <p className="m-0">
-                    UCC2022 is the premier IEEE/ACM conference for areas related to Cloud Computing as a Utility and provides an international forum for leading researchers and practitioners in this important and growing field.
+                    Contributed papers are solicited in the following subject areas (but not limited to):
+                    <ul>
+                      <li>Applied Physics, Engineering Physics, Electronic Engineering and Nuclear Engineering;</li>
+                      <li>MEMS (MicroElectronMechanical System), Sensors, Biosensors and semiconducting devices;</li>
+                      <li>Microelectronics, IC design, low comsumption devices, Renewable Energy</li>
+                      <li>Computing Science, Simulations and Modeling; </li>
+                      <li>Embedded systems, Internet of Things, Machine Learning, Artificial Intelligence,..</li>
+                      <li>Biomedical Engineering, Digital Microfluidics and their applications;</li>
+                      <li>...</li>
+                    </ul>
                   </p>
-                  {/*<p>*/}
-                  {/*  UCC2022 will be hosted at the Washington State University. Portland, Oregon’s largest city, sits on the Columbia and Willamette rivers, in the shadow of snow-capped Mount Hood.*/}
-                  {/*</p>*/}
                 </div>
                 <div className={
                   classNames(
@@ -124,37 +127,10 @@ class FeaturesSplit extends React.Component {
 
               <div className="split-item reveal-from-top">
                 <div className={"container-lg reveal-from-top"} >
-                  {/*<h3 className="mt-0 mb-16">*/}
-                  {/*  Data-driven insights*/}
-                  {/*</h3>*/}
                   <p>
-                    This will be the 14th UCC in a successful conference series of community-driven events. Previous events were held in Shanghai, China (Cloud 2009), Melbourne, Australia (Cloud 2010 & UCC 2011), Chennai, India (UCC 2010), Chicago, USA (UCC 2012), Dresden, Germany (UCC2013), London, UK (UCC 2014), Limassol, Cyprus (UCC 2015), Shanghai, China (UCC 2016), Austin, Texas, USA (UCC 2017), Technopark Zurich, Switzerland (UCC 2018), Aucland, New Zealand(UCC 2019) Leicester, UK(UCC 2020) and Leicester, UK(UCC 2021).
-                  </p>
-                  <p>
-                    UCC2022 is co-located with BDCAT2022 and offers a technical programme, workshops, tutorials, doctoral symposium, and cloud challenge.
-                  </p>
-                  <p>
-                    Both UCC and BDCAT will act with responsibility with public good as always the primary consideration. Authors and participants are encouraged to read the ACM Code of Ethics and Professional Conduct and ACM Policy Against Harassment.
+                    This year 4th ICEBA will be hosted at VNUHCM-University of Science, 227 Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city, Vietnam.
                   </p>
                 </div>
-                {/*<div className={*/}
-                {/*  classNames(*/}
-                {/*    'split-item-image center-content-mobile illustration-element-05',*/}
-                {/*    imageFill && 'split-item-image-fill'*/}
-                {/*  )}>*/}
-                {/*  <Image*/}
-                {/*    src={require('./../../assets/images/features-split-image.svg')}*/}
-                {/*    alt="Features split 03"*/}
-                {/*    width={528}*/}
-                {/*    height={396} />*/}
-                {/*  <div style={img03Style}>*/}
-                {/*    <Image*/}
-                {/*      src={require('./../../assets/images/features-split-top-03.png')}*/}
-                {/*      alt="Features split top 03"*/}
-                {/*      width={747}*/}
-                {/*      height={570} />*/}
-                {/*  </div>*/}
-                {/*</div>*/}
               </div>
 
             </div>
