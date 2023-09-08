@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.9b29abed.css",
-    "main.js": "./static/js/main.3f2386eb.js",
+    "main.js": "./static/js/main.636dcb01.js",
     "static/media/campus-entrance-fall.png": "./static/media/campus-entrance-fall.f05fce16ae45395796e8.png",
     "static/media/NSF_4-Color_bitmap_Logo.png": "./static/media/NSF_4-Color_bitmap_Logo.fb7efe9286a9b499c590.png",
     "static/media/campus-entrance-fall.jpg": "./static/media/campus-entrance-fall.0ea1d45f81606e57e5e1.jpg",
@@ -10,6 +10,7 @@
     "static/media/inside2.jpg": "./static/media/inside2.4361992588baeab6f7ed.jpg",
     "static/media/img.png": "./static/media/img.f7801be0a3213ba1d22f.png",
     "static/media/Praveen Kumar Donta.png": "./static/media/Praveen Kumar Donta.52c612244de56aa9a5a5.png",
+    "static/media/KHTN.png": "./static/media/KHTN.7733f409fb89e2f63734.png",
     "static/media/IKEEE.jpg": "./static/media/IKEEE.6e8f77e4fe54db50e9ce.jpg",
     "static/media/Brian Larkins.jpg": "./static/media/Brian Larkins.551630b60450cef6be3b.jpg",
     "static/media/Weisong Shi.jpg": "./static/media/Weisong Shi.6ddb62d837b498f4a422.jpg",
@@ -18,7 +19,6 @@
     "static/media/venueHolder.png": "./static/media/venueHolder.53dc42a817587559862f.png",
     "static/media/Ngan Nguyen.jpg": "./static/media/Ngan Nguyen.e57a7e2ebce58a634d7d.jpg",
     "static/media/outside1.jpg": "./static/media/outside1.3dfe8ef8a01d592f9a84.jpg",
-    "static/media/KHTN.png": "./static/media/KHTN.bc914623d1ea8f5feeed.png",
     "static/media/features-split-top-01.png": "./static/media/features-split-top-01.f4fabdab0417842c9877.png",
     "static/media/features-split-top-03.png": "./static/media/features-split-top-03.8dd75689ce78696366fc.png",
     "static/media/North Texas.png": "./static/media/North Texas.8926d35aa409eb884199.png",
@@ -30,6 +30,7 @@
     "static/media/Zichuan Xu.jpg": "./static/media/Zichuan Xu.c3eb855e6955c4695f51.jpg",
     "static/media/Paolo Falcarin.jpg": "./static/media/Paolo Falcarin.2345cb5331f06a4ee087.jpg",
     "static/media/ahmed-200x301.png": "./static/media/ahmed-200x301.6f2cf7871afa508f31e4.png",
+    "static/media/paymentQR.jpg": "./static/media/paymentQR.fb23f01ad091c8406522.jpg",
     "static/media/Tania Lorido Botran.jpg": "./static/media/Tania Lorido Botran.51744658465794c30bba.jpg",
     "static/media/U of Campinas.png": "./static/media/U of Campinas.757986d48c5e7ed761fa.png",
     "static/media/Auluck-Nitin.jpeg": "./static/media/Auluck-Nitin.f5f64d3469aa3d4b82ef.jpeg",
@@ -106,10 +107,10 @@
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
     "main.9b29abed.css.map": "./static/css/main.9b29abed.css.map",
-    "main.3f2386eb.js.map": "./static/js/main.3f2386eb.js.map"
+    "main.636dcb01.js.map": "./static/js/main.636dcb01.js.map"
   },
   "entrypoints": [
     "static/css/main.9b29abed.css",
-    "static/js/main.3f2386eb.js"
+    "static/js/main.636dcb01.js"
   ]
 }
