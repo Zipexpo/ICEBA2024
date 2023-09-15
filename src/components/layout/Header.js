@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
+import {Link, withRouter} from 'react-router-dom';
 import Logo from './partials/Logo';
 
 import './Header.css'
@@ -76,9 +76,10 @@ class Header extends React.Component {
       hideSignin,
       bottomOuterDivider,
       bottomDivider,
+      location,
       ...props
     } = this.props;
-
+    const currentPath= (location.pathname||"").replace('/','');
     const classes = classNames(
       'site-header invert-color',
       bottomOuterDivider && 'has-bottom-divider',
@@ -123,16 +124,16 @@ class Header extends React.Component {
                         navPosition && `header-nav-${navPosition}`
                       )}>
                       <li>
-                        <Link to="/" onClick={this.closeMenu}>Home</Link>
+                        <Link className={((currentPath==="")||(currentPath==="home"))?"button":'offbutton'} to="/" onClick={this.closeMenu}>Home</Link>
                       </li>
                       <li>
-                        <Link to="/programme" onClick={this.closeMenu}>Programme</Link>
+                        <Link className={(currentPath==="programme")?"button":'offbutton'} to="/programme" onClick={this.closeMenu}>Programme</Link>
                       </li>
                       <li>
-                        <Link to="/call-for-paper" onClick={this.closeMenu}>Call for paper</Link>
+                        <Link className={(currentPath==="call-for-paper")?"button":'offbutton'} to="/call-for-paper" onClick={this.closeMenu}>Call for paper</Link>
                       </li>
                       <li>
-                        <Link to="/chairs-committees" onClick={this.closeMenu}>CHAIRS & COMMITTEES</Link>
+                        <Link className={(currentPath==="chairs-committees")?"button":'offbutton'} to="/chairs-committees" onClick={this.closeMenu}>CHAIRS & COMMITTEES</Link>
                       </li>
                       {/*<li>*/}
                       {/*  <Link to="/workshops" onClick={this.closeMenu}>Workshops</Link>*/}
@@ -141,7 +142,7 @@ class Header extends React.Component {
                       {/*  <Link to="/poster" onClick={this.closeMenu}>Call for poster</Link>*/}
                       {/*</li>*/}
                       <li>
-                        <Link to="/keynotes" onClick={this.closeMenu}>Keynotes</Link>
+                        <Link className={(currentPath==="keynotes")?"button":'offbutton'} to="/keynotes" onClick={this.closeMenu}>Keynotes</Link>
                       </li>
                       {/*<li>*/}
                       {/*  <Link to="/travel-award" onClick={this.closeMenu}>Travel Award</Link>*/}
@@ -150,7 +151,7 @@ class Header extends React.Component {
                       {/*  <Link to="/doctoral-symposium" onClick={this.closeMenu}>DOCTORAL SYMPOSIUM</Link>*/}
                       {/*</li>*/}
                       <li>
-                        <Link to="/venue" onClick={this.closeMenu}>Venue</Link>
+                        <Link className={(currentPath==="venue")?"button":'offbutton'} to="/venue" onClick={this.closeMenu}>Venue</Link>
                       </li>
                     </ul>
                     {!hideSignin &&
@@ -177,4 +178,4 @@ class Header extends React.Component {
 Header.propTypes = propTypes;
 Header.defaultProps = defaultProps;
 
-export default Header;
+export default withRouter(Header);

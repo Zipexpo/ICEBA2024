@@ -10,6 +10,7 @@ import {csv,groups} from "d3"
 import IconButton from "@mui/material/IconButton/IconButton";
 import EmailIcon from '@mui/icons-material/Email';
 import Tooltip from "@mui/material/Tooltip/Tooltip";
+import GenericSection from "./GenericSection";
 
 const propTypes = {
     ...SectionTilesProps.types
@@ -83,7 +84,7 @@ class Team extends React.Component {
 
         // const sectionHeader = {
         //   title: 'Meet the team - Lorem ipsum is placeholder text.',
-        //   paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        //   paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
         // };
 
         return (
@@ -93,54 +94,89 @@ class Team extends React.Component {
             >
                 <div className="container">
                     <div className={innerClasses}>
-                        {members.map(c=><div key={c[0]} className={"mb-32"}>
-                            <SectionHeader data={{title:c[0]}} className="center-content" />
-                            <div className={tilesClasses}>
-                                {c[1].map((m,i)=><div className="tiles-item" key={i} style={{padding:0}}>
-                                    <div className="tiles-item-inner">
-                                        <div className="team-item-header tiles-item" style={{padding:0}}>
-                                            <div className={`team-item-image mb-24 ${m.isSpecical?'illustration-element-06':''}`}>
-                                                <Image
-                                                    src={require(`./../../assets/images/member/${m.Avatar!==''?m.Avatar:`${(m.Name==='??')?'unknown':m.Name}.jpg`}`)}
-                                                    alt={m.Name}
-                                                    width={190}
-                                                    height={190} />
-                                            </div>
-                                        </div>
-                                        <div className="team-item-content tiles-item" >
-                                            <h5 className="team-item-name mt-0 mb-4">
-                                                {m.Name}
-                                            </h5>
-                                            {(c[0]==='Programme Committee Chairs')&&<div className="team-item-role text-xxs tt-u text-color-primary mb-8" >
-                                                {m.Role}
-                                            </div>}
-                                            {/*{m.Email&&<a className="team-item-role text-xxs tt-u text-color-primary mb-8" href={`mailto:${m.Email}`}><IconButton aria-label="delete" size="small" color="primary" style={{width:30}}>*/}
-                                            {/*<EmailIcon style={{width:30}}/>*/}
-                                            {/*</IconButton> :{m.Email}</a>}*/}
-                                            <p className="m-0 text-sm">
-                                                {/*m.Affiliation_logo&&<Image
-                              src={m.Affiliation_logo}
-                              alt={m.Affiliation}
-                              width={50}
-                              height={50} />*/}{m.Affiliation}{m.Region?`, ${m.Region}`:''}
-                                            </p>
-
-                                        </div>
-                                    </div>
-                                </div>)}
-                            </div></div>)}
-                        <div className={"mb-32"}>
-                            <SectionHeader data={{title:'UCC 2022 Programme Committee'}} className="center-content reveal-from-top" />
+                        <div className={"mb-32 mt-32"}>
+                            <SectionHeader data={{title:'Scientific Committee'}} className="center-content" />
                             <div className={tilesClasses}>
                                 <ul>
-                                    {
-                                        this.state.tpc.map(d=><li style={{textAlign:'left'}}>
-                                            {d['First name']} {d['Last name']}, {d['Affliation']}
-                                        </li>)
-                                    }
+                                    <li style={{textAlign:'left'}}>Takahito  Ono (Tohoku University, Japan)</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Van Hieu (VNUHCM,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Do Hong Tuan (VNUHCM-UT & IEEE Vietnam Section)</li>
+                                    <li style={{textAlign:'left'}}>Masaya Toda (Tohoku University, Japan)</li>
+                                    <li style={{textAlign:'left'}}>Le Vu Tuan Hung (VNUHCM-University of Science,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Kyeong-Sik Min (Kook Min University & IKEEE, Korea)</li>
+                                    <li style={{textAlign:'left'}}>Dao Viet Dzung (Griffith University, Australia)</li>
+                                    <li style={{textAlign:'left'}}>Ching Tak Shing Congo (National Chung Hsing University,Taiwan)</li>
+                                    <li style={{textAlign:'left'}}>Jen-Inn Chyi (National Central University, Taiwan)</li>
+                                    <li style={{textAlign:'left'}}>Kun-Yu Lai (National Central University, Taiwan)</li>
+                                    <li style={{textAlign:'left'}}>Dinh Sy Hien (VNUHCM-University of Science,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Hoang Nam (VNU Ha Noi-University of Science,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>(will be updated)</li>
                                 </ul>
                             </div>
                         </div>
+                        <GenericSection topDivider>
+                            <SectionHeader data={{title:'Program Committee'}} className="center-content" />
+                            <div className={tilesClasses}>
+                                <ul>
+                                    <li style={{textAlign:'left'}}>Huynh Van Tuan (VNUHCM-University of Science,Vietnam), Chair</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Van Toan (Tohoku University, Japan), Co-chair</li>
+                                    <li style={{textAlign:'left'}}>Tran Thien Thanh (VNUHCM-University of Science,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Hoang Trang (VNUHCM-University of Technology, Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Vu Thi Hanh Thu (VNUHCM-US,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Anh Tuan (HISA, Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Huynh Chan Khon (VNUHCM-International University,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Minkyu Song (Dongguk University, Seoul, Korea)</li>
+                                    <li style={{textAlign:'left'}}>Jongsun Kim (Hongik University, Seoul, Korea)</li>
+                                    <li style={{textAlign:'left'}}>Yong Moon (Soongsil University, Seoul, Korea)</li>
+                                    <li style={{textAlign:'left'}}>Vu The Dang (Osaka Metropolitan University, Japan)</li>
+                                    <li style={{textAlign:'left'}}>Dau Van  (Griffith University, Australia) </li>
+                                    <li style={{textAlign:'left'}}>Nguyen Minh Son (VNUHCM- University of Information Technology, Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Van Men (VNUHCM- An Giang University, Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Chi Nhan (VNUHCM- University of Science,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Vo Hong Hai (VNUHCM-US,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Ho Thanh Huy (VNUHCM-US,Vietnam) </li>
+                                    <li style={{textAlign:'left'}}>Nguyen Chi Linh (VNUHCM-US,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Quang Khoi (VNUHCM- University of Science,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Do Duc Cuong (VNUHCM- University of Science,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Trinh Thi Ly (VNUHCM- University of Science,Vietnam)</li>
+                                </ul>
+                            </div>
+                        </GenericSection>
+                        <GenericSection topDivider>
+                            <SectionHeader data={{title:'Publication Committee'}} className="center-content" />
+                            <div className={tilesClasses}>
+                                <ul>
+                                    <li style={{textAlign:'left'}}>Takahito Ono (TU, Japan)</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Van Hieu (VNUHCM,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Kyeong-Sik Min (KMU& IKEEE, Korea)</li>
+                                    <li style={{textAlign:'left'}}>Huynh Van Tuan (VNUHCM-US,Vietnam)</li>
+                                </ul>
+                            </div>
+                        </GenericSection>
+                        <GenericSection topDivider>
+                            <SectionHeader data={{title:' Local Organizing Committee'}} className="center-content" />
+                            <div className={tilesClasses}>
+
+                                <ul><li style={{textAlign:'left'}}>Nguyen Chi Nhan (VNUHCM-US,Vietnam), Chair</li>
+                                    <li style={{textAlign:'left'}}>Vo Hong Hai (VNUHCM-US,Vietnam), Co-chair</li>
+                                    <li style={{textAlign:'left'}}>Vu Thi Hanh Thu (VNUHCM-US,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Huynh Thanh Nhan (VNUHCM-US,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Chi Linh (VNUHCM-US,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Hoang Quan (VNUHCM-US,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Phan Thien Luan (NCHU, Taiwan)</li>
+                                </ul>
+                            </div>
+                        </GenericSection>
+                        <GenericSection topDivider>
+                            <SectionHeader data={{title:'Secretariats'}} className="center-content" />
+                            <div className={tilesClasses}>
+                                <ul>
+                                    <li style={{textAlign:'left'}}>Ho Thanh Huy (VNUHCM-US,Vietnam) </li>
+                                    <li style={{textAlign:'left'}}>Hua Thi Hoang Yen (VNUHCM-US,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Phuoc Hoang Khang (VNUHCM-US,Vietnam)</li>
+                                </ul>
+                            </div>
+                        </GenericSection>
                     </div>
                 </div>
             </section>

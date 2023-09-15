@@ -1,6 +1,6 @@
 {
-  "name": "vlth_hnqt",
-  "version": "0.1.0",
+  "name": "ICEBA2023",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.8.2",

@@ -1,5 +1,11 @@
 import React from 'react';
 import KeyNoteSection from '../components/sections/KeyNoteSection';
+import CssBaseline from "@mui/material/CssBaseline/CssBaseline";
+import Container from "@mui/material/Container/Container";
+import GenericSection from "../components/sections/GenericSection";
+import SectionHeader from "../components/sections/partials/SectionHeader";
+import HeroFull from "../components/sections/HeroFull";
+import Image from "../components/elements/Image";
 
 const data = [
     {
@@ -95,7 +101,30 @@ class Keynote extends React.Component {
     render() {
         return (
             <React.Fragment>
-                {data.map(d=><KeyNoteSection key={d.authorName} invertMobile imageFill className="illustration-section-03" content={d}/>)}
+                {/*{data.map(d=><KeyNoteSection key={d.authorName} invertMobile imageFill className="illustration-section-03" content={d}/>)}*/}
+                {/*<CssBaseline/>*/}
+                <HeroFull content={{title:<a target="_blank" href="https://forms.gle/gRbujFsLi9fmRUe47">Upcoming!</a>,
+                    inside:<>
+                        {/*<Button tag="a" target="_blank" color="primary" href="https://forms.gle/gRbujFsLi9fmRUe47">Registration</Button>*/}
+                        {/*<div>*/}
+                        {/*    <ButtonGroup>*/}
+                        {/*        <Button color="primary" tag={"a"} target="_blank" href="https://cvent.me/l5B041?RefId=Member">Member Registration</Button>*/}
+                        {/*        <Button color="primary" tag={"a"} target="_blank" href="https://cvent.me/Q8q2Z1?RefId=Non-Member">ACM Member Registration</Button>*/}
+                        {/*        <Button color="primary" tag={"a"} target="_blank" href="https://cvent.me/Q8q2Z1?RefId=Non-Member">Non-Member Registration</Button>*/}
+                        {/*        <br/>*/}
+                        {/*        <Button  style={{marginTop:32}} color="primary" tag={"a"} target="_blank" href="https://www.eventbrite.com/e/daac-2022-reducing-hpcs-carbon-footprint-tickets-477704636427">Registration link for DAAC 2022 workshop available for remote online participation</Button>*/}
+                        {/*    </ButtonGroup>*/}
+                        {/*</div>*/}
+
+                        {/*<div className={"center-content"}>*/}
+                        {/*    <Image src={require(`./../assets/images/NSF_4-Color_bitmap_Logo.png`)}*/}
+                        {/*           width={100}*/}
+                        {/*           height={100}/>*/}
+                        {/*</div>*/}
+                        <Image src={require(`./../assets/images/venue/inside1.jpg`)}
+                               width={800}
+                               height={400}/>
+                    </>}}/>
             </React.Fragment>
         );
     }

@@ -82,7 +82,7 @@ class FeaturesSplit extends React.Component {
                     The scope of ICEBA2023 Conference
                   </h3>
                   <p>
-                    The purpose of the 4th ICEBA2023 is to link the researchers, scientists from Vietnam, Australia and Asian countries in the field of Engineering Physics and microelectronics and semiconductors for their applications in biomedical engineering, health sciences, hi-tech agriculture and smart cities.  Besides, we also contribute to promoting international cooperation activities on join research projects and international co-publications.
+                    The purpose of the 4th ICEBA2023 is to link the researchers, scientists from Vietnam, Australia and Asian countries in the field of Engineering Physics and microelectronics and semiconductors for their applications in biomedical engineering, health sciences, hi-tech agriculture and smart cities.  Besides, we also contribute to promoting international cooperation activities on joint research projects and international co-publications.
                   </p>
                 </div>
               </div>

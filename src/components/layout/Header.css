@@ -1,4 +1,9 @@
 .header-nav-inner .text-xxs li a {
-    background: rgba(255, 255, 255, 0.93);
+    background: #fcc62d;
+    color: black;
     margin:1px
+}
+
+ul.list-reset li a.offbutton {
+    color: black!important;
 }

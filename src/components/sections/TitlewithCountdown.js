@@ -69,10 +69,10 @@ class TitlewithCountdown extends React.Component {
                     The 4th  International Conference on Engineering Physics, MEMS-Biosensors and Applications  (4th ICEBA2023)
                   </h2>
                   <p className="mt-0 mb-32 reveal-from-left" data-reveal-delay="200">
-                    November 24-25, 2023 - VNUHCM-University of Science
+                    November 25-26, 2023 - VNUHCM-University of Science
                     227 Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city, Vietnam
                   </p>
-                  <Countdown date={new Date('11/24/2023')}/>
+                  <Countdown date={new Date('11/25/2023')}/>
                   {/*<div className="reveal-from-left" data-reveal-delay="400">*/}
                   {/*    <p className="mt-32">Concurrent conference <Button size="large" color="primary" variant="text" href={"https://bdcat-conference.org/"}>BDCAT 2022</Button> </p>*/}
                   {/*  /!*<Button tag="a" color="primary" href="https://cruip.com/" wideMobile>*!/*/}

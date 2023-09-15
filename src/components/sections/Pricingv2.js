@@ -6,6 +6,7 @@ import SectionHeader from './partials/SectionHeader';
 import Switch from '../elements/Switch';
 import Button from '../elements/Button';
 import GenericSection from "./GenericSection";
+import Image from "../elements/Image";
 
 const propTypes = {
     ...SectionTilesProps.types,
@@ -120,8 +121,8 @@ class Pricing extends React.Component {
                                 <Switch
                                     checked={this.state.priceChangerValue === '1' ? true : false}
                                     onChange={this.handlePricingSwitch}
-                                    rightLabel="Normal Price">
-                                    Early Bird
+                                    rightLabel="VNĐ for Vietnamese">
+                                    USD
                                 </Switch>
                             </div>
                         }
@@ -161,8 +162,8 @@ class Pricing extends React.Component {
                                                         <span
                                                             className="text-sm">{this.getPricingData(price, 2)}</span>
                                                     </div>
-                                                    <div className="text-color-low text-xs">{this.getPricingData(priceNote).replace('xxxxxx',`${price[1][0]}${price[1][1]}`)}
-                                                    </div>
+                                                    {/*<div className="text-color-low text-xs">{this.getPricingData(priceNote).replace('xxxxxx',`${price[1][0]}${price[1][1]}`)}*/}
+                                                    {/*</div>*/}
                                                 </div>
                                                 <div className="pricing-item-features mb-40">
                                                     {/*<div className="pricing-item-features-title text-xs text-color-high mb-24">*/}
@@ -174,7 +175,12 @@ class Pricing extends React.Component {
                                                 </div>
                                             </div>
                                             <div className="pricing-item-cta mb-8">
-                                                <Button tag="a" color="primary" wide href="https://cvent.me/q3vlYw">Registration</Button>
+                                                <Button tag="a" color="primary" target="_blank" wide href="https://forms.gle/gRbujFsLi9fmRUe47">Registration</Button>
+                                                {/*<div className={"center-content"}>*/}
+                                                {/*    <Image src={require(`./../../assets/images/paymentQR.jpg`)}*/}
+                                                {/*           width={300}*/}
+                                                {/*           height={300}/>*/}
+                                                {/*</div>*/}
                                             </div>
                                         </div>
                                     </div>)}

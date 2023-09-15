@@ -25,7 +25,7 @@
 }
 
 .pricing-item-header {
-	@include divider(after);
+	//@include divider(after);
 
 	&::after {
 		max-width: 64px;

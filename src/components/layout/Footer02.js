@@ -42,69 +42,30 @@ class Footer extends React.Component {
               'site-footer-inner',
               topDivider && 'has-top-divider'
             )}>
-            <div className="footer-top text-xxs">
-              <div className="footer-blocks">
-                <div className="footer-block">
-                  <Logo className="mb-16" />
-                  <div className="footer-copyright">&copy; 2023 ICEBA2023, all rights reserved</div>
-                </div>
-                {/*<div className="footer-block">*/}
-                  {/*<div className="footer-block-title">Company</div>*/}
-                  {/*<ul className="list-reset">*/}
-                    {/*<li>*/}
-                      {/*<a href="https://cruip.com/">Dummy text used</a>*/}
-                    {/*</li>*/}
-                    {/*<li>*/}
-                      {/*<a href="https://cruip.com/">The purpose of lorem</a>*/}
-                    {/*</li>*/}
-                    {/*<li>*/}
-                      {/*<a href="https://cruip.com/">Filler text can be very useful</a>*/}
-                    {/*</li>*/}
-                    {/*<li>*/}
-                      {/*<a href="https://cruip.com/">Be on design</a>*/}
-                    {/*</li>*/}
-                  {/*</ul>*/}
-                {/*</div>*/}
-                {/*<div className="footer-block">*/}
-                  {/*<div className="footer-block-title">Uses cases</div>*/}
-                  {/*<ul className="list-reset">*/}
-                    {/*<li>*/}
-                      {/*<a href="https://cruip.com/">Consectetur adipiscing</a>*/}
-                    {/*</li>*/}
-                    {/*<li>*/}
-                      {/*<a href="https://cruip.com/">Lorem Ipsum is place</a>*/}
-                    {/*</li>*/}
-                    {/*<li>*/}
-                      {/*<a href="https://cruip.com/">Excepteur sint</a>*/}
-                    {/*</li>*/}
-                    {/*<li>*/}
-                      {/*<a href="https://cruip.com/">Occaecat cupidatat</a>*/}
-                    {/*</li>*/}
-                  {/*</ul>*/}
-                {/*</div>*/}
-                {/*<div className="footer-block">*/}
-                  {/*<div className="footer-block-title">Docs</div>*/}
-                  {/*<ul className="list-reset mb-0">*/}
-                    {/*<li>*/}
-                      {/*<a href="https://cruip.com/">The purpose of lorem</a>*/}
-                    {/*</li>*/}
-                    {/*<li>*/}
-                      {/*<a href="https://cruip.com/">Dummy text used</a>*/}
-                    {/*</li>*/}
-                    {/*<li>*/}
-                      {/*<a href="https://cruip.com/">Excepteur sint</a>*/}
-                    {/*</li>*/}
-                    {/*<li>*/}
-                      {/*<a href="https://cruip.com/">Occaecat cupidatat</a>*/}
-                    {/*</li>*/}
-                  {/*</ul>*/}
-                {/*</div>*/}
+            <div className="footer-top space-between text-xxs">
+              <Logo />
+              <div className="footer-block">
+                <div className="footer-block-title">Address</div>
+                <p>227 Nguyen Van Cu Street, District 5, Ho Chi Minh city, Vietnam.</p>
               </div>
+              <div className="footer-block">
+                <div className="footer-block-title">Email</div>
+                <a href = "mailto: 4iceba2023@gmail.com">4iceba2023@gmail.com</a>
+              </div>
+              <div className="footer-block">
+                <div className="footer-block-title">Contact</div>
+                <p>Office of Faculty of Physics and Engineering Physics, A Building</p>
+              </div>
+              {/*<FooterSocial />*/}
             </div>
-            <div className="footer-bottom space-between center-content-mobile text-xxs">
-              <FooterNav />
-              <FooterSocial />
+            <div className="footer-bottom space-between text-xxs invert-order-desktop">
+              {/*<FooterNav />*/}
+              <div className="footer-copyright">&copy; 2023 ICEBA2023, all rights reserved</div>
             </div>
+            {/*<div className="footer-bottom space-between center-content-mobile text-xxs">*/}
+            {/*  <FooterNav />*/}
+            {/*  <FooterSocial />*/}
+            {/*</div>*/}
           </div>
         </div>
       </footer>

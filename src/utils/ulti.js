@@ -1,0 +1,1 @@
+export const submissionLink = "https://easychair.org/my/conference?conf=4thiceba2023"

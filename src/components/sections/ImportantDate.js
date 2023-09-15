@@ -4,6 +4,8 @@ import { SectionProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
 import {timeFormat} from 'd3'
 import {isArray} from "lodash";
+import {submissionLink} from "../../utils/ulti";
+import {Link} from "react-router-dom";
 const propTypes = {
   ...SectionProps.types
 }
@@ -20,12 +22,12 @@ const defaultProps = {
 //     // {key:'Conference',date: ['12/6/2021','12/9/2021']},
 // ]
 const _event = [
-    {key:'Abstract  submission',date: '9/30/2023'},
-    {key:'Full paper submission',date: '10/15/2023'},
-    {key:'Conference Schedule notice and registration',date: '10/30/2023'},
-    {key:'Conference day',date: ['11/25/2023','11/26/2023']},
-    {key:'Information on publication process',date: '12/15/2023'},
-    {key:'Payment fee by bank transfer or cash',date: '11/25/2023',prefix:'before'},
+    {key:'Abstract  submission',date: '9/30/2023', href:submissionLink},
+    {key:'Full paper submission',date: '10/15/2023', href:submissionLink},
+    {key:'Conference Schedule notice and registration',date: '10/30/2023', href:'./registration'},
+    {key:'Conference day',date: ['11/25/2023','11/26/2023'], href:'./programme'},
+    {key:'Information on publication process',date: '12/15/2023', href:'./call-for-paper'},
+    {key:'Payment fee by bank transfer or cash',date: '11/25/2023',prefix:'before', href:'./registration'},
     // {key:'Conference',date: ['12/6/2021','12/9/2021']},
 ]
 class ImportantDate extends React.Component {
@@ -85,7 +87,10 @@ class ImportantDate extends React.Component {
                                             </>
                                         }
                                     </div>
-                                    <span>{e.key}</span>
+                                    {
+                                        e.href?(e.href.match("http")?<a href={e.href} target="_blank">{e.key}</a>:
+                                            <Link to={e.href} target="_blank">{e.key}</Link>):<span>{e.key}</span>
+                                    }
                                 </div>
                             </li>)}
                         </ul>
