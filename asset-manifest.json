@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.df5ea8a9.css",
-    "main.js": "./static/js/main.a643b2f4.js",
+    "main.js": "./static/js/main.a89f77cf.js",
     "static/media/campus-entrance-fall.png": "./static/media/campus-entrance-fall.f05fce16ae45395796e8.png",
     "static/media/NSF_4-Color_bitmap_Logo.png": "./static/media/NSF_4-Color_bitmap_Logo.fb7efe9286a9b499c590.png",
     "static/media/campus-entrance-fall.jpg": "./static/media/campus-entrance-fall.0ea1d45f81606e57e5e1.jpg",
@@ -19,6 +19,7 @@
     "static/media/venueHolder.png": "./static/media/venueHolder.53dc42a817587559862f.png",
     "static/media/Ngan Nguyen.jpg": "./static/media/Ngan Nguyen.e57a7e2ebce58a634d7d.jpg",
     "static/media/outside1.jpg": "./static/media/outside1.3dfe8ef8a01d592f9a84.jpg",
+    "static/media/kunyu.jpg": "./static/media/kunyu.f1b9ba584d473bd4279e.jpg",
     "static/media/features-split-top-01.png": "./static/media/features-split-top-01.f4fabdab0417842c9877.png",
     "static/media/features-split-top-03.png": "./static/media/features-split-top-03.8dd75689ce78696366fc.png",
     "static/media/North Texas.png": "./static/media/North Texas.8926d35aa409eb884199.png",
@@ -43,6 +44,8 @@
     "static/media/unknown.jpg": "./static/media/unknown.ad7d5e3b781869ba749a.jpg",
     "static/media/IEEE_VN_Logo_Rect.jpg": "./static/media/IEEE_VN_Logo_Rect.c061e04b3cf3cb9300f0.jpg",
     "static/media/IEEE_logo.jpg": "./static/media/IEEE_logo.52e039f46fd97039a08c.jpg",
+    "static/media/sikmin.jpg": "./static/media/sikmin.74e8fb5b564a85c786a5.jpg",
+    "static/media/Ono2010.jpg": "./static/media/Ono2010.32e727035316b43542be.jpg",
     "static/media/Gul Agha.jpg": "./static/media/Gul Agha.152a16bcb003f436b04b.jpg",
     "static/media/Alex Uta.jpg": "./static/media/Alex Uta.7967d80682000ce2d22d.jpg",
     "static/media/Josef Spillner.jpg": "./static/media/Josef Spillner.2ac430495672cc2b8e0d.jpg",
@@ -60,6 +63,7 @@
     "static/media/Nalini Venkatasubramanian.jpg": "./static/media/Nalini Venkatasubramanian.557b6e94bf9aa09d8baf.jpg",
     "static/media/team-member-03.jpg": "./static/media/team-member-03.b9058c1f56f7235ed3a6.jpg",
     "static/media/ICS_stacked-transparent.gif": "./static/media/ICS_stacked-transparent.bc9f4a8c2b057e491750.gif",
+    "static/media/Chu Vn To.jpg": "./static/media/Chu Vn To.86e5fabe778679604abf.jpg",
     "static/media/uol_logo.jpg": "./static/media/uol_logo.44518d23cca542dc53cf.jpg",
     "static/media/team-member-01.jpg": "./static/media/team-member-01.64f550293c910759938b.jpg",
     "static/media/team-member-05.jpg": "./static/media/team-member-05.4c3f902e22b89dcadfc1.jpg",
@@ -107,10 +111,10 @@
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
     "main.df5ea8a9.css.map": "./static/css/main.df5ea8a9.css.map",
-    "main.a643b2f4.js.map": "./static/js/main.a643b2f4.js.map"
+    "main.a89f77cf.js.map": "./static/js/main.a89f77cf.js.map"
   },
   "entrypoints": [
     "static/css/main.df5ea8a9.css",
-    "static/js/main.a643b2f4.js"
+    "static/js/main.a89f77cf.js"
   ]
 }
