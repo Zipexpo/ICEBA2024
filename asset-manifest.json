@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.df5ea8a9.css",
-    "main.js": "./static/js/main.692b2b0d.js",
+    "main.css": "./static/css/main.e34adb9d.css",
+    "main.js": "./static/js/main.2c48b8c0.js",
     "static/media/campus-entrance-fall.png": "./static/media/campus-entrance-fall.f05fce16ae45395796e8.png",
     "static/media/NSF_4-Color_bitmap_Logo.png": "./static/media/NSF_4-Color_bitmap_Logo.fb7efe9286a9b499c590.png",
     "static/media/campus-entrance-fall.jpg": "./static/media/campus-entrance-fall.0ea1d45f81606e57e5e1.jpg",
@@ -110,11 +110,11 @@
     "static/media/features-split-image.svg": "./static/media/features-split-image.b28a4c722cb8c5d460d58cf9a6ce8f40.svg",
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
-    "main.df5ea8a9.css.map": "./static/css/main.df5ea8a9.css.map",
-    "main.692b2b0d.js.map": "./static/js/main.692b2b0d.js.map"
+    "main.e34adb9d.css.map": "./static/css/main.e34adb9d.css.map",
+    "main.2c48b8c0.js.map": "./static/js/main.2c48b8c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.df5ea8a9.css",
-    "static/js/main.692b2b0d.js"
+    "static/css/main.e34adb9d.css",
+    "static/js/main.2c48b8c0.js"
   ]
 }
