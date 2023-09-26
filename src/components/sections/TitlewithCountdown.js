@@ -80,7 +80,7 @@ class TitlewithCountdown extends React.Component {
                   {/*  /!*</Button>*!/*/}
                   {/*</div>*/}
                 </div>
-                <div className="hero-figure is-3d split-item-image illustration-element-01 reveal-from-right">
+                <div className="hero-figure is-3d split-item-image illustration-element-03 reveal-from-right">
                   <Image
                     className="has-shadow"
                     src={require('./../../assets/images/header.JPG')}

@@ -127,13 +127,13 @@ class Header extends React.Component {
                         <Link className={((currentPath==="")||(currentPath==="home"))?"button":'offbutton'} to="/" onClick={this.closeMenu}>Home</Link>
                       </li>
                       <li>
-                        <Link className={(currentPath==="programme")?"button":'offbutton'} to="/programme" onClick={this.closeMenu}>Programme</Link>
-                      </li>
-                      <li>
                         <Link className={(currentPath==="call-for-paper")?"button":'offbutton'} to="/call-for-paper" onClick={this.closeMenu}>Call for paper</Link>
                       </li>
                       <li>
-                        <Link className={(currentPath==="chairs-committees")?"button":'offbutton'} to="/chairs-committees" onClick={this.closeMenu}>CHAIRS & COMMITTEES</Link>
+                        <Link className={(currentPath==="chairs-committees")?"button":'offbutton'} to="/chairs-committees" onClick={this.closeMenu}>COMMITTEES</Link>
+                      </li>
+                      <li>
+                        <Link className={(currentPath==="programme")?"button":'offbutton'} to="/programme" onClick={this.closeMenu}>Program</Link>
                       </li>
                       {/*<li>*/}
                       {/*  <Link to="/workshops" onClick={this.closeMenu}>Workshops</Link>*/}
@@ -151,12 +151,12 @@ class Header extends React.Component {
                       {/*  <Link to="/doctoral-symposium" onClick={this.closeMenu}>DOCTORAL SYMPOSIUM</Link>*/}
                       {/*</li>*/}
                       <li>
-                        <Link className={(currentPath==="venue")?"button":'offbutton'} to="/venue" onClick={this.closeMenu}>Venue</Link>
+                        <Link className={(currentPath==="venue")?"button":'offbutton'} to="/venue" onClick={this.closeMenu}>Venue & Hotel</Link>
                       </li>
                     </ul>
                     {!hideSignin &&
                       <ul
-                        className="list-reset header-nav-right"
+                        className="list-reset header-nav-center"
                       >
                         <li>
                           {/*<Link to="/signup/" className="button button-primary button-wide-mobile button-sm" onClick={this.closeMenu}>Registration</Link>*/}

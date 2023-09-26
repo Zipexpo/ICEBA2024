@@ -82,7 +82,7 @@ class FeaturesSplit extends React.Component {
                     The scope of ICEBA2023 Conference
                   </h3>
                   <p>
-                    The purpose of the 4th ICEBA2023 is to link the researchers, scientists from Vietnam, Australia and Asian countries in the field of Engineering Physics and microelectronics and semiconductors for their applications in biomedical engineering, health sciences, hi-tech agriculture and smart cities.  Besides, we also contribute to promoting international cooperation activities on joint research projects and international co-publications.
+                    The purpose of the 4<sup >th</sup> ICEBA2023 is to link the researchers and scientists from Vietnam, Australia, and Asian countries in the field of Engineering Physics and microelectronics and semiconductors for their applications in biomedical engineering, health sciences, hi-tech agriculture, and smart cities.  Besides, we also contribute to promoting international cooperation activities on joint research projects and international co-publications.
                   </p>
                 </div>
               </div>
@@ -97,9 +97,9 @@ class FeaturesSplit extends React.Component {
                     <ul>
                       <li>Applied Physics, Engineering Physics, Electronic Engineering and Nuclear Engineering;</li>
                       <li>MEMS (MicroElectronMechanical System), Sensors, Biosensors and semiconducting devices;</li>
-                      <li>Microelectronics, IC design, low comsumption devices, Renewable Energy</li>
-                      <li>Computing Science, Simulations and Modeling; </li>
-                      <li>Embedded systems, Internet of Things, Machine Learning, Artificial Intelligence,..</li>
+                      <li>Microelectronics, IC design, low consumption devices, Renewable Energy;</li>
+                      <li>Computing Science, Simulations and Modeling;</li>
+                      <li>Embedded systems, Internet of Things, Machine Learning, Artificial Intelligence;</li>
                       <li>Biomedical Engineering, Digital Microfluidics and their applications;</li>
                       <li>...</li>
                     </ul>

@@ -42,7 +42,7 @@ class Footer extends React.Component {
               'site-footer-inner',
               topDivider && 'has-top-divider'
             )}>
-            <div className="footer-top space-between text-xxs">
+            <div className="footer-top space-between text-xxs" style={{alignItems:'flex-start'}}>
               <Logo />
               <div className="footer-block">
                 <div className="footer-block-title">Address</div>

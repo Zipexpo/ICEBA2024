@@ -22,7 +22,7 @@ const defaultProps = {
 //     // {key:'Conference',date: ['12/6/2021','12/9/2021']},
 // ]
 const _event = [
-    {key:'Abstract  submission',date: '9/30/2023', href:submissionLink},
+    {key:'Abstract  submission',date: '10/05/2023', href:submissionLink},
     {key:'Full paper submission',date: '10/15/2023', href:submissionLink},
     {key:'Conference Schedule notice and registration',date: '10/30/2023', href:'./registration'},
     {key:'Conference day',date: ['11/25/2023','11/26/2023'], href:'./programme'},

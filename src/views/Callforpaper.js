@@ -50,11 +50,7 @@ class Callforpaper extends React.Component {
 
                     <GenericSection>
                         <h2>Call for Papers</h2>
-                        <p>The purpose of the 4th ICEBA2023 is to link the researchers, and scientists from Vietnam,
-                            Australia, and Asian countries in the field of Engineering Physics and microelectronics and
-                            semiconductors for their applications in biomedical engineering, health sciences, hi-tech
-                            agriculture, and smart cities. Besides, we also contribute to promoting international
-                            cooperation activities on joint research projects and international co-publications.</p>
+                        <p>The purpose of the 4<sup >th</sup> ICEBA2023 is to link the researchers and scientists from Vietnam, Australia, and Asian countries in the field of Engineering Physics and microelectronics and semiconductors for their applications in biomedical engineering, health sciences, hi-tech agriculture, and smart cities.  Besides, we also contribute to promoting international cooperation activities on joint research projects and international co-publications.</p>
 
                         <p>ICEBA2023 will be hosted at VNUHCM-University of Science, Ho Chi Minh city, Vietnam.</p>
 
@@ -72,9 +68,9 @@ class Callforpaper extends React.Component {
                             </li>
                             <li>MEMS (MicroElectronMechanical System), Sensors, Biosensors and semiconducting devices;
                             </li>
-                            <li>Microelectronics, IC design, low consumption devices, Renewable Energy</li>
+                            <li>Microelectronics, IC design, low consumption devices, Renewable Energy;</li>
                             <li>Computing Science, Simulations and Modeling;</li>
-                            <li>Embedded systems, Internet of Things, Machine Learning, Artificial Intelligence,..</li>
+                            <li>Embedded systems, Internet of Things, Machine Learning, Artificial Intelligence;</li>
                             <li>Biomedical Engineering, Digital Microfluidics and their applications;</li>
                             <li>...</li>
                         </ul>
@@ -115,14 +111,19 @@ class Callforpaper extends React.Component {
 
                     <GenericSection topDivider>
                         <h2>Publications</h2>
-                        <p>The selected papers will be reviewed to publish in the Scopus/SCIE/WoS Journals <text style={{fontStyle:"italic"}}>(authors must pay the fee and will be informed in December 09, 2023)</text>:</p>
-                        <h4>* Applied Science (MDPI)</h4>
+                        <p>The selected papers will be recommended to review for publication in one  of two the Scopus/Sigmago Journals <text style={{fontStyle:"italic"}}>(authors must pay the fee and will be informed on December 09, 2023)</text> such as:</p>
+                        <h4>1. Applied Science (MDPI, Q1/Q2)</h4>
+                        <h6><a href={"https://www.mdpi.com/journal/applsci"} target={"_blank"}>https://www.mdpi.com/journal/applsci</a></h6>
                         <ul style={{marginLeft:20}}>
-                            <li><strong>Open Access</strong>-free for readers, with article processing charges (APC) paid by authors or their institutions.</li>
-                            <li><strong>High Visibility</strong>: indexed within Scopus, SCIE (Web of Science), Inspec, CAPlus / SciFinder, and other databases.</li>
-                            <li><strong>Journal Rank</strong>: JCR - Q2 (Engineering, Multidisciplinary) / CiteScore - Q1 (General Engineering).</li>
+                            <li>Open Access-free for readers, with article processing charges (APC) paid by authors or their institutions.</li>
+                            <li>High Visibility: indexed within Scopus, SCIE (Web of Science), Inspec, CAPlus / SciFinder, and other databases.</li>
+                            <li>Journal Rank: JCR - Q2 (Engineering, Multidisciplinary) / CiteScore - Q1 (General Engineering)</li>
                         </ul>
-                        <h4>*or Journal of IEEJ (Institute Electrical Engineer of Japan, Q3/Q4)</h4>
+                        <h4>2. Journal of Institute Electrical Engineer of Japan (IEEJ, Q4)</h4>
+                        <h6><a href={"https://www.scimagojr.com/journalsearch.php?q=21100217001&tip=sid&clean=0"} target={"_blank"}>https://www.scimagojr.com/journalsearch.php?q=21100217001&tip=sid&clean=0</a></h6>
+                        <ul style={{marginLeft:20}}>
+                            <li>Journal Rank: JCR – Q4 (Electrical and Electronic Engineering).</li>
+                        </ul>
                     </GenericSection>
 
                     <GenericSection>

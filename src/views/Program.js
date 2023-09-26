@@ -54,7 +54,7 @@ class Program extends React.Component {
                     <div className="container">
                         <div className={innerClasses}>
                             <div className="hero-content">
-                                <h3>ICEBA Program at A Glance</h3>
+                                <h3>4th ICEBA 2023 Program at A Glance</h3>
                                 <div className="ritz grid-container" dir="ltr">
                                     <table className="waffle overview" cellSpacing="0" cellPadding="0">
                                         <colgroup>

@@ -95,10 +95,21 @@ class Team extends React.Component {
                 <div className="container">
                     <div className={innerClasses}>
                         <div className={"mb-32 mt-32"}>
+                            <SectionHeader data={{title:'Co-General Chair'}} className="center-content" />
+                            <div className={tilesClasses}>
+                                <ul>
+                                    <li style={{textAlign:'left'}}>Takahito Ono, Tohoku University-Japan</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Van Hieu, Vietnam National University Ho Chi Minh City</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <GenericSection topDivider>
                             <SectionHeader data={{title:'Scientific Committee'}} className="center-content" />
                             <div className={tilesClasses}>
                                 <ul>
-                                    <li style={{textAlign:'left'}}>Takahito  Ono (Tohoku University, Japan)</li>
+                                    <li style={{textAlign:'left'}}>Takahito Ono (Tohoku University, Japan)</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Huu Duc (Vietnam National University Hanoi)</li>
+                                    <li style={{textAlign:'left'}}>Chau Van Tao (VNUHCM-University of Science, HCMC, Vietnam)</li>
                                     <li style={{textAlign:'left'}}>Nguyen Van Hieu (VNUHCM,Vietnam)</li>
                                     <li style={{textAlign:'left'}}>Do Hong Tuan (VNUHCM-UT & IEEE Vietnam Section)</li>
                                     <li style={{textAlign:'left'}}>Masaya Toda (Tohoku University, Japan)</li>
@@ -108,12 +119,11 @@ class Team extends React.Component {
                                     <li style={{textAlign:'left'}}>Ching Tak Shing Congo (National Chung Hsing University,Taiwan)</li>
                                     <li style={{textAlign:'left'}}>Jen-Inn Chyi (National Central University, Taiwan)</li>
                                     <li style={{textAlign:'left'}}>Kun-Yu Lai (National Central University, Taiwan)</li>
-                                    <li style={{textAlign:'left'}}>Dinh Sy Hien (VNUHCM-University of Science,Vietnam)</li>
                                     <li style={{textAlign:'left'}}>Nguyen Hoang Nam (VNU Ha Noi-University of Science,Vietnam)</li>
                                     <li style={{textAlign:'left'}}>(will be updated)</li>
                                 </ul>
                             </div>
-                        </div>
+                        </GenericSection>
                         <GenericSection topDivider>
                             <SectionHeader data={{title:'Program Committee'}} className="center-content" />
                             <div className={tilesClasses}>
@@ -122,7 +132,6 @@ class Team extends React.Component {
                                     <li style={{textAlign:'left'}}>Nguyen Van Toan (Tohoku University, Japan), Co-chair</li>
                                     <li style={{textAlign:'left'}}>Tran Thien Thanh (VNUHCM-University of Science,Vietnam)</li>
                                     <li style={{textAlign:'left'}}>Hoang Trang (VNUHCM-University of Technology, Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Vu Thi Hanh Thu (VNUHCM-US,Vietnam)</li>
                                     <li style={{textAlign:'left'}}>Nguyen Anh Tuan (HISA, Vietnam)</li>
                                     <li style={{textAlign:'left'}}>Huynh Chan Khon (VNUHCM-International University,Vietnam)</li>
                                     <li style={{textAlign:'left'}}>Minkyu Song (Dongguk University, Seoul, Korea)</li>
@@ -134,7 +143,6 @@ class Team extends React.Component {
                                     <li style={{textAlign:'left'}}>Nguyen Van Men (VNUHCM- An Giang University, Vietnam)</li>
                                     <li style={{textAlign:'left'}}>Nguyen Chi Nhan (VNUHCM- University of Science,Vietnam)</li>
                                     <li style={{textAlign:'left'}}>Vo Hong Hai (VNUHCM-US,Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Ho Thanh Huy (VNUHCM-US,Vietnam) </li>
                                     <li style={{textAlign:'left'}}>Nguyen Chi Linh (VNUHCM-US,Vietnam)</li>
                                     <li style={{textAlign:'left'}}>Nguyen Quang Khoi (VNUHCM- University of Science,Vietnam)</li>
                                     <li style={{textAlign:'left'}}>Do Duc Cuong (VNUHCM- University of Science,Vietnam)</li>
@@ -163,6 +171,7 @@ class Team extends React.Component {
                                     <li style={{textAlign:'left'}}>Huynh Thanh Nhan (VNUHCM-US,Vietnam)</li>
                                     <li style={{textAlign:'left'}}>Nguyen Chi Linh (VNUHCM-US,Vietnam)</li>
                                     <li style={{textAlign:'left'}}>Nguyen Hoang Quan (VNUHCM-US,Vietnam)</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Vuong Thuy Ngan (VNUHCM-US,Vietnam)</li>
                                     <li style={{textAlign:'left'}}>Phan Thien Luan (NCHU, Taiwan)</li>
                                 </ul>
                             </div>

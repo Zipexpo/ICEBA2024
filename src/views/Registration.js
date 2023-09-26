@@ -17,11 +17,11 @@ const fees = [
                 description: ['Plenary','Invited speakers','Program committee','Scientific committee']
             },
             {
-                price: [["$", "150.00", ""],["", "2.500.000", "VNĐ"]],
+                price: [["$", "150.00", ""],["", "2.000.000", "VNĐ"]],
                 description: ['Professors', 'Researchers', 'Lecturers']
             },
             {
-                price: [["$", "75.00", ""],["", "1.500.000", "VNĐ"]],
+                price: [["$", "75.00", ""],["", "1.000.000", "VNĐ"]],
                 description: ['Students and belong']
             }
         ]
