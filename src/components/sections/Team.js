@@ -28,28 +28,28 @@ class Team extends React.Component {
     }
 
     componentDidMount() {
-        csv(universityData).then(un=>{
-            let dict = {};
-            un.forEach(u=>{
-                dict[u.Short] = u;
-            });
-            csv(membersData).then(mem=>{
-                mem.forEach(d=>{
-                    if (dict[d.Affiliation]){
-                        d.Affiliation_logo = `./image/${dict[d.Affiliation].Short}.jpg`;
-                        d.Affiliation = dict[d.Affiliation].Full;
-                    }
-                })
-                this.setState({members:groups(mem,d=>d.Category)});
-            })
-        })
-            .then(()=>csv(tpcData).then(data=>{
-                this.setState(({tpc:data}))
-        }))
+        // csv(universityData).then(un=>{
+        //     let dict = {};
+        //     un.forEach(u=>{
+        //         dict[u.Short] = u;
+        //     });
+        //     csv(membersData).then(mem=>{
+        //         mem.forEach(d=>{
+        //             if (dict[d.Affiliation]){
+        //                 d.Affiliation_logo = `./image/${dict[d.Affiliation].Short}.jpg`;
+        //                 d.Affiliation = dict[d.Affiliation].Full;
+        //             }
+        //         })
+        //         this.setState({members:groups(mem,d=>d.Category)});
+        //     })
+        // })
+        //     .then(()=>csv(tpcData).then(data=>{
+        //         this.setState(({tpc:data}))
+        // }))
     }
 
     render() {
-        const {members} = this.state;
+        // const {members} = this.state;
         const {
             className,
             topOuterDivider,
@@ -97,7 +97,7 @@ class Team extends React.Component {
                         <div className={"mb-32 mt-32"}>
                             <SectionHeader data={{title:'Co-General Chair'}} className="center-content" />
                             <div className={tilesClasses}>
-                                <ul>
+                                <ul style={{width:700}}>
                                     <li style={{textAlign:'left'}}>Takahito Ono, Tohoku University-Japan</li>
                                     <li style={{textAlign:'left'}}>Nguyen Van Hieu, Vietnam National University Ho Chi Minh City</li>
                                 </ul>
@@ -106,58 +106,47 @@ class Team extends React.Component {
                         <GenericSection topDivider>
                             <SectionHeader data={{title:'Scientific Committee'}} className="center-content" />
                             <div className={tilesClasses}>
-                                <ul>
-                                    <li style={{textAlign:'left'}}>Takahito Ono (Tohoku University, Japan)</li>
-                                    <li style={{textAlign:'left'}}>Nguyen Huu Duc (Vietnam National University Hanoi)</li>
-                                    <li style={{textAlign:'left'}}>Chau Van Tao (VNUHCM-University of Science, HCMC, Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Nguyen Van Hieu (VNUHCM,Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Do Hong Tuan (VNUHCM-UT & IEEE Vietnam Section)</li>
-                                    <li style={{textAlign:'left'}}>Masaya Toda (Tohoku University, Japan)</li>
-                                    <li style={{textAlign:'left'}}>Le Vu Tuan Hung (VNUHCM-University of Science,Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Kyeong-Sik Min (Kook Min University & IKEEE, Korea)</li>
-                                    <li style={{textAlign:'left'}}>Dao Viet Dzung (Griffith University, Australia)</li>
-                                    <li style={{textAlign:'left'}}>Ching Tak Shing Congo (National Chung Hsing University,Taiwan)</li>
-                                    <li style={{textAlign:'left'}}>Jen-Inn Chyi (National Central University, Taiwan)</li>
-                                    <li style={{textAlign:'left'}}>Kun-Yu Lai (National Central University, Taiwan)</li>
-                                    <li style={{textAlign:'left'}}>Nguyen Hoang Nam (VNU Ha Noi-University of Science,Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>(will be updated)</li>
+                                <ul style={{width:700}}>
+                                    <li style={{textAlign:'left'}}>Takahito Ono, Tohoku University-Japan</li>
+                                    <li style={{textAlign:'left'}}>Chau Van Tao, VNUHCM-University of Science-Vietnam</li>
+                                    <li style={{textAlign:'left'}}>Masaya Toda, Tohoku University- Japan</li>
+                                    <li style={{textAlign:'left'}}>Do Hong Tuan, VNUHCM-UT & IEEE Vietnam Section</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Van Hieu, Vietnam National University HCMC</li>
+                                    <li style={{textAlign:'left'}}>Le Vu Tuan Hung, VNUHCM-University of Science-Vietnam</li>
+                                    <li style={{textAlign:'left'}}>Kyeong-Sik Min, Kookmin University& IKEEE-Korea</li>
+                                    <li style={{textAlign:'left'}}>Ching Tak Shing Congo, National Chung Hsing University-Taiwan (R.O.C)</li>
+                                    <li style={{textAlign:'left'}}>Jen-Inn Chyi, National Central University- Taiwan (R.O.C)</li>
+                                    <li style={{textAlign:'left'}}>Kun-Yu Lai, National Central University-Taiwan (R.O.C)</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Hoang Nam, VNU Ha Noi-University of Science-Vietnam</li>
                                 </ul>
                             </div>
                         </GenericSection>
                         <GenericSection topDivider>
                             <SectionHeader data={{title:'Program Committee'}} className="center-content" />
                             <div className={tilesClasses}>
-                                <ul>
-                                    <li style={{textAlign:'left'}}>Huynh Van Tuan (VNUHCM-University of Science,Vietnam), Chair</li>
-                                    <li style={{textAlign:'left'}}>Nguyen Van Toan (Tohoku University, Japan), Co-chair</li>
-                                    <li style={{textAlign:'left'}}>Tran Thien Thanh (VNUHCM-University of Science,Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Hoang Trang (VNUHCM-University of Technology, Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Nguyen Anh Tuan (HISA, Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Huynh Chan Khon (VNUHCM-International University,Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Minkyu Song (Dongguk University, Seoul, Korea)</li>
-                                    <li style={{textAlign:'left'}}>Jongsun Kim (Hongik University, Seoul, Korea)</li>
-                                    <li style={{textAlign:'left'}}>Yong Moon (Soongsil University, Seoul, Korea)</li>
-                                    <li style={{textAlign:'left'}}>Vu The Dang (Osaka Metropolitan University, Japan)</li>
-                                    <li style={{textAlign:'left'}}>Dau Van  (Griffith University, Australia) </li>
-                                    <li style={{textAlign:'left'}}>Nguyen Minh Son (VNUHCM- University of Information Technology, Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Nguyen Van Men (VNUHCM- An Giang University, Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Nguyen Chi Nhan (VNUHCM- University of Science,Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Vo Hong Hai (VNUHCM-US,Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Nguyen Chi Linh (VNUHCM-US,Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Nguyen Quang Khoi (VNUHCM- University of Science,Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Do Duc Cuong (VNUHCM- University of Science,Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Trinh Thi Ly (VNUHCM- University of Science,Vietnam)</li>
+                                <ul style={{width:700}}>
+                                    <li style={{textAlign:'left'}}>Huynh Van Tuan, VNUHCM-University of Science-Vietnam, Chair</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Van Toan, Tohoku University-Japan, Co-chair</li>
+                                    <li style={{textAlign:'left'}}>Tran Thien Thanh, VNUHCM-University of Science-Vietnam</li>
+                                    <li style={{textAlign:'left'}}>Hoang Trang, VNUHCM-University of Technology- Vietnam</li>
+                                    <li style={{textAlign:'left'}}>Huynh Chan Khon, VNUHCM-International University-Vietnam</li>
+                                    <li style={{textAlign:'left'}}>Vu The Dang, Osaka Metropolitan University- Japan</li>
+                                    <li style={{textAlign:'left'}}>Dau Van, Griffith University-Australia</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Chi Nhan, VNUHCM-University of Science-Vietnam</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Van Men, VNUHCM- An Giang University-Vietnam</li>
+                                    <li style={{textAlign:'left'}}>Truong Thi Kim Tuoi, Tohoku University-Japan</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Quang Khoi, VNUHCM-US Vietnam</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Chi Linh, VNUHCM-US Vietnam</li>
                                 </ul>
                             </div>
                         </GenericSection>
                         <GenericSection topDivider>
                             <SectionHeader data={{title:'Publication Committee'}} className="center-content" />
                             <div className={tilesClasses}>
-                                <ul>
-                                    <li style={{textAlign:'left'}}>Takahito Ono (TU, Japan)</li>
-                                    <li style={{textAlign:'left'}}>Nguyen Van Hieu (VNUHCM,Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Kyeong-Sik Min (KMU& IKEEE, Korea)</li>
-                                    <li style={{textAlign:'left'}}>Huynh Van Tuan (VNUHCM-US,Vietnam)</li>
+                                <ul style={{width:700}}>
+                                    <li style={{textAlign:'left'}}>Takahito Ono, Tohoku University-Japan</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Van Hieu, Vietnam National University HCMC, Vietnam</li>
+                                    <li style={{textAlign:'left'}}>Huynh Van Tuan, VNUHCM-University of Science-Vietnam</li>
                                 </ul>
                             </div>
                         </GenericSection>
@@ -165,24 +154,25 @@ class Team extends React.Component {
                             <SectionHeader data={{title:' Local Organizing Committee'}} className="center-content" />
                             <div className={tilesClasses}>
 
-                                <ul><li style={{textAlign:'left'}}>Nguyen Chi Nhan (VNUHCM-US,Vietnam), Chair</li>
-                                    <li style={{textAlign:'left'}}>Vo Hong Hai (VNUHCM-US,Vietnam), Co-chair</li>
-                                    <li style={{textAlign:'left'}}>Vu Thi Hanh Thu (VNUHCM-US,Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Huynh Thanh Nhan (VNUHCM-US,Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Nguyen Chi Linh (VNUHCM-US,Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Nguyen Hoang Quan (VNUHCM-US,Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Nguyen Vuong Thuy Ngan (VNUHCM-US,Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Phan Thien Luan (NCHU, Taiwan)</li>
+                                <ul style={{width:700}}>
+                                    <li style={{textAlign:'left'}}> Nguyen Chi Nhan, VNUHCM-US Vietnam, Chair</li>
+                                    <li style={{textAlign:'left'}}> Vo Hong Hai, VNUHCM-US Vietnam, Co-chair</li>
+                                    <li style={{textAlign:'left'}}> Ho Thanh Huy, VNUHCM-US Vietnam</li>
+                                    <li style={{textAlign:'left'}}> Huynh Thanh Nhan, VNUHCM-US Vietnam</li>
+                                    <li style={{textAlign:'left'}}> Do Duc Cuong, VNUHCM-US Vietnam</li>
+                                    <li style={{textAlign:'left'}}> Trinh Thi Ly, VNUHCM-US Vietnam</li>
+                                    <li style={{textAlign:'left'}}> Nguyen Hoang Quan, VNUHCM-US Vietnam</li>
+                                    <li style={{textAlign:'left'}}> Phan Thien Luan, NCHU-Taiwan (R.O.C)</li>
                                 </ul>
                             </div>
                         </GenericSection>
                         <GenericSection topDivider>
                             <SectionHeader data={{title:'Secretariats'}} className="center-content" />
                             <div className={tilesClasses}>
-                                <ul>
-                                    <li style={{textAlign:'left'}}>Ho Thanh Huy (VNUHCM-US,Vietnam) </li>
-                                    <li style={{textAlign:'left'}}>Hua Thi Hoang Yen (VNUHCM-US,Vietnam)</li>
-                                    <li style={{textAlign:'left'}}>Nguyen Phuoc Hoang Khang (VNUHCM-US,Vietnam)</li>
+                                <ul style={{width:700}}>
+                                    <li style={{textAlign:'left'}}>Nguyen Phuoc Hoang Khang, VNUHCM-US Vietnam</li>
+                                    <li style={{textAlign:'left'}}><strong>Hua Thi Hoang Yen, VNUHCM-US Vietnam</strong></li>
+                                    <li style={{textAlign:'left'}}>Nguyen Vuong Thuy Ngan, VNUHCM-US Vietnam</li>
                                 </ul>
                             </div>
                         </GenericSection>

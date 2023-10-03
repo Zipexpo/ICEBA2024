@@ -51,7 +51,7 @@ class Sponsor extends React.Component {
           >
             <h2>Organization</h2>
             <ul className="list-reset">
-              <li><h4>Co-Host</h4></li>
+              {/*<li><h4>Co-organizers</h4></li>*/}
               <li className="reveal-scale-up" data-reveal-delay="200">
                 <Image
                   src={require('./../../assets/images/KHTN.png')}
@@ -69,25 +69,25 @@ class Sponsor extends React.Component {
                   height={39} />
               </li>
             </ul>
-            <ul className="list-reset">
-              <li><h4>Co-Organizers</h4></li>
-              <li className="reveal-scale-up" data-reveal-delay="200">
-                <Image
-                    src={require('./../../assets/images/kookmin.png')}
-                    alt="Kookmin University (Korea)"
-                    title="Kookmin University (Korea)"
-                    width={100}
-                    height={31} />
-              </li>
-              <li className="reveal-scale-up" data-reveal-delay="400">
-                <Image
-                    src={require('./../../assets/images/Griffith_University_logo.png')}
-                    alt="Griffith University (Australia)"
-                    title="Griffith University (Australia)"
-                    width={100}
-                    height={30} />
-              </li>
-            </ul>
+            {/*<ul className="list-reset">*/}
+            {/*  <li><h4>Co-Organizers</h4></li>*/}
+            {/*  <li className="reveal-scale-up" data-reveal-delay="200">*/}
+            {/*    <Image*/}
+            {/*        src={require('./../../assets/images/kookmin.png')}*/}
+            {/*        alt="Kookmin University (Korea)"*/}
+            {/*        title="Kookmin University (Korea)"*/}
+            {/*        width={100}*/}
+            {/*        height={31} />*/}
+            {/*  </li>*/}
+            {/*  <li className="reveal-scale-up" data-reveal-delay="400">*/}
+            {/*    <Image*/}
+            {/*        src={require('./../../assets/images/Griffith_University_logo.png')}*/}
+            {/*        alt="Griffith University (Australia)"*/}
+            {/*        title="Griffith University (Australia)"*/}
+            {/*        width={100}*/}
+            {/*        height={30} />*/}
+            {/*  </li>*/}
+            {/*</ul>*/}
           </div>
         </div>
       </section>

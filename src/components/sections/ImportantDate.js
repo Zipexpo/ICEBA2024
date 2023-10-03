@@ -22,12 +22,12 @@ const defaultProps = {
 //     // {key:'Conference',date: ['12/6/2021','12/9/2021']},
 // ]
 const _event = [
-    {key:'Abstract  submission',date: '10/05/2023', href:submissionLink},
-    {key:'Full paper submission',date: '10/15/2023', href:submissionLink},
-    {key:'Conference Schedule notice and registration',date: '10/30/2023', href:'./registration'},
-    {key:'Conference day',date: ['11/25/2023','11/26/2023'], href:'./programme'},
-    {key:'Information on publication process',date: '12/15/2023', href:'./call-for-paper'},
-    {key:'Payment fee by bank transfer or cash',date: '11/25/2023',prefix:'before', href:'./registration'},
+    {key:'Abstract submission and registration',date: '10/30/2023', href:submissionLink},
+    {key:'Full paper submission for presentation',date: '11/15/2023', href:submissionLink},
+    {key:'Conference payment fee',date: '11/15/2023',prefix:'before', href:'./registration'},
+    {key:'Session schedule announcement',date: '11/20/2023', href:'./programme'},
+    {key:'Conference day',date: ['12/8/2023','12/9/2023'], href:'./programme'},
+    {key:'Full paper submission for publication',date: '12/30/2023', href:submissionLink},
     // {key:'Conference',date: ['12/6/2021','12/9/2021']},
 ]
 class ImportantDate extends React.Component {

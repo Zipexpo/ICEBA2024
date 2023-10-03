@@ -93,7 +93,7 @@ class FeaturesSplit extends React.Component {
                     The subject areas
                   </h3>
                   <p className="m-0">
-                    Contributed papers are solicited in the following subject areas (but not limited to):
+                    Contributed papers <strong>must be the new research works</strong> and are solicited in the following subject areas (but not limited to):
                     <ul>
                       <li>Applied Physics, Engineering Physics, Electronic Engineering and Nuclear Engineering;</li>
                       <li>MEMS (MicroElectronMechanical System), Sensors, Biosensors and semiconducting devices;</li>

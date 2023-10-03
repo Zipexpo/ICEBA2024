@@ -17,11 +17,11 @@ const fees = [
                 description: ['Plenary','Invited speakers','Program committee','Scientific committee']
             },
             {
-                price: [["$", "150.00", ""],["", "2.000.000", "VNĐ"]],
+                price: [["$", "100.00", ""],["", "2.000.000", "VNĐ"]],
                 description: ['Professors', 'Researchers', 'Lecturers']
             },
             {
-                price: [["$", "75.00", ""],["", "1.000.000", "VNĐ"]],
+                price: [["$", "50.00", ""],["", "1.000.000", "VNĐ"]],
                 description: ['Students and belong']
             }
         ]
@@ -29,8 +29,8 @@ const fees = [
 ]
 
 const deadline = [
-    {key: 'Author registration date', date: '30 October 2023'},
-    {key: 'Conference Registration deadline', date: '25 November 2023'}
+    {key: 'Abstract submission and registration', date: '30 October 2023'},
+    {key: 'Conference payment fee', date: '15 November 2023',prefix:'before'}
 ]
 class Keynote extends React.Component {
     render() {
@@ -63,6 +63,7 @@ class Keynote extends React.Component {
                         <li>Each Author Registration is valid for ONE paper.</li>
                         <li>If necessary, up to 4 additional papers can be purchased per author registration for an additional fee.</li>
                         <li>Each paper may contain up to 2 additional pages for a fee of $100/page.</li>
+                        <li>Foreign authors/researchers/visitors can pay the registration fee directly at the front desk receptionist.</li>
                     </ul>
                     <p>
                         For questions regarding paper submissions, please contact secretary at <a href={"mailto:4iceba2023@gmail.com"}>4iceba2023@gmail.com</a>.

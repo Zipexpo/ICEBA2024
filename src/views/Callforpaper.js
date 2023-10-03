@@ -75,55 +75,43 @@ class Callforpaper extends React.Component {
                             <li>...</li>
                         </ul>
                     </GenericSection>
-                    <GenericSection topDivider>
-                        <h2>Paper Submission</h2>
-                        <p>
-                            Submitted manuscripts must represent original unpublished research that is not currently
-                            under review for any other conference or journal. Manuscripts are submitted in PDF format
-                            and may not exceed ten (10) single-spaced double-column pages using 10-point size font on
-                            8.5x11 inch pages (IEEE conference style), including figures, tables, and references. The
-                            limit is six (6) pages for workshop papers.
-                        </p>
-                        <p>
-                            All manuscripts will be reviewed and judged on correctness, originality, technical strength,
-                            rigor in analysis, quality of results, quality of presentation, and interest and relevance
-                            to the conference attendees.
-                        </p>
-                        {/*<p>*/}
-                        {/*    Accepted papers will be invited to undergo an artefact evaluation process that will*/}
-                        {/*    determine availability of code/data or even reproducibility. An independent committee will*/}
-                        {/*    handle this process and send the invite along with instructions after the acceptance*/}
-                        {/*    notification.*/}
-                        {/*</p>*/}
-                        <p>
-                            Formatting: <a href={"https://www.ieee.org/conferences/publishing/templates.html"}
-                                           target={"_blank"}>https://www.ieee.org/conferences/publishing/templates.html</a>
-                        </p>
-                        <p>
-                            Click here to submit: <Button color="primary"
-                                                          style={{marginLeft:5,marginRight:5}}
-                                                          tag={"a"} target="_blank"
-                                                          href={submissionLink}>SUBMIT NOW!</Button>
-                            or using link: <a href={submissionLink}
-                                                       target={"_blank"}>{submissionLink}</a>
-                        </p>
-                    </GenericSection>
+                    {/*<GenericSection topDivider>*/}
+                    {/*    <h2>Paper Submission</h2>*/}
+                    {/*    <p>*/}
+                    {/*        Submitted manuscripts must represent original unpublished research that is not currently*/}
+                    {/*        under review for any other conference or journal. Manuscripts are submitted in PDF format*/}
+                    {/*        and may not exceed ten (10) single-spaced double-column pages using 10-point size font on*/}
+                    {/*        8.5x11 inch pages (IEEE conference style), including figures, tables, and references. The*/}
+                    {/*        limit is six (6) pages for workshop papers.*/}
+                    {/*    </p>*/}
+                    {/*    <p>*/}
+                    {/*        All manuscripts will be reviewed and judged on correctness, originality, technical strength,*/}
+                    {/*        rigor in analysis, quality of results, quality of presentation, and interest and relevance*/}
+                    {/*        to the conference attendees.*/}
+                    {/*    </p>*/}
+                    {/*    <p>*/}
+                    {/*        Formatting: <a href={"https://www.ieee.org/conferences/publishing/templates.html"}*/}
+                    {/*                       target={"_blank"}>https://www.ieee.org/conferences/publishing/templates.html</a>*/}
+                    {/*    </p>*/}
+                    {/*    <p>*/}
+                    {/*        Click here to submit: <Button color="primary"*/}
+                    {/*                                      style={{marginLeft:5,marginRight:5}}*/}
+                    {/*                                      tag={"a"} target="_blank"*/}
+                    {/*                                      href={submissionLink}>SUBMIT NOW!</Button>*/}
+                    {/*        or using link: <a href={submissionLink}*/}
+                    {/*                                   target={"_blank"}>{submissionLink}</a>*/}
+                    {/*    </p>*/}
+                    {/*</GenericSection>*/}
 
                     <GenericSection topDivider>
                         <h2>Publications</h2>
-                        <p>The selected papers will be recommended to review for publication in one  of two the Scopus/Sigmago Journals <text style={{fontStyle:"italic"}}>(authors must pay the fee and will be informed on December 09, 2023)</text> such as:</p>
-                        <h4>1. Applied Science (MDPI, Q1/Q2)</h4>
-                        <h6><a href={"https://www.mdpi.com/journal/applsci"} target={"_blank"}>https://www.mdpi.com/journal/applsci</a></h6>
-                        <ul style={{marginLeft:20}}>
-                            <li>Open Access-free for readers, with article processing charges (APC) paid by authors or their institutions.</li>
-                            <li>High Visibility: indexed within Scopus, SCIE (Web of Science), Inspec, CAPlus / SciFinder, and other databases.</li>
-                            <li>Journal Rank: JCR - Q2 (Engineering, Multidisciplinary) / CiteScore - Q1 (General Engineering)</li>
-                        </ul>
-                        <h4>2. Journal of Institute Electrical Engineer of Japan (IEEJ, Q4)</h4>
-                        <h6><a href={"https://www.scimagojr.com/journalsearch.php?q=21100217001&tip=sid&clean=0"} target={"_blank"}>https://www.scimagojr.com/journalsearch.php?q=21100217001&tip=sid&clean=0</a></h6>
-                        <ul style={{marginLeft:20}}>
-                            <li>Journal Rank: JCR – Q4 (Electrical and Electronic Engineering).</li>
-                        </ul>
+                        <p><strong>The selected papers (from 4 to 8 pages)</strong> will be reviewed or recommended for publication in one of the below Scopus/SCIE/Scimago database Journal with your payment, such as:</p>
+                        <ol style={{marginLeft:20}}>
+                            <li>IEEJ Transactions on Electrical and Electronic Engineering (Scopus, Q3)</li>
+                            <li>IEEJ Transactions on Sensors and Micromachines (Scopus, Q4)</li>
+                            <li>Applied Sciences (MDPI, Scopus, IF: 2.9, Q1/Q2)</li>
+                            <li>Nanomaterials (MDPI, Scopus, IF:5.3, Q1)</li>
+                        </ol>
                     </GenericSection>
 
                     <GenericSection>

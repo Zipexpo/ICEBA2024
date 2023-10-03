@@ -7,13 +7,68 @@ import ButtonGroup from "../components/elements/ButtonGroup";
 import ImportantDate from "../components/sections/ImportantDate";
 import Carousel from "../components/elements/Carousel";
 import CarouselItem from "../components/elements/CarouselItem";
-import {Box, CardMedia, Typography} from "@mui/material";
+import {Box, CardMedia, ImageList, ImageListItem, Typography} from "@mui/material";
 import Card from "@mui/material/Card";
 import Container from "@mui/material/Container/Container";
 import Grid from "@mui/material/Grid";
 import CardContent from "@mui/material/CardContent";
 import Paper from "@mui/material/Paper";
 import LocalAirportIcon from '@mui/icons-material/LocalAirport';
+
+const hotels = [
+    {
+        name:"Sen Viet Hotel",
+        address: '33 Cao Thang , Ward 2, District 3, Ho Chi Minh City, Vietnam, 700000',
+        description:<>
+            Staying at Sen Viet Hotel is a good choice when you are visiting Ward 2.
+            The hotel has a very good location, also near the Tan Son Nhat International Airport (SGN), which is only 5.49 km away.
+            This hotel is very easy to find since it is strategically positioned close to public facilities.
+        </>,
+        images:[
+            {img: require(`./../assets/images/hotel/senviet.jpg`),rows:2,cols:2},
+            {img: require(`./../assets/images/hotel/senviet2.webp`),rows:1,cols:1},
+            {img: require(`./../assets/images/hotel/senviet3.webp`),rows:1,cols:1},
+            {img: require(`./../assets/images/hotel/senviet1.webp`),rows:1,cols:1},
+            {img: require(`./../assets/images/hotel/senviet4.webp`),rows:1,cols:1},
+            // {img: require(`./../assets/images/hotel/senviet5.webp`),rows:1,cols:1},
+        ],
+        url:"https://www.traveloka.com/en-vn/hotel/vietnam/sen-viet-hotel-1000000346108"
+    },
+    {
+        name:"Tan Hoang Long Hotel",
+        address:'135 Đ. Nguyễn Văn Cừ, ward 2, District 5, Ho Chi Minh City, Vietnam, 70000',
+        description:<>
+            Tan Hoang Long Hotel is a hotel in a good neighborhood, which is located at ward 2.
+            The hotel has a very good location, also near the Tan Son Nhat Airport, which is only 7.33 km away.
+            The hotel is located only 3.05 km away from Ga tàu cao tốc Bạch Đằng.
+            Not only well positioned, but Tan Hoang Long Hotel is also one of hotels near the following Thanh Le Waterpark within 25.87 km and Thien Hau Pagoda within 2.59 km.
+        </>,
+        images:[
+            {img: require(`./../assets/images/hotel/tanhoanglong.jpg`),rows:2,cols:2},
+            {img: require(`./../assets/images/hotel/tanhoanglong1.webp`),rows:1,cols:1},
+            {img: require(`./../assets/images/hotel/tanhoanglong2.webp`),rows:1,cols:1},
+            {img: require(`./../assets/images/hotel/tanhoanglong3.webp`),rows:1,cols:1},
+            {img: require(`./../assets/images/hotel/tanhoanglong4.webp`),rows:1,cols:1},
+        ],
+        url:"https://www.traveloka.com/en-vn/hotel/vietnam/tan-hoang-long-hotel--1000000503517?spec=08-12-2023.09-12-2023.1.1.HOTEL.1000000503517.Tan%20Hoang%20Long%20Hotel%20.1"
+    },
+    {
+        name:"EQUATORIAL Ho Chi Minh City",
+        address: '242 Tran Binh Trong Street, Ward 4, District 5, Ho Chi Minh City, 700000, Vietnam',
+        description:<>
+            The 5-Star Ho Chi Minh City hotel is located where the borders of the city's four main district intersect - the heart and true centre of Ho Chi Minh City. The hotel is a just street from Chinatown - where you will find plenty of attractions. Located in District 5, one can discover a unique & authentic experience. Nearby attractions include Chinatown, Binh Tay Market, a deluxe shopping mall, and charming Chinese pagodas such as Nghia An Hoi Quan, Tam Son Hoi Quan, Thien Hau and Khanh Van Nam Vien. The hotel is a short 15 to 20 minutes drive from District 1, where you will find historical buildings, museums, the French quarter, Saigon River, shopping malls, quaint restaurants, and entertainment area. The hotel offers a complimentary scheduled shuttle service to the main attractions of District 1(advance reservations required).
+        </>,
+        images:[
+            {img: require(`./../assets/images/hotel/Equatorial1.jpg`),rows:2,cols:2},
+            {img: require(`./../assets/images/hotel/Equatorial.jpg`),rows:1,cols:1},
+            {img: require(`./../assets/images/hotel/Equatorial2.webp`),rows:1,cols:1},
+            {img: require(`./../assets/images/hotel/Equatorial3.jpg`),rows:1,cols:1},
+            {img: require(`./../assets/images/hotel/Equatorial4.jpg`),rows:1,cols:1},
+        ],
+        url:"https://hochiminhcity.equatorial.com/?utm_source=local&utm_medium=organic&utm_campaign=Google%20My%20Business",
+        book:"https://be.synxis.com/?adult=1&arrive=2023-12-08&chain=24320&child=0&currency=VND&depart=2023-12-09&hotel=6000&level=hotel&locale=en-US&rooms=1"
+    }
+]
 
 class Keynote extends React.Component {
     render() {
@@ -62,32 +117,6 @@ class Keynote extends React.Component {
                                     </CarouselItem>
                                 </Carousel>
                             </Grid>
-                            {/*<Grid item xs={12} style={{zIndex: 2}}>*/}
-                            {/*    <Paper elevation={24}>*/}
-                            {/*        <div style={{padding:20}}>*/}
-                            {/*            <Typography paragraph >*/}
-                            {/*                AC Hotel by Marriott Vancouver Waterfront is located in Vancouver, within 6.2 miles of University of Portland and 7.2 miles of Moda Center. The property is around 7.4 miles from Oregon Convention Center, 7.7 miles from Portland Union Station and 8 miles from Lan Su Chinese Garden. Governor Tom McCall Waterfront Park is 9 miles from the hotel and Washington Park International Rose Test Gardens is 9.2 miles away.*/}
-                            {/*            </Typography>*/}
-                            {/*            <Typography paragraph >*/}
-                            {/*                Portland Art Museum is 8.5 miles from the hotel, while Portland State University is 8.8 miles away. The nearest airport is Portland International Airport <LocalAirportIcon fontSize="small"/>, 11 miles from AC Hotel by Marriott Vancouver Waterfront.*/}
-                            {/*            </Typography>*/}
-                            {/*            <br/>*/}
-                            {/*            <Typography color={'primary'} variant="subtitle2" gutterBottom>*/}
-                            {/*                The conference has a limited number of rooms reserved at the discounted price ($189/night). This price is only available until Nov 5, or when all the reserved rooms are booked, whichever is earlier. Please book your room at your earliest convenience*/}
-                            {/*            </Typography>*/}
-                            {/*            <ButtonGroup>*/}
-                            {/*                <Button color={"primary"}*/}
-                            {/*                        tag={'a'}*/}
-                            {/*                        href={"https://www.marriott.com/en-us/hotels/pdxac-ac-hotel-vancouver-waterfront/overview/"}*/}
-                            {/*                        target={"_blank"}> More information </Button>*/}
-                            {/*                <Button color={"primary"}*/}
-                            {/*                        tag={'a'}*/}
-                            {/*                        href={"https://www.marriott.com/event-reservations/reservation-link.mi?id=1664222150985&key=GRP&app=resvlink"}*/}
-                            {/*                        target={"_blank"}>Book now</Button>*/}
-                            {/*            </ButtonGroup>*/}
-                            {/*        </div>*/}
-                            {/*    </Paper>*/}
-                            {/*</Grid>*/}
                             <Grid item xs={12}>
                                 <Card  raised >
                                     <Box sx={{ display: 'flex', flexDirection: 'column',justifyContent:"center" }}>
@@ -117,44 +146,70 @@ class Keynote extends React.Component {
                                         referrerPolicy="no-referrer-when-downgrade"
                                         alt={"googlemap"}
                                     />
-                                    {/*<br/>*/}
-                                    {/*<CardContent>*/}
-                                    {/*    <Typography gutterBottom variant="h6" component="div">By Train->Bus->0.5 mile walk</Typography>*/}
-                                    {/*    <Typography paragraph variant="body2" color="text.secondary">The bus will take you from the train station to a spot 0.5 miles away from the hotel, where you can walk if you want</Typography>*/}
-                                    {/*</CardContent>*/}
-                                    {/*<CardMedia*/}
-                                    {/*    component={"iframe"}*/}
-                                    {/*    image="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d89346.33540933572!2d-122.6653262!3d45.5890776!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x5495a0aa74dc20d1%3A0x5bda7693380e5c3d!2sPortland%20International%20Airport%20(PDX)%2C%207000%20NE%20Airport%20Way%2C%20Portland%2C%20OR%2097218!3m2!1d45.589769399999994!2d-122.59509419999999!4m5!1s0x5495a8bb2cea303b%3A0x7bac616ff6af8e0a!2sAC%20Hotel%20by%20Marriott%20Vancouver%20Waterfront%2C%20Parking%20lot%2C%20West%20Columbia%20Way%2C%20Vancouver%2C%20WA!3m2!1d45.622779699999995!2d-122.67592479999999!5e0!3m2!1sen!2sus!4v1666889437504!5m2!1sen!2sus"*/}
-                                    {/*    width="600" height="400" style={{border:0}} allowFullScreen="" loading="lazy"*/}
-                                    {/*    referrerPolicy="no-referrer-when-downgrade"*/}
-                                    {/*    alt={"googlemap"}*/}
-                                    {/*/>*/}
-                                    {/*<br/>*/}
-                                    {/*<CardContent>*/}
-                                    {/*    <Typography gutterBottom variant="h6" component="div">By Train->Bus (non-stop)->0.5 mile walk</Typography>*/}
-                                    {/*    <Typography paragraph variant="body2" color="text.secondary">The bus will take you from the train station to a spot 0.5 miles away from the hotel, where you can walk if you want</Typography>*/}
-                                    {/*    <Typography>Please use the link here <a href={"https://goo.gl/maps/mb4VxMLXDdobJybZ6"} target={"_blank"}>https://goo.gl/maps/mb4VxMLXDdobJybZ6</a></Typography>*/}
-                                    {/*</CardContent>*/}
-
-                                    {/*<br/>*/}
-                                    {/*<CardContent>*/}
-                                    {/*    <Typography gutterBottom variant="h6" component="div">By Car/Uber/Lyft</Typography>*/}
-                                    {/*</CardContent>*/}
-                                    {/*<CardMedia*/}
-                                    {/*    component={"iframe"}*/}
-                                    {/*    image="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d44667.47460228995!2d-122.64858555271074!3d45.59623025753828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x5495a0aa74dc20d1%3A0x5bda7693380e5c3d!2sPortland%20International%20Airport%20(PDX)%2C%20Northeast%20Airport%20Way%2C%20Portland%2C%20OR!3m2!1d45.589769399999994!2d-122.59509419999999!4m5!1s0x5495a8bb2cea303b%3A0x7bac616ff6af8e0a!2sAC%20Hotel%20by%20Marriott%20Vancouver%20Waterfront%2C%20333%20W%20Columbia%20Way%2C%20Vancouver%2C%20WA%2098660!3m2!1d45.622779699999995!2d-122.67592479999999!5e0!3m2!1sen!2sus!4v1665918389043!5m2!1sen!2sus"*/}
-                                    {/*    width="600" height="400" style={{border:0}} allowFullScreen="" loading="lazy"*/}
-                                    {/*    referrerPolicy="no-referrer-when-downgrade"*/}
-                                    {/*    alt={"googlemap"}*/}
-                                    {/*/>*/}
                                 </Card>
                             </Grid>
+                        </Grid>
+                    </>
+                }}/>
+                <HeroFull content={{title: 'Hotels',
+                    inside:<><p>There are 3 recommended hotels near the conference. </p>
+                        <Grid container spacing={2}>
+
+                            {hotels.map((h,hi)=><Grid item xs={12} style={{zIndex: 2}} key={hi}>
+                                <Paper elevation={24}>
+                                    <div style={{padding: 20}}>
+                                        <Typography variant={'h4'}>{h.name}</Typography>
+                                        <Typography variant={'subtitle2'}>{h.address}</Typography>
+                                        <ImageList
+                                            sx={{width: '100%','& li.MuiImageListItem-root': {marginBottom:'unset'}}}
+                                            variant="quilted"
+                                            cols={4}
+                                            rowHeight={121}
+                                        >
+                                            {h.images.map((item) => (
+                                                <ImageListItem key={item.img} cols={item.cols || 1}
+                                                               rows={item.rows || 1}
+                                                >
+                                                    <img
+                                                        {...srcset(item.img, 121, item.rows, item.cols)}
+                                                        alt={item.title}
+                                                        loading="lazy"
+                                                    />
+                                                </ImageListItem>
+                                            ))}
+                                        </ImageList>
+                                        <Typography paragraph>
+                                            {h.description}
+                                        </Typography>
+                                        <ButtonGroup>
+                                            <Button color={"primary"}
+                                                    tag={'a'}
+                                                    href={h.url}
+                                                    target={"_blank"}> More information </Button>
+                                            {h.book&&<Button color={"primary"}
+                                                     tag={'a'}
+                                                     href={h.book}
+                                                     target={"_blank"}>Book now</Button>}
+                                        </ButtonGroup>
+                                    </div>
+                                </Paper>
+                            </Grid>)}
+
                         </Grid>
                     </>
                 }}/>
             </React.Fragment>
         );
     }
+}
+
+function srcset(image, size, rows = 1, cols = 1) {
+    return {
+        src: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format`,
+        srcSet: `${image}?w=${size * cols}&h=${
+            size * rows
+        }&fit=crop&auto=format&dpr=2 2x`,
+    };
 }
 
 export default Keynote;

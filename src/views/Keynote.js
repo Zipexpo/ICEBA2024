@@ -16,14 +16,15 @@ const data = [
         abstract: `(will be updated)`,
         bio: `(will be updated)`
     },
+    {
+        title:'',
+        authorName: 'Prof. Nguyen Huu Duc',
+        orgName: 'Vietnam National University Hanoi',
+        avatar: 'huuduc.jpg',
+        abstract: `(will be updated)`,
+        bio: `(will be updated)`
+    },
     // {
-    //     title:'',
-    //     authorName: 'Prof. Nguyen Huu Duc',
-    //     orgName: 'Vietnam National University Hanoi',
-    //     avatar: 'huuduc.jpg',
-    //     abstract: `(will be updated)`,
-    //     bio: `(will be updated)`
-    // },{
     //     title:'',
     //     authorName: 'Prof. Chau Van Tao',
     //     orgName: 'VNUHCM-University of Science, HCMC, Vietnam',
