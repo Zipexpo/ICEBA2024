@@ -18,3 +18,4 @@ jobs:
           **/.git*
           **/.git*/**
           **/node_modules/**
+        timeout: 120000
