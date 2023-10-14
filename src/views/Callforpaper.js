@@ -24,7 +24,7 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Container from "@mui/material/Container/Container";
 import CssBaseline from "@mui/material/CssBaseline/CssBaseline";
-import {submissionLink} from "../utils/ulti";
+import {submissionfullLink,submissionabstractLink} from "../utils/ulti";
 
 class Callforpaper extends React.Component {
 
@@ -75,33 +75,35 @@ class Callforpaper extends React.Component {
                             <li>...</li>
                         </ul>
                     </GenericSection>
-                    {/*<GenericSection topDivider>*/}
-                    {/*    <h2>Paper Submission</h2>*/}
-                    {/*    <p>*/}
-                    {/*        Submitted manuscripts must represent original unpublished research that is not currently*/}
-                    {/*        under review for any other conference or journal. Manuscripts are submitted in PDF format*/}
-                    {/*        and may not exceed ten (10) single-spaced double-column pages using 10-point size font on*/}
-                    {/*        8.5x11 inch pages (IEEE conference style), including figures, tables, and references. The*/}
-                    {/*        limit is six (6) pages for workshop papers.*/}
-                    {/*    </p>*/}
-                    {/*    <p>*/}
-                    {/*        All manuscripts will be reviewed and judged on correctness, originality, technical strength,*/}
-                    {/*        rigor in analysis, quality of results, quality of presentation, and interest and relevance*/}
-                    {/*        to the conference attendees.*/}
-                    {/*    </p>*/}
-                    {/*    <p>*/}
-                    {/*        Formatting: <a href={"https://www.ieee.org/conferences/publishing/templates.html"}*/}
-                    {/*                       target={"_blank"}>https://www.ieee.org/conferences/publishing/templates.html</a>*/}
-                    {/*    </p>*/}
-                    {/*    <p>*/}
-                    {/*        Click here to submit: <Button color="primary"*/}
-                    {/*                                      style={{marginLeft:5,marginRight:5}}*/}
-                    {/*                                      tag={"a"} target="_blank"*/}
-                    {/*                                      href={submissionLink}>SUBMIT NOW!</Button>*/}
-                    {/*        or using link: <a href={submissionLink}*/}
-                    {/*                                   target={"_blank"}>{submissionLink}</a>*/}
-                    {/*    </p>*/}
-                    {/*</GenericSection>*/}
+                    <GenericSection topDivider>
+                        <h2>Paper Submission</h2>
+                        {/*<p>*/}
+                        {/*    Submitted manuscripts must represent original unpublished research that is not currently*/}
+                        {/*    under review for any other conference or journal. Manuscripts are submitted in PDF format*/}
+                        {/*    and may not exceed ten (10) single-spaced double-column pages using 10-point size font on*/}
+                        {/*    8.5x11 inch pages (IEEE conference style), including figures, tables, and references. The*/}
+                        {/*    limit is six (6) pages for workshop papers.*/}
+                        {/*</p>*/}
+                        {/*<p>*/}
+                        {/*    All manuscripts will be reviewed and judged on correctness, originality, technical strength,*/}
+                        {/*    rigor in analysis, quality of results, quality of presentation, and interest and relevance*/}
+                        {/*    to the conference attendees.*/}
+                        {/*</p>*/}
+                        {/*<p>*/}
+                        {/*    Formatting: <a href={"https://www.ieee.org/conferences/publishing/templates.html"}*/}
+                        {/*                   target={"_blank"}>https://www.ieee.org/conferences/publishing/templates.html</a>*/}
+                        {/*</p>*/}
+                        <p>
+                            Click here to submit: <Button color="primary"
+                                                          style={{marginLeft:5,marginRight:5}}
+                                                          tag={"a"} target="_blank"
+                                                          href={submissionabstractLink}>ABSTRACT</Button>
+                      <Button color="primary"
+                                                          style={{marginLeft:5,marginRight:5}}
+                                                          tag={"a"} target="_blank"
+                                                          href={submissionfullLink}>FULL PAPER</Button>
+                        </p>
+                    </GenericSection>
 
                     <GenericSection topDivider>
                         <h2>Publications</h2>

@@ -146,6 +146,7 @@ class Pricing extends React.Component {
                         {priceOutput.map((sec,i) =>
                             <GenericSection topDivider key={i} className="center-content" style={i?undefined:{paddingTop:0}}>
                                 <h3 className="mt-16 mb-16">{sec.title}</h3>
+                                {sec.subtitle&&<h5 className="mt-16 mb-16">{sec.subtitle}</h5>}
                                 <div className={tilesClasses}>
                                 {sec.list.map(({price,description},i)=>
                                     <div className="tiles-item reveal-from-top" data-reveal-delay="200"  key={i}>

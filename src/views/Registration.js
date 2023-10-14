@@ -11,6 +11,8 @@ import ButtonGroup from "../components/elements/ButtonGroup";
 const fees = [
     {
         'title': '',
+        // 'title': 'Conference fee registration',
+        // 'subtitle': 'Abstract book, coffee break, meals',
         'list': [
             {
                 price: [["", "Free", ""],["", "Free", ""]],

@@ -70,24 +70,23 @@ class Program extends React.Component {
                                         </tr>
                                         <tr>
 
-                                            <td className="s0  button-primary" colSpan="3">Saturday November 25, 2023</td>
+                                            <td className="s0  button-primary" colSpan="3">Friday December 08, 2023</td>
                                         </tr>
                                         <tr>
 
-                                            <td className="s3">08:00 -- 18:00</td>
+                                            <td className="s3">08:00 -- 11:30</td>
                                             <td className="s4" colSpan="2">Registration</td>
                                         </tr>
                                         <tr>
 
                                             <td className="s3" dir="ltr">08:45 - 09:00</td>
                                             <td className="s4">Opening</td>
-                                            <td className="s5">TBA</td>
+                                            <td className="s5" rowSpan={2}>Hall I</td>
                                         </tr>
                                         <tr>
 
                                             <td className="s3" dir="ltr">09:00 - 10:00</td>
                                             <td className="s4">Plenary Keynote 1</td>
-                                            <td className="s5">TBA</td>
                                         </tr>
                                         <tr>
 
@@ -96,9 +95,9 @@ class Program extends React.Component {
                                         </tr>
                                         <tr>
 
-                                            <td className="s3">10:30 - 12:00</td>
-                                            <td className="s4">Parallel Sessions</td>
-                                            <td className="s5">TBA</td>
+                                            <td className="s3">10:30 - 11:30</td>
+                                            <td className="s4">Plenary Keynote 2</td>
+                                            <td className="s5">Hall I</td>
                                         </tr>
                                         <tr>
 
@@ -107,43 +106,39 @@ class Program extends React.Component {
                                         </tr>
                                         <tr>
 
-                                            <td className="s3">13:00 - 14:00</td>
-                                            <td className="s4">Plenary Keynote 2</td>
-                                            <td className="s5">TBA</td>
+                                            <td className="s3">13:00 - 17:30</td>
+                                            <td className="s4">Parallel Sessions</td>
+                                            <td className="s5">5 rooms</td>
                                         </tr>
                                         <tr>
 
                                             <td className="s3">14:00 - 15:00</td>
                                             <td className="s4">Poster Flash Talk</td>
-                                            <td className="s5">TBA</td>
+                                            <td className="s5" rowSpan="2">Lobby I</td>
                                         </tr>
                                         <tr>
 
-                                            <td className="s3">15:00 - 15:30</td>
-                                            <td className="s4" colSpan="2">Tea/Coffee break</td>
-                                        </tr>
-                                        <tr>
-
-                                            <td className="s3">15:30 - 18:30</td>
-                                            <td className="s4">Parallel Sessions</td>
-                                            <td className="s5">TBA</td>
-                                        </tr>
-                                        <tr>
-
-                                            <td className="s3">18:30 - 20:30</td>
-                                            <td className="s4" colSpan="2">Reception (Posters Display)</td>
+                                            <td className="s3">12:30 - 17:30</td>
+                                            <td className="s4">Posters Display</td>
                                         </tr>
                                         <tr style={{height: "20px"}}>
 
                                         </tr>
                                         <tr>
 
-                                            <td className="s0  button-primary" colSpan="3">Sunday November 26, 2023</td>
+                                            <td className="s0  button-primary" colSpan="3">Saturday December 09, 2023</td>
                                         </tr>
                                         <tr>
 
-                                            <td className="s3">All day</td>
-                                            <td className="s4" colSpan="2">Meeting  of Program Committee for 5th ICEBA2024 and city tour</td>
+                                            <td className="s3">09:00 - 10:00</td>
+                                            <td className="s4">Closing speech</td>
+                                            <td className="s5">Hall I</td>
+                                        </tr>
+                                        <tr>
+
+                                            <td className="s3">10:00 - 11:00</td>
+                                            <td className="s4">Meeting of Program Committee for 5th ICEBA2024</td>
+                                            <td className="s5">Meeting room (I1.1)</td>
                                         </tr>
                                         </tbody>
                                     </table>
@@ -307,11 +302,11 @@ class Program extends React.Component {
                                                     <tbody>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Poster Session - Saturday, November 25 afternoon 18:30 - 20:30 (PST) (During Reception)</td>
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Poster Session - Friday, December 08 afternoon 18:30 - 20:30 (PST) (During Reception)</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Le Vu Tuan Hung (VNUHCM-US,Vietnam), Chair <br/>Nguyen Van Toan (Tohoku Univ, Japan), Co- chair <br/>Kyeong-Sik Min (KMU& IKEEE, Korea), Co- chair</td>
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Huynh Van Tuan (VNUHCM-US,Vietnam), Chair <br/>Nguyen Van Toan (Tohoku Univ, Japan), Co- chair <br/>Kyeong-Sik Min (KMU& IKEEE, Korea), Co- chair</td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 

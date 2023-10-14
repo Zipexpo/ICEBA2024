@@ -4,7 +4,7 @@ import { SectionProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
 import {timeFormat} from 'd3'
 import {isArray} from "lodash";
-import {submissionLink} from "../../utils/ulti";
+import {submissionabstractLink,submissionfullLink} from "../../utils/ulti";
 import {Link} from "react-router-dom";
 const propTypes = {
   ...SectionProps.types
@@ -22,12 +22,12 @@ const defaultProps = {
 //     // {key:'Conference',date: ['12/6/2021','12/9/2021']},
 // ]
 const _event = [
-    {key:'Abstract submission and registration',date: '10/30/2023', href:submissionLink},
-    {key:'Full paper submission for presentation',date: '11/15/2023', href:submissionLink},
+    {key:'Abstract submission and registration',date: '10/30/2023', href:submissionabstractLink},
+    {key:'Full paper submission for presentation',date: '11/15/2023', href:submissionfullLink},
     {key:'Conference payment fee',date: '11/15/2023',prefix:'before', href:'./registration'},
     {key:'Session schedule announcement',date: '11/20/2023', href:'./programme'},
     {key:'Conference day',date: ['12/8/2023','12/9/2023'], href:'./programme'},
-    {key:'Full paper submission for publication',date: '12/30/2023', href:submissionLink},
+    {key:'Full paper submission for publication',date: '12/30/2023', href:'./call-for-paper'},
     // {key:'Conference',date: ['12/6/2021','12/9/2021']},
 ]
 class ImportantDate extends React.Component {
