@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.a1cb4d9f.css",
-    "main.js": "./static/js/main.d127f3e9.js",
+    "main.css": "./static/css/main.40b59770.css",
+    "main.js": "./static/js/main.b9865818.js",
     "static/media/campus-entrance-fall.png": "./static/media/campus-entrance-fall.f05fce16ae45395796e8.png",
     "static/media/senviet.jpg": "./static/media/senviet.e7d8f4a8c4fbefb2a589.jpg",
     "static/media/NSF_4-Color_bitmap_Logo.png": "./static/media/NSF_4-Color_bitmap_Logo.fb7efe9286a9b499c590.png",
@@ -126,11 +126,11 @@
     "static/media/features-split-image.svg": "./static/media/features-split-image.b28a4c722cb8c5d460d58cf9a6ce8f40.svg",
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
-    "main.a1cb4d9f.css.map": "./static/css/main.a1cb4d9f.css.map",
-    "main.d127f3e9.js.map": "./static/js/main.d127f3e9.js.map"
+    "main.40b59770.css.map": "./static/css/main.40b59770.css.map",
+    "main.b9865818.js.map": "./static/js/main.b9865818.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1cb4d9f.css",
-    "static/js/main.d127f3e9.js"
+    "static/css/main.40b59770.css",
+    "static/js/main.b9865818.js"
   ]
 }
