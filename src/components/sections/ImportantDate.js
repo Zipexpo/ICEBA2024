@@ -22,7 +22,7 @@ const defaultProps = {
 //     // {key:'Conference',date: ['12/6/2021','12/9/2021']},
 // ]
 const _event = [
-    {key:'Abstract submission and registration',date: '10/30/2023', href:submissionabstractLink},
+    {key:'Abstract submission and registration',prefix:<div style={{textDecoration:'line-through'}}>Oct. 30</div>, date: '11/7/2023', subfix:'(extended)',href:submissionabstractLink},
     {key:'Full paper submission for presentation',date: '11/15/2023', href:submissionfullLink},
     {key:'Conference payment fee',date: '11/15/2023',prefix:'before', href:'./registration'},
     {key:'Session schedule announcement',date: '11/20/2023', href:'./programme'},
@@ -86,6 +86,7 @@ class ImportantDate extends React.Component {
                                                 <strong>{timeFormat('%b')(new Date(e.date))}</strong>
                                             </>
                                         }
+                                        {e.subfix&&<h6 style={{margin:0}}>{e.subfix}</h6>}
                                     </div>
                                     {
                                         e.href?(e.href.match("http")?<a href={e.href} target="_blank">{e.key}</a>:

@@ -13,6 +13,7 @@ import Image from '../components/elements/Image';
 import Input from '../components/elements/Input';
 import ButtonGroup from '../components/elements/ButtonGroup';
 import Button from '../components/elements/Button';
+import {ButtonGroup as ButtonGroup2, Button as Button2} from "@mui/material";
 import Modal from '../components/elements/Modal';
 import Accordion from '../components/elements/Accordion';
 import AccordionItem from '../components/elements/AccordionItem';
@@ -23,8 +24,20 @@ import Paper from "@mui/material/Paper";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Container from "@mui/material/Container/Container";
+import AutoSizer from "lp-react-virtualized-auto-sizer-react-18";
 import CssBaseline from "@mui/material/CssBaseline/CssBaseline";
+import 'react-pdf/dist/cjs/Page/AnnotationLayer.css';
+import 'react-pdf/dist/cjs/Page/TextLayer.css';
+import './pdfviewer.css';
 import {submissionfullLink,submissionabstractLink} from "../utils/ulti";
+import { Document, pdfjs, Page  } from 'react-pdf';
+import {Box, Tab, Tabs, Typography} from "@mui/material";
+import IconButton from "@mui/material/IconButton/IconButton";
+import DownloadIcon from "@mui/icons-material/Download";
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import Organization from "../components/sections/Organization";
+import Sponsor from "../components/sections/Sponsor";
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/legacy/build/pdf.worker.min.js`;
 
 class Callforpaper extends React.Component {
 
@@ -47,7 +60,6 @@ class Callforpaper extends React.Component {
             <React.Fragment>
                 {/*<CssBaseline/>*/}
                 <Container maxWidth="lg">
-
                     <GenericSection>
                         <h2>Call for Papers</h2>
                         <p>The purpose of the 4<sup >th</sup> ICEBA2023 is to link the researchers and scientists from Vietnam, Australia, and Asian countries in the field of Engineering Physics and microelectronics and semiconductors for their applications in biomedical engineering, health sciences, hi-tech agriculture, and smart cities.  Besides, we also contribute to promoting international cooperation activities on joint research projects and international co-publications.</p>
@@ -70,29 +82,52 @@ class Callforpaper extends React.Component {
                             </li>
                             <li>Microelectronics, IC design, low consumption devices, Renewable Energy;</li>
                             <li>Computing Science, Simulations and Modeling;</li>
-                            <li>Embedded systems, Internet of Things, Machine Learning, Artificial Intelligence;</li>
+                            <li>Embedded systems, Internet of Things, Machine Learning, Artificial Intelligence, ...</li>
                             <li>Biomedical Engineering, Digital Microfluidics and their applications;</li>
-                            <li>...</li>
                         </ul>
                     </GenericSection>
                     <GenericSection topDivider>
                         <h2>Paper Submission</h2>
-                        {/*<p>*/}
-                        {/*    Submitted manuscripts must represent original unpublished research that is not currently*/}
-                        {/*    under review for any other conference or journal. Manuscripts are submitted in PDF format*/}
-                        {/*    and may not exceed ten (10) single-spaced double-column pages using 10-point size font on*/}
-                        {/*    8.5x11 inch pages (IEEE conference style), including figures, tables, and references. The*/}
-                        {/*    limit is six (6) pages for workshop papers.*/}
-                        {/*</p>*/}
+                        <p>
+                            Please submit your registration and abstract (around 200 words) via website or <a href = "mailto: 4iceba2023@gmail.com">4iceba2023@gmail.com</a> before <strong>October 30th , 2023</strong>.
+                        </p>
+                        <p>
+                            Full paper for peer-review process for presentation (as template) must be submit before <strong>November 15th , 2023</strong>
+                        </p>
                         {/*<p>*/}
                         {/*    All manuscripts will be reviewed and judged on correctness, originality, technical strength,*/}
                         {/*    rigor in analysis, quality of results, quality of presentation, and interest and relevance*/}
                         {/*    to the conference attendees.*/}
                         {/*</p>*/}
-                        {/*<p>*/}
-                        {/*    Formatting: <a href={"https://www.ieee.org/conferences/publishing/templates.html"}*/}
-                        {/*                   target={"_blank"}>https://www.ieee.org/conferences/publishing/templates.html</a>*/}
-                        {/*</p>*/}
+                        <p>
+                            Forms and Formatting:
+                            <ButtonGroup2 variant="contained" style={{marginLeft:5,marginRight:5}}>
+                                <Button color={'primary'} href={require('../assets/files/5. 4ICEBA_oral and poster presentation information.doc')} target={'_blank'} className={'button'}
+                                >Abstract template
+                                </Button>
+                                <Button2
+                                    size="small"
+                                    href={require('../assets/files/5. 4ICEBA_oral and poster presentation information.doc')}
+                                    download
+                                    className={'button'}
+                                >
+                                    <DownloadIcon />
+                                </Button2>
+                            </ButtonGroup2>
+                            <ButtonGroup2 variant="contained" style={{marginLeft:5,marginRight:5}}>
+                            <Button color={'primary'} href={require('../assets/files/6. ICEBA2023_ full paper template.docx')} target={'_blank'} className={'button'}
+                            >Full paper template
+                            </Button>
+                            <Button2
+                                size="small"
+                                href={require('../assets/files/6. ICEBA2023_ full paper template.docx')}
+                                download
+                                className={'button'}
+                            >
+                                <DownloadIcon />
+                            </Button2>
+                        </ButtonGroup2>
+                        </p>
                         <p>
                             Click here to submit: <Button color="primary"
                                                           style={{marginLeft:5,marginRight:5}}
@@ -117,12 +152,43 @@ class Callforpaper extends React.Component {
                     </GenericSection>
 
                     <GenericSection>
-
                         <ImportantDate topDivider className="gradient-section" style={{paddingTop: 0}}
                                        topOuterDivider={false}/>
-
                     </GenericSection>
-
+                    <Organization topDivider bottomDivider />
+                    <Sponsor topDivider bottomDivider />
+                    <GenericSection>
+                        <Card sx={{ width:'100%' }} elevation={7}>
+                            <CardContent>
+                                <Box sx={{display:'flex', justifyContent:"space-between"}}>
+                                    <Typography variant="h5" component="div">
+                                        Call for paper flyer
+                                    </Typography>
+                                    <div>
+                                        <IconButton href={require('../assets/files/2. Call For Papers_4thICEBA2023.pdf')}
+                                                    download>
+                                            <DownloadIcon />
+                                        </IconButton>
+                                        <IconButton href={require('../assets/files/2. Call For Papers_4thICEBA2023.pdf')}
+                                        target={'_blank'}>
+                                            <OpenInNewIcon />
+                                        </IconButton>
+                                    </div>
+                                </Box>
+                                <div style={{width:'100%',position:'relative',minHeight:100}}>
+                                    <AutoSizer style={{width:'100%',height:'100%',position:'relative'}}>
+                                        {({width,height}) => <div className="Example__container">
+                                            <div className={'Example__container__document'}>
+                                                <Document file={require('../assets/files/2. Call For Papers_4thICEBA2023.pdf')}
+                                                          onLoadError={console.error}>
+                                                    <Page pageNumber={1} width={width} height={height}/>
+                                                </Document>
+                                            </div></div>}
+                                    </AutoSizer>
+                                </div>
+                            </CardContent>
+                        </Card>
+                    </GenericSection>
 
                 </Container>
             </React.Fragment>

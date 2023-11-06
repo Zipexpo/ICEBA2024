@@ -3,6 +3,8 @@ import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import Card from "@mui/material/Card";
+import {CardContent, CardHeader, Stack, Typography} from "@mui/material";
 
 const propTypes = {
   ...SectionSplitProps.types
@@ -98,18 +100,20 @@ class FeaturesSplit extends React.Component {
                 </div>
               </div>
               <div className={"container-lg"} >
-                <h4 className="mt-0 mb-16">
-                  Abstract
-                </h4>
-                <p>
-                  {abstract}
-                </p>
-                <h4 className="mt-0 mb-16">
-                  Biography
-                </h4>
-                <p>
-                  {bio}
-                </p>
+                <Stack spacing={2}>
+                  <Card>
+                    <CardContent>
+                      <Typography sx={{marginBottom:2}} variant={'h5'}>Abstract</Typography>
+                      <div style={{maxHeight:200, overflow:'auto'}}>{abstract}</div>
+                    </CardContent>
+                  </Card>
+                  <Card>
+                    <CardContent>
+                      <Typography sx={{marginBottom:2}} variant={'h5'}>Biography</Typography>
+                      <div style={{maxHeight:200, overflow:'auto'}}>{bio}</div>
+                    </CardContent>
+                  </Card>
+                </Stack>
               </div>
 
             </div>

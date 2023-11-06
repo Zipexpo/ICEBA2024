@@ -142,7 +142,7 @@ class Header extends React.Component {
                       {/*  <Link to="/poster" onClick={this.closeMenu}>Call for poster</Link>*/}
                       {/*</li>*/}
                       <li>
-                        <Link className={(currentPath==="keynotes")?"button":'offbutton'} to="/keynotes" onClick={this.closeMenu}>Keynotes</Link>
+                        <Link className={(currentPath==="plenary-speakers")?"button":'offbutton'} to="/plenary-speakers" onClick={this.closeMenu}>Plenary Speakers</Link>
                       </li>
                       {/*<li>*/}
                       {/*  <Link to="/travel-award" onClick={this.closeMenu}>Travel Award</Link>*/}

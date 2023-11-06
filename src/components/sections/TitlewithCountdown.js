@@ -5,6 +5,9 @@ import { SectionSplitProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
 import Countdown from '../elements/Countdown';
 import Button from "@mui/material/Button/Button";
+import {ButtonGroup} from "@mui/material";
+import DownloadIcon from '@mui/icons-material/Download';
+import VisibilityIcon from '@mui/icons-material/Visibility';
 
 const propTypes = {
   ...SectionSplitProps.types
@@ -87,6 +90,21 @@ class TitlewithCountdown extends React.Component {
                     alt="Hero"
                     width={528}
                     height={396} />
+                  <div style={{width:'100%',display:'flex'}}>
+                    <ButtonGroup variant="contained" sx={{margin:'auto'}}>
+                      <Button href={require('../../assets/files/1. Announcement of 4thICEBA2023.pdf')} target={'_blank'} className={'button'}
+                      >Official Announcement
+                      </Button>
+                      <Button
+                          size="small"
+                          href={require('../../assets/files/1. Announcement of 4thICEBA2023.pdf')}
+                          download
+                          className={'button'}
+                      >
+                        <DownloadIcon />
+                      </Button>
+                    </ButtonGroup>
+                  </div>
                 </div>
               </div>
             </div>

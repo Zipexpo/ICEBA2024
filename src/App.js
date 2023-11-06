@@ -52,7 +52,7 @@ class App extends React.Component {
                         <AppRoute path="/chairs-committees" component={ChairsCommittees} layout={LayoutAlternative} />
                         <AppRoute path="/workshops" component={Workshop} layout={LayoutAlternative} />
                         <AppRoute path="/poster" component={Poster} layout={LayoutAlternative} />
-                        <AppRoute path="/keynotes" component={Keynote} layout={LayoutAlternative} />
+                        <AppRoute path="/plenary-speakers" component={Keynote} layout={LayoutAlternative} />
                         <AppRoute path="/doctoral-symposium" component={DoctorSymposium} layout={LayoutAlternative} />
                         <AppRoute path="/travel-award" component={TravelAward} layout={LayoutAlternative} />
                         <AppRoute path="/registration" component={Registration} layout={LayoutAlternative} />
