@@ -5,6 +5,8 @@ import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 import Card from "@mui/material/Card";
 import {CardContent, CardHeader, Stack, Typography} from "@mui/material";
+import DownloadIcon from '@mui/icons-material/Download';
+import IconButton from "@mui/material/IconButton/IconButton";
 
 const propTypes = {
   ...SectionSplitProps.types
@@ -56,7 +58,7 @@ class FeaturesSplit extends React.Component {
       alignTop && 'align-top'
     );
 
-    const {title,authorName,orgName,abstract,bio,avatar} = content??{}
+    const {title,authorName,orgName,abstract,bio,avatar,abstractFile,bioFile} = content??{}
     return (
       <section
         {...props}
@@ -103,13 +105,27 @@ class FeaturesSplit extends React.Component {
                 <Stack spacing={2}>
                   <Card>
                     <CardContent>
-                      <Typography sx={{marginBottom:2}} variant={'h5'}>Abstract</Typography>
+                      <Typography sx={{marginBottom:2}} variant={'h5'}>Abstract
+                        <IconButton
+                          href={abstractFile}
+                          target={'_blank'}
+                          download>
+                        <DownloadIcon/>
+                      </IconButton>
+                      </Typography>
                       <div style={{maxHeight:200, overflow:'auto'}}>{abstract}</div>
                     </CardContent>
                   </Card>
                   <Card>
                     <CardContent>
-                      <Typography sx={{marginBottom:2}} variant={'h5'}>Biography</Typography>
+                      <Typography sx={{marginBottom:2}} variant={'h5'}>Biography
+                        <IconButton
+                            href={bioFile}
+                            target={'_blank'}
+                          download>
+                        <DownloadIcon/>
+                      </IconButton>
+                      </Typography>
                       <div style={{maxHeight:200, overflow:'auto'}}>{bio}</div>
                     </CardContent>
                   </Card>

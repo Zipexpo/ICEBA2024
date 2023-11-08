@@ -14,6 +14,8 @@ const data = [
         orgName: <>Department of Mechanical Systems Engineering Graduate School of Engineering, Tohoku University, Sendai, Japan<br/>
             Micro System Integration Center (μSiC), Tohoku University, Sendai, Japan</>,
         avatar: 'Ono2010.jpg',
+        abstractFile: '/files/plentary/information Takahito Ono.doc',
+        bioFile: '/files/plentary/biography Takahito Ono.docx',
         abstract: <>
             <p>Miniature healthcare sensors are useful for patients with chronic diseases. For example, patients with diabetes need continuous monitoring of blood glucose levels and require small non-invasive sensors. Micro/nanosensors for healthcare can also help in the field of preventive medicine. By collecting biometric data and assessing individual health trends and risk factors, preventive measures can be taken to prevent the onset of diseases.</p>
             <p>We have developed non-invasive sensors and urine sensors using micro-nanofabrication technology for healthcare applications at home. Micro- and nano-mechanical transducers fabricated by microfabrication technology exhibit high mechanical Q-factors and are expected to be applied as high-sensitivity sensors. Non-invasive bio-magnetic sensors, non-invasive photoacoustic sensors and non-invasive in vivo radical sensors are being developed using these mechanical vibrators (1-4).</p>
@@ -62,6 +64,8 @@ const data = [
         authorName: 'Prof. Kyeong-Sik Min',
         orgName: 'School of Electrical Engineering, Kookmin University, Seoul, Korea',
         avatar: 'sikmin.jpg',
+        abstractFile: '/files/plentary/information_Kyeong-Sik Min.doc',
+        bioFile: '/files/plentary/biography_Kyeong-Sik Min.docx',
         abstract: <>
             <p>
                 Large Language Models (LLMs) such as GPT-4 are coming to our daily lives with excellent performance and infinite potential in the field of artificial intelligence. Their enormous size models should deal with a tremendous level of computational workloads that have never been experienced before. The heavy computation needs a huge amount of energy consumption that makes it impossible to sustain the LLMs in terms of computing energy efficiency in future.
@@ -104,14 +108,20 @@ const data = [
         </ol>
     },
     {
-        title:'',
+        title:'High Performance MEMS Sensors',
         authorName: 'Prof. Dao Viet Dzung',
         orgName: <>
             Professor & Head, Mechanical Engineering, Griffith University<br/>
             Director, Mechatronics Engineering Program, Griffith University
         </>,
         avatar: 'dzungdao.jpg',
-        abstract: `(will be updated)`,
+        abstractFile: '/files/plentary/information-Dzung Dao.doc',
+        bioFile: '/files/plentary/biography-Dzung Dao.docx',
+        abstract: <>
+        <p>MEMS technology relates to research and development of micro/nano electro-mechanically integrated sensors and actuators fabricated based on the microelectronic technology with high accuracy and throughput.</p>
+        <p>This work presents our innovative MEMS sensors developed based on Si and SiC MEMS technology. The focus will be on advanced sensing effects in semiconductor nanostructures, including piezoresistive, optoelectronic and thermoresistive effects.</p>
+        <p>Compared to Si, SiC MEMS sensors are expected to work more reliably in harsh conditions, e.g. high temperature, aggressive corrosive environments thanks to its unique properties, such as larger bandgap, higher thermal stability, higher breakdown voltage, higher Young’s modulus than silicon. We recently have successfully developed mechanical, thermal and optical MEMS sensors with high sensitivity and large working temperature range [1,2]. For example, optoelectronic coupling in a SiC/Si heterojunction exhibited an ultra-high gauge factor of up to 58,000 which is the highest gauge factor reported for semiconductor-based mechanical sensors to date [1]. Interestingly, 3C/Si has been proven as a potential platform for highly sensitive and self-powered position photodetectors [3]. Our successful demonstration of mechanical, thermal and optical sensing concepts and devices could open a new door for the development of high-performance MEMS sensors from research point of view to a wide range of potential applications.</p>
+        </>,
         bio: <>
             <ul>
                 <li>
@@ -125,6 +135,7 @@ const data = [
                 <li>
                     <strong>Professional History</strong>
                     <ul>
+                        <li>2017 to 4/2023: Head, Mechanical Engineering Discipline, School of EBE, Griffith, AUSTRALIA.</li>
                         <li>2011 to present: Professor, School of Engineering & Built Environment, Griffith Uni, AUSTRALIA.</li>
                         <li>Apr 2007 to Dec 2011: Chair Professor, MEMS, Ritsumeikan University, JAPAN.</li>
                         <li>Apr 2006 to Mar. 2007: Lecturer, MEMS, Ritsumeikan University, JAPAN.</li>
@@ -138,35 +149,90 @@ const data = [
                 <li>
                     <strong>Research area</strong>
                     <ul>
-                        <li>Advanced sensing effects in nanostructured materials, semiconductors</li>
-                        <li>Micro/Nano Electromechanical Systems (MEMS), MEMS Sensors and Actuators</li>
+                        <li>Optoelectronic and Sensing effects in nanostructured materials, semiconductors</li>
+                        <li>•	Micro/Nano Electromechanical Systems (MEMS), MEMS Sensors, Actuators, energy harvesters</li>
                         <li>Advanced Manufacturing: Micro/Nano machining technology, Additive manufacturing</li>
                         <li>Wireless sensor network</li>
                     </ul>
                 </li>
                 <li>
-                    <strong>Publications: </strong>230 Journal papers, 185 Conference papers, 6 book/book-chapters
+                    <strong>Publications: </strong>235 Journal papers, 190 Conference papers, 6 book/book-chapters
                 </li>
                 <li>
-                    <strong>Publication Citations: </strong>6000+ citations, <strong>H-index:</strong> 40
+                    <strong>Publication Citations: </strong>7150 citations, <strong>H-index:</strong> 43 (Google scholar)
                 </li>
                 <li>
-                    <strong>Patents</strong> (filed and granted): 17
+                    <strong>Patents</strong> (filed and granted): 18
                 </li>
                 <li>
-                    <strong>Research Grants:</strong> $10.5M (total)
+                    <strong>Research Grants:</strong> > $11.5M (total). Grants received within the last 5 years are shown below:
+                    <ol>
+                        <li>ARC DP, Lead CI, 2022-2025, “Nano optoelectronic: towards an ultrasensitive sensing", $585k</li>
+                        <li>ARC LIEF, CI, 2023, National Facility for Characterisation of Infrared Technologies, $690k</li>
+                        <li>CCR (Geoinventions), 2023, “Robust sensors for geotechnical applications”, $35k</li>
+                        <li>CCR (Dentroid), 2023, “Clamping mechanism for intraoral laser manipulator”, $25k</li>
+                        <li>Griffith Infrastructure, Lead CI, 2022 "Etching facility for MEMS sensors fabrication", $280k</li>
+                        <li>Griffith Sciences, CI, 2022, “Integrated Quantum Efficiency Measurements System”, $109k</li>
+                        <li>Griffith Sciences, CI, 2022, “A set of 3D Laser Scanning Microscope System”, $90k</li>
+                        <li>Griffith Sciences, CI, 2022, “Transient Plane Source Thermal Conductivity Analyser”, $90k</li>
+                        <li>ARC LIEF, CI, 2022, Facility for enabling low thermal budget Si/SiGe technologies, $580k</li>
+                        <li>IMCRC, Lead CI, 2021-2022, "Smart sensor system for soft soil engineering & safety", $125k</li>
+                        <li>IMCRC, Lead CI, 2021-2022, Miniaturised laser manipulator for ultra-precise dentistry, $225k</li>
+                        <li>ARC LIEF, CI, 2021, Femtoliter Liquid Deposition Facility, $183k</li>
+                        <li>CSIRO-DFAT,	Lead CI, 2020-2022, “Low-power Wireless Flood Sensor Network”, $400k	</li>
+                        <li>CCR (Dentroid, Australia), Lead CI, 2020-2022, $30k</li>
+                        <li>IMCRC, CI, 2020-2022, “R2R printing for cost effective manufacturing of a Smart Patch for health monitoring”, $1,436,437</li>
+                        <li>CCR (Industry: Overseas), CI, 2019-2020, “Ultra-sensitive pressure sensor”, $110k</li>
+                        <li>Foundation for Australia-Japan Studies (FAJS) grant, lead CI, 2019-2020, “Superior Sensor Network (SSN) for Harsh Environments”, $145,000</li>
+                        <li>Griffith Science Equipment round, lead CI, 2019, “Opto-Electro-Mechanical Measurement Suite”, $165,000</li>
+                        <li>ARC LIEF project, CI, 2019, “A femtosecond laser micromachining facility”, $438k</li>
+                        <li>Griffith University Infrastructure Grant, CI, 2019 (CI): $385k</li>
+                        <li>Griffith University Infrastructure Grant, CI, 2019 (CI): $323k</li>
+                        <li>ARC DP, CI, 2018-2021, “Magnetofluidic sample handling for enhanced PoC diagnosis”, $473k</li>
+                        <li>ARC LP, Lead CI, 2017-2021, “Superior Silicon Carbide Nanoscale Sensors (SCANS) for Harsh Environments”, $563,000 ($160,000 from SPT Microtechnologies, USA)</li>
+                        <li>IMCRC project, CI, 2017-2022, “Develop and manufacture a smart electric compressor”, $850,000 (50% from industry partner: SuperCool Australia)</li>
+                        <li>ARC LIEF, CI, 2018, “Xe-plasma dual beam for advanced future materials”, $1,136k</li>
+                        <li>Griffith University Infrastructure Grant (CI, 2017): $115k</li>
+                    </ol>
                 </li>
                 <li>
-                    <strong>Postgraduate Supervision: </strong> 23 PhD candidates completed
+                    <strong>HDR Supervision: </strong> I have successfully supervised to completion of 25 PhD students, all of them have secured good jobs in academia and industry. Notably, 3 of my recent graduates were awarded DECRA.
+                </li>
+                <li>
+                    <strong>Awards/Recognition:</strong>
+                    <ul>
+                        <li>World's top 2% most-cited scientists in Applied Physics (Stanford rankings 2021-2022)</li>
+                        <li>Top 1 researcher worldwide for publications & citations in SciVal Topic Cluster of Pressure Sensors, Sensors.</li>
+                        <li>Vice Chancellor’s Research Excellence Award – Excellent Research Team, 2021</li>
+                        <li>Pro Vice Chancellor’s Research Excellence Award – Excellence of Research Group, 2020</li>
+                        <li>Best Paper Award, 5th SDM, Gold Coast, Australia, 6/2018.</li>
+                        <li>Gold Coast City Mayor Award for outstanding contribution to Gold Coast City, 2016</li>
+                        <li>Best Oral Presentation Award, ICNNE 2016, Paris, France, 6/2016. </li>
+                        <li>Best Paper Award, 5th Bio4Apps, Gold Coast, Australia, 12//2016.</li>
+                        <li>Best Paper Award, IEEE MHS2008, Nagoya, Japan, 10/2008.</li>
+                        <li>Best Student Paper Award, APCOT2006, Singapore, 2006</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Industry Collaborations:</strong>
+                    <ul>
+                        <li>2021-present, Geoinventions, Australia. Total funds received: $160k</li>
+                        <li>2020-present, Dentroid. Total funds received: $250k</li>
+                        <li>2019-2020, Rio Tinto (sponsor through the Foundation for Australia-Japan Studies). Project “Superior Sensor Network (SSN) for Harsh Environments”. Total funds: $145k</li>
+                        <li>2017-2020, SPT Microtechnologies (USA) in my ARC LP "Superior Silicon Carbide Nanoscale Sensors (SCANS) for Harsh Environments".</li>
+                        <li>2017-2020, SuperCool Asia Pacific Pty Ltd (Australia) in the Innovative Manufacturing CRC Project "Develop and manufacture a smart electric compressor for refrigeration and air conditioning on electric vehicles".</li>
+                        <li>From 2003 to 2011, I collaborated with various companies in Japan to conduct R&D projects. These companies are Olympus Corp, Omron Corp, Konica-Minolta Inc, Tamagawa Seiki, Horiba Corp, Towa Corp, Microstone, and Tokairika Co Ltd. </li>
+                    </ul>
+                    Through these collaborations, I gained valuable experience working with industry professionals and was able to apply my research to real-world applications.
                 </li>
                 <li>
                     <strong>Editorial Board and Conference Committees</strong>
                     <ul>
-                        <li>Associate Editor, Sensors and Materials, Tokyo, Japan</li>
+                        <li>Discipline Expert (Mechanical & Mechatronics), EA Accreditation Panel, since 2015</li>
+                        <li>Associate Editor, Sensors and Materials, MYU KK, Tokyo, Japan</li>
                         <li>Editorial Board Member, J. Adv. Nat. Sci: Nanosci. Nanotechnol., IOP, UK.</li>
-                        <li>Editorial Board Member, Sensors Journal, MDPI (SCI indexed)</li>
-                        <li>Editorial Board Member, J. Sensors, Hindawi Publishing Corporation.</li>
-                        <li>Guest Editor, Sensors and Materials, Special Issue on Bio4Apps 2017, MYU KK, Japan</li>
+                        <li>Editorial Board Member, Sensors Journal, MDPI </li>
+                        <li>Editorial Board Member, J. Sensors, Hindawi Publishing Corporation. </li>
                         <li>General Chair of the 5th Bio4Apps,2016, Gold Coast, Australia</li>
                         <li>General Chair, 5th Int’l Conf. on Sustainable Design and Manufacturing, Australia, June 2018.</li>
                     </ul>
@@ -179,6 +245,8 @@ const data = [
         authorName: 'Prof. Congo Tak Shing Ching',
         orgName: 'Graduate Institute of Biomedical Engineering, National Chung Hsing University, Taichung, Taiwan',
         avatar: 'Ching.jpg',
+        abstractFile: '/files/plentary/information_prof. Congo.doc',
+        bioFile: '/files/plentary/biography_prf. Congo.docx',
         abstract: <>
             <p>Nowadays, electrical potential, current, impedance, capacitance, etc. play an important role in our daily life, and these electrical parameters can actually have many applications. For example, electrical impedance spectroscopy (EIS) has been widely used for the characterization of (biological) substances. There are many applications of EIS, and the speaker cited his own research experience in applying EIS in E. coli. Identification and quantification, as well as characterization of microplastics.</p>
             <p>In my E. coli. identification and quantification study, a biorecognition-element-free interdigitated microelectrode (IDμE) sensor is designed and developed with good reliability and affordability. Results show that the designed sensor can identify E. coli with good selectivity using an impedance and capacitance of 7.69 MHz. At its optimum impedance of 1.3 kHz, the IDμE sensor can reliably quantify E. coli (Figure 2) in a range of measurement (103.2~106 cfu/mL), linearity (R2 = 0.97), sensitivity (18.15 kΩ/log (cfu/mL)), and limit of detection (103.2 cfu/mL). Therefore, the IDμE sensor developed possesses high potential for industrial and clinical applications.</p>
@@ -256,6 +324,8 @@ const data = [
         authorName: 'Prof. Kun-Yu Lai',
         orgName: 'Department of Optics and Photonics, National Central University, TAIWAN',
         avatar: 'kunyu.jpg',
+        abstractFile: '/files/plentary/information-Kun-Yu Lai.docx',
+        bioFile: '/files/plentary/biography-Kun-Yu Lai.docx',
         abstract: `The extraordinary emission efficiency of InGaN quantum well (QW) has led to the thriving industry of solid-state lighting and laser diodes. Recently, the two dimensional nitride layer finds another promising application in surface-enhanced Raman spectroscopy (SERS), which is regarded as one of the most powerful biosensing technologies. In specific, the electrons confined by InGaN QWs can intensify the SERS signals by providing additional charge-transfer routes to the molecule/metal interface, as well as by inducing the localized surface plasmon resonance between the surface metal and QWs. These QW-contributed electrons allow every metal nanoparticle to be the SERS-active region (i.e. hot spot), not only increasing the Raman intensity, but also stabilizing the SERS signal. In this talk, I will share our recent studies on the SERS detection of single molecules and circulating tumor DNA for cancer diagnosis. Details on spectral characterizations and the potential for clinical applications will be presented.`,
         bio: <>Dr. Kun-Yu Lai is currently a professor in the Department of Optics and Photonics (DOP) at National Central University (NCU) in Taiwan. Prof. Lai received his Ph.D. degree in Electrical Engineering from North Carolina State University in USA in 2009. After working as the postdoctoral fellow in the Graduate Institute of Photonics and Optoelectronics at National Taiwan University in 2009-2011, he joined the faculty in DOP at NCU. Prof. Lai specializes in the growth/fabrication of novel III-nitride optoelectronic devices, including plasmonic biosensors and LEDs. He has published 56 articles in peer-reviewed SCI journals, with a total citation over 1700 times (H-index: 24). Detailed information on Prof. Lai’s research is available at: <a href={'http://kylai.cloudweb.com.tw/'} target={'_blank'}>http://kylai.cloudweb.com.tw/</a> </>
     },
