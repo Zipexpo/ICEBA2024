@@ -600,7 +600,7 @@ class Program extends React.Component {
                                                         <td className="s1 button-secondary" dir="ltr" colSpan="3">
                                                             Room: ….. Building I, 227 Nguyen Van Cu Str., District 5, HCMC<br/>
                                                             - Chair: Prof. Huynh Van Tuan (VNUHCM-US,Vietnam);<br/>
-                                                            - Co-Chair: Prof. Do Duc Cuong (VNUHCM-US,Vietnam);<br/>
+                                                            - Co-Chair: Dr. Do Duc Cuong (VNUHCM-US,Vietnam);<br/>
                                                             - Technical Assistant: ….
                                                         </td>
                                                     </tr>
@@ -752,6 +752,91 @@ class Program extends React.Component {
                                                     <tr style={{height: "20px"}}>
                                                         <td className="s3" dir="ltr">16:15 - 16:00</td>
                                                         <td className="s4" dir="ltr"> {`Oral S5 - 05`}
+                                                        </td>
+                                                        <td className="s5" dir="ltr"> TBC
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style={{height: "20px"}}></tr>
+                                                    <tr style={{height: "20px"}}>
+
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">
+                                                            Session 6. Semiconductor technology
+                                                        </td>
+
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="3">
+                                                            Room: ….. Building I, 227 Nguyen Van Cu Str., District 5, HCMC<br/>
+                                                            - Chair: ... (VNUHCM-US,Vietnam);<br/>
+                                                            - Co-Chair: ...;<br/>
+                                                            - Technical Assistant: ….
+                                                        </td>
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s3" dir="ltr">14:00 - 14:20</td>
+                                                        <td className="s4" dir="ltr"> Invited talk S6-01
+                                                            <Typography variant={'subtitle2'}>
+
+                                                            </Typography>
+                                                        </td>
+                                                        <td className="s5" dir="ltr"> TBC
+                                                        </td>
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s3" dir="ltr">14:20 - 14:40</td>
+                                                        <td className="s4" dir="ltr"> Invited talk S6-02
+                                                            <Typography variant={'subtitle2'}>
+                                                            </Typography>
+                                                        </td>
+                                                        <td className="s5" dir="ltr"> TBC
+                                                        </td>
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s3" dir="ltr">14:40 - 15:00</td>
+                                                        <td className="s4" dir="ltr"> Invited talk S6-03
+                                                            <Typography variant={'subtitle2'}>
+
+                                                            </Typography>
+                                                        </td>
+                                                        <td className="s5" dir="ltr"> TBC
+                                                        </td>
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s3" dir="ltr">15:00 - 15:15</td>
+                                                        <td className="s4" style={{textAlign:'center'}} colSpan={2}>Coffee break </td>
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s3" dir="ltr">15:15 - 15:30</td>
+                                                        <td className="s4" dir="ltr"> {`Oral S6 - 01`}
+                                                        </td>
+                                                        <td className="s5" dir="ltr"> TBC
+                                                        </td>
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s3" dir="ltr">15:30 - 15:45</td>
+                                                        <td className="s4" dir="ltr"> {`Oral S6 - 02`}
+                                                        </td>
+                                                        <td className="s5" dir="ltr"> TBC
+                                                        </td>
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s3" dir="ltr">15:45 - 16:00</td>
+                                                        <td className="s4" dir="ltr"> {`Oral S6 - 03`}
+                                                        </td>
+                                                        <td className="s5" dir="ltr"> TBC
+                                                        </td>
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s3" dir="ltr">16:00 - 16:15</td>
+                                                        <td className="s4" dir="ltr"> {`Oral S6 - 04`}
+                                                        </td>
+                                                        <td className="s5" dir="ltr"> TBC
+                                                        </td>
+                                                    </tr>
+                                                    <tr style={{height: "20px"}}>
+                                                        <td className="s3" dir="ltr">16:15 - 16:00</td>
+                                                        <td className="s4" dir="ltr"> {`Oral S6 - 05`}
                                                         </td>
                                                         <td className="s5" dir="ltr"> TBC
                                                         </td>
