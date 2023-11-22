@@ -84,8 +84,8 @@ class Program extends React.Component {
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td className="s3">08:45 -- 09:00</td>
-                                            <td className="s8" colSpan="2">
+                                            {/*<td className="s3">08:45 -- 09:00</td>*/}
+                                            <td className="s8 closeleft" colSpan="3">
                                                 <Typography variant={'subtitle1'} color={'primary'}>1.OPENING CEREMONY &PLENARY SESSION</Typography>
                                                 <strong>Conference Hall, Building I, 227 Nguyen Van Cu Str., District 5, HCMC</strong>
                                             </td>
@@ -168,7 +168,8 @@ class Program extends React.Component {
                                                     Tohoku University, Japan
                                                 </Typography>
                                             </td>
-                                            <td className="s5">TBC</td>
+                                            <td className="s5">Micro/Nanosensors for Healthcare
+                                                Applications</td>
                                         </tr>
                                         <tr>
                                             <td className="s4">. Plenary #2 (code: PL-02)(online)
@@ -177,7 +178,8 @@ class Program extends React.Component {
                                                     Griffith University, Australia
                                                 </Typography>
                                             </td>
-                                            <td className="s5">TBC</td>
+                                            <td className="s5">High Performance MEMS Sensors
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td className="s4">. Plenary #3 (code: PL-03)
@@ -186,7 +188,10 @@ class Program extends React.Component {
                                                     Kookmin University, Seoul, Korea
                                                 </Typography>
                                             </td>
-                                            <td className="s5">TBC</td>
+                                            <td className="s5">Energy-efficient AI computing
+                                                hardware by processing in memory and
+                                                local learning
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td className="s4">. Plenary #4 (code: PL-04)
@@ -195,15 +200,22 @@ class Program extends React.Component {
                                                     National Chung Hsing University, Taiwan
                                                 </Typography>
                                             </td>
-                                            <td className="s5">TBC</td>
+                                            <td className="s5">Biological matter recognition using
+                                                micro-interdigitated electrode array and
+                                                electrical impedance spectroscopy
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td className="s4">. Plenary #5 (code: PL-05)
+                                                Dr. Pham Thanh Trung
                                                 <Typography variant={'subtitle2'}>
-                                                    TBC
+                                                    NISM, University of Namur, Belgium
                                                 </Typography>
                                             </td>
-                                            <td className="s5">TBC</td>
+                                            <td className="s5">New transfer technique for graphene
+                                                and other 2D materials on Si substrates
+                                                for electronic devices
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td className="s3">11:40 -- 12:30</td>
@@ -271,7 +283,6 @@ class Program extends React.Component {
                                                 <Typography variant={'subtitle1'} color={'primary'}>1.TUTORIAL SESSION (for teaching assistants, students, engineers,…) </Typography>
                                                 Room: E.303, Building 3, 3rd Floor, 227 Nguyen Van Cu Str., District 5, HCMC<br/>
                                                 - Chair: Prof. Nguyen Van Toan (Tohoku University)<br/>
-                                                - Co-chair:<br/>
                                                 - Technical Assistant:
                                             </td>
                                         </tr>
@@ -372,7 +383,7 @@ class Program extends React.Component {
                                                         <td className="s3" dir="ltr">14:40 - 15:00</td>
                                                         <td className="s4" dir="ltr"> Invited talk S1-03
                                                             <Typography variant={'subtitle2'}>
-                                                                Prof. Phan Bach Thang (VNUHCMINOMAR, Vietnam)
+                                                                TBC
                                                             </Typography>
                                                         </td>
                                                         <td className="s5" dir="ltr"> TBC
@@ -411,7 +422,7 @@ class Program extends React.Component {
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
-                                                        <td className="s3" dir="ltr">16:15 - 16:00</td>
+                                                        <td className="s3" dir="ltr">16:15 - 16:30</td>
                                                         <td className="s4" dir="ltr"> {`Oral S1 - 05`}
                                                         </td>
                                                         <td className="s5" dir="ltr"> TBC
@@ -420,15 +431,15 @@ class Program extends React.Component {
                                                     <tr style={{height: "20px"}}></tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Session 2. MEMS, Biosensors and Application
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Session 2. Semiconductor Technologies, Materials, Device and Related
                                                         </td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
                                                         <td className="s1 button-secondary" dir="ltr" colSpan="3">
                                                             Room: ….. Building I, 227 Nguyen Van Cu Str., District 5, HCMC<br/>
-                                                            - Chair: Prof. Masaya Toda (Tohoku Univ.-Japan);<br/>
-                                                            - Co-Chair: Prof. Nguyen Van Toan (Tohoku Univ, Japan);<br/>
+                                                            - Chair: Prof. Phan Bach Thang (VNUHCM-INOMAR, Vietnam);<br/>
+                                                            - Co-Chair: Prof. Nguyen Hoang Nam (Hanoi VNU-University of Science, Vietnam) ;<br/>
                                                             - Technical Assistant: ….
                                                         </td>
                                                     </tr>
@@ -436,7 +447,7 @@ class Program extends React.Component {
                                                         <td className="s3" dir="ltr">14:00 - 14:20</td>
                                                         <td className="s4" dir="ltr"> Invited talk S2-01
                                                             <Typography variant={'subtitle2'}>
-                                                                Prof. Masaya Toda (Tohoku Univ.-Japan)
+                                                                Prof. Phan Bach Thang (VNUHCM-INOMAR, Vietnam)
                                                             </Typography>
                                                         </td>
                                                         <td className="s5" dir="ltr"> TBC
@@ -446,8 +457,7 @@ class Program extends React.Component {
                                                         <td className="s3" dir="ltr">14:20 - 14:40</td>
                                                         <td className="s4" dir="ltr"> Invited talk S2-02
                                                             <Typography variant={'subtitle2'}>
-                                                                Prof. Nguyen Van Hieu (VNUHCM,
-                                                                Vietnam)
+                                                                Prof. Nguyen Hoang Nam (Hanoi VNU-University of Science, Vietnam)
                                                             </Typography>
                                                         </td>
                                                         <td className="s5" dir="ltr"> TBC
@@ -457,9 +467,7 @@ class Program extends React.Component {
                                                         <td className="s3" dir="ltr">14:40 - 15:00</td>
                                                         <td className="s4" dir="ltr"> Invited talk S2-03
                                                             <Typography variant={'subtitle2'}>
-                                                                Prof. Nguyen Van Toan (Tohoku Univ.-
-                                                                Japan)
-
+                                                                TBC
                                                             </Typography>
                                                         </td>
                                                         <td className="s5" dir="ltr"> TBC
@@ -498,7 +506,7 @@ class Program extends React.Component {
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
-                                                        <td className="s3" dir="ltr">16:15 - 16:00</td>
+                                                        <td className="s3" dir="ltr">16:15 - 16:30</td>
                                                         <td className="s4" dir="ltr"> {`Oral S2 - 05`}
                                                         </td>
                                                         <td className="s5" dir="ltr"> TBC
@@ -508,15 +516,15 @@ class Program extends React.Component {
                                                     <tr style={{height: "20px"}}>
 
                                                         <td className="s0  button-primary" dir="ltr" colSpan="3">
-                                                            Session 3. Microelectronics, Embedded System and AI&IoT
+                                                            Session 3. MEMS, Biosensors and Application
                                                         </td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
                                                         <td className="s1 button-secondary" dir="ltr" colSpan="3">
                                                             Room: ….. Building I, 227 Nguyen Van Cu Str., District 5, HCMC<br/>
-                                                            - Chair: Prof. Kyeong-Sik Min (KMU& IKEEE, Korea)<br/>
-                                                            - Co-Chair: Dr. Nguyen Chi Nhan (VNUHCM-US, Vietnam);<br/>
+                                                            - Chair: Prof. Nguyen Van Toan (Tohoku Univ, Japan);<br/>
+                                                            - Co-Chair: Prof. Nguyen Van Hieu (VNUHCM,Vietnam);<br/>
                                                             - Technical Assistant: ….
                                                         </td>
                                                     </tr>
@@ -524,29 +532,37 @@ class Program extends React.Component {
                                                         <td className="s3" dir="ltr">14:00 - 14:20</td>
                                                         <td className="s4" dir="ltr"> Invited talk S3-01
                                                             <Typography variant={'subtitle2'}>
-
+                                                                Prof. Nguyen Van Hieu (VNUHCM,
+                                                                Vietnam)
                                                             </Typography>
                                                         </td>
-                                                        <td className="s5" dir="ltr"> TBC
+                                                        <td className="s5" dir="ltr"> Thermoelectric generator (TEGs) and
+                                                            IoT sensor system in the Aquaponic
+                                                            farm.
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
                                                         <td className="s3" dir="ltr">14:20 - 14:40</td>
                                                         <td className="s4" dir="ltr"> Invited talk S3-02
                                                             <Typography variant={'subtitle2'}>
+                                                                Prof. Nguyen Van Toan (Tohoku Univ.-
+                                                                Japan)
                                                             </Typography>
                                                         </td>
-                                                        <td className="s5" dir="ltr"> TBC
+                                                        <td className="s5" dir="ltr"> Nanoengineered micro-supercapacitors
+                                                            for self-powered wireless sensing
+                                                            systems
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
                                                         <td className="s3" dir="ltr">14:40 - 15:00</td>
                                                         <td className="s4" dir="ltr"> Invited talk S3-03
                                                             <Typography variant={'subtitle2'}>
-
+                                                                Dr. Hitoshi Nishino (Tamagawa
+                                                                Holdings Co., Japan)
                                                             </Typography>
                                                         </td>
-                                                        <td className="s5" dir="ltr"> TBC
+                                                        <td className="s5" dir="ltr"> A high-precision 3-dimensional micro-mirror actuated by piezo-actuators
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -582,7 +598,7 @@ class Program extends React.Component {
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
-                                                        <td className="s3" dir="ltr">16:15 - 16:00</td>
+                                                        <td className="s3" dir="ltr">16:15 - 16:30</td>
                                                         <td className="s4" dir="ltr"> {`Oral S3 - 05`}
                                                         </td>
                                                         <td className="s5" dir="ltr"> TBC
@@ -592,15 +608,15 @@ class Program extends React.Component {
                                                     <tr style={{height: "20px"}}>
 
                                                         <td className="s0  button-primary" dir="ltr" colSpan="3">
-                                                            Session 4. Computing Science, Simulation and Modeling
+                                                            Session 4. Microelectronics, Embedded System and AI&IoT
                                                         </td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
                                                         <td className="s1 button-secondary" dir="ltr" colSpan="3">
                                                             Room: ….. Building I, 227 Nguyen Van Cu Str., District 5, HCMC<br/>
-                                                            - Chair: Prof. Huynh Van Tuan (VNUHCM-US,Vietnam);<br/>
-                                                            - Co-Chair: Dr. Do Duc Cuong (VNUHCM-US,Vietnam);<br/>
+                                                            - Chair: Prof. Kyeong-Sik Min (KMU, Korea);<br/>
+                                                            - Co-Chair: Dr. Nguyen Chi Nhan (VNUHCM-US, Vietnam) ;<br/>
                                                             - Technical Assistant: ….
                                                         </td>
                                                     </tr>
@@ -608,16 +624,20 @@ class Program extends React.Component {
                                                         <td className="s3" dir="ltr">14:00 - 14:20</td>
                                                         <td className="s4" dir="ltr"> Invited talk S4-01
                                                             <Typography variant={'subtitle2'}>
-
+                                                                Prof. Hoang Trang (VNUHCM-UT,
+                                                                Vietnam)
                                                             </Typography>
                                                         </td>
-                                                        <td className="s5" dir="ltr"> TBC
+                                                        <td className="s5" dir="ltr"> A Novel Framework, methods of AI to
+                                                            Optimize in Designing Analog IC
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
                                                         <td className="s3" dir="ltr">14:20 - 14:40</td>
                                                         <td className="s4" dir="ltr"> Invited talk S4-02
                                                             <Typography variant={'subtitle2'}>
+                                                                Dr. Nguyen Chi Nhan (VNUHCM-US,
+                                                                Vietnam)
                                                             </Typography>
                                                         </td>
                                                         <td className="s5" dir="ltr"> TBC
@@ -666,7 +686,7 @@ class Program extends React.Component {
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
-                                                        <td className="s3" dir="ltr">16:15 - 16:00</td>
+                                                        <td className="s3" dir="ltr">16:15 - 16:30</td>
                                                         <td className="s4" dir="ltr"> {`Oral S4 - 05`}
                                                         </td>
                                                         <td className="s5" dir="ltr"> TBC
@@ -676,15 +696,15 @@ class Program extends React.Component {
                                                     <tr style={{height: "20px"}}>
 
                                                         <td className="s0  button-primary" dir="ltr" colSpan="3">
-                                                            Session 5. Biomedical Engineering and Medical devices
+                                                            Session 5. Computing Science, Simulation and Modeling
                                                         </td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
                                                         <td className="s1 button-secondary" dir="ltr" colSpan="3">
                                                             Room: ….. Building I, 227 Nguyen Van Cu Str., District 5, HCMC<br/>
-                                                            - Chair: ... (VNUHCM-US,Vietnam);<br/>
-                                                            - Co-Chair: ...;<br/>
+                                                            - Chair: Prof. Huynh Van Tuan (VNUHCM-US,Vietnam);<br/>
+                                                            - Co-Chair: Dr. Do Duc Cuong(VNUHCM-US,Vietnam) ;<br/>
                                                             - Technical Assistant: ….
                                                         </td>
                                                     </tr>
@@ -750,7 +770,7 @@ class Program extends React.Component {
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
-                                                        <td className="s3" dir="ltr">16:15 - 16:00</td>
+                                                        <td className="s3" dir="ltr">16:15 - 16:30</td>
                                                         <td className="s4" dir="ltr"> {`Oral S5 - 05`}
                                                         </td>
                                                         <td className="s5" dir="ltr"> TBC
@@ -761,15 +781,15 @@ class Program extends React.Component {
                                                     <tr style={{height: "20px"}}>
 
                                                         <td className="s0  button-primary" dir="ltr" colSpan="3">
-                                                            Session 6. Semiconductor technology
+                                                            Session 6. Biomedical Engineering and Medical devices
                                                         </td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
                                                         <td className="s1 button-secondary" dir="ltr" colSpan="3">
                                                             Room: ….. Building I, 227 Nguyen Van Cu Str., District 5, HCMC<br/>
-                                                            - Chair: ... (VNUHCM-US,Vietnam);<br/>
-                                                            - Co-Chair: ...;<br/>
+                                                            - Chair: Prof. Pham Thi Thu Hien (VNUHCM-UI,Vietnam);<br/>
+                                                            - Co-Chair: Dr. Huynh Chan Khon (VNUHCM-IU,Vietnam);<br/>
                                                             - Technical Assistant: ….
                                                         </td>
                                                     </tr>
@@ -777,19 +797,25 @@ class Program extends React.Component {
                                                         <td className="s3" dir="ltr">14:00 - 14:20</td>
                                                         <td className="s4" dir="ltr"> Invited talk S6-01
                                                             <Typography variant={'subtitle2'}>
-
+                                                                Prof. Pham Thi Thu Hien (VNUHCM-UI,Vietnam)
                                                             </Typography>
                                                         </td>
-                                                        <td className="s5" dir="ltr"> TBC
+                                                        <td className="s5" dir="ltr"> Detection and classification of breast
+                                                            cancer utilizing polarization images
+                                                            and artificial intelligence (AI) model
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
                                                         <td className="s3" dir="ltr">14:20 - 14:40</td>
                                                         <td className="s4" dir="ltr"> Invited talk S6-02
                                                             <Typography variant={'subtitle2'}>
+                                                                Dr. Huynh Chan Khon (VNUHCM-IU,Vietnam)
                                                             </Typography>
                                                         </td>
-                                                        <td className="s5" dir="ltr"> TBC
+                                                        <td className="s5" dir="ltr"> Development of electrowetting on
+                                                            dieletric based digital microfluidic
+                                                            platform toward automated molecular
+                                                            biology assay
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -835,7 +861,7 @@ class Program extends React.Component {
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
-                                                        <td className="s3" dir="ltr">16:15 - 16:00</td>
+                                                        <td className="s3" dir="ltr">16:15 - 16:30</td>
                                                         <td className="s4" dir="ltr"> {`Oral S6 - 05`}
                                                         </td>
                                                         <td className="s5" dir="ltr"> TBC
@@ -858,11 +884,11 @@ class Program extends React.Component {
                                                     <tbody>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Poster Session - Friday, December 08 afternoon 18:30 - 20:30 (PST) (During Reception)</td>
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="3">Poster Session - Friday, December 08 afternoon 11:40 - 12:30</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="3">- Chair:  (VNUHCM-US, Vietnam);<br/>
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="3">- Chair: Prof. Huynh Van Tuan (VNUHCM-US, Vietnam);<br/>
                                                             - Co-Chair: Asst. Prof. Vu The Dang (Osaka Metropolitan University, Japan);<br/>
                                                             - Co-Chair: Prof. Vu Thi Hanh Thu (VNUHCM-US, Vietnam);</td>
                                                     </tr>
