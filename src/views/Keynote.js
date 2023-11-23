@@ -6,6 +6,7 @@ import GenericSection from "../components/sections/GenericSection";
 import SectionHeader from "../components/sections/partials/SectionHeader";
 import HeroFull from "../components/sections/HeroFull";
 import Image from "../components/elements/Image";
+import {Grid, Typography} from "@mui/material";
 
 const data = [
     {
@@ -328,6 +329,115 @@ const data = [
         bioFile: '/files/plentary/biography-Kun-Yu Lai.docx',
         abstract: `The extraordinary emission efficiency of InGaN quantum well (QW) has led to the thriving industry of solid-state lighting and laser diodes. Recently, the two dimensional nitride layer finds another promising application in surface-enhanced Raman spectroscopy (SERS), which is regarded as one of the most powerful biosensing technologies. In specific, the electrons confined by InGaN QWs can intensify the SERS signals by providing additional charge-transfer routes to the molecule/metal interface, as well as by inducing the localized surface plasmon resonance between the surface metal and QWs. These QW-contributed electrons allow every metal nanoparticle to be the SERS-active region (i.e. hot spot), not only increasing the Raman intensity, but also stabilizing the SERS signal. In this talk, I will share our recent studies on the SERS detection of single molecules and circulating tumor DNA for cancer diagnosis. Details on spectral characterizations and the potential for clinical applications will be presented.`,
         bio: <>Dr. Kun-Yu Lai is currently a professor in the Department of Optics and Photonics (DOP) at National Central University (NCU) in Taiwan. Prof. Lai received his Ph.D. degree in Electrical Engineering from North Carolina State University in USA in 2009. After working as the postdoctoral fellow in the Graduate Institute of Photonics and Optoelectronics at National Taiwan University in 2009-2011, he joined the faculty in DOP at NCU. Prof. Lai specializes in the growth/fabrication of novel III-nitride optoelectronic devices, including plasmonic biosensors and LEDs. He has published 56 articles in peer-reviewed SCI journals, with a total citation over 1700 times (H-index: 24). Detailed information on Prof. Lai’s research is available at: <a href={'http://kylai.cloudweb.com.tw/'} target={'_blank'}>http://kylai.cloudweb.com.tw/</a> </>
+    },
+    {
+        title:'New transfer technique for graphene and other 2D materials on Si substrates for electronic devices',
+        authorName: 'Dr. PHAM, Thanh Trung',
+        orgName: 'University of Namur , Belgium',
+        avatar: 'phamtrung.jpg',
+        abstractFile: '/files/plentary/information_Pham Thanh Trung.docx',
+        bioFile: '/files/plentary/biography_Pham Thanh Trung.docx',
+        abstract: `Graphene has been proposed as a promising alternative to silicon-based electronics due to its outstanding electrical, optical, thermal, and mechanical properties [1-4]. It opens up new possibilities not only for fundamental physics research but also for applications. Since silicon is still the most important single-crystal substrate used for semiconductor devices and integrated circuits, integration of graphene into the current Si technology is highly desirable. A combination of graphene and silicon may overcome the traditional limitations in scaling down of devices that silicon based technology is facing [5]. In this context, graphene on Si might be one of the most promising candidates as a material for graphene-based technology beyond CMOS. Therefore, it is crucial to find a process to grow or transfer graphene directly on Si. However, direct growth of graphene on Si produces very poor crystalline quality and it is difficult to build vertial heterostructures. 
+        To date, significant advances in graphene synthesis methods have been made and in particular, CVD (chemical vapor deposition) can produce graphene films with high structural quality on copper substrates (copper foils are commonly used for their low cost and high availability) [6, 7]. To expand the possible applications, chemical vapor deposition grown graphene needs to be transferred to appropriate substrate such as silicon wafer. Although enormous efforts are devoted to transfer graphene on various substrates using many different methods, the quality of the final product is still insufficient. In this context, we develop a new process under a combination of wet etching and dry transfer to obtain graphene on Si with a clean interface between the graphene and the substrate. Using various analysis techniques such as low energy electron diffraction, scanning electron microscopy, scanning tunneling microscopy/spectroscopy, Raman, Auger electron spectroscopy and X-ray photoelectron spectroscopy, we demonstrate that our transferred graphene on Si is continuous, clean and that it is very promising for device fabrication.`,
+        bio: <>
+            <h5>WORK EXPERIENCE</h5>
+            <Grid container alignItems={"center"}>
+                <Grid item xs={3}>From 08/2018 to present</Grid>
+                <Grid item xs={9}>
+                    <h5>Postdoctoral researcher</h5>
+                    <p>  
+                        University of Namur (https://unamur.be/) <br/>
+                        61-Rue de Bruxelles, B-5000 Namur, Belgium <br/>
+                        Project:  MBE synthesis and characterization of two-dimensional semiconductors
+                    </p>
+                </Grid>
+                <Grid item xs={3}>From 03/2016 to 08/2018</Grid>
+                <Grid item xs={9}>
+                    <h5>Lecturer</h5>
+                    <p>  
+                    HCMC University of Technology and Education (https://hcmute.edu.vn/)<br/>
+                    01- Vo Van Ngan street, Linh Chieu ward, Thu Duc District, Ho Chi Minh city, Vietnam<br/>
+                    Role: Lecture on  Introduction to Materials Technology
+                    </p>
+                </Grid>
+                <Grid item xs={3}>From 09/2002 to 11/2015</Grid>
+                <Grid item xs={9}>
+                    <Typography variant='body2'>Please view in attached file</Typography>
+                </Grid>
+            </Grid>
+            <h5>EDUCATION AND TRAINING</h5>
+            <Grid container alignItems={"center"}>
+                <Grid item xs={3}>From 09/2011 to 09/2015</Grid>
+                <Grid item xs={9}>
+                    <h5>Doctoral study in Physics (Matter and Materials Physics)</h5>
+                    <p>  
+                        University of Namur (https://unamur.be/) <br/>
+                        61-Rue de Bruxelles, B-5000 Namur, Belgium <br/>
+                        PhD project:   Direct growth of graphitic carbon/graphene on Si(111) by using electron beam evaporation
+                    </p>
+                </Grid>
+                <Grid item xs={3}>From 09/2003 to 09/2005</Grid>
+                <Grid item xs={9}>
+                    <h5>Master study in Physics and Electronics</h5>
+                    <p>  
+                    University of Science - Vietnam national university HCMC (https://en.hcmus.edu.vn/)<br/>
+                    227 - Nguyen Van Cu street, District 5, Ho Chi Minh city, Vietnam<br/>
+                    Master project: Simulation of Resonant Tunneling Diode (RTD) 
+                    </p>
+                </Grid>
+                <Grid item xs={3}>From 09/1998 to 09/2002</Grid>
+                <Grid item xs={9}>
+                    <h5>Bachelor study in Physics and Electronics</h5>
+                    <p>  
+                    University of Science - Vietnam national university HCMC (https://en.hcmus.edu.vn/)<br/>
+                    227 - Nguyen Van Cu street, District 5, Ho Chi Minh city, Vietnam<br/>
+                    Bachelor project: Research and development of magnetic cards for library management 
+                    </p>
+                </Grid>
+                <Grid item xs={3}>From 10/2012 to 12/2016</Grid>
+                <Grid item xs={9}>
+                    <Typography variant='body2'>Please view in attached file</Typography>
+                </Grid>
+            </Grid>
+            <h5>ADDITIONAL INFORMATION</h5>
+            <Grid container alignItems={"center"}>
+                <Grid item xs={3}>Honors and awards</Grid>
+                <Grid item xs={9}>
+                    <ol>
+                        <li>Excellent young scientist at SHTP Nanotechnology lab, Saigon Hi-Tech Park, Vietnam (2017-2018).</li>
+                        <li>Fellowship of Vietnam government for four-year PhD study in Belgium (2011 - 2015).</li>
+                        <li>Research fellowship from the University of Kaiserslautern, Germany (10/2008 - 04/2009).</li>
+                        <li>The author of a solution winning the third prize of the contest on scientific technical creation in Ho Chi Minh city, Vietnam (2004).</li>
+                    </ol>
+                </Grid>
+                <Grid item xs={3}>Publications</Grid>
+                <Grid item xs={9}>
+                    <ol>
+                        <li>Trung T. Pham, P. Vancsó, M. Szendrő, K. Palotas et al., Higher-indexed Moiré patterns and surface states of MoTe2/graphene heterostructure grown by molecular beam epitaxy, npj 2D Materials and Applications 6, 48 (2022).</li>
+                        <li>Lai Xuan Bach, Thi-Bich-Ngoc Dao, Trung T. Pham, Robert Sporken et al., Role of SnO2 nanoparticles for a self-forming barrier layer on a mild steel surface in Hydrochloric acid medium containing piper betle leaf extract, ACS Omega 7, 38061-38068 (2022).</li>
+                        <li>Trung T. Pham, Roshan Castileno, Alexandre Felten, Robert Sporken, Study of surface oxidation and recovery of clean MoTe2 films,  Surfaces and Interfaces 28, 101681 (2022).</li>
+                        <li>Duong Chi Trung, Trung T. Pham, Quoc Binh Phan Minh et al.,  The use of Piper Betle leaf extract for forming a barrier layer on steel surface in hydrochloric acid solution, Progress in Organic Coatings 158, 106340 (2021).</li>
+                        <li>Thi Tan Pham, Thanh Ngoc Pham, Viorel Chihaia, Quang Anh Vu, Thuat T. Trinh, Trung T. Pham et al., How do the doping concentrations of N and B in graphene modify the water adsorption, RSC Advances  11, 19560 (2021).</li>
+                    </ol>
+                    <p>Please view 17 more in the attached file</p>
+                </Grid>
+                <Grid item xs={3}>Patents</Grid>
+                <Grid item xs={9}>
+                    <ol>
+                        <li>Direct graphene transfer of dry contact (European patent (filed 02/2023) No. PAT2615126EP00) </li>
+                        <li>New technology for micro- and nano-electronics (in preparation)</li>
+                    </ol>
+                </Grid>
+                <Grid item xs={3}>References</Grid>
+                <Grid item xs={9}>
+                    <ol>
+                        <li>Professor Robert SPORKEN (Director of LPME, University of Namur, Belgium)  E-mail: robert.sporken@unamur.be</li>
+                        <li>Professor Luc HENRARD (University of Namur, Belgium) E-mail: luc.henrard@unamur.be</li>
+                    </ol>
+                </Grid>
+            </Grid>
+            <p>Please more information in the attached file</p>
+        </>
     },
 
 ]
