@@ -350,7 +350,7 @@ class Program extends React.Component {
                                                             Room: ….. Building I, 227 Nguyen Van Cu Str., District 5, HCMC<br/>
                                                             - Chair: Prof. Le Vu Tuan Hung (VNUHCM-US, Vietnam);<br/>
                                                             - Co-Chair: Prof. Kun Yu Lai (NCU-Taiwan);<br/>
-                                                            - Technical Assistant: ….
+                                                            - Technical Assistant: Nguyen Duy Khanh (VNUHCM-US, Vietnam).
                                                         </td>
                                                     </tr>
                                                     <tr className={'top'}>
@@ -440,7 +440,7 @@ class Program extends React.Component {
                                                             Room: ….. Building I, 227 Nguyen Van Cu Str., District 5, HCMC<br/>
                                                             - Chair: Prof. Phan Bach Thang (VNUHCM-INOMAR, Vietnam);<br/>
                                                             - Co-Chair: Prof. Nguyen Hoang Nam (Hanoi VNU-University of Science, Vietnam) ;<br/>
-                                                            - Technical Assistant: ….
+                                                            - Technical Assistant: Nguyen Anh Thu (VNUHCM-US, Vietnam).
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -525,7 +525,7 @@ class Program extends React.Component {
                                                             Room: ….. Building I, 227 Nguyen Van Cu Str., District 5, HCMC<br/>
                                                             - Chair: Prof. Nguyen Van Toan (Tohoku Univ, Japan);<br/>
                                                             - Co-Chair: Prof. Nguyen Van Hieu (VNUHCM,Vietnam);<br/>
-                                                            - Technical Assistant: ….
+                                                            - Technical Assistant: Nguyen Hoang Quan (VNUHCM-US, Vietnam).
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -617,7 +617,7 @@ class Program extends React.Component {
                                                             Room: ….. Building I, 227 Nguyen Van Cu Str., District 5, HCMC<br/>
                                                             - Chair: Prof. Kyeong-Sik Min (KMU, Korea);<br/>
                                                             - Co-Chair: Dr. Nguyen Chi Nhan (VNUHCM-US, Vietnam) ;<br/>
-                                                            - Technical Assistant: ….
+                                                            - Technical Assistant: Nguyen Phuoc Hoang Khang (VNUHCM-US, Vietnam).
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -705,7 +705,7 @@ class Program extends React.Component {
                                                             Room: ….. Building I, 227 Nguyen Van Cu Str., District 5, HCMC<br/>
                                                             - Chair: Prof. Huynh Van Tuan (VNUHCM-US,Vietnam);<br/>
                                                             - Co-Chair: Dr. Do Duc Cuong(VNUHCM-US,Vietnam) ;<br/>
-                                                            - Technical Assistant: ….
+                                                            - Technical Assistant: Trinh Thi Ly (VNUHCM-US, Vietnam).
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -790,7 +790,7 @@ class Program extends React.Component {
                                                             Room: ….. Building I, 227 Nguyen Van Cu Str., District 5, HCMC<br/>
                                                             - Chair: Prof. Pham Thi Thu Hien (VNUHCM-UI,Vietnam);<br/>
                                                             - Co-Chair: Dr. Huynh Chan Khon (VNUHCM-IU,Vietnam);<br/>
-                                                            - Technical Assistant: ….
+                                                            - Technical Assistant: Nguyen Thi Tu Trinh (VNUHCM-US, Vietnam).
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
