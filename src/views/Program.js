@@ -259,7 +259,11 @@ class Program extends React.Component {
                                             <td className="s3">18:00 - 21:00</td>
                                             <td className="s8" colSpan="2">
                                                 <Typography variant={'subtitle1'} color={'primary'}>5. DINNER PARTY</Typography>
-                                                <strong>Phuc An Khang Restaurant (German Beer)</strong><br/>
+                                                <strong>241 Restaurant</strong><br/>
+                                                <a hreaf="https://www.google.com/maps/dir//241+restaurant/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x31752f1893432449:0x764552857a6a56b2?sa=X&ved=2ahUKEwj-os72xuWCAxW4r1YBHfqZAd4Q9Rd6BAgYEAA"
+                                                target="_blank">
+                                                    45 Phạm Viết Chánh Street, Ward Nguyễn Cư Trinh, District 1, Hồ Chí Minh City
+                                                    </a><br/>
                                                 (Departure at 17:45 by walk)
                                             </td>
                                         </tr>
