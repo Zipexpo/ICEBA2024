@@ -274,7 +274,11 @@ class Program extends React.Component {
                                             <td className="s3">18:00 - 21:00</td>
                                             <td className="s8" colSpan="2">
                                                 <Typography variant={'subtitle1'} color={'primary'}>5. DINNER PARTY</Typography>
-                                                <strong>Phuc An Khang Restaurant (German Beer)</strong><br/>
+                                                <strong>241 Restaurant</strong><br/>
+                                                <a hreaf="https://www.google.com/maps/dir//241+restaurant/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x31752f1893432449:0x764552857a6a56b2?sa=X&ved=2ahUKEwj-os72xuWCAxW4r1YBHfqZAd4Q9Rd6BAgYEAA"
+                                                target="_blank">
+                                                    45 Phạm Viết Chánh Street, Ward Nguyễn Cư Trinh, District 1, Hồ Chí Minh City
+                                                    </a><br/>
                                                 (Departure at 17:45 by walk)
                                             </td>
                                         </tr>
@@ -667,7 +671,7 @@ class Program extends React.Component {
                                                             Room: ….. Building I, 227 Nguyen Van Cu Str., District 5, HCMC<br/>
                                                             - Chair: Prof. Kyeong-Sik Min (KMU, Korea);<br/>
                                                             - Co-Chair: Dr. Nguyen Chi Nhan (VNUHCM-US, Vietnam) ;<br/>
-                                                            - Technical Assistant: ….
+                                                            - Technical Assistant: Nguyen Phuoc Hoang Khang (VNUHCM-US, Vietnam).
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -755,7 +759,7 @@ class Program extends React.Component {
                                                             Room: ….. Building I, 227 Nguyen Van Cu Str., District 5, HCMC<br/>
                                                             - Chair: Prof. Huynh Van Tuan (VNUHCM-US,Vietnam);<br/>
                                                             - Co-Chair: Dr. Do Duc Cuong(VNUHCM-US,Vietnam) ;<br/>
-                                                            - Technical Assistant: ….
+                                                            - Technical Assistant: Trinh Thi Ly (VNUHCM-US, Vietnam).
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -840,7 +844,7 @@ class Program extends React.Component {
                                                             Room: ….. Building I, 227 Nguyen Van Cu Str., District 5, HCMC<br/>
                                                             - Chair: Prof. Pham Thi Thu Hien (VNUHCM-UI,Vietnam);<br/>
                                                             - Co-Chair: Dr. Huynh Chan Khon (VNUHCM-IU,Vietnam);<br/>
-                                                            - Technical Assistant: ….
+                                                            - Technical Assistant: Nguyen Thi Tu Trinh (VNUHCM-US, Vietnam).
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
