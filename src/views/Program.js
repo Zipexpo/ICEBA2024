@@ -122,7 +122,7 @@ class Program extends React.Component {
 
                                             <td className="s3">09:25 - 09:35</td>
                                             <td className="s4">
-                                                3. Offer the gifts for invited speakers
+                                                3. Offer the gift for invited speakers
                                                 <Typography variant={'subtitle2'}>
                                                     - Plenary talks
                                                 </Typography>
@@ -135,9 +135,8 @@ class Program extends React.Component {
                                         <tr>
 
                                             <td className="s3">09:40 - 09:50</td>
-                                            <td className="s4">4. The MoA signing ceremony for the
-                                                Co/join Organizing 6ICEBA2025</td>
-                                            <td className="s5">VNUHCM-University of Science and National Central University- Taiwan</td>
+                                            <td className="s4">4. The MoU signing ceremony for the host of the 6th ICEBA2025 conference in 2025</td>
+                                            <td className="s5">VNUHCM-University of Science, Tohoku University-Ono/Toda Lab  and National Central University (Taiwan)</td>
                                         </tr>
                                         <tr>
 
@@ -156,7 +155,7 @@ class Program extends React.Component {
                                                     Co-Chair: Prof. Nguyen Van Hieu (VNUHCM, Vietnam)
                                                 </Typography>
                                                 <Typography variant={'subtitle2'}>
-                                                    Link google meet for online: (will be updated)
+                                                    Link google meet for online: <a href={"https://meet.google.com/zeb-ddeo-ukh"} target={"_blank"}>https://meet.google.com/zeb-ddeo-ukh</a>
                                                 </Typography>
                                             </td>
                                         </tr>
