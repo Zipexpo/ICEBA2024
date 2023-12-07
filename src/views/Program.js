@@ -3,11 +3,12 @@ import Image from '../components/elements/Image';
 import classNames from "classnames";
 // import "../assets/agenda/resources/sheet.css"
 import "./Program.css"
-import {CardMedia, Tab, Tabs, Typography} from "@mui/material";
+import {CardMedia, Tab, Tabs, Typography, Button as Button2} from "@mui/material";
 import {a11yProps, TabPanel} from "../components/elements/TabPanel";
 import Paper from "@mui/material/Paper";
 import {Link} from "react-router-dom";
 import GenericSection from "../components/sections/GenericSection";
+import DownloadIcon from "@mui/icons-material/Download";
 
 class Program extends React.Component {
     constructor(props) {
@@ -54,7 +55,14 @@ class Program extends React.Component {
                     <div className="container">
                         <div className={innerClasses}>
                             <div className="hero-content">
-                                <h3>4th ICEBA 2023 Program at A Glance</h3>
+                                <h3>4th ICEBA 2023 Program at A Glance <Button2
+                                    size="small"
+                                    href={require('../assets/files/ICEBA2023_Agenda Dec8_Final.pdf')}
+                                    download
+                                    className={'button'}
+                                >
+                                    <DownloadIcon />
+                                </Button2></h3>
                                 <div className="ritz grid-container" dir="ltr">
                                     <table className="waffle overview" cellSpacing="0" cellPadding="0">
                                         <colgroup>
@@ -73,7 +81,7 @@ class Program extends React.Component {
                                         </tr>
                                         <tr>
 
-                                            <td className="s3">08:00 - 08:45</td>
+                                            <td className="s3">07:30 - 08:45</td>
                                             <td className="s4">Registration (Check list, nameplate,
                                                 Abstract&Program,etc.)</td>
                                             <td className="s5">
@@ -413,7 +421,6 @@ class Program extends React.Component {
                                                         <td className="s4" dir="ltr"> Oral S1-01-O
                                                             <Typography variant={'subtitle2'}>
                                                                 Doan Thi Thanh Nhan
-                                                                (Center for Nuclear Technologies)
                                                             </Typography>
                                                         </td>
                                                         <td className="s5" dir="ltr"> Self-absorption correction, gross-alpha radioactivity measurements using gas proportional counter
@@ -681,7 +688,7 @@ class Program extends React.Component {
                                                             Room: E205 (2nd floor, Building E), 227 Nguyen Van Cu Str., District 5, HCMC<br/>
                                                             - Chair: Prof. Kyeong-Sik Min (KMU, Korea);<br/>
                                                             - Co-Chair: Dr. Nguyen Chi Nhan (VNUHCM-US, Vietnam) ;<br/>
-                                                            - Secretary: Nguyen Phuoc Hoang Khang-MSc (Hand phone: 0918035984).
+                                                            - Secretary: Nguyen Phuoc Hoang Khang-MSc.
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -795,7 +802,7 @@ class Program extends React.Component {
                                                             Room: E206 (2nd floor, Building E), 227 Nguyen Van Cu Str., District 5, HCMC<br/>
                                                             - Chair: Prof. Huynh Van Tuan (VNUHCM-US, Vietnam);<br/>
                                                             - Co-Chair: Dr. Do Duc Cuong(VNUHCM-US, Vietnam) ;<br/>
-                                                            - Secretary: Dr. Trinh Thi Ly (Hand phone: 0565592094).
+                                                            - Secretary: Dr. Trinh Thi Ly.
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -877,7 +884,7 @@ class Program extends React.Component {
                                                             Room: B.43 (4th floor, Building B), 227 Nguyen Van Cu Str., District 5, HCMC<br/>
                                                             - Chair: Prof. Pham Thi Thu Hien (VNUHCM-UI,Vietnam);<br/>
                                                             - Co-Chair: Dr. Huynh Chan Khon (VNUHCM-IU,Vietnam);<br/>
-                                                            - Secretary: Nguyen Thi Tu Trinh, Msc (Hand phone: 0833155679).
+                                                            - Secretary: Nguyen Thi Tu Trinh.
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
