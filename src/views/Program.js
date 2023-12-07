@@ -116,7 +116,7 @@ class Program extends React.Component {
                                             <td className="s3">09:10 - 09:25</td>
                                             <td className="s4">2. Welcome speeches:
                                                 <Typography variant={'subtitle2'}>
-                                                - Welcome speech from the Vice president of VNUHCM-US: Prof. Tran Le Quan;
+                                                - Welcome speech from the President of VNUHCM-US: Prof. Tran Le Quan;
                                                 </Typography>
                                                 <Typography variant={'subtitle2'}>
                                                 - Speech from Co-General Chair of 4th ICEBA2023: Prof. Takahito Ono and Prof. Nguyen Van Hieu;
@@ -584,7 +584,7 @@ class Program extends React.Component {
                                                             Room: B42 (4th floor, Building B), 227 Nguyen Van Cu Str., District 5, HCMC<br/>
                                                             - Chair: Prof. Nguyen Van Toan (Tohoku Univ, Japan);<br/>
                                                             - Co-Chair: Prof. Nguyen Van Hieu (VNUHCM,Vietnam);<br/>
-                                                            - Secretary: Nguyen Hoang Quan-MSc (Hand phone: 0938551383)
+                                                            - Secretary: Nguyen Hoang Quan-MSc
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
