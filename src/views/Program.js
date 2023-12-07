@@ -116,7 +116,7 @@ class Program extends React.Component {
                                             <td className="s3">09:10 - 09:25</td>
                                             <td className="s4">2. Welcome speeches:
                                                 <Typography variant={'subtitle2'}>
-                                                - Welcome speech from the Vice president of VNUHCM-US: Prof. Tran Minh Triet;
+                                                - Welcome speech from the Vice president of VNUHCM-US: Prof. Tran Le Quan;
                                                 </Typography>
                                                 <Typography variant={'subtitle2'}>
                                                 - Speech from Co-General Chair of 4th ICEBA2023: Prof. Takahito Ono and Prof. Nguyen Van Hieu;
@@ -830,7 +830,7 @@ class Program extends React.Component {
                                                         <td className="s3" dir="ltr">14:35 - 14:50</td>
                                                         <td className="s4" dir="ltr"> Oral S5-02-O
                                                             <Typography variant={'subtitle2'}>
-                                                                Nguyen Duy Thong
+                                                                Huynh Thanh Nhan
                                                             </Typography>
                                                         </td>
                                                         <td className="s5" dir="ltr"> Estimation of thickness samples using gamma scattering techniques based on Machine learning approach
