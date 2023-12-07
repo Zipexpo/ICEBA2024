@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.764cc77f.css",
-    "main.js": "./static/js/main.e334e84f.js",
+    "main.css": "./static/css/main.a6d14c67.css",
+    "main.js": "./static/js/main.8746b60b.js",
     "static/media/campus-entrance-fall.png": "./static/media/campus-entrance-fall.f05fce16ae45395796e8.png",
     "static/media/senviet.jpg": "./static/media/senviet.e7d8f4a8c4fbefb2a589.jpg",
     "static/media/NSF_4-Color_bitmap_Logo.png": "./static/media/NSF_4-Color_bitmap_Logo.fb7efe9286a9b499c590.png",
@@ -98,12 +98,12 @@
     "static/media/clients-03.svg": "./static/media/clients-03.d0d59c31a10a2610ec52.svg",
     "static/media/tanhoanglong4.webp": "./static/media/tanhoanglong4.1733703d85cd99b44988.webp",
     "static/media/illustration-section-01.svg": "./static/media/illustration-section-01.d14b42465006078dff4b.svg",
-    "static/media/UCC2022-TPC.csv": "./static/media/UCC2022-TPC.ee0359f1103befd20dbd.csv",
+    "static/media/UCC2022-TPC.csv": "./static/media/UCC2022-TPC.d80136c5901e936e8f60.csv",
     "static/media/clients-01.svg": "./static/media/clients-01.43fbbcb95061aac25fb7.svg",
     "static/media/clients-05.svg": "./static/media/clients-05.789dd5f9dbe19bb6093a.svg",
     "static/media/video-placeholder.svg": "./static/media/video-placeholder.f4642058f7e7b5e06c7a7fb73ec76445.svg",
-    "static/media/members.csv": "./static/media/members.f6c6d04f4d373805d742.csv",
-    "static/media/UCC_2022_workshops.csv": "./static/media/UCC_2022_workshops.11421b9a4e07b08f2d62.csv",
+    "static/media/members.csv": "./static/media/members.a9006d041c1607de4927.csv",
+    "static/media/UCC_2022_workshops.csv": "./static/media/UCC_2022_workshops.3190df3623a20d475e51.csv",
     "static/media/illustration-element-01-top.svg": "./static/media/illustration-element-01-top.d0aee6ad3cd9ca64a7f1.svg",
     "index.html": "./index.html",
     "static/media/illustration-section-04.svg": "./static/media/illustration-section-04.d1b0d5f33030c949bb3f.svg",
@@ -118,7 +118,7 @@
     "static/media/feature-tile-icon-05.svg": "./static/media/feature-tile-icon-05.71fbae12e3d4ca27d49e.svg",
     "static/media/feature-tile-icon-06.svg": "./static/media/feature-tile-icon-06.a7c49e6b22e0d9414d64.svg",
     "static/media/cta-illustration.svg": "./static/media/cta-illustration.77609521fbe893d7dc38.svg",
-    "static/media/universitys.csv": "./static/media/universitys.82479bf7e0c4c9bf6105.csv",
+    "static/media/universitys.csv": "./static/media/universitys.eeb7d4cb6ee72febc575.csv",
     "static/media/feature-tile-icon-01.svg": "./static/media/feature-tile-icon-01.a1e1ff3da66af9ad4bac.svg",
     "static/media/feature-tile-icon-03.svg": "./static/media/feature-tile-icon-03.fe0478dd8ecd947bacba.svg",
     "static/media/frame-icon.svg": "./static/media/frame-icon.1fb67106b558c6924a0b.svg",
@@ -130,14 +130,14 @@
     "static/media/illustration-section-03.svg": "./static/media/illustration-section-03.4e2dca0f2a906dbeb80f.svg",
     "static/media/illustration-element-07.svg": "./static/media/illustration-element-07.98977c307ac5251f4a1a.svg",
     "static/media/illustration-element-08.svg": "./static/media/illustration-element-08.36580645d5bf3d0845b1.svg",
-    "static/media/features-split-image.svg": "./static/media/features-split-image.cd7c85bbd4b0f27c1bcdb9206013fecc.svg",
+    "static/media/features-split-image.svg": "./static/media/features-split-image.b28a4c722cb8c5d460d58cf9a6ce8f40.svg",
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
-    "main.764cc77f.css.map": "./static/css/main.764cc77f.css.map",
-    "main.e334e84f.js.map": "./static/js/main.e334e84f.js.map"
+    "main.a6d14c67.css.map": "./static/css/main.a6d14c67.css.map",
+    "main.8746b60b.js.map": "./static/js/main.8746b60b.js.map"
   },
   "entrypoints": [
-    "static/css/main.764cc77f.css",
-    "static/js/main.e334e84f.js"
+    "static/css/main.a6d14c67.css",
+    "static/js/main.8746b60b.js"
   ]
 }
