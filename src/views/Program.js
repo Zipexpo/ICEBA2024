@@ -57,7 +57,7 @@ class Program extends React.Component {
                             <div className="hero-content">
                                 <h3>4th ICEBA 2023 Program at A Glance <Button2
                                     size="small"
-                                    href={require('../assets/files/ICEBA2023_Agenda Dec8_Final.pdf')}
+                                    href={require('../assets/files/Booklet_ Abstract and Program ICEBA2023.pdf')}
                                     download
                                     className={'button'}
                                 >
@@ -116,7 +116,7 @@ class Program extends React.Component {
                                             <td className="s3">09:10 - 09:25</td>
                                             <td className="s4">2. Welcome speeches:
                                                 <Typography variant={'subtitle2'}>
-                                                - Welcome speech from the President of VNUHCM-US: Prof. Tran Le Quan;
+                                                - Welcome speech from the president of VNUHCM-US: Prof. Tran Le Quan;
                                                 </Typography>
                                                 <Typography variant={'subtitle2'}>
                                                 - Speech from Co-General Chair of 4th ICEBA2023: Prof. Takahito Ono and Prof. Nguyen Van Hieu;
@@ -138,7 +138,7 @@ class Program extends React.Component {
                                                     - Invited talks
                                                 </Typography>
                                             </td>
-                                            <td className="s5">Vice President of VNUHCM-US</td>
+                                            <td className="s5">VNUHCM-US</td>
                                         </tr>
                                         <tr>
 
