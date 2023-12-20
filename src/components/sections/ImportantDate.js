@@ -22,12 +22,12 @@ const defaultProps = {
 //     // {key:'Conference',date: ['12/6/2021','12/9/2021']},
 // ]
 const _event = [
-    {key:'Abstract submission and registration',prefix:<div style={{textDecoration:'line-through'}}>Oct. 30</div>, date: '11/7/2023', subfix:'(extended)',href:submissionabstractLink},
-    {key:'Full paper submission for presentation',date: '11/15/2023', href:submissionfullLink},
-    {key:'Conference payment fee',date: '11/15/2023',prefix:'before', href:'./registration'},
-    {key:'Session schedule announcement',date: '11/20/2023', href:'./programme'},
-    {key:'Conference day',date: ['12/8/2023','12/9/2023'], href:'./programme'},
-    {key:'Full paper submission for publication',date: '12/30/2023', href:'./call-for-paper'},
+    {key:'Abstract submission and registration', date: '11/7/2024',href:submissionabstractLink},
+    {key:'Full paper submission for presentation',date: '11/15/2024', href:submissionfullLink},
+    {key:'Conference payment fee',date: '11/15/2024',prefix:'before', href:'./registration'},
+    {key:'Session schedule announcement',date: '11/20/2024', href:'./programme'},
+    {key:'Conference day',date: ['12/8/2024','12/9/2024'], href:'./programme'},
+    {key:'Full paper submission for publication',date: '12/30/2024', href:'./call-for-paper'},
     // {key:'Conference',date: ['12/6/2021','12/9/2021']},
 ]
 class ImportantDate extends React.Component {
@@ -72,27 +72,25 @@ class ImportantDate extends React.Component {
                     <div
                         // className={innerClasses}
                     >
-                        <ul className="list-reset">
-                            {(event??_event).map(e=><li key={e.key} className="tiles-item reveal-from-top" data-reveal-delay="200" style={{maxWidth:'unset'}}>
-                                <div className={"time-card tiles-item-inner has-shadow"}>
-                                    <div className={"time"}>
-                                        {e.prefix&&<h6 style={{margin:0}}>{e.prefix}</h6>}
-                                        {
-                                            isArray(e.date)?<>
-                                                <h3>{e.date.map(d=>timeFormat('%d')(new Date(d))).join('-')}</h3>
-                                                <strong>{timeFormat('%b')(new Date(e.date[0]))}</strong>
-                                            </>:<>
-                                                <h3>{e.date==='TBD'?"TBD":timeFormat('%d')(new Date(e.date))}</h3>
-                                                <strong>{timeFormat('%b')(new Date(e.date))}</strong>
-                                            </>
-                                        }
-                                        {e.subfix&&<h6 style={{margin:0}}>{e.subfix}</h6>}
-                                    </div>
+                        <ul className="time-card">
+                            {(event??_event).map(e=><li key={e.key} className="reveal-from-top" data-reveal-delay="200" style={{maxWidth:'unset'}}>
+                                <h3 className={"time"}>
+                                    {e.prefix&&<h6>{e.prefix}</h6>}
                                     {
-                                        e.href?(e.href.match("http")?<a href={e.href} target="_blank">{e.key}</a>:
-                                            <Link to={e.href} target="_blank">{e.key}</Link>):<span>{e.key}</span>
+                                        isArray(e.date)?<>
+                                            <strong>{timeFormat('%b')(new Date(e.date[0]))}</strong>
+                                            <h4>{e.date.map(d=>timeFormat('%d')(new Date(d))).join('-')}</h4>
+                                        </>:<>
+                                            <strong>{timeFormat('%b')(new Date(e.date))}</strong>
+                                            <h4>{e.date==='TBD'?"TBD":timeFormat('%d')(new Date(e.date))}</h4>
+                                        </>
                                     }
-                                </div>
+                                    {e.subfix&&<h6 style={{margin:0}}>{e.subfix}</h6>}
+                                </h3>
+                                {
+                                    e.href?(e.href.match("http")?<a href={e.href} target="_blank">{e.key}</a>:
+                                        <Link to={e.href} target="_blank">{e.key}</Link>):<span>{e.key}</span>
+                                }
                             </li>)}
                         </ul>
                         {extra}

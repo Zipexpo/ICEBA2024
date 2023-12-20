@@ -49,15 +49,15 @@ class Sponsor extends React.Component {
           <div
             className={innerClasses}
           >
-            <h2>Organization</h2>
+            <h2 className={"center-content"}>Organization</h2>
             <ul className="list-reset">
               {/*<li><h4>Co-organizers</h4></li>*/}
-              <li className="reveal-scale-up" data-reveal-delay="200">
+              <li className="reveal-scale-up">
                 <Image
                   src={require('./../../assets/images/KHTN.png')}
                   alt="University of Science (VNUHCM)"
                   title="University of Science (VNUHCM)"
-                  width={200}
+                  width={180}
                   height={30} />
               </li>
               <li className="reveal-scale-up">
@@ -65,7 +65,7 @@ class Sponsor extends React.Component {
                   src={require('./../../assets/images/tohoku-university-logo.png')}
                   alt="Tohoku University (Japan)"
                   title="Tohoku University (Japan)"
-                  width={230}
+                  width={200}
                   height={39} />
               </li>
             </ul>

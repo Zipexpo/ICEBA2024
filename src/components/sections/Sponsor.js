@@ -49,7 +49,7 @@ class Sponsor extends React.Component {
           <div
             className={innerClasses}
           >
-            <h2>Technical Supports</h2>
+            <h2 className={"center-content"}>Technical Supports</h2>
             <ul className="list-reset">
               <li className="reveal-scale-up" data-reveal-delay="200">
                 <Image

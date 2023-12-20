@@ -62,9 +62,9 @@ class Callforpaper extends React.Component {
                 <Container maxWidth="lg">
                     <GenericSection>
                         <h2>Call for Papers</h2>
-                        <p>The purpose of the 4<sup >th</sup> ICEBA2023 is to link the researchers and scientists from Vietnam, Australia, and Asian countries in the field of Engineering Physics and microelectronics and semiconductors for their applications in biomedical engineering, health sciences, hi-tech agriculture, and smart cities.  Besides, we also contribute to promoting international cooperation activities on joint research projects and international co-publications.</p>
+                        <p>The purpose of the 5<sup >th</sup> ICEBA2024 is to link the researchers and scientists from Vietnam, Australia, and Asian countries in the field of Engineering Physics and microelectronics and semiconductors for their applications in biomedical engineering, health sciences, hi-tech agriculture, and smart cities.  Besides, we also contribute to promoting international cooperation activities on joint research projects and international co-publications.</p>
 
-                        <p>ICEBA2023 will be hosted at VNUHCM-University of Science, Ho Chi Minh city, Vietnam.</p>
+                        <p>ICEBA2024 will be hosted at VNUHCM-University of Science, Ho Chi Minh city, Vietnam.</p>
 
                         <p>Authors are invited to submit original, unpublished research manuscripts related to
                             conference subjects.</p>
@@ -89,10 +89,10 @@ class Callforpaper extends React.Component {
                     <GenericSection topDivider>
                         <h2>Paper Submission</h2>
                         <p>
-                            Please submit your registration and abstract (around 200 words) via website or <a href = "mailto: 4iceba2023@gmail.com">4iceba2023@gmail.com</a> before <strong>October 30th , 2023</strong>.
+                            Please submit your registration and abstract (around 200 words) via website or <a href = "mailto: 5iceba2024@gmail.com">5iceba2024@gmail.com</a> before <strong>October 30th , 2024</strong>.
                         </p>
                         <p>
-                            Full paper for peer-review process for presentation (as template) must be submit before <strong>November 15th , 2023</strong>
+                            Full paper for peer-review process for presentation (as template) must be submit before <strong>November 15th , 2024</strong>
                         </p>
                         {/*<p>*/}
                         {/*    All manuscripts will be reviewed and judged on correctness, originality, technical strength,*/}
@@ -102,12 +102,12 @@ class Callforpaper extends React.Component {
                         <p>
                             Forms and Formatting:
                             <ButtonGroup2 variant="contained" style={{marginLeft:5,marginRight:5}}>
-                                <Button color={'primary'} href={require('../assets/files/5. 4ICEBA_oral and poster presentation information.doc')} target={'_blank'} className={'button'}
+                                <Button color={'primary'} href={require('../assets/files/5. 5ICEBA_oral and poster presentation information.doc')} target={'_blank'} className={'button'}
                                 >Abstract template
                                 </Button>
                                 <Button2
                                     size="small"
-                                    href={require('../assets/files/5. 4ICEBA_oral and poster presentation information.doc')}
+                                    href={require('../assets/files/5. 5ICEBA_oral and poster presentation information.doc')}
                                     download
                                     className={'button'}
                                 >
@@ -115,12 +115,12 @@ class Callforpaper extends React.Component {
                                 </Button2>
                             </ButtonGroup2>
                             <ButtonGroup2 variant="contained" style={{marginLeft:5,marginRight:5}}>
-                            <Button color={'primary'} href={require('../assets/files/6. ICEBA2023_ full paper template.docx')} target={'_blank'} className={'button'}
+                            <Button color={'primary'} href={require('../assets/files/6. ICEBA2024_ full paper template.docx')} target={'_blank'} className={'button'}
                             >Full paper template
                             </Button>
                             <Button2
                                 size="small"
-                                href={require('../assets/files/6. ICEBA2023_ full paper template.docx')}
+                                href={require('../assets/files/6. ICEBA2024_ full paper template.docx')}
                                 download
                                 className={'button'}
                             >
@@ -165,11 +165,11 @@ class Callforpaper extends React.Component {
                                         Call for paper flyer
                                     </Typography>
                                     <div>
-                                        <IconButton href={require('../assets/files/2. Call For Papers_4thICEBA2023.pdf')}
+                                        <IconButton href={require('../assets/files/2. Call For Papers_5thICEBA2024.pdf')}
                                                     download>
                                             <DownloadIcon />
                                         </IconButton>
-                                        <IconButton href={require('../assets/files/2. Call For Papers_4thICEBA2023.pdf')}
+                                        <IconButton href={require('../assets/files/2. Call For Papers_5thICEBA2024.pdf')}
                                         target={'_blank'}>
                                             <OpenInNewIcon />
                                         </IconButton>
@@ -179,7 +179,7 @@ class Callforpaper extends React.Component {
                                     <AutoSizer style={{width:'100%',height:'100%',position:'relative'}}>
                                         {({width,height}) => <div className="Example__container">
                                             <div className={'Example__container__document'}>
-                                                <Document file={require('../assets/files/2. Call For Papers_4thICEBA2023.pdf')}
+                                                <Document file={require('../assets/files/2. Call For Papers_5thICEBA2024.pdf')}
                                                           onLoadError={console.error}>
                                                     <Page pageNumber={1} width={width} height={height}/>
                                                 </Document>

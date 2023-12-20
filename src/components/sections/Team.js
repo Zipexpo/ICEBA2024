@@ -2,14 +2,6 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-import Image from '../elements/Image';
-import membersData from "../../assets/members.csv"
-import universityData from "../../assets/universitys.csv"
-import tpcData from "../../assets/UCC2022-TPC.csv"
-import {csv,groups} from "d3"
-import IconButton from "@mui/material/IconButton/IconButton";
-import EmailIcon from '@mui/icons-material/Email';
-import Tooltip from "@mui/material/Tooltip/Tooltip";
 import GenericSection from "./GenericSection";
 
 const propTypes = {

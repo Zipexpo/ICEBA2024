@@ -17,7 +17,7 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: "./"
-        server-dir: "domains/phys.hcmus.edu.vn/public_html/ICEBA2023/"
+        server-dir: "domains/phys.hcmus.edu.vn/public_html/ICEBA2024/"
         exclude: |
           **/.git*
           **/.git*/**

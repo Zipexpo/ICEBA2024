@@ -110,3 +110,15 @@
 	background: linear-gradient(to bottom, rgba(get-color(light, 2), .32) 0%, rgba(get-color(light, 2), 0) 100%);
 	z-index: 0 !important;
 }
+.gradient-section-h {
+	border-top: 1px solid get-color(light, 3);
+	background: linear-gradient(to right, rgba(get-color(tertiary, 4), 0) 0%, rgba(get-color(tertiary, 4), .5) 100%);
+	z-index: 0 !important;
+}
+// Gradient for sections
+.sub-color-section {
+	border-top: 1px solid get-color(light, 3);
+	background: get-color(secondary, 3);
+	color:white;
+	z-index: 0 !important;
+}

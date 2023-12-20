@@ -49,9 +49,9 @@ const data = [
                     <li>Editorial board, Institute of Physics (IOP), Journal of Micromechanics and Microengineering</li>
                     <li>Representative Member, Japan Society of Mechanical Engineers</li>
                     <li>Deputy Director, IEEJ Sensors and Micromachines Division Executive Committee</li>
-                    <li>(Invited talk) Takahito Ono, Magneto-Mechanical Micro-Nano Devices with Electrodeposited Magnetostriction Films, ECS symposium, October 8-12, 2023 – Gothenburg, Sweden.</li>
+                    <li>(Invited talk) Takahito Ono, Magneto-Mechanical Micro-Nano Devices with Electrodeposited Magnetostriction Films, ECS symposium, October 8-12, 2024 – Gothenburg, Sweden.</li>
                     <li>(Peer-reviewed Paper, total 310 papers )</li>
-                    <li>(Paper) Naoki Inomata, T. Miyamoto, K. Okabe and T. Ono, Measurement of cellular thermal properties and their temperature dependence based on frequency spectra via an on-chip-integrated microthermistor, Lab on a Chip, 23 (2023) 2411-2420.</li>
+                    <li>(Paper) Naoki Inomata, T. Miyamoto, K. Okabe and T. Ono, Measurement of cellular thermal properties and their temperature dependence based on frequency spectra via an on-chip-integrated microthermistor, Lab on a Chip, 23 (2024) 2411-2420.</li>
                     <li>(Paper) H. Arisawa, H. Shim, S. Daimon, T. Kikkawa, Y. Oikawa, S. Takahashi, T. Ono, E. Saitoh, Observation of spin-current striction in a magnet, Nature Communication, 13 (2022) 2400.</li>
                 </ul>
             </li>

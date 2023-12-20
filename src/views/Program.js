@@ -55,9 +55,9 @@ class Program extends React.Component {
                     <div className="container">
                         <div className={innerClasses}>
                             <div className="hero-content">
-                                <h3>4th ICEBA 2023 Program at A Glance <Button2
+                                <h3>5th ICEBA 2024 Program at A Glance <Button2
                                     size="small"
-                                    href={require('../assets/files/Booklet_ Abstract and Program ICEBA2023.pdf')}
+                                    href={require('../assets/files/Booklet_ Abstract and Program ICEBA2024.pdf')}
                                     download
                                     className={'button'}
                                 >
@@ -119,10 +119,10 @@ class Program extends React.Component {
                                                 - Welcome speech from the president of VNUHCM-US: Prof. Tran Le Quan;
                                                 </Typography>
                                                 <Typography variant={'subtitle2'}>
-                                                - Speech from Co-General Chair of 4th ICEBA2023: Prof. Takahito Ono and Prof. Nguyen Van Hieu;
+                                                - Speech from Co-General Chair of 5th ICEBA2024: Prof. Takahito Ono and Prof. Nguyen Van Hieu;
                                                 </Typography>
                                                 <Typography variant={'subtitle2'}>
-                                                    - Speech from Program Chair of 4th ICEBA2023: Prof. Huynh Van Tuan.
+                                                    - Speech from Program Chair of 5th ICEBA2024: Prof. Huynh Van Tuan.
                                                 </Typography>
                                             </td>
                                         </tr>
@@ -261,7 +261,7 @@ class Program extends React.Component {
                                         <tr>
                                             <td className="s3">17:00 - 17:30</td>
                                             <td className="s8" colSpan="2">
-                                                <Typography variant={'subtitle1'} color={'primary'}>4. MEETING OF PROGRAM COMMITTEE FOR 5th ICEBA2024</Typography>
+                                                <Typography variant={'subtitle1'} color={'primary'}>4. MEETING OF PROGRAM COMMITTEE FOR 6th ICEBA2024</Typography>
                                                 Room B40, Building I, 227 Nguyen Van Cu Str., District 5, HCMC <br/>
                                                 Participant: Scientific Committee, Program Committee, Local Committee and other guests
                                             </td>
@@ -278,7 +278,7 @@ class Program extends React.Component {
                                                 (Departure at 17:45 by walk)
                                                 <br/>
                                                 Participant: VIP Guests, Invited speakers, Scientific Committee, Program Committee, Local Committee, Participantsetc.<br/>
-                                                Program: The summary of 4ICEBA2023, Poster prize, Thanks gifts, Closing remarks and Dinner.
+                                                Program: The summary of 5iceba2024, Poster prize, Thanks gifts, Closing remarks and Dinner.
                                             </td>
                                         </tr>
                                         <tr style={{height: "20px"}}>
@@ -328,7 +328,7 @@ class Program extends React.Component {
                                                 (Around 60km far from VNUHCM-University of Science) by BonPhuong Tour Company
                                                 <ul>
                                                     <li>Ticket: 750000 VNĐ/person (Pay onsite at December 8th)</li>
-                                                    <li>Send email for registration before December 5th 2023: <a href = "mailto: 4iceba2023@gmail.com">4iceba2023@gmail.com</a> (Ms. Hoang Yen)</li>
+                                                    <li>Send email for registration before December 5th 2024: <a href = "mailto: 5iceba2024@gmail.com">5iceba2024@gmail.com</a> (Ms. Hoang Yen)</li>
                                                     <li>More information: <a href={"https://tourbonphuong.com/tour-1-ngay-can-gio"} target={"_blank"}>https://tourbonphuong.com/tour-1-ngay-can-gio</a></li>
                                                 </ul>
                                                 <table>

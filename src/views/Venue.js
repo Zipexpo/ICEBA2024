@@ -50,7 +50,7 @@ const hotels = [
             {img: require(`./../assets/images/hotel/tanhoanglong3.webp`),rows:1,cols:1},
             {img: require(`./../assets/images/hotel/tanhoanglong4.webp`),rows:1,cols:1},
         ],
-        url:"https://www.traveloka.com/en-vn/hotel/vietnam/tan-hoang-long-hotel--1000000503517?spec=08-12-2023.09-12-2023.1.1.HOTEL.1000000503517.Tan%20Hoang%20Long%20Hotel%20.1"
+        url:"https://www.traveloka.com/en-vn/hotel/vietnam/tan-hoang-long-hotel--1000000503517?spec=08-12-2024.09-12-2024.1.1.HOTEL.1000000503517.Tan%20Hoang%20Long%20Hotel%20.1"
     },
     {
         name:"EQUATORIAL Ho Chi Minh City",
@@ -66,7 +66,7 @@ const hotels = [
             {img: require(`./../assets/images/hotel/Equatorial4.jpg`),rows:1,cols:1},
         ],
         url:"https://hochiminhcity.equatorial.com/?utm_source=local&utm_medium=organic&utm_campaign=Google%20My%20Business",
-        book:"https://be.synxis.com/?adult=1&arrive=2023-12-08&chain=24320&child=0&currency=VND&depart=2023-12-09&hotel=6000&level=hotel&locale=en-US&rooms=1"
+        book:"https://be.synxis.com/?adult=1&arrive=2024-12-08&chain=24320&child=0&currency=VND&depart=2024-12-09&hotel=6000&level=hotel&locale=en-US&rooms=1"
     }
 ]
 
@@ -75,7 +75,7 @@ class Keynote extends React.Component {
         return (
             <React.Fragment>
                 <HeroFull content={{title: 'Venue',
-                    inside:<><p>ICEBA2023 hosted at <strong>VNUHCM-University of Science</strong> 227 Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city, Vietnam. </p>
+                    inside:<><p>ICEBA2024 hosted at <strong>VNUHCM-University of Science</strong> 227 Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city, Vietnam. </p>
                         <Grid container spacing={2}>
                             <Grid item xs={12}>
                                 <Carousel autorotate={true} style={{display:'flex'}}>

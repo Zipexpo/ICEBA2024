@@ -18,3 +18,18 @@ $header-hamburger--distance: 	7px;		// hamburger button, top and bottom lines di
 
 // Don't change line below!
 $bg--color: map-push($bg--color, $header--bg);
+
+.header-nav-inner .text-xxs li a {
+	background: get-color(tertiary,1);
+	color: black;
+	margin:1px;
+	/*width:150px;*/
+}
+
+ul.list-reset li a.offbutton {
+	color: black!important;
+	padding: 0 5px;
+	margin:1px;
+	/*width:120px;*/
+	text-align: center;
+}

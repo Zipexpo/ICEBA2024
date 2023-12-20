@@ -50,7 +50,7 @@ class Footer extends React.Component {
               </div>
               <div className="footer-block">
                 <div className="footer-block-title">Email</div>
-                <a href = "mailto: 4iceba2023@gmail.com">4iceba2023@gmail.com</a>
+                <a href = "mailto: 5iceba2024@gmail.com">5iceba2024@gmail.com</a>
               </div>
               <div className="footer-block">
                 <div className="footer-block-title">Contact</div>
@@ -60,7 +60,7 @@ class Footer extends React.Component {
             </div>
             <div className="footer-bottom space-between text-xxs invert-order-desktop">
               {/*<FooterNav />*/}
-              <div className="footer-copyright">&copy; 2023 ICEBA2023, all rights reserved</div>
+              <div className="footer-copyright">&copy; 2024 ICEBA2024, all rights reserved</div>
             </div>
             {/*<div className="footer-bottom space-between center-content-mobile text-xxs">*/}
             {/*  <FooterNav />*/}

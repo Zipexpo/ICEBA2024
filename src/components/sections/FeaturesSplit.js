@@ -75,21 +75,9 @@ class FeaturesSplit extends React.Component {
             {/*  </div>*/}
             {/*</SectionHeader>*/}
             <div className={splitClasses}>
-
-              <div className="split-item reveal-from-top">
-                <div className={"container-lg"} >
-                  <h3 className="mt-0 mb-16">
-                    The scope of ICEBA2023 Conference
-                  </h3>
-                  <p>
-                    The purpose of the 4<sup >th</sup> ICEBA2023 is to link the researchers and scientists from Vietnam, Australia, and Asian countries in the field of Engineering Physics and microelectronics and semiconductors for their applications in biomedical engineering, health sciences, hi-tech agriculture, and smart cities.  Besides, we also contribute to promoting international cooperation activities on joint research projects and international co-publications.
-                  </p>
-                </div>
-              </div>
-
               <div className="split-item reveal-from-top">
                 <div className="split-item-content center-content-mobile">
-                  <h3 className="mt-0 mb-16">
+                  <h3 className="mt-0 mb-16 center-content text-color-low" style={{color:'white'}}>
                     The subject areas
                   </h3>
                   <p className="m-0">
@@ -125,10 +113,10 @@ class FeaturesSplit extends React.Component {
                 </div>
               </div>
 
-              <div className="split-item reveal-from-top">
+              <div className="pb-32">
                 <div className={"container-lg reveal-from-top"} >
                   <p>
-                    This year 4th ICEBA will be hosted at VNUHCM-University of Science, 227 Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city, Vietnam.
+                    This year 5th ICEBA will be hosted at VNUHCM-University of Science, 227 Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city, Vietnam.
                   </p>
                 </div>
               </div>

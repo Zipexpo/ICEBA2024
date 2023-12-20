@@ -132,6 +132,16 @@ img.has-shadow {
 	border-radius: $img-radius;
 }
 
+.text-shadow {
+	//-webkit-text-stroke: 1px #ffffff;
+	text-shadow:
+					1px 1px #fff,
+					-1px 1px #fff,
+					1px -1px #fff,
+					-1px -1px #fff,
+					1px 1px 5px #555;
+}
+
 // Dividers
 .has-top-divider {
     @include divider(before);

@@ -189,19 +189,100 @@
 
 .time-card{
   padding: 0;
-  flex-direction: row;
-  align-items: center;
+  margin: 2.5em 0;
+  display: inline-block;
+  li {
+    list-style: none;
+    margin: auto;
+    min-height: 50px;
+    border-left: 2px dashed get-color(dark,2);
+    padding: 0 0 40px 30px;
+    position: relative;
+    &:last-child {
+      border-left: 0;
+    }
+    &::before {
+      position: absolute;
+      left: -1rem;
+      top: -5px;
+      content: " ";
+      border: 8px solid get-color(secondary,4);
+      border-radius: 500%;
+      background: get-color(secondary,3);
+      height: 2rem;
+      width: 2rem;
+      transition: all 500ms ease-in-out;
+    }
+    &:hover::before {
+      border-color: get-color(secondary,2);
+      transition: all 1000ms ease-in-out;
+    }
+  }
   .time{
-    text-align: center;
-    color: color(button-secondary);
-    background-color: color-bg(button-secondary);
-    min-width: 70px;
+    color: get-color(primary,3);
+    //background-color: color-bg(button-secondary);
     padding:5px;
-    margin-right:10px;
-    h3 {
-      margin-top: 0px;
+    margin-bottom:0px;
+    margin-top: 0;
+    transform: translateY(-.5rem);
+    h4 {
+      margin-top: 0;
       margin-bottom: 2px;
+      display: inline;
+      margin-left: 5px;
+      color: get-color(secondary,3);
+    }
+    h6 {
+      display: inline;
+      margin-right: 10px;
+      color: get-color(secondary,3);
     }
   }
 }
 
+.pt-0i {
+  padding-top: 0!important;
+}
+.cover-hero {
+  height: 100vh;
+  height: 100dvh;
+  position: relative;
+  .cover-hero-image {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cover-hero-video {
+    position: absolute;
+    top:0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    video {
+      max-width: unset;
+      min-width: 100%;
+      min-height: 100%;
+    }
+  }
+  .cover-hero-cover {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(get-color(primary, 3),rgba(get-color(primary, 3),0.8), rgba(255, 255, 255, 0.6), rgba(212, 220, 250, 0.7), get-color(tertiary, 4));
+  }
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    //color: get-color(dark, 1);
+    color: rgba(255, 255, 255, 0.76);
+    //max-width: 100%;
+  }
+}

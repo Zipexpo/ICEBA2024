@@ -4,8 +4,6 @@ import classNames from 'classnames';
 import {Link, withRouter} from 'react-router-dom';
 import Logo from './partials/Logo';
 
-import './Header.css'
-
 const propTypes = {
   active: PropTypes.bool,
   navPosition: PropTypes.string,
@@ -97,7 +95,7 @@ class Header extends React.Component {
               'site-header-inner',
               bottomDivider && 'has-bottom-divider'
             )}>
-            <Logo />
+            {/*<Logo />*/}
             {!hideNav &&
               <React.Fragment>
                 <button
@@ -156,12 +154,12 @@ class Header extends React.Component {
                     </ul>
                     {!hideSignin &&
                       <ul
-                        className="list-reset header-nav-center"
+                        className="list-reset header-nav-center" style={{display:'flex'}}
                       >
                         <li>
                           {/*<Link to="/signup/" className="button button-primary button-wide-mobile button-sm" onClick={this.closeMenu}>Registration</Link>*/}
                           {/*<a target="_blank" href="https://shop.le.ac.uk/conferences-and-events/leicester-conferences/uccbdcat/14th-ieeeacm-international-conference-ucc-2021-8th-ieeeacm-international-conference-bdcat-2021" className="button button-primary button-wide-mobile button-sm" onClick={this.closeMenu}>Registration</a>*/}
-                            <Link to="/registration" onClick={this.closeMenu} className="button button-primary button-wide-mobile button-sm">Registration</Link>
+                            <Link to="/registration" onClick={this.closeMenu} className="button button-secondary button-wide-mobile button-sm">Registration</Link>
                           {/*<a target="_blank" href="https://cvent.me/q3vlYw" className="button button-primary button-wide-mobile button-sm">Registration</a>*/}
                         </li>
                       </ul>}
