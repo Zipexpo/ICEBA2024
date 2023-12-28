@@ -152,7 +152,7 @@ class Header extends React.Component {
                         <Link className={(currentPath==="venue")?"button":'offbutton'} to="/venue" onClick={this.closeMenu}>Venue & Hotel</Link>
                       </li>
                       <li>
-                        <Link className={'offbutton'} to="https://phys.hcmus.edu.vn/ICEBA2023/" target="_blank" onClick={this.closeMenu}>ICEBA2023</Link>
+                        <a className={'offbutton'} href="https://phys.hcmus.edu.vn/ICEBA2023/" target="_blank" onClick={this.closeMenu}>ICEBA2023</a>
                       </li>
                     </ul>
                     {!hideSignin &&
