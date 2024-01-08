@@ -86,10 +86,10 @@ class TitlewithCountdown extends React.Component {
                   The 5th International Conference on Engineering Physics, MEMS-Biosensors and Applications
                 </h3>
                 <p className="mt-0 mb-32">
-                  December 8-9, 2024 - VNUHCM-University of Science
+                  November 15-16, 2024 - VNUHCM-University of Science
                   227 Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city, Vietnam
                 </p>
-                <Countdown date={new Date('12/08/2024')}/>
+                <Countdown date={new Date('11/15/2024')}/>
                 <Button
                     tag="a" color="secondary"
                     href={require('../../assets/files/1. Announcement of 5thICEBA2024.pdf')} target={'_blank'}
