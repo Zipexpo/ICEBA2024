@@ -91,7 +91,7 @@ class TitlewithCountdown extends React.Component {
                 <p className="mt-0 mb-32">
                   November 15-16, 2024 - VNUHCM-University of Science
                   227 Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city, Vietnam
-                  
+
                 </p>
                 <Countdown date={new Date('11/15/2024')}/>
                 <Button
