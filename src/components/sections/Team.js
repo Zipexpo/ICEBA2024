@@ -87,10 +87,11 @@ class Team extends React.Component {
                 <div className="container">
                     <div className={innerClasses}>
                         <div className={"mb-32 mt-32"}>
-                            <SectionHeader data={{title:'General Co-Chairs'}} className="center-content" />
+                            <SectionHeader data={{title:'General Chairs'}} className="center-content" />
                             <div className={tilesClasses}>
                                 <ul style={{width:700}}>
                                     <li style={{textAlign:'left'}}>Takahito Ono, Tohoku University-Japan</li>
+                                    <li style={{textAlign:'left'}}>Huynh Van Tuan, Vietnam National University Ho Chi Minh City</li>
                                     <li style={{textAlign:'left'}}>Nguyen Van Hieu, Vietnam National University Ho Chi Minh City</li>
                                 </ul>
                             </div>
