@@ -22,11 +22,11 @@ const defaultProps = {
 //     // {key:'Conference',date: ['12/6/2021','12/9/2021']},
 // ]
 const _event = [
-    {key:'Abstract submission and registration', date: '6/1/2024',href:submissionabstractLink},
-    {key:'Full paper submission for presentation',date: '6/7/2024', href:submissionfullLink},
-    {key:'Conference payment fee',date: '6/7/2024',prefix:'before', href:'./registration'},
-    {key:'Session schedule announcement',date: '6/20/2024', href:'./programme'},
-    {key:'Conference day',date: ['11/15/2024','11/16/2024'], href:'./programme'},
+    {key:'Abstract submission and registration', date: '6/10/2024',href:submissionabstractLink},
+    {key:'Full paper submission for presentation',date: '7/10/2024', href:submissionfullLink},
+    {key:'Conference payment fee',date: '11/10/2024',prefix:'before', href:'./registration'},
+    {key:'Session schedule announcement',date: '11/10/2024', href:'./programme'},
+    {key:'Conference day',date: ['11/10/2024','11/11/2024','11/12/2024'], href:'./programme'},
     {key:'Full paper submission for publication',date: '11/30/2024', href:'./call-for-paper'},
     // {key:'Conference',date: ['12/6/2021','12/9/2021']},
 ]

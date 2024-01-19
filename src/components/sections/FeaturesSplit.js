@@ -89,7 +89,8 @@ class FeaturesSplit extends React.Component {
                       <li>Computing Science, Simulations and Modeling;</li>
                       <li>Embedded systems, Internet of Things, Machine Learning, Artificial Intelligence;</li>
                       <li>Biomedical Engineering, Digital Microfluidics and their applications;</li>
-                      <li>...</li>
+                      <li>Civil and Geology Engineering;</li>
+                      <li>Construction, Machines and Machinical Engineering;</li>
                     </ul>
                   </p>
                 </div>
@@ -116,7 +117,8 @@ class FeaturesSplit extends React.Component {
               <div className="pb-32">
                 <div className={"container-lg reveal-from-top"} >
                   <p>
-                    This year 5th ICEBA will be hosted at VNUHCM-University of Science, 227 Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city, Vietnam.
+                    This year 5th ICEBA will be hosted at VNUHCM-University of Science, 227 Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city, Vietnam
+                    and MienTay Construction University, 20B Pho Co Dieu Str., Ward 3, Vinh Long city, Việt Nam
                   </p>
                 </div>
               </div>
