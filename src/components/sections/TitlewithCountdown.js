@@ -91,7 +91,7 @@ class TitlewithCountdown extends React.Component {
                 <p className="mt-0 mb-32">
                   November 10, 2024 - VNUHCM-University of Science
                   227 Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city, Vietnam
-                  November 11-12, 2024 - MienTay Construction University
+                  <br/>November 11-12, 2024 - MienTay Construction University
                   20B Pho Co Dieu Str., Ward 3, Vinh Long city, Việt Nam
 
                 </p>
