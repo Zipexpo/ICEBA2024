@@ -89,8 +89,8 @@ class FeaturesSplit extends React.Component {
                       <li>Computing Science, Simulations and Modeling;</li>
                       <li>Embedded systems, Internet of Things, Machine Learning, Artificial Intelligence;</li>
                       <li>Biomedical Engineering, Digital Microfluidics and their applications;</li>
-                      <li>Civil and Geology Engineering;</li>
-                      <li>Construction, Machines and Machinical Engineering;</li>
+                      <li>Geology and Civil Engineering;</li>
+                      <li>Construction, Machines and Mechanical Engineering;</li>
                     </ul>
                   </p>
                 </div>

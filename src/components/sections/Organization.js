@@ -57,7 +57,7 @@ class Sponsor extends React.Component {
                   src={require('./../../assets/images/KHTN.png')}
                   alt="University of Science (VNUHCM)"
                   title="University of Science (VNUHCM)"
-                  width={180}
+                  width={150}
                   height={30} />
               </li>
               <li className="reveal-scale-up">
@@ -65,8 +65,16 @@ class Sponsor extends React.Component {
                   src={require('./../../assets/images/tohoku-university-logo.png')}
                   alt="Tohoku University (Japan)"
                   title="Tohoku University (Japan)"
-                  width={200}
+                  width={180}
                   height={39} />
+              </li>
+              <li className="reveal-scale-up">
+                <Image
+                    src={require('./../../assets/images/mtulogo.png')}
+                    alt="Mien Tay Construction University (MTU)"
+                    title="Mien Tay Construction University (MTU)"
+                    width={65}
+                    height={65} />
               </li>
             </ul>
             {/*<ul className="list-reset">*/}

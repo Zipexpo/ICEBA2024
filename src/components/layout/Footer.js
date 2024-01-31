@@ -47,6 +47,7 @@ class Footer extends React.Component {
               <div className="footer-block">
                 <div className="footer-block-title">Address</div>
                 <p>227 Nguyen Van Cu Street, District 5, Ho Chi Minh city, Vietnam.</p>
+                <p>2B, Pho Co Dieu Street, Ward 3, Vinh Long, Vietnam.</p>
               </div>
               <div className="footer-block">
                 <div className="footer-block-title">Email</div>
@@ -55,6 +56,7 @@ class Footer extends React.Component {
               <div className="footer-block">
                 <div className="footer-block-title">Contact</div>
                 <p>Office of Faculty of Physics and Engineering Physics, A Building</p>
+                <p>Institute of Science and International Cooperation, Research Building, Campus B</p>
               </div>
               {/*<FooterSocial />*/}
             </div>

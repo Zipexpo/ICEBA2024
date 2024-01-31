@@ -64,7 +64,7 @@ class Callforpaper extends React.Component {
                         <h2>Call for Papers</h2>
                         <p>The purpose of the 5<sup >th</sup> ICEBA2024 is to link the researchers and scientists from Vietnam, Australia, and Asian countries in the field of Engineering Physics and microelectronics and semiconductors for their applications in biomedical engineering, health sciences, hi-tech agriculture, and smart cities.  Besides, we also contribute to promoting international cooperation activities on joint research projects and international co-publications.</p>
 
-                        <p>ICEBA2024 will be hosted at VNUHCM-University of Science, Ho Chi Minh city, Vietnam.</p>
+                        <p>ICEBA2024 will be hosted at VNUHCM-University of Science, Ho Chi Minh city, Vietnam and Mien Tay Construction University – MTU, Vietnam.</p>
 
                         <p>Authors are invited to submit original, unpublished research manuscripts related to
                             conference subjects.</p>
@@ -84,12 +84,14 @@ class Callforpaper extends React.Component {
                             <li>Computing Science, Simulations and Modeling;</li>
                             <li>Embedded systems, Internet of Things, Machine Learning, Artificial Intelligence, ...</li>
                             <li>Biomedical Engineering, Digital Microfluidics and their applications;</li>
+                            <li>Geology and Civil Engineering;</li>
+                            <li>Construction, Machines and Mechanical Engineering;</li>
                         </ul>
                     </GenericSection>
                     <GenericSection topDivider>
                         <h2>Paper Submission</h2>
                         <p>
-                            Please submit your registration and abstract (around 200 words) via website or <a href = "mailto: 5iceba2024@gmail.com">5iceba2024@gmail.com</a> before <strong>October 30th , 2024</strong>.
+                            Please submit your registration and abstract (around 200 words) via website or <a href = "mailto: 5iceba2024@gmail.com">5iceba2024@gmail.com</a> before <strong>July 10th , 2024</strong>.
                         </p>
                         <p>
                             Full paper for peer-review process for presentation (as template) must be submit before <strong>November 15th , 2024</strong>
@@ -145,9 +147,9 @@ class Callforpaper extends React.Component {
                         <p><strong>The selected papers (from 4 to 8 pages)</strong> will be reviewed or recommended for publication in one of the below Scopus/SCIE/Scimago database Journal with your payment, such as:</p>
                         <ol style={{marginLeft:20}}>
                             <li>IEEJ Transactions on Electrical and Electronic Engineering (Scopus, Q3)</li>
-                            <li>IEEJ Transactions on Sensors and Micromachines (Scopus, Q4)</li>
-                            <li>Applied Sciences (MDPI, Scopus, IF: 2.9, Q1/Q2)</li>
-                            <li>Nanomaterials (MDPI, Scopus, IF:5.3, Q1)</li>
+                            <li>Special Issue of  Nanomaterials (MDPI, Scopus, IF:5.3, Q1)</li>
+                            <li>Journal of Construction</li>
+                            {/*<li>Nanomaterials (MDPI, Scopus, IF:5.3, Q1)</li>*/}
                         </ol>
                     </GenericSection>
 
