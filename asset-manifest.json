@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.af2ce2c2.css",
-    "main.js": "./static/js/main.0b6b2394.js",
+    "main.css": "./static/css/main.92c567d6.css",
+    "main.js": "./static/js/main.350631d0.js",
     "static/media/orangebackground.webm": "./static/media/orangebackground.4b59570bec21a379aa82.webm",
     "static/media/Booklet_ Abstract and Program ICEBA2024.pdf": "./static/media/Booklet_ Abstract and Program ICEBA2024.3579b2769c085000fa5b.pdf",
     "static/media/campus-entrance-fall.png": "./static/media/campus-entrance-fall.f05fce16ae45395796e8.png",
@@ -9,11 +9,9 @@
     "static/media/NSF_4-Color_bitmap_Logo.png": "./static/media/NSF_4-Color_bitmap_Logo.fb7efe9286a9b499c590.png",
     "static/media/tanhoanglong.jpg": "./static/media/tanhoanglong.f147a40183d3aecb10ff.jpg",
     "static/media/campus-entrance-fall.jpg": "./static/media/campus-entrance-fall.0ea1d45f81606e57e5e1.jpg",
-    "static/media/2020.png": "./static/media/2020.8b3db6ac22b987decbb2.png",
     "static/media/outside1.png": "./static/media/outside1.0b17e943d6cbc7d1913e.png",
     "static/media/inside2.jpg": "./static/media/inside2.4361992588baeab6f7ed.jpg",
     "static/media/Equatorial.jpg": "./static/media/Equatorial.99def26524ddf7b9262b.jpg",
-    "static/media/img.png": "./static/media/img.f7801be0a3213ba1d22f.png",
     "static/media/Praveen Kumar Donta.png": "./static/media/Praveen Kumar Donta.52c612244de56aa9a5a5.png",
     "static/media/Equatorial1.jpg": "./static/media/Equatorial1.9f102812f4cba23753be.jpg",
     "static/media/KHTN.png": "./static/media/KHTN.7733f409fb89e2f63734.png",
@@ -66,7 +64,6 @@
     "static/media/senviet2.webp": "./static/media/senviet2.baea7ecf03c02bd4cf30.webp",
     "static/media/sikmin.jpg": "./static/media/sikmin.74e8fb5b564a85c786a5.jpg",
     "static/media/Ono2010.jpg": "./static/media/Ono2010.32e727035316b43542be.jpg",
-    "static/media/Gul Agha.jpg": "./static/media/Gul Agha.152a16bcb003f436b04b.jpg",
     "static/media/Alex Uta.jpg": "./static/media/Alex Uta.7967d80682000ce2d22d.jpg",
     "static/media/Josef Spillner.jpg": "./static/media/Josef Spillner.2ac430495672cc2b8e0d.jpg",
     "static/media/Michela Taufer.jpg": "./static/media/Michela Taufer.1ab28695c7cdf920c0c6.jpg",
@@ -82,18 +79,13 @@
     "static/media/tohoku-university-logo.png": "./static/media/tohoku-university-logo.76805cd7ac850cc2f512.png",
     "static/media/Kenneth Johnson.jpg": "./static/media/Kenneth Johnson.bd1e1c2a8c2801150638.jpg",
     "static/media/Xinghui Zhao.jpg": "./static/media/Xinghui Zhao.e0469c58f2b932b1a40a.jpg",
-    "static/media/Nalini Venkatasubramanian.jpg": "./static/media/Nalini Venkatasubramanian.557b6e94bf9aa09d8baf.jpg",
-    "static/media/team-member-03.jpg": "./static/media/team-member-03.b9058c1f56f7235ed3a6.jpg",
     "static/media/ICS_stacked-transparent.gif": "./static/media/ICS_stacked-transparent.bc9f4a8c2b057e491750.gif",
     "static/media/Chu Vn To.jpg": "./static/media/Chu Vn To.86e5fabe778679604abf.jpg",
     "static/media/uol_logo.jpg": "./static/media/uol_logo.44518d23cca542dc53cf.jpg",
-    "static/media/team-member-01.jpg": "./static/media/team-member-01.64f550293c910759938b.jpg",
     "static/media/phamtrung.jpg": "./static/media/phamtrung.351fd9a62c7b71131500.jpg",
-    "static/media/team-member-05.jpg": "./static/media/team-member-05.4c3f902e22b89dcadfc1.jpg",
     "static/media/ACM2.png": "./static/media/ACM2.c1ba0a9de29ee19eff7c.png",
     "static/media/Jianwu Wang.jpg": "./static/media/Jianwu Wang.a0b886c498fc9d2b6d6f.jpg",
     "static/media/kookmin.png": "./static/media/kookmin.20ed94289f3e638a67b7.png",
-    "static/media/team-member-04.jpg": "./static/media/team-member-04.69b86ca32cd52de93e6b.jpg",
     "static/media/clients-02.svg": "./static/media/clients-02.cd0c7ac7dfcccb8d2ca5.svg",
     "static/media/clients-04.svg": "./static/media/clients-04.5d044abcb90d5bba17bc.svg",
     "static/media/clients-03.svg": "./static/media/clients-03.d0d59c31a10a2610ec52.svg",
@@ -130,11 +122,11 @@
     "static/media/features-split-image.svg": "./static/media/features-split-image.cd7c85bbd4b0f27c1bcdb9206013fecc.svg",
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
-    "main.af2ce2c2.css.map": "./static/css/main.af2ce2c2.css.map",
-    "main.0b6b2394.js.map": "./static/js/main.0b6b2394.js.map"
+    "main.92c567d6.css.map": "./static/css/main.92c567d6.css.map",
+    "main.350631d0.js.map": "./static/js/main.350631d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.af2ce2c2.css",
-    "static/js/main.0b6b2394.js"
+    "static/css/main.92c567d6.css",
+    "static/js/main.350631d0.js"
   ]
 }
