@@ -119,7 +119,7 @@ class Team extends React.Component {
                                 <ul style={{width:700}}>
                                     <li style={{textAlign:'left'}}>Huynh Van Tuan, VNUHCM-University of Science-Vietnam, Chair</li>
                                     <li style={{textAlign:'left'}}>Truong Cong Bang, MTU-Vietnam, Co-chair</li>
-                                    <li style={{textAlign:'left'}}>Nguyen Van Toan, Japan, Co-chair</li>
+                                    <li style={{textAlign:'left'}}>Nguyen Van Toan, Tohoku University-Japan, Co-chair</li>
                                     <li style={{textAlign:'left'}}>Tran Thien Thanh, VNUHCM-University of Science-Vietnam</li>
                                     <li style={{textAlign:'left'}}>Hoang Trang, VNUHCM-University of Technology-Vietnam</li>
                                     <li style={{textAlign:'left'}}>Kun-Yu Lai, National Central University-Taiwan</li>
