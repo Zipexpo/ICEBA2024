@@ -66,29 +66,30 @@ class TitlewithCountdown extends React.Component {
         className={outerClasses}
       >
         <div className={"cover-hero"}>
-            <div className={"cover-hero-image"} style={{backgroundImage:`url(${require('./../../assets/images/header.JPG')})`}}>
+            <div className={"cover-hero-image"} style={{backgroundImage:`url(${require('./../../assets/images/landing1.png')})`}}>
 
             </div>
             <div className={"cover-hero-cover"}>
 
             </div>
-            <div className={"cover-hero-video"}>
+            {/* <div className={"cover-hero-video"}>
               <video autoPlay muted loop id="coverVideo">
                 <source src={require('./../../assets/images/orangebackground.webm')} type="video/webm"/>
               </video>
-            </div>
+            </div> */}
             <div className={"hero-text container"}>
               <div className={"reveal-from-left"}>
                 <h1 className="mt-0 mb-16 text-shadow text-color-secondary">
                   ICEBA2024
                 </h1>
-                <h3 className="mt-0 mb-16" style={{color:"white"}}>
-                  The 5th International Conference on Engineering Physics, MEMS-Biosensors and Applications
-                </h3>
                 <h4 className="mt-0 mb-16" style={{color:"white"}}>
-                5 years anniversary
+                  The 5th International Conference on Engineering Physics, MEMS-Biosensors and Applications:
+                  <p className='text-sm md:text-xs' style={{fontStyle:"italic"}}> Co-operation to developing the Mekong Delta.</p>
                 </h4>
-                <p className="mt-0 mb-32">
+                <h5 className="mt-0 mb-16" style={{color:"white"}}>
+                5 years anniversary
+                </h5>
+                <p className="mt-0 mb-32" style={{backgroundColor:"rgb(255 252 185 / 44%)"}}>
                   November 10, 2024 - VNUHCM-University of Science
                   227 Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city, Vietnam
                   <br/>November 11-12, 2024 - MienTay Construction University

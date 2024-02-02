@@ -273,7 +273,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(get-color(primary, 3),rgba(get-color(primary, 3),0.8), rgba(255, 255, 255, 0.6), rgba(212, 220, 250, 0.7), get-color(tertiary, 4));
+    background-image: linear-gradient(get-color(primary, 3),rgba(get-color(primary, 3),0.5), rgba(255, 255, 255, 0.1), rgba(212, 220, 250, 0.1), get-color(tertiary, 4));
   }
   .hero-text {
     text-align: center;
@@ -282,7 +282,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     //color: get-color(dark, 1);
-    color: rgba(255, 255, 255, 0.76);
+    // color: rgba(255, 255, 255, 0.76);
+    color: rgba(0, 0, 0, 0.87);
     //max-width: 100%;
   }
 }
