@@ -89,10 +89,8 @@ class TitlewithCountdown extends React.Component {
                 5 years anniversary
                 </h5>
                 <p className="mt-0 mb-32" style={{backgroundColor:"rgb(255 252 185 / 44%)"}}>
-                  November 10, 2024 - VNUHCM-University of Science
-                  227 Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city, Vietnam
-                  <br/>November 11-12, 2024 - MienTay Construction University
-                  20B Pho Co Dieu Str., Ward 3, Vinh Long city, Vietnam
+                  Nov. 10, 2024 - VNUHCM-University of Science, Ho Chi Minh city, Vietnam
+                  <br/>Nov. 11-12, 2024 - MienTay Construction University, Vinh Long city, Vietnam
 
                 </p>
                 <Countdown date={new Date('11/10/2024')}/>
