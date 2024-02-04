@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.24d3bc26.css",
-    "main.js": "./static/js/main.c3d4e49b.js",
+    "main.js": "./static/js/main.e8273776.js",
     "static/media/vl.png": "./static/media/vl.32b23e589659b608eb30.png",
     "static/media/mangthit6.png": "./static/media/mangthit6.21d6925dd1ebf2131471.png",
     "static/media/orangebackground.webm": "./static/media/orangebackground.4b59570bec21a379aa82.webm",
@@ -10,6 +10,8 @@
     "static/media/Booklet_ Abstract and Program ICEBA2024.pdf": "./static/media/Booklet_ Abstract and Program ICEBA2024.3579b2769c085000fa5b.pdf",
     "static/media/landing1.png": "./static/media/landing1.13152030960613330c5a.png",
     "static/media/landing2.png": "./static/media/landing2.5df4c2192b6a80ffa366.png",
+    "static/media/landing4.png": "./static/media/landing4.fe5a33f79d632a58ea51.png",
+    "static/media/landing3.png": "./static/media/landing3.28d48efef22ddb8f6b49.png",
     "static/media/campus-entrance-fall.png": "./static/media/campus-entrance-fall.f05fce16ae45395796e8.png",
     "static/media/senviet.jpg": "./static/media/senviet.e7d8f4a8c4fbefb2a589.jpg",
     "static/media/NSF_4-Color_bitmap_Logo.png": "./static/media/NSF_4-Color_bitmap_Logo.fb7efe9286a9b499c590.png",
@@ -156,10 +158,10 @@
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
     "main.24d3bc26.css.map": "./static/css/main.24d3bc26.css.map",
-    "main.c3d4e49b.js.map": "./static/js/main.c3d4e49b.js.map"
+    "main.e8273776.js.map": "./static/js/main.e8273776.js.map"
   },
   "entrypoints": [
     "static/css/main.24d3bc26.css",
-    "static/js/main.c3d4e49b.js"
+    "static/js/main.e8273776.js"
   ]
 }
