@@ -5,7 +5,7 @@ import { SectionSplitProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
 import Countdown from '../elements/Countdown';
 // import Button from "@mui/material/Button/Button";
-import {ButtonGroup, CardMedia} from "@mui/material";
+import {ButtonGroup, CardMedia, Box} from "@mui/material";
 import DownloadIcon from '@mui/icons-material/Download';
 import Button from "../elements/Button";
 
@@ -66,9 +66,8 @@ class TitlewithCountdown extends React.Component {
         className={outerClasses}
       >
         <div className={"cover-hero"}>
-            <div className={"cover-hero-image"} style={{backgroundImage:`url(${require('./../../assets/images/landing1.png')})`}}>
-
-            </div>
+            <Box className={"cover-hero-image"} sx={{backgroundImage:{xs:`url(${require('./../../assets/images/landing4.png')})`,sm:`url(${require('./../../assets/images/landing3.png')})`}}} >
+            </Box>
             <div className={"cover-hero-cover"}>
 
             </div>
