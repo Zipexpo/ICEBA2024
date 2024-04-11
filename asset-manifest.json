@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.24d3bc26.css",
-    "main.js": "./static/js/main.9d3ecaba.js",
+    "main.js": "./static/js/main.68f2d450.js",
     "static/media/vl.png": "./static/media/vl.32b23e589659b608eb30.png",
     "static/media/mangthit6.png": "./static/media/mangthit6.21d6925dd1ebf2131471.png",
     "static/media/orangebackground.webm": "./static/media/orangebackground.4b59570bec21a379aa82.webm",
@@ -31,6 +31,7 @@
     "static/media/Equatorial4.jpg": "./static/media/Equatorial4.40acf481c66ce5f8e08c.jpg",
     "static/media/venueHolder.png": "./static/media/venueHolder.53dc42a817587559862f.png",
     "static/media/MTU2.jpg": "./static/media/MTU2.2b483f065ffb34582ed5.jpg",
+    "static/media/2. Call For Papers_5thICEBA2024.pdf": "./static/media/2. Call For Papers_5thICEBA2024.3764b0245b41cb3562a0.pdf",
     "static/media/MTU3.jpg": "./static/media/MTU3.76772a65316b64a1f029.jpg",
     "static/media/MTU1.jpg": "./static/media/MTU1.7b8ab7fd1cd8c0028c2c.jpg",
     "static/media/MTU4.jpg": "./static/media/MTU4.848abce6fa7997e27902.jpg",
@@ -44,7 +45,6 @@
     "static/media/kunyu.jpg": "./static/media/kunyu.f1b9ba584d473bd4279e.jpg",
     "static/media/mangthit3.jpg": "./static/media/mangthit3.40a5ac52c07828165fa5.jpg",
     "static/media/features-split-top-01.png": "./static/media/features-split-top-01.f4fabdab0417842c9877.png",
-    "static/media/2. Call For Papers_5thICEBA2024.pdf": "./static/media/2. Call For Papers_5thICEBA2024.b2f77911d9d0af829bbf.pdf",
     "static/media/mangthit9.jpg": "./static/media/mangthit9.cae1c59093819baae71c.jpg",
     "static/media/1. Announcement of 5thICEBA2024.pdf": "./static/media/1. Announcement of 5thICEBA2024.2385493515576d45e0d6.pdf",
     "static/media/mangthit8.jpg": "./static/media/mangthit8.bd0a937d2085c7ca70f1.jpg",
@@ -88,6 +88,7 @@
     "static/media/unknown.jpg": "./static/media/unknown.ad7d5e3b781869ba749a.jpg",
     "static/media/senviet3.webp": "./static/media/senviet3.48a231abbb5fd72ce754.webp",
     "static/media/IEEE_VN_Logo_Rect.jpg": "./static/media/IEEE_VN_Logo_Rect.c061e04b3cf3cb9300f0.jpg",
+    "static/media/mtulogo.png": "./static/media/mtulogo.41d0babcaceaf00300fe.png",
     "static/media/snake.jpg": "./static/media/snake.6b3c6d598ec7c5c6cfbd.jpg",
     "static/media/ngochung3.jpg": "./static/media/ngochung3.85297ee9cadee91d466f.jpg",
     "static/media/IEEE_logo.jpg": "./static/media/IEEE_logo.52e039f46fd97039a08c.jpg",
@@ -158,10 +159,10 @@
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
     "main.24d3bc26.css.map": "./static/css/main.24d3bc26.css.map",
-    "main.9d3ecaba.js.map": "./static/js/main.9d3ecaba.js.map"
+    "main.68f2d450.js.map": "./static/js/main.68f2d450.js.map"
   },
   "entrypoints": [
     "static/css/main.24d3bc26.css",
-    "static/js/main.9d3ecaba.js"
+    "static/js/main.68f2d450.js"
   ]
 }
