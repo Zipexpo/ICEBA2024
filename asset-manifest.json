@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "./static/css/main.c8964e82.css",
-    "main.js": "./static/js/main.aecdd080.js",
+    "main.js": "./static/js/main.a6a72d26.js",
     "static/media/vl.png": "./static/media/vl.32b23e589659b608eb30.png",
     "static/media/mangthit6.png": "./static/media/mangthit6.21d6925dd1ebf2131471.png",
     "static/media/orangebackground.webm": "./static/media/orangebackground.4b59570bec21a379aa82.webm",
     "static/media/mangthit4.png": "./static/media/mangthit4.d0dc62d3359de67a54e1.png",
     "static/media/mangthit5.png": "./static/media/mangthit5.e7cf4e3b269b5e7a2ba8.png",
-    "static/media/Booklet_ Abstract and Program ICEBA2024.pdf": "./static/media/Booklet_ Abstract and Program ICEBA2024.3579b2769c085000fa5b.pdf",
     "static/media/landing1.png": "./static/media/landing1.13152030960613330c5a.png",
     "static/media/landing2.png": "./static/media/landing2.5df4c2192b6a80ffa366.png",
     "static/media/landing4.png": "./static/media/landing4.fe5a33f79d632a58ea51.png",
@@ -90,6 +89,7 @@
     "static/media/IEEE_VN_Logo_Rect.jpg": "./static/media/IEEE_VN_Logo_Rect.c061e04b3cf3cb9300f0.jpg",
     "static/media/mtulogo.png": "./static/media/mtulogo.41d0babcaceaf00300fe.png",
     "static/media/snake.jpg": "./static/media/snake.6b3c6d598ec7c5c6cfbd.jpg",
+    "static/media/2.Program_ICEBA2024_updated_v2.docx": "./static/media/2.Program_ICEBA2024_updated_v2.bca7216a14fa867df717.docx",
     "static/media/ngochung3.jpg": "./static/media/ngochung3.85297ee9cadee91d466f.jpg",
     "static/media/IEEE_logo.jpg": "./static/media/IEEE_logo.52e039f46fd97039a08c.jpg",
     "static/media/tanhoanglong2.webp": "./static/media/tanhoanglong2.98f035582d9e8aba5971.webp",
@@ -159,10 +159,10 @@
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
     "main.c8964e82.css.map": "./static/css/main.c8964e82.css.map",
-    "main.aecdd080.js.map": "./static/js/main.aecdd080.js.map"
+    "main.a6a72d26.js.map": "./static/js/main.a6a72d26.js.map"
   },
   "entrypoints": [
     "static/css/main.c8964e82.css",
-    "static/js/main.aecdd080.js"
+    "static/js/main.a6a72d26.js"
   ]
 }
