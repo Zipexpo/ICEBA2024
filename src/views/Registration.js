@@ -63,6 +63,7 @@ class Keynote extends React.Component {
               </>
             ),
           }}
+          link={registerLink}
           // extraContent={<div className={'center-content'}>
           //     <Button tag={'a'}
           //             color={'primary'}
