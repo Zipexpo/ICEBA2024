@@ -63,13 +63,15 @@ class Callforpaper extends React.Component {
             <h2>Call for Papers</h2>
             <p>
               The purpose of the 5<sup>th</sup> ICEBA2024 is to link the
-              researchers and scientists from Vietnam, Australia, and Asian
-              countries in the field of Engineering Physics and microelectronics
-              and semiconductors for their applications in biomedical
-              engineering, health sciences, hi-tech agriculture, and smart
-              cities. Besides, we also contribute to promoting international
-              cooperation activities on joint research projects and
-              international co-publications.
+              researchers and scientists from Vietnam and countries around the
+              world, especially Asian countries, in the fields of Engineering,
+              Physics, microelectronics, semiconductors, and electronic
+              engineering for their applications in biomedical engineering,
+              health sciences, hi-tech agriculture, and smart cities. Besides,
+              we also contribute to promoting international cooperation
+              activities by joining research projects and international
+              co-publications and proposing good solutions and applied
+              technology for the development of the Mekong Delta area.
             </p>
 
             <p>
@@ -90,10 +92,13 @@ class Callforpaper extends React.Component {
             </p>
           </GenericSection>
           <GenericSection topDivider>
-            <h2>Topics of interest include (but not limited to)</h2>
+            <h2>
+              Contributed papers must be the new research works and are
+              solicited in the following subject areas (but not limited to):
+            </h2>
             <ul>
               <li>
-                Applied Physics, Engineering Physics, Electronic Engineering and
+                Engineering, Engineering Physics, Electronic Engineering and
                 Nuclear Engineering;
               </li>
               <li>
@@ -109,25 +114,21 @@ class Callforpaper extends React.Component {
                 Embedded systems, Internet of Things, Machine Learning,
                 Artificial Intelligence, ...
               </li>
-              <li>
-                Biomedical Engineering, Digital Microfluidics and their
-                applications;
-              </li>
-              <li>Geology and Civil Engineering;</li>
-              <li>Construction, Machines and Mechanical Engineering;</li>
+              <li>Civil and Geology Engineering;</li>
+              <li>Constructions, Machines, and Mechanical Engineering;</li>
             </ul>
           </GenericSection>
           <GenericSection topDivider>
             <h2>Paper Submission</h2>
             <p>
               Please submit your registration and abstract (around 200 words)
-              via website or{" "}
-              <a href="mailto: iceba@hcmus.edu.vn">iceba@hcmus.edu.vn</a> before{" "}
-              <strong>July 10th , 2024</strong>.
+              via website or
+              <a href="mailto: iceba@hcmus.edu.vn">iceba@hcmus.edu.vn</a> before
+              <strong>June 10th , 2024</strong>.
             </p>
             <p>
               Full paper for peer-review process for presentation (as template)
-              must be submit before <strong>November 15th , 2024</strong>
+              must be submit before <strong>July 10th , 2024</strong>
             </p>
             {/*<p>*/}
             {/*    All manuscripts will be reviewed and judged on correctness, originality, technical strength,*/}
@@ -180,7 +181,7 @@ class Callforpaper extends React.Component {
               </ButtonGroup2>
             </p>
             <p>
-              Click here to submit:{" "}
+              Click here to submit:
               <Button
                 color="primary"
                 style={{ marginLeft: 5, marginRight: 5 }}
@@ -207,15 +208,22 @@ class Callforpaper extends React.Component {
             <p>
               <strong>The selected papers (from 4 to 8 pages)</strong> will be
               reviewed or recommended for publication in one of the below
-              Scopus/SCIE/Scimago database Journal with your payment, such as:
+              Scopus/SCIE/Scimago database Journal (with fee) such as:
             </p>
             <ol style={{ marginLeft: 20 }}>
               <li>
-                IEEJ Transactions on Electrical and Electronic Engineering
-                (Scopus, Q3)
+                The special issue of Applied Science (MDPI, Scopus, IF:5.3,
+                Q1/Q2);
               </li>
-              <li>Special Issue of Nanomaterials (MDPI, Scopus, IF:5.3, Q1)</li>
-              <li>Journal of Construction</li>
+              <li>
+                IEEJ Transactions on Electrical and Electronic Engineering
+                (Scopus, Q3);
+              </li>
+              <li>The special issue of ICEBA on IEEJ-TSC (Scopus, Q4);</li>
+              <li>
+                Journal of Construction (Ministry of Construction, Vietnam, ISSN
+                2734-9888);
+              </li>
               {/*<li>Nanomaterials (MDPI, Scopus, IF:5.3, Q1)</li>*/}
             </ol>
           </GenericSection>

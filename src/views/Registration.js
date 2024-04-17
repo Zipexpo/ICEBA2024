@@ -4,7 +4,7 @@ import Image from "../components/elements/Image";
 import Pricing from "../components/sections/Pricingv2";
 import GenericSection from "../components/sections/GenericSection";
 import ImportantDate from "../components/sections/ImportantDate";
-import Button from "../components/elements/Button";
+import { registerLink } from "../utils/ulti";
 import ButtonGroup from "../components/elements/ButtonGroup";
 
 const fees = [
@@ -27,15 +27,15 @@ const fees = [
       },
       {
         price: [
-          ["$", "100.00", ""],
-          ["", "2.000.000", "VNĐ"],
+          ["$", "150.00", "on-site $200"],
+          ["", "3.000.000", "VNĐ"],
         ],
         description: ["Professors", "Researchers", "Lecturers"],
       },
       {
         price: [
-          ["$", "50.00", ""],
-          ["", "1.000.000", "VNĐ"],
+          ["$", "75.00", "on-site $100"],
+          ["", "1.500.000", "VNĐ"],
         ],
         description: ["Students and belong"],
       },
@@ -44,8 +44,8 @@ const fees = [
 ];
 
 const deadline = [
-  { key: "Abstract submission and registration", date: "30 October 2024" },
-  { key: "Conference payment fee", date: "15 November 2024", prefix: "before" },
+  { key: "Abstract submission and registration", date: "10 Jun 2024" },
+  { key: "Conference payment fee", date: "10 October 2024", prefix: "before" },
 ];
 class Keynote extends React.Component {
   render() {
@@ -102,12 +102,10 @@ class Keynote extends React.Component {
           {/*</p>*/}
         </GenericSection>
         <GenericSection topOuterDivider>
-          <h2 className={"mt-0"} className={"center-content"}>
-            Cancellation Policy
-          </h2>
+          <h2 className={"mt-0 center-content"}>Cancellation Policy</h2>
           <p>
             All refund/cancellation requests must be received in writing to
-            registration by{" "}
+            registration by
             <span style={{ color: "red" }}>{deadline[1].date}</span>, 11:59 PM.
           </p>
           <p>
@@ -118,7 +116,7 @@ class Keynote extends React.Component {
         <HeroFull
           content={{
             title: (
-              <a target="_blank" href="https://forms.gle/gRbujFsLi9fmRUe47">
+              <a target="_blank" href={registerLink}>
                 REGISTER NOW!
               </a>
             ),

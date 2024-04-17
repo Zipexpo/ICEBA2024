@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "../components/elements/Image";
+import * as moment from "moment";
 import classNames from "classnames";
 // import "../assets/agenda/resources/sheet.css"
 import "./Program.css";
@@ -58,10 +59,10 @@ class Program extends React.Component {
             <div className={innerClasses}>
               <div className="hero-content">
                 <h3>
-                  5th ICEBA 2024 Program at A Glance{" "}
+                  5th ICEBA 2024 Program at A Glance
                   <Button2
                     size="small"
-                    href={require("../assets/files/Booklet_ Abstract and Program ICEBA2024.pdf")}
+                    href={require("../assets/files/2.Program_ICEBA2024_updated_v2.docx")}
                     download
                     className={"button"}
                   >
@@ -87,18 +88,43 @@ class Program extends React.Component {
                       </tr>
                       <tr>
                         <td className="s0  button-primary" colSpan="3">
-                          1st day of Conference (December 8, Friday)
+                          November 10 (Sunday) at Ho Chi Minh City
                         </td>
                       </tr>
                       <tr>
-                        <td className="s3">07:30 - 08:45</td>
+                        <td className="s3">12:00-18:00</td>
+                        <td className="s4" colSpan="2">
+                          Registration
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="s3">17:00-18:00</td>
+                        <td className="s4">
+                          Meeting of Program Committee and Chair/co-chair
+                          session of ICEBA2024
+                        </td>
+                        <td className="s5">
+                          VNUHCM- University of Science (227 Nguyen Van Cu,
+                          District 5, HCM city)
+                        </td>
+                      </tr>
+                      <tr style={{ height: "20px" }}></tr>
+                      <tr>
+                        <td className="s0  button-primary" colSpan="3">
+                          November 11 (Monday) at Ho Chi Minh City and Vinh Long
+                          Province
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="s3">07:30-07:45</td>
                         <td className="s4">
                           Registration (Check list, nameplate,
                           Abstract&Program,etc.)
                         </td>
                         <td className="s5">
                           -Lobby of conference room: Building I, University of
-                          Science, HCM city, Vietnam. -The secretary
+                          Science, HCM city, Vietnam. <br />
+                          -The secretary
                         </td>
                       </tr>
                       <tr>
@@ -113,173 +139,113 @@ class Program extends React.Component {
                           </strong>
                         </td>
                       </tr>
-                      {/*<tr>*/}
 
-                      {/*    <td className="s3" dir="ltr">08:45 - 09:00</td>*/}
-                      {/*    <td className="s4">Opening</td>*/}
-                      {/*    <td className="s5" rowSpan={2}>Hall I</td>*/}
-                      {/*</tr>*/}
                       <tr>
                         <td className="s3" dir="ltr">
-                          09:00 - 09:10
+                          08:00-08:10
                         </td>
                         <td className="s4">1. Introduce Guests (MC)</td>
                         <td className="s5" rowSpan="2">
-                          MC: Dr. Ho Thanh Huy (VNUHCM-US)
+                          MC
                         </td>
                       </tr>
                       <tr>
-                        <td className="s3">09:10 - 09:25</td>
+                        <td className="s3">08:10-08:25</td>
                         <td className="s4">
                           2. Welcome speeches:
                           <Typography variant={"subtitle2"}>
-                            - Welcome speech from the president of VNUHCM-US:
-                            Prof. Tran Le Quan;
+                            - Welcome speech from the president of VNUHCM-US;
                           </Typography>
                           <Typography variant={"subtitle2"}>
-                            - Speech from Co-General Chair of 5th ICEBA2024:
-                            Prof. Takahito Ono and Prof. Nguyen Van Hieu;
+                            - Speech from Co-General Chairs of ICEBA2024;
                           </Typography>
                           <Typography variant={"subtitle2"}>
-                            - Speech from Program Chair of 5th ICEBA2024: Prof.
-                            Huynh Van Tuan.
+                            - Speech from Program Chair of ICEBA2024;
                           </Typography>
                         </td>
                       </tr>
                       <tr>
-                        <td className="s3">09:25 - 09:35</td>
+                        <td className="s3">08:25-08:35</td>
                         <td className="s4">
                           3. Offer the gift for invited speakers
                           <Typography variant={"subtitle2"}>
-                            - Plenary talks
+                            - Plenary invited talks
                           </Typography>
                           <Typography variant={"subtitle2"}>
-                            - Invited talks
+                            - Invited talks.
                           </Typography>
                         </td>
-                        <td className="s5">VNUHCM-US</td>
+                        <td className="s5">Vice President of VNUHCM-US</td>
                       </tr>
                       <tr>
-                        <td className="s3">09:40 - 09:50</td>
+                        <td className="s3">08:40-08:50</td>
                         <td className="s4">
-                          4. The MoU signing ceremony for the host of the 6th
-                          ICEBA2025 conference in 2025
+                          4. Announcement for the 6th ICEBA2025 in Taiwan
                         </td>
-                        <td className="s5">
-                          VNUHCM-University of Science, Tohoku
-                          University-Ono/Toda Lab and National Central
-                          University (Taiwan)
-                        </td>
+                        <td className="s5">Program Committee of ICEBA2024</td>
                       </tr>
                       <tr>
-                        <td className="s3">09:50 - 10:00</td>
+                        <td className="s3">08:50-09:00</td>
                         <td className="s4">Coffee break</td>
                         <td className="s5">Lobby</td>
                       </tr>
                       <tr>
-                        <td className="s3">10:00 - 11:50</td>
+                        <td className="s3">09:00-10:50</td>
                         <td className="s4" colSpan={2}>
                           5. Plenary and Invited Session:
                           <span style={{ fontWeight: "normal" }}>
                             15 min for talk and 5 min for discussion
                           </span>
+                          <Typography variant={"subtitle2"}>Chair:</Typography>
                           <Typography variant={"subtitle2"}>
-                            Chair: Prof. Takahito Ono (Tohoku University, Japan)
+                            Co-Chair:
                           </Typography>
-                          <Typography variant={"subtitle2"}>
-                            Co-Chair: Prof. Nguyen Van Hieu (VNUHCM, Vietnam)
-                          </Typography>
-                          <Typography variant={"subtitle2"}>
-                            Link google meet for online:{" "}
+                          {/* <Typography variant={"subtitle2"}>
+                            Link google meet for online:
                             <a
                               href={"https://meet.google.com/zeb-ddeo-ukh"}
                               target={"_blank"}
                             >
                               https://meet.google.com/zeb-ddeo-ukh
                             </a>
-                          </Typography>
+                          </Typography> */}
                         </td>
                       </tr>
                       <tr>
-                        <td className="s3">10:00 - 10:20</td>
+                        <td className="s3"></td>
                         <td className="s4">
-                          . Plenary #1 (code: PL-01). Prof. Takahito Ono
-                          <Typography variant={"subtitle2"}>
+                          . Plenary #1 (code: PL-01).
+                          {/* <Typography variant={"subtitle2"}>
                             Tohoku University, Japan
-                          </Typography>
+                          </Typography> */}
                         </td>
-                        <td className="s5">
-                          Micro/Nanosensors for Healthcare Applications
-                        </td>
+                        <td className="s5">Will be updated</td>
                       </tr>
                       <tr>
-                        <td className="s3">10:20 - 10:40</td>
-                        <td className="s4">
-                          . Plenary #2 (code: PL-02)(online) Prof. Dao Viet
-                          Dzung
-                          <Typography variant={"subtitle2"}>
-                            Griffith University, Australia
-                          </Typography>
-                        </td>
-                        <td className="s5">High Performance MEMS Sensors</td>
+                        <td className="s3"></td>
+                        <td className="s4">. Plenary #2 (code: PL-02).</td>
+                        <td className="s5">Will be updated</td>
                       </tr>
                       <tr>
-                        <td className="s3">10:40 - 11:00</td>
-                        <td className="s4">
-                          . Plenary #3 (code: PL-03) Prof. Kyeong-Sik Min
-                          <Typography variant={"subtitle2"}>
-                            Kookmin University, Seoul, Korea
-                          </Typography>
-                        </td>
-                        <td className="s5">
-                          Energy-efficient AI computing hardware by processing
-                          in memory and local learning
-                        </td>
+                        <td className="s3"></td>
+                        <td className="s4">. Plenary #3 (code: PL-03).</td>
+                        <td className="s5">Will be updated</td>
                       </tr>
                       <tr>
-                        <td className="s3">11:00 - 11:15</td>
-                        <td className="s4">
-                          . Plenary #4 (code: PL-04) (online) Dr. Pham Thanh
-                          Trung
-                          <Typography variant={"subtitle2"}>
-                            NISM, University of Namur, Belgium
-                          </Typography>
-                        </td>
-                        <td className="s5">
-                          New transfer technique for graphene and other 2D
-                          materials on Si substrates for electronic devices
-                        </td>
+                        <td className="s3"></td>
+                        <td className="s4">. Plenary #4 (code: PL-04).</td>
+                        <td className="s5">Will be updated</td>
                       </tr>
                       <tr>
-                        <td className="s3">11:15 - 11:30</td>
-                        <td className="s4">
-                          . Plenary #5 (code: PL-05) (online) Prof. Congo Tak
-                          Shing Ching
-                          <Typography variant={"subtitle2"}>
-                            National Chung Hsing University, Taiwan
-                          </Typography>
-                        </td>
-                        <td className="s5">
-                          Biological matter recognition using
-                          micro-interdigitated electrode array and electrical
-                          impedance spectroscopy
-                        </td>
+                        <td className="s3"></td>
+                        <td className="s4">. Plenary #5 (code: PL-05).</td>
+                        <td className="s5">Will be updated</td>
                       </tr>
+
                       <tr>
-                        <td className="s3">11:30 - 11:50</td>
-                        <td className="s4">
-                          . Plenary #6 (code: PL-06) Prof. Kun-Yu Lai
-                          <Typography variant={"subtitle2"}>
-                            DOP, National Central University, Taiwan
-                          </Typography>
+                        <td className="s3" rowSpan={8}>
+                          11:00 - 11:30
                         </td>
-                        <td className="s5">
-                          InGaN quantum well: A new material for
-                          surface-enhanced Raman spectroscopy
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className="s3">11:40 - 12:30</td>
                         <td className="s8" colSpan="2">
                           <Typography variant={"subtitle1"} color={"primary"}>
                             2. POSTER SESSION
@@ -288,20 +254,78 @@ class Program extends React.Component {
                             Lobby of Conference Hall I, Building I, 227 Nguyen
                             Van Cu Str., District 5, HCMC
                           </strong>
+                          <br />- Chair:
+                          <br />- Co-Chair:
+                          <br />- Technical Assistant:
                         </td>
                       </tr>
                       <tr>
-                        <td className="s3">12:30 - 13:30</td>
+                        <td className="s4">From Session 1</td>
+                        <td className="s5">Will be updated</td>
+                      </tr>
+                      <tr>
+                        <td className="s4">From Session 2</td>
+                        <td className="s5">Will be updated</td>
+                      </tr>
+                      <tr>
+                        <td className="s4">From Session 3</td>
+                        <td className="s5">Will be updated</td>
+                      </tr>
+                      <tr>
+                        <td className="s4">From Session 4</td>
+                        <td className="s5">Will be updated</td>
+                      </tr>
+                      <tr>
+                        <td className="s4">From Session 5</td>
+                        <td className="s5">Will be updated</td>
+                      </tr>
+                      <tr>
+                        <td className="s4">From Session 6</td>
+                        <td className="s5">Will be updated</td>
+                      </tr>
+                      <tr>
+                        <td className="s4">From Session 7</td>
+                        <td className="s5">Will be updated</td>
+                      </tr>
+                      <tr>
+                        <td className="s3">11:45-12:45</td>
                         <td className="s4" colSpan="2">
-                          Lunch
+                          Lunchtime
                         </td>
                       </tr>
                       <tr>
-                        <td className="s3">14:00 - 16:30</td>
+                        <td className="s8 closeleft" colSpan="3">
+                          <Typography variant={"subtitle1"} color={"primary"}>
+                            4. TRANSPORTATION FOR VINH LONG PROVINCE (MTU)
+                          </Typography>
+                          <strong>13:00-16:00</strong> Transportation for Vinh
+                          Long Province (110 km, by Limousine bus)
+                          <br />
+                          <strong>16:00-18:00</strong> Sightseeing in Vinh Long
+                          city
+                          <br />
+                          <strong>18:00-21:00</strong> Check in and dinner
+                        </td>
+                      </tr>
+
+                      <tr style={{ height: "20px" }}></tr>
+                      <tr>
+                        <td className="s0  button-primary" colSpan="3">
+                          November 12 (Tuesday) at Vinh Long Province and Ho Chi
+                          Minh City
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="s3">08:00-11:00</td>
                         <td className="s8" colSpan="2">
                           <Typography variant={"subtitle1"} color={"primary"}>
-                            3. PARALLEL SESSION
+                            1. PARALLEL SESSION
                           </Typography>
+                          <strong>
+                            at Mien Tay Construction University, Vinh Long
+                            province.
+                          </strong>
+                          <br />
                           <strong>Invited talk:</strong> 20 min (15 min for talk
                           and 5 min for discussion);
                           <br />
@@ -310,180 +334,75 @@ class Program extends React.Component {
                         </td>
                       </tr>
                       <tr>
-                        <td className="s3">17:00 - 17:30</td>
+                        <td className="s3">11:20-12:30</td>
                         <td className="s8" colSpan="2">
                           <Typography variant={"subtitle1"} color={"primary"}>
-                            4. MEETING OF PROGRAM COMMITTEE FOR 6th ICEBA2024
+                            2. CLOSING CEREMONY
                           </Typography>
-                          Room B40, Building I, 227 Nguyen Van Cu Str., District
-                          5, HCMC <br />
-                          Participant: Scientific Committee, Program Committee,
-                          Local Committee and other guests
+                          Location:…………….., Building I, MTU
                         </td>
                       </tr>
                       <tr>
-                        <td className="s3">18:00 - 21:00</td>
+                        <td className="s3">11:20-11:30</td>
+                        <td className="s4">1. Introduce Guests</td>
+                        <td className="s5">MC</td>
+                      </tr>
+                      <tr>
+                        <td className="s3">11:30-11:50</td>
+                        <td className="s4">
+                          2. Closing Remarks:
+                          <Typography variant="subtitle1">
+                            - From the president of MTU; <br />- Report of
+                            ICEBA2024;
+                          </Typography>
+                        </td>
+                        <td className="s5"></td>
+                      </tr>
+                      <tr>
+                        <td className="s3">11:50-12:10</td>
+                        <td className="s4">
+                          3. The 5-Year Anniversary of ICEBA
+                          <Typography variant="subtitle1">
+                            - Speech from the president of VNUHCM-US;
+                            <br />
+                            - MoA Signing Ceremony;
+                            <br />- Gifts for VIPs, Guests
+                          </Typography>
+                        </td>
+                        <td className="s5"></td>
+                      </tr>
+                      <tr>
+                        <td className="s3">12:10-12:20</td>
+                        <td className="s4">
+                          4. Outstanding Oral and poster presentation
+                        </td>
+                        <td className="s5"></td>
+                      </tr>
+                      <tr>
+                        <td className="s3">11:20-11:30</td>
+                        <td className="s4">
+                          5. Welcome to ICEBA2025 in Taiwan
+                        </td>
+                        <td className="s5">
+                          Co-chair Program ofICEBA2025 (NCU- Taiwan)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="s3">12:30-13:30</td>
                         <td className="s8" colSpan="2">
                           <Typography variant={"subtitle1"} color={"primary"}>
-                            5. DINNER PARTY
+                            3. FAREWELL LUNCH PARTY
                           </Typography>
-                          <strong>241 Restaurant</strong>
-                          <br />
-                          <a
-                            hreaf="https://www.google.com/maps/dir//241+restaurant/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x31752f1893432449:0x764552857a6a56b2?sa=X&ved=2ahUKEwj-os72xuWCAxW4r1YBHfqZAd4Q9Rd6BAgYEAA"
-                            target="_blank"
-                          >
-                            45 Phạm Viết Chánh Street, Ward Nguyễn Cư Trinh,
-                            District 1, Hồ Chí Minh City
-                          </a>
-                          <br />
-                          (Departure at 17:45 by walk)
-                          <br />
-                          Participant: VIP Guests, Invited speakers, Scientific
-                          Committee, Program Committee, Local Committee,
-                          Participantsetc.
-                          <br />
-                          Program: The summary of 5iceba2024, Poster prize,
-                          Thanks gifts, Closing remarks and Dinner.
+                          <strong>MTU, Vinh Long Province</strong>
                         </td>
                       </tr>
-                      <tr style={{ height: "20px" }}></tr>
+
                       <tr>
-                        <td className="s0  button-primary" colSpan="3">
-                          2nd day of Conference (December 9, Saturday): Tutorial
-                          Session and City tour
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className="s3">07:30 - 07:50</td>
-                        <td className="s4">Registration</td>
-                        <td className="s5">
-                          Lobby of E.303 (Building E, 3rd floor)
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className="s8 closeleft" colSpan="3">
+                        <td className="s3">14:00-17:00</td>
+                        <td className="s8" colSpan="2">
                           <Typography variant={"subtitle1"} color={"primary"}>
-                            1.TUTORIAL SESSION (for teaching assistants,
-                            students, engineers,…){" "}
+                            4. TRANSPORTATION FOR HO CHI MINH CITY
                           </Typography>
-                          Room: E.303, Building 3, 3rd Floor, 227 Nguyen Van Cu
-                          Str., District 5, HCMC
-                          <br />
-                          - Chair: Prof. Nguyen Van Toan (Tohoku University)
-                          <br />- Technical Assistant: Mr. Tran Hoang Nhut and
-                          Ms. Nguyen Ngoc Thao Nhi
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className="s3">08:00 - 09:00</td>
-                        <td className="s4">
-                          Tutorial #1
-                          <Typography variant={"subtitle2"}>
-                            Prof. Nguyen Van Toan (Tohoku University)
-                          </Typography>
-                        </td>
-                        <td className="s5">
-                          Nanoengineered micro-supercapacitors for self-powered
-                          wireless sensing systems
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className="s3">09:00 - 10:00</td>
-                        <td className="s4">
-                          Tutorial #2
-                          <Typography variant={"subtitle2"}>
-                            Prof. Prof. Kyeong-Sik Min (KMU, Korea)
-                          </Typography>
-                        </td>
-                        <td className="s5">
-                          Energy-efficient AI computing hardware by processing
-                          in memory and local learning
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className="s8 closeleft" colSpan="3">
-                          <Typography variant={"subtitle1"} color={"primary"}>
-                            2. CITY TOUR: Can Gio Mangrove Guided Forest Trip{" "}
-                            <span
-                              style={{ fontSize: "initial", color: "black" }}
-                            >
-                              (Optional)
-                            </span>
-                          </Typography>
-                          (Around 60km far from VNUHCM-University of Science) by
-                          BonPhuong Tour Company
-                          <ul>
-                            <li>
-                              Ticket: 750000 VNĐ/person (Pay onsite at December
-                              8th)
-                            </li>
-                            <li>
-                              Send email for registration before December 5th
-                              2024:{" "}
-                              <a href="mailto: iceba@hcmus.edu.vn">
-                                iceba@hcmus.edu.vn
-                              </a>{" "}
-                              (Ms. Hoang Yen)
-                            </li>
-                            <li>
-                              More information:{" "}
-                              <a
-                                href={
-                                  "https://tourbonphuong.com/tour-1-ngay-can-gio"
-                                }
-                                target={"_blank"}
-                              >
-                                https://tourbonphuong.com/tour-1-ngay-can-gio
-                              </a>
-                            </li>
-                          </ul>
-                          <table>
-                            <tbody>
-                              <tr>
-                                <td>09:00</td>
-                                <td>
-                                  {" "}
-                                  Pick up at University of Science (227 Nguyen
-                                  Van Cu Street, District 5)
-                                  <br />
-                                  <ul>
-                                    <li>Transportation by bus and ferry.</li>
-                                    <li>
-                                      See and take pictures of wild monkeys at
-                                      Monkey Island (>1000 animals).
-                                    </li>
-                                    <li>
-                                      Experience the Hoa Ca Crocodile Sanctuary.
-                                    </li>
-                                    <li>
-                                      Explore mangrove forests and Sac Forest
-                                      (named is a "floating base" in the
-                                      resistance war).
-                                    </li>
-                                  </ul>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>12:00</td>
-                                <td>
-                                  {" "}
-                                  Lunch at local restaurant.
-                                  <br />
-                                  Visit the 30/4 Beach and Hang Duong Seafoods
-                                  Market.
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>15:00</td>
-                                <td> Departure for downtown</td>
-                              </tr>
-                              <tr>
-                                <td>17:00-18:00</td>
-                                <td> Arrive at University of Science.</td>
-                              </tr>
-                            </tbody>
-                          </table>
                         </td>
                       </tr>
                     </tbody>
@@ -535,15 +454,8 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Room B40 (4th floor, Building B), 227 Nguyen Van
-                                Cu Str., District 5, HCMC
-                                <br />
-                                - Chair: Prof. Vo Luong Hong Phuoc
-                                (VNUHCM-University of Science, Vietnam);
-                                <br />
-                                - Co-Chair: Asst. prof. Vu The Dang (Osaka
-                                Metropolitan University, Japan);
-                                <br />- Secretary: Nguyen Duy Khanh
+                                Room ….… , MTU <br />
+                                Chair: &nbsp; Co-Chair: &nbsp;Secretary:
                               </td>
                             </tr>
                             <tr className={"top"}>
@@ -553,163 +465,55 @@ class Program extends React.Component {
                               </td>
                               <td className="s1 head">Title of talks</td>
                             </tr>
+                            {[1, 2, 3].map((i) => (
+                              <tr style={{ height: "20px" }}>
+                                <td className="s3" dir="ltr">
+                                  {getTime(8, 0, (i - 1) * 20)}-
+                                  {getTime(8, 0, i * 20)}
+                                </td>
+                                <td className="s4" dir="ltr">
+                                  Invited talk S1-0{i}-I
+                                  {/* <Typography variant={"subtitle2"}>
+                                  Nguyen Bui Trung Kien (VNUHCN- University of
+                                  Science)
+                                </Typography> */}
+                                </td>
+                                <td className="s5" dir="ltr">
+                                  Will be updated
+                                </td>
+                              </tr>
+                            ))}
                             <tr style={{ height: "20px" }}>
                               <td className="s3" dir="ltr">
-                                14:00 - 14:20
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Invited talk S1-01-I
-                                <Typography variant={"subtitle2"}>
-                                  Prof. Vo Luong Hong Phuoc (VNUHCM-US, Vietnam)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Developing a Smart Water Quality Monitoring
-                                System Using IoT Technologies
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                14:20 - 14:40
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Invited talk S1-02-I
-                                <Typography variant={"subtitle2"}>
-                                  Asst. prof. Vu The Dang (Osaka Metropolitan
-                                  University, Japan)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Application of energy-resolving neutron imaging
-                                to major-component analyses of materials using
-                                four-channel superconducting detector.
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                14:40 - 15:00
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Oral S1-01-O
-                                <Typography variant={"subtitle2"}>
-                                  Doan Thi Thanh Nhan
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Self-absorption correction, gross-alpha
-                                radioactivity measurements using gas
-                                proportional counter
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:00 - 15:15
+                                09:00 - 09:15
                               </td>
                               <td
                                 className="s4"
                                 style={{ textAlign: "center" }}
                                 colSpan={2}
                               >
-                                Coffee break{" "}
+                                Coffee break
                               </td>
                             </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:15 - 15:30
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Oral S1-02-O
-                                <Typography variant={"subtitle2"}>
+
+                            {[1, 2, 3, 4, 5, 6, 7].map((i) => (
+                              <tr style={{ height: "20px" }}>
+                                <td className="s3" dir="ltr">
+                                  {getTime(9, 15, (i - 1) * 15)}-
+                                  {getTime(9, 15, i * 15)}
+                                </td>
+                                <td className="s4" dir="ltr">
+                                  Oral S1-0{i}-O
+                                  {/* <Typography variant={"subtitle2"}>
                                   Nguyen Bui Trung Kien (VNUHCN- University of
                                   Science)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Strain Effect on the Anomalous Hall Conductivity
-                                of Fe bcc
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:30 - 15:45
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Oral S1-03-O
-                                <Typography variant={"subtitle2"}>
-                                  Pham Nguyen Duy Phuong
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Interpretation of logging while drilling (LWD)
-                                documentation at the gray well, East mine Cuu
-                                Long Basin.
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:45 - 16:00
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Oral S1-04-O
-                                <Typography variant={"subtitle2"}>
-                                  Doan Thi Thanh Nhan
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Preliminary study on radon concentrations in the
-                                South Plain of Vietnam's groundwater
-                                aquifers.Concentrations of radon in Tien Giang
-                                province's groundwater aquifers
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                16:00 - 16:15
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Oral S1-05-O
-                                <Typography variant={"subtitle2"}>
-                                  Nguyen Duc Anh
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Simulating Climate Impacts on Rice
-                                Agroecosystems in An Giang Province: Pests,
-                                Yield, and Resources
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                16:15 - 16:30
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Oral S1-06-O
-                                <Typography variant={"subtitle2"}>
-                                  Huynh Thanh Tuan
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                The influence of water- based drilling mud and
-                                oil-based drilling mud on well logging in Nam
-                                Con Son Basin.
-                              </td>
-                            </tr>
+                                </Typography> */}
+                                </td>
+                                <td className="s5" dir="ltr">
+                                  Will be updated
+                                </td>
+                              </tr>
+                            ))}
                             <tr style={{ height: "20px" }}></tr>
                             <tr style={{ height: "20px" }}>
                               <td
@@ -727,153 +531,59 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Room: B41 (4th floor, Building B), 227 Nguyen
-                                Van Cu Str., District 5, HCMC
-                                <br />
-                                - Chair: Prof. Le Vu Tuan Hung (VNUHCM-US,
-                                Vietnam);
-                                <br />
-                                - Co-Chair: Prof. Kun Yu Lai (NCU-Taiwan) ;
-                                <br />- Secretary: Nguyen Anh Thu
+                                Room ….… , MTU <br />
+                                Chair: &nbsp; Co-Chair: &nbsp;Secretary:
                               </td>
                             </tr>
+                            {[1, 2, 3].map((i) => (
+                              <tr style={{ height: "20px" }}>
+                                <td className="s3" dir="ltr">
+                                  {getTime(8, 0, (i - 1) * 20)}-
+                                  {getTime(8, 0, i * 20)}
+                                </td>
+                                <td className="s4" dir="ltr">
+                                  Invited talk S2-0{i}-I
+                                  {/* <Typography variant={"subtitle2"}>
+                                  Nguyen Bui Trung Kien (VNUHCN- University of
+                                  Science)
+                                </Typography> */}
+                                </td>
+                                <td className="s5" dir="ltr">
+                                  Will be updated
+                                </td>
+                              </tr>
+                            ))}
                             <tr style={{ height: "20px" }}>
                               <td className="s3" dir="ltr">
-                                14:00 - 14:20
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Invited talk S2-01-I
-                                <Typography variant={"subtitle2"}>
-                                  Prof. Le Vu Tuan Hung (VNUHCM-US, Vietnam)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Role of semiconductor and metal nanoparticles
-                                heterojunction in enhancing the SERS signal for
-                                detection the banned chemical trace in food,
-                                drug, and cosmetic.
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                14:20 - 14:40
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Invited talk S2-02-I
-                                <Typography variant={"subtitle2"}>
-                                  Dr. Nguyen Quang Khoi (VNUHCM-US, Vietnam)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Study of steady state thermal model for white
-                                LEDs thermal management application at
-                                encapsulant level
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                14:40 - 15:00
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Invited talk S2-03-I
-                                <Typography variant={"subtitle2"}>
-                                  Prof. Nguyen Hoang Nam (Hanoi VNU-University
-                                  of Science, Vietnam)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Development of wound healing techniques using
-                                stem-cell spray gun and bio-nanomembranes
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:00 - 15:15
+                                09:00 - 09:15
                               </td>
                               <td
                                 className="s4"
                                 style={{ textAlign: "center" }}
                                 colSpan={2}
                               >
-                                Coffee break{" "}
+                                Coffee break
                               </td>
                             </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:15 - 15:30
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                {`Oral S2-01-O`}
-                                <Typography variant={"subtitle2"}>
-                                  Dr. Nguyen Van Men (AGU)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Plasmon properties in spin polarized
-                                double-layer graphene structures
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:30 - 15:45
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                {`Oral S2-02-O`}
-                                <Typography variant={"subtitle2"}>
-                                  Dr. Nguyen Thi Thanh Van
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Design and numerical analysis of an active
-                                Micro-T sinusoidal mixer with integrated
-                                microelectrode cavity.
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:45 - 16:00
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                {`Oral S2-03-O`}
-                                <Typography variant={"subtitle2"}>
-                                  Dr. Do Duc Cuong
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Large Enhancement of Intrinsic Spin Hall
-                                Conductivity of β-W Based Alloys
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                16:00 - 16:15
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                {`Oral S2-04-O`}
-                                <Typography variant={"subtitle2"}>
-                                  Cu Duy Thanh (NCU- Taiwan)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                High-Reflectivity Mo/Si Multilayer Mirrors for
-                                EUV Applications Fabricated by Ion Beam
-                                Sputtering
-                              </td>
-                            </tr>
+
+                            {[1, 2, 3, 4, 5, 6, 7].map((i) => (
+                              <tr style={{ height: "20px" }}>
+                                <td className="s3" dir="ltr">
+                                  {getTime(9, 15, (i - 1) * 15)}-
+                                  {getTime(9, 15, i * 15)}
+                                </td>
+                                <td className="s4" dir="ltr">
+                                  Oral S2-0{i}-O
+                                  {/* <Typography variant={"subtitle2"}>
+                                  Nguyen Bui Trung Kien (VNUHCN- University of
+                                  Science)
+                                </Typography> */}
+                                </td>
+                                <td className="s5" dir="ltr">
+                                  Will be updated
+                                </td>
+                              </tr>
+                            ))}
                             <tr style={{ height: "20px" }}></tr>
                             <tr style={{ height: "20px" }}>
                               <td
@@ -890,169 +600,59 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Room: B42 (4th floor, Building B), 227 Nguyen
-                                Van Cu Str., District 5, HCMC
-                                <br />
-                                - Chair: Prof. Nguyen Van Toan (Tohoku Univ,
-                                Japan);
-                                <br />
-                                - Co-Chair: Prof. Nguyen Van Hieu
-                                (VNUHCM,Vietnam);
-                                <br />- Secretary: Nguyen Hoang Quan-MSc
+                                Room ….… , MTU <br />
+                                Chair: &nbsp; Co-Chair: &nbsp;Secretary:
                               </td>
                             </tr>
+                            {[1, 2, 3].map((i) => (
+                              <tr style={{ height: "20px" }}>
+                                <td className="s3" dir="ltr">
+                                  {getTime(8, 0, (i - 1) * 20)}-
+                                  {getTime(8, 0, i * 20)}
+                                </td>
+                                <td className="s4" dir="ltr">
+                                  Invited talk S3-0{i}-I
+                                  {/* <Typography variant={"subtitle2"}>
+                                  Nguyen Bui Trung Kien (VNUHCN- University of
+                                  Science)
+                                </Typography> */}
+                                </td>
+                                <td className="s5" dir="ltr">
+                                  Will be updated
+                                </td>
+                              </tr>
+                            ))}
                             <tr style={{ height: "20px" }}>
                               <td className="s3" dir="ltr">
-                                14:00 - 14:20
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Invited talk S3-01-I
-                                <Typography variant={"subtitle2"}>
-                                  Prof. Nguyen Van Hieu (VNUHCM, Vietnam)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Using ML for determine the optimal size of the
-                                heat sink for high performance of Thermoelectric
-                                generators (TEGs) in the Aquaponic farm.
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                14:20 - 14:40
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Invited talk S3-02-I
-                                <Typography variant={"subtitle2"}>
-                                  Prof. Nguyen Van Toan (Tohoku Univ.- Japan)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Nanoengineered micro-supercapacitors for
-                                self-powered wireless sensing systems
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                14:40 - 15:00
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Invited talk S3-03-I
-                                <Typography variant={"subtitle2"}>
-                                  Dr. Hitoshi Nishino (Tamagawa Holdings Co.,
-                                  Japan)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                A high-precision 3-dimensional micro-mirror
-                                actuated by piezo-actuators
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:00 - 15:15
+                                09:00 - 09:15
                               </td>
                               <td
                                 className="s4"
                                 style={{ textAlign: "center" }}
                                 colSpan={2}
                               >
-                                Coffee break{" "}
+                                Coffee break
                               </td>
                             </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:15 - 15:30
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                {`Oral S3-01-O`}
-                                <Typography variant={"subtitle2"}>
-                                  Dr. Sura Nguyen (THSM, Mexico)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Characterizing joule heating effects on carbon
-                                nanofibers: Calculating the temperature
-                                coefficient of resistance for precise
-                                nanostructure growth control
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:30 - 15:45
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                {`Oral S3-02-O`}
-                                <Typography variant={"subtitle2"}>
-                                  Zhijian Zhao (Japan)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                High-sensitivity magnetic field sensor using
-                                magnetic torque
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:45 - 16:00
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                {`Oral S3-03-O`}
-                                <Typography variant={"subtitle2"}>
-                                  Yi-Hsiu KAO (Japan)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Enzyme-based Chemiresistive Creatinine Biosensor
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                16:00 - 16:15
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                {`Oral S3-04-O`}
-                                <Typography variant={"subtitle2"}>
-                                  Nguyen Hoang Quan
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                A power management circuit of Thermoelectric
-                                Generator (TEGs) using wakeup-timer IC toward
-                                the applications in green agriculture
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                16:30 - 16:45
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                {`Oral S3-05-O`}
-                                <Typography variant={"subtitle2"}>
-                                  Dr. Tran Ngoc Dang Khoa (IUH)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                High-sensitivity magnetic field sensor using
-                                magnetic torque
-                              </td>
-                            </tr>
+
+                            {[1, 2, 3, 4, 5, 6, 7].map((i) => (
+                              <tr style={{ height: "20px" }}>
+                                <td className="s3" dir="ltr">
+                                  {getTime(9, 15, (i - 1) * 15)}-
+                                  {getTime(9, 15, i * 15)}
+                                </td>
+                                <td className="s4" dir="ltr">
+                                  Oral S3-0{i}-O
+                                  {/* <Typography variant={"subtitle2"}>
+                                  Nguyen Bui Trung Kien (VNUHCN- University of
+                                  Science)
+                                </Typography> */}
+                                </td>
+                                <td className="s5" dir="ltr">
+                                  Will be updated
+                                </td>
+                              </tr>
+                            ))}
                             <tr style={{ height: "20px" }}></tr>
                             <tr style={{ height: "20px" }}>
                               <td
@@ -1070,188 +670,59 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Room: E205 (2nd floor, Building E), 227 Nguyen
-                                Van Cu Str., District 5, HCMC
-                                <br />
-                                - Chair: Prof. Kyeong-Sik Min (KMU, Korea);
-                                <br />
-                                - Co-Chair: Dr. Nguyen Chi Nhan (VNUHCM-US,
-                                Vietnam) ;<br />- Secretary: Nguyen Phuoc Hoang
-                                Khang-MSc.
+                                Room ….… , MTU <br />
+                                Chair: &nbsp; Co-Chair: &nbsp;Secretary:
                               </td>
                             </tr>
+                            {[1, 2, 3].map((i) => (
+                              <tr style={{ height: "20px" }}>
+                                <td className="s3" dir="ltr">
+                                  {getTime(8, 0, (i - 1) * 20)}-
+                                  {getTime(8, 0, i * 20)}
+                                </td>
+                                <td className="s4" dir="ltr">
+                                  Invited talk S4-0{i}-I
+                                  {/* <Typography variant={"subtitle2"}>
+                                  Nguyen Bui Trung Kien (VNUHCN- University of
+                                  Science)
+                                </Typography> */}
+                                </td>
+                                <td className="s5" dir="ltr">
+                                  Will be updated
+                                </td>
+                              </tr>
+                            ))}
                             <tr style={{ height: "20px" }}>
                               <td className="s3" dir="ltr">
-                                14:00 - 14:20
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Invited talk S4-01-I
-                                <Typography variant={"subtitle2"}>
-                                  Prof. Hoang Trang (VNUHCM-UT, Vietnam)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                A Novel Framework, methods of AI to Optimize in
-                                Designing Analog IC
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                14:20 - 14:40
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Invited talk S4-02-I
-                                <Typography variant={"subtitle2"}>
-                                  Dr. Nguyen Chi Nhan (VNUHCM-US, Vietnam)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Predicting the content of toxic substances in
-                                aquaculture water using machine learning
-                                approaches
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                14:40 - 15:00
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Invited talk S4-03-I
-                                <Typography variant={"subtitle2"}>
-                                  Prof. Truong Ngoc Son (HCM University of
-                                  Technology and Education, Vietnam)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Optimized memristor crossbar array for
-                                neuromorphic computing system
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:00 - 15:15
+                                09:00 - 09:15
                               </td>
                               <td
                                 className="s4"
                                 style={{ textAlign: "center" }}
                                 colSpan={2}
                               >
-                                Coffee break{" "}
+                                Coffee break
                               </td>
                             </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:15 - 15:35
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Invited talk S4-04-I
-                                <Typography variant={"subtitle2"}>
-                                  Prof. Jongsun Kim (School of Electronic &
-                                  Electrical Engineering, Hongik University,
-                                  Korea)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Design of on-chip clock generators for energy
-                                efficient chiplet-based systems
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:35 - 15:50
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                {`Oral S4-01-O`}
-                                <Typography variant={"subtitle2"}>
-                                  Nguyen Hoang Trong
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                An Efficient Design of 45nm Charge-Pump
-                                Phase-Locked Loop Architecture for Sub-1G IoT
-                                Applications
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:50 - 16:05
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                {`Oral S4-02-O`}
-                                <Typography variant={"subtitle2"}>
-                                  Lu Trung Tin
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Enhanced Fuzzy Logic Control for Overcoming
-                                Intrinsic Resistance in Inverted Pendulum
-                                Systems
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                16:05 - 16:20
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                {`Oral S4-03-O`}
-                                <Typography variant={"subtitle2"}>
-                                  Phan Tan Phuc
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Optimizing Solar Energy Efficiency in Zero
-                                Energy House: An Incremental Conductance
-                                MPPT-Based Approach
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                16:20 - 16:35
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                {`Oral S4-04-O`}
-                                <Typography variant={"subtitle2"}>
-                                  Tran Thi Linh
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Naturalistic Driving Action Recognition and
-                                Driver Drowsiness Detection System
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                16:35 - 16:50
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                {`Oral S4-05-O`}
-                                <Typography variant={"subtitle2"}>
-                                  Lam Hong Phuc
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Energy Management Strategy for Decarnbonized
-                                Energy Sources in DC Residential Microgrid
-                              </td>
-                            </tr>
+
+                            {[1, 2, 3, 4, 5, 6, 7].map((i) => (
+                              <tr style={{ height: "20px" }}>
+                                <td className="s3" dir="ltr">
+                                  {getTime(9, 15, (i - 1) * 15)}-
+                                  {getTime(9, 15, i * 15)}
+                                </td>
+                                <td className="s4" dir="ltr">
+                                  Oral S4-0{i}-O
+                                  {/* <Typography variant={"subtitle2"}>
+                                  Nguyen Bui Trung Kien (VNUHCN- University of
+                                  Science)
+                                </Typography> */}
+                                </td>
+                                <td className="s5" dir="ltr">
+                                  Will be updated
+                                </td>
+                              </tr>
+                            ))}
                             <tr style={{ height: "20px" }}></tr>
                             <tr style={{ height: "20px" }}>
                               <td
@@ -1269,136 +740,59 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Room: E206 (2nd floor, Building E), 227 Nguyen
-                                Van Cu Str., District 5, HCMC
-                                <br />
-                                - Chair: Prof. Huynh Van Tuan (VNUHCM-US,
-                                Vietnam);
-                                <br />
-                                - Co-Chair: Dr. Do Duc Cuong(VNUHCM-US, Vietnam)
-                                ;<br />- Secretary: Dr. Trinh Thi Ly.
+                                Room ….… , MTU <br />
+                                Chair: &nbsp; Co-Chair: &nbsp;Secretary:
                               </td>
                             </tr>
+                            {[1, 2, 3].map((i) => (
+                              <tr style={{ height: "20px" }}>
+                                <td className="s3" dir="ltr">
+                                  {getTime(8, 0, (i - 1) * 20)}-
+                                  {getTime(8, 0, i * 20)}
+                                </td>
+                                <td className="s4" dir="ltr">
+                                  Invited talk S5-0{i}-I
+                                  {/* <Typography variant={"subtitle2"}>
+                                  Nguyen Bui Trung Kien (VNUHCN- University of
+                                  Science)
+                                </Typography> */}
+                                </td>
+                                <td className="s5" dir="ltr">
+                                  Will be updated
+                                </td>
+                              </tr>
+                            ))}
                             <tr style={{ height: "20px" }}>
                               <td className="s3" dir="ltr">
-                                14:00 - 14:20
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Invited talk S5-01-I
-                                <Typography variant={"subtitle2"}>
-                                  Dr. Vo Hong Hai (VUHCM-US)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Development of an FPGA-Based Pulse-Height
-                                Analyzer for Scintillation Detectors in Gamma
-                                Energy Spectroscopy
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                14:20 - 14:35
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Oral S5-01-O
-                                <Typography variant={"subtitle2"}>
-                                  Dr. Le Nguyen Hoa Tien
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Calculating the Wave Propagation in Cu Lao Dung
-                                Mangrove Forest (Soc Trang) using WAPROMAN model
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                14:35 - 14:50
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Oral S5-02-O
-                                <Typography variant={"subtitle2"}>
-                                  Huynh Thanh Nhan
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Estimation of thickness samples using gamma
-                                scattering techniques based on Machine learning
-                                approach
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:00 - 15:15
+                                09:00 - 09:15
                               </td>
                               <td
                                 className="s4"
                                 style={{ textAlign: "center" }}
                                 colSpan={2}
                               >
-                                Coffee break{" "}
+                                Coffee break
                               </td>
                             </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:15 - 15:30
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Oral S5-03-O
-                                <Typography variant={"subtitle2"}>
-                                  Huynh Quoc Viet
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Applied the Maximal Overlap Discrete Wavelet
-                                Transform and Short Time Fourier Transform
-                                layers for classify the electroencephalogy of
-                                schizophrenia patients
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:30 - 15:45
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Oral S5-04-O
-                                <Typography variant={"subtitle2"}>
-                                  Phan Tung Anh
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Optimization of power calculation using LQR
-                                control, stability analysis with Lyapunov
-                                Equation and Sensor fault monitoring for Wind
-                                Turbines
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:45 - 16:00
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Oral S5-05-O
-                                <Typography variant={"subtitle2"}>
-                                  Tran Hoang Nhut
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Detection and diagnosis of rice leaf disease
-                                using deep convolutional neural network.
-                              </td>
-                            </tr>
+
+                            {[1, 2, 3, 4, 5, 6, 7].map((i) => (
+                              <tr style={{ height: "20px" }}>
+                                <td className="s3" dir="ltr">
+                                  {getTime(9, 15, (i - 1) * 15)}-
+                                  {getTime(9, 15, i * 15)}
+                                </td>
+                                <td className="s4" dir="ltr">
+                                  Oral S5-0{i}-O
+                                  {/* <Typography variant={"subtitle2"}>
+                                  Nguyen Bui Trung Kien (VNUHCN- University of
+                                  Science)
+                                </Typography> */}
+                                </td>
+                                <td className="s5" dir="ltr">
+                                  Will be updated
+                                </td>
+                              </tr>
+                            ))}
 
                             <tr style={{ height: "20px" }}></tr>
                             <tr style={{ height: "20px" }}>
@@ -1407,8 +801,7 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Session 6. Biomedical Engineering and Medical
-                                devices
+                                Session 6. Civil and Geology Engineering
                               </td>
                             </tr>
                             <tr style={{ height: "20px" }}>
@@ -1417,134 +810,129 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Room: B.43 (4th floor, Building B), 227 Nguyen
-                                Van Cu Str., District 5, HCMC
-                                <br />
-                                - Chair: Prof. Pham Thi Thu Hien
-                                (VNUHCM-UI,Vietnam);
-                                <br />
-                                - Co-Chair: Dr. Huynh Chan Khon
-                                (VNUHCM-IU,Vietnam);
-                                <br />- Secretary: Nguyen Thi Tu Trinh.
+                                Room ….… , MTU <br />
+                                Chair: &nbsp; Co-Chair: &nbsp;Secretary:
                               </td>
                             </tr>
+                            {[1, 2, 3].map((i) => (
+                              <tr style={{ height: "20px" }}>
+                                <td className="s3" dir="ltr">
+                                  {getTime(8, 0, (i - 1) * 20)}-
+                                  {getTime(8, 0, i * 20)}
+                                </td>
+                                <td className="s4" dir="ltr">
+                                  Invited talk S6-0{i}-I
+                                  {/* <Typography variant={"subtitle2"}>
+                                  Nguyen Bui Trung Kien (VNUHCN- University of
+                                  Science)
+                                </Typography> */}
+                                </td>
+                                <td className="s5" dir="ltr">
+                                  Will be updated
+                                </td>
+                              </tr>
+                            ))}
                             <tr style={{ height: "20px" }}>
                               <td className="s3" dir="ltr">
-                                14:00 - 14:20
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Invited talk S6-01-I
-                                <Typography variant={"subtitle2"}>
-                                  Prof. Pham Thi Thu Hien (VNUHCM-UI,Vietnam)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Detection and classification of breast cancer
-                                utilizing polarization images and artificial
-                                intelligence (AI) model
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                14:20 - 14:40
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Invited talk S6-02-I
-                                <Typography variant={"subtitle2"}>
-                                  Dr. Huynh Chan Khon (VNUHCM-IU,Vietnam)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Development of electrowetting on dieletric based
-                                digital microfluidic platform toward automated
-                                molecular biology assay
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                14:40 - 14:55
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Oral S6-01-O
-                                <Typography variant={"subtitle2"}>
-                                  Dinh Thanh Dat
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                A Novel Cancer Cells Recognizer Tracking
-                                Starvation-Induced Lipid Trafficking into
-                                Mitochondria
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:00 - 15:15
+                                09:00 - 09:15
                               </td>
                               <td
                                 className="s4"
                                 style={{ textAlign: "center" }}
                                 colSpan={2}
                               >
-                                Coffee break{" "}
+                                Coffee break
+                              </td>
+                            </tr>
+
+                            {[1, 2, 3, 4, 5, 6, 7].map((i) => (
+                              <tr style={{ height: "20px" }}>
+                                <td className="s3" dir="ltr">
+                                  {getTime(9, 15, (i - 1) * 15)}-
+                                  {getTime(9, 15, i * 15)}
+                                </td>
+                                <td className="s4" dir="ltr">
+                                  Oral S6-0{i}-O
+                                  {/* <Typography variant={"subtitle2"}>
+                                  Nguyen Bui Trung Kien (VNUHCN- University of
+                                  Science)
+                                </Typography> */}
+                                </td>
+                                <td className="s5" dir="ltr">
+                                  Will be updated
+                                </td>
+                              </tr>
+                            ))}
+                            <tr style={{ height: "20px" }}></tr>
+                            <tr style={{ height: "20px" }}>
+                              <td
+                                className="s0  button-primary"
+                                dir="ltr"
+                                colSpan="3"
+                              >
+                                Session 7. Geology & Civil Engineering and
+                                Construction, Machines & Mechanical Engineering
                               </td>
                             </tr>
                             <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:15 - 15:30
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Oral S6-02-O
-                                <Typography variant={"subtitle2"}>
-                                  Hua Thi Hoang Yen
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Denoising And Enhancing Image Quality For
-                                Detection Accuracy In Mammograms
+                              <td
+                                className="s1 button-secondary"
+                                dir="ltr"
+                                colSpan="3"
+                              >
+                                Room ….… , MTU <br />
+                                Chair: &nbsp; Co-Chair: &nbsp;Secretary:
                               </td>
                             </tr>
+                            {[1, 2, 3].map((i) => (
+                              <tr style={{ height: "20px" }}>
+                                <td className="s3" dir="ltr">
+                                  {getTime(8, 0, (i - 1) * 20)}-
+                                  {getTime(8, 0, i * 20)}
+                                </td>
+                                <td className="s4" dir="ltr">
+                                  Invited talk S7-0{i}-I
+                                  {/* <Typography variant={"subtitle2"}>
+                                  Nguyen Bui Trung Kien (VNUHCN- University of
+                                  Science)
+                                </Typography> */}
+                                </td>
+                                <td className="s5" dir="ltr">
+                                  Will be updated
+                                </td>
+                              </tr>
+                            ))}
                             <tr style={{ height: "20px" }}>
                               <td className="s3" dir="ltr">
-                                15:30 - 15:45
+                                09:00 - 09:15
                               </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Oral S6-03-O
-                                <Typography variant={"subtitle2"}>
-                                  Le, Thi Thu Ngoc (Taiwan)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Maintaining the Postharvest Fruit Quality using
-                                UV-C LED System
+                              <td
+                                className="s4"
+                                style={{ textAlign: "center" }}
+                                colSpan={2}
+                              >
+                                Coffee break
                               </td>
                             </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                15:45 - 16:00
-                              </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                Oral S6-04-O
-                                <Typography variant={"subtitle2"}>
-                                  Phan Thien Luan (Taiwan)
-                                </Typography>
-                              </td>
-                              <td className="s5" dir="ltr">
-                                {" "}
-                                Development of a handheld impedance analyzer
-                                using AD5941
-                              </td>
-                            </tr>
+
+                            {[1, 2, 3, 4, 5, 6, 7].map((i) => (
+                              <tr style={{ height: "20px" }}>
+                                <td className="s3" dir="ltr">
+                                  {getTime(9, 15, (i - 1) * 15)}-
+                                  {getTime(9, 15, i * 15)}
+                                </td>
+                                <td className="s4" dir="ltr">
+                                  Oral S7-0{i}-O
+                                  {/* <Typography variant={"subtitle2"}>
+                                  Nguyen Bui Trung Kien (VNUHCN- University of
+                                  Science)
+                                </Typography> */}
+                                </td>
+                                <td className="s5" dir="ltr">
+                                  Will be updated
+                                </td>
+                              </tr>
+                            ))}
                           </tbody>
                         </table>
                       </div>
@@ -1569,8 +957,8 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="2"
                               >
-                                Poster Session - Friday, December 08 afternoon
-                                11:40 - 12:30
+                                Poster Session - November 11 afternoon 11:00 -
+                                11:30
                               </td>
                             </tr>
                             <tr style={{ height: "20px" }}>
@@ -1579,70 +967,53 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="2"
                               >
-                                - Chair: Prof. Vu Thi Hanh Thu (VNUHCM-US,
-                                Vietnam);
+                                - Chair: ...
                                 <br />
-                                - Co-Chair: Dr.Nguyen Quang Khoi (VNUHCM-US,
-                                Vietnam);
-                                <br />- Technical Assistant: Huynh Thanh
-                                Nhan-MSc (VNUHCM-US, Vietnam);
+                                - Co-Chair: ...
+                                <br />- Technical Assistant: ...
                               </td>
                             </tr>
                             <tr style={{ height: "20px" }}>
                               <td className="s3" dir="ltr">
                                 From Session 1
                               </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                S1.01-P, S1.02-P, S1.03-P, S1.04-P, S1.05-P,
-                                S1.06-P, S1.07-P;
-                              </td>
+                              <td className="s4" dir="ltr"></td>
                             </tr>
                             <tr style={{ height: "20px" }}>
                               <td className="s3" dir="ltr">
                                 From Session 2
                               </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                S2.01-P, S2.02-P, S2.03-P, S2.04-P, S2.05-P,
-                                S2.06-P;
-                              </td>
+                              <td className="s4" dir="ltr"></td>
                             </tr>
                             <tr style={{ height: "20px" }}>
                               <td className="s3" dir="ltr">
                                 From Session 3
                               </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                S3.01-P, S3.02-P, S3.03-P;
-                              </td>
+                              <td className="s4" dir="ltr"></td>
                             </tr>
                             <tr style={{ height: "20px" }}>
                               <td className="s3" dir="ltr">
                                 From Session 4
                               </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                S4.01-P, S4.02-P, S4.03-P;
-                              </td>
+                              <td className="s4" dir="ltr"></td>
                             </tr>
                             <tr style={{ height: "20px" }}>
                               <td className="s3" dir="ltr">
                                 From Session 5
                               </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                S5.01-P, S5.02-P, S5.03-P;
-                              </td>
+                              <td className="s4" dir="ltr"></td>
                             </tr>
                             <tr style={{ height: "20px" }}>
                               <td className="s3" dir="ltr">
                                 From Session 6
                               </td>
-                              <td className="s4" dir="ltr">
-                                {" "}
-                                S6.01-P, S6.02-P, S6.03-P;
+                              <td className="s4" dir="ltr"></td>
+                            </tr>
+                            <tr style={{ height: "20px" }}>
+                              <td className="s3" dir="ltr">
+                                From Session 7
                               </td>
+                              <td className="s4" dir="ltr"></td>
                             </tr>
                           </tbody>
                         </table>
@@ -1666,3 +1037,9 @@ const formStyle = {
 };
 
 export default Program;
+
+function getTime(h, m, am) {
+  let a = moment().hours(h).minutes(m);
+  a.add(am, "m");
+  return a.format("hh:mm");
+}

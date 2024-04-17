@@ -88,7 +88,6 @@ class TitlewithCountdown extends React.Component {
                   className="text-sm md:text-xs"
                   style={{ fontStyle: "italic" }}
                 >
-                  {" "}
                   Co-operation to developing the Mekong Delta.
                 </p>
               </h4>

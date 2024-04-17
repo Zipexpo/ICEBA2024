@@ -1,2 +1,5 @@
-export const submissionabstractLink = "https://forms.gle/RCovyPpHTT8XNxbF7"
-export const submissionfullLink = "https://forms.gle/3yeLDdgY8MPFHx9G6"
+export const submissionabstractLink =
+  "https://easychair.org/conferences/?conf=5thiceba2024";
+export const submissionfullLink =
+  "https://easychair.org/conferences/?conf=5thiceba2024";
+export const registerLink = "#";

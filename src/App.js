@@ -1,20 +1,20 @@
-import React from 'react';
-import { withRouter, HashRouter, Switch } from 'react-router-dom';
-import AppRoute from './utils/AppRoute';
-import ScrollReveal from './utils/ScrollReveal';
+import React from "react";
+import { withRouter, HashRouter, Switch } from "react-router-dom";
+import AppRoute from "./utils/AppRoute";
+import ScrollReveal from "./utils/ScrollReveal";
 
 // Layouts
-import LayoutDefault from './layouts/LayoutDefault';
-import LayoutAlternative from './layouts/LayoutAlternative';
-import LayoutSignin from './layouts/LayoutSignin';
+import LayoutDefault from "./layouts/LayoutDefault";
+import LayoutAlternative from "./layouts/LayoutAlternative";
+import LayoutSignin from "./layouts/LayoutSignin";
 
-// Views 
-import Home from './views/Home';
-import ChairsCommittees from './views/ChairsCommittees';
-import Callforpaper from './views/Callforpaper';
-import Program from './views/Program';
-import Login from './views/Login';
-import Signup from './views/Signup';
+// Views
+import Home from "./views/Home";
+import ChairsCommittees from "./views/ChairsCommittees";
+import Callforpaper from "./views/Callforpaper";
+import Program from "./views/Program";
+import Login from "./views/Login";
+import Signup from "./views/Signup";
 import Poster from "./views/Poster";
 import Keynote from "./views/Keynote";
 import TravelAward from "./views/TravelAward";
@@ -25,44 +25,84 @@ import Tutorial from "./views/Tutorial";
 import Upcoming from "./views/Upcoming";
 
 class App extends React.Component {
+  componentDidMount() {
+    document.body.classList.add("is-loaded");
+    this.refs.scrollReveal.init();
+  }
 
-    componentDidMount() {
-        document.body.classList.add('is-loaded')
-        this.refs.scrollReveal.init();
+  // Route change
+  componentDidUpdate(prevProps) {
+    if (this.props.location.pathname !== prevProps.location.pathname) {
+      document.body.classList.add("is-loaded");
+      this.refs.scrollReveal.init();
     }
+  }
 
-    // Route change
-    componentDidUpdate(prevProps) {
-        if (this.props.location.pathname !== prevProps.location.pathname) {
-            document.body.classList.add('is-loaded')
-            this.refs.scrollReveal.init();
-        }
-    }
-
-    render() {
-        return (
-            <ScrollReveal
-                ref="scrollReveal"
-                children={() => (
-                    <Switch>
-                        <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-                        <AppRoute path="/home" component={Home} layout={LayoutDefault} />
-                        {/*<AppRoute path="/programme" component={Program} layout={LayoutAlternative} />*/}
-                        <AppRoute path="/programme" component={Upcoming} layout={LayoutAlternative} />
-                        <AppRoute path="/call-for-paper" component={Callforpaper} layout={LayoutAlternative} />
-                        <AppRoute path="/chairs-committees" component={ChairsCommittees} layout={LayoutAlternative} />
-                        <AppRoute path="/poster" component={Poster} layout={LayoutAlternative} />
-                        {/*<AppRoute path="/plenary-speakers" component={Keynote} layout={LayoutAlternative} />*/}
-                        <AppRoute path="/plenary-speakers" component={Upcoming} layout={LayoutAlternative} />
-                        <AppRoute path="/doctoral-symposium" component={DoctorSymposium} layout={LayoutAlternative} />
-                        <AppRoute path="/travel-award" component={TravelAward} layout={LayoutAlternative} />
-                        <AppRoute path="/registration" component={Registration} layout={LayoutAlternative} />
-                        <AppRoute path="/venue" component={Venue} layout={LayoutAlternative} />
-                        <AppRoute path="/tutorial" component={Tutorial} layout={LayoutAlternative} />
-                    </Switch>
-                )} />
-        );
-    }
+  render() {
+    return (
+      <ScrollReveal
+        ref="scrollReveal"
+        children={() => (
+          <Switch>
+            <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+            <AppRoute path="/home" component={Home} layout={LayoutDefault} />
+            <AppRoute
+              path="/programme"
+              component={Program}
+              layout={LayoutAlternative}
+            />
+            {/* <AppRoute path="/programme" component={Upcoming} layout={LayoutAlternative} /> */}
+            <AppRoute
+              path="/call-for-paper"
+              component={Callforpaper}
+              layout={LayoutAlternative}
+            />
+            <AppRoute
+              path="/chairs-committees"
+              component={ChairsCommittees}
+              layout={LayoutAlternative}
+            />
+            <AppRoute
+              path="/poster"
+              component={Poster}
+              layout={LayoutAlternative}
+            />
+            {/*<AppRoute path="/plenary-speakers" component={Keynote} layout={LayoutAlternative} />*/}
+            <AppRoute
+              path="/plenary-speakers"
+              component={Upcoming}
+              layout={LayoutAlternative}
+            />
+            <AppRoute
+              path="/doctoral-symposium"
+              component={DoctorSymposium}
+              layout={LayoutAlternative}
+            />
+            <AppRoute
+              path="/travel-award"
+              component={TravelAward}
+              layout={LayoutAlternative}
+            />
+            <AppRoute
+              path="/registration"
+              component={Registration}
+              layout={LayoutAlternative}
+            />
+            <AppRoute
+              path="/venue"
+              component={Venue}
+              layout={LayoutAlternative}
+            />
+            <AppRoute
+              path="/tutorial"
+              component={Tutorial}
+              layout={LayoutAlternative}
+            />
+          </Switch>
+        )}
+      />
+    );
+  }
 }
 
-export default withRouter(props => <App {...props} />);
+export default withRouter((props) => <App {...props} />);
