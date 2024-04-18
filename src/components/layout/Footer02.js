@@ -39,24 +39,24 @@ class Footer extends React.Component {
               style={{ alignItems: "flex-start" }}
             >
               <Logo />
-              <div className="footer-block">
+              {/* <div className="footer-block">
                 <div className="footer-block-title">Address</div>
                 <p>
                   227 Nguyen Van Cu Street, District 5, Ho Chi Minh city,
                   Vietnam.
                 </p>
-              </div>
+              </div> */}
               <div className="footer-block">
                 <div className="footer-block-title">Email</div>
                 <a href="mailto: iceba@hcmus.edu.vn">iceba@hcmus.edu.vn</a>
               </div>
-              <div className="footer-block">
+              {/* <div className="footer-block">
                 <div className="footer-block-title">Contact</div>
                 <p>
                   Office of Faculty of Physics and Engineering Physics, A
                   Building
                 </p>
-              </div>
+              </div> */}
               {/*<FooterSocial />*/}
             </div>
             <div className="footer-bottom space-between text-xxs invert-order-desktop">
