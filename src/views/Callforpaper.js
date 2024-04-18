@@ -122,9 +122,9 @@ class Callforpaper extends React.Component {
             <h2>Paper Submission</h2>
             <p>
               Please submit your registration and abstract (around 200 words)
-              via website or
+              via website or &nbsp;
               <a href="mailto: iceba@hcmus.edu.vn">iceba@hcmus.edu.vn</a> before
-              <strong>June 10th , 2024</strong>.
+              &nbsp;<strong>June 10th , 2024</strong>.
             </p>
             <p>
               Full paper for peer-review process for presentation (as template)
