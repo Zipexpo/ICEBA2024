@@ -232,7 +232,7 @@ class Callforpaper extends React.Component {
           </GenericSection>
           <Organization topDivider bottomDivider />
           <Sponsor topDivider bottomDivider />
-          <GenericSection>
+          {/* <GenericSection>
             <Card sx={{ width: "100%" }} elevation={7}>
               <CardContent>
                 <Box sx={{ display: "flex", justifyContent: "space-between" }}>
@@ -288,7 +288,7 @@ class Callforpaper extends React.Component {
                 </div>
               </CardContent>
             </Card>
-          </GenericSection>
+          </GenericSection> */}
         </Container>
       </React.Fragment>
     );
