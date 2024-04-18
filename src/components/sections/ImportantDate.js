@@ -28,9 +28,12 @@ const _event = [
     href: submissionabstractLink,
   },
   {
-    key: "Full paper submission for presentation",
+    key: "Abstract result announcement",
     date: "7/10/2024",
-    href: submissionfullLink,
+  },
+  {
+    key: "-	Full paper submission (via the website of IEEJ)",
+    date: "9/10/2024",
   },
   {
     key: "Conference payment fee",
@@ -48,11 +51,11 @@ const _event = [
     date: ["11/11/2024", "11/12/2024"],
     href: "./programme",
   },
-  {
-    key: "Full paper submission for publication",
-    date: "11/30/2024",
-    href: "./call-for-paper",
-  },
+  // {
+  //   key: "Full paper submission for publication",
+  //   date: "11/30/2024",
+  //   href: "./call-for-paper",
+  // },
   // {key:'Conference',date: ['12/6/2021','12/9/2021']},
 ];
 class ImportantDate extends React.Component {
