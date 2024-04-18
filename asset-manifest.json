@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.70a34005.css",
-    "main.js": "./static/js/main.1966005e.js",
+    "main.js": "./static/js/main.47b96d67.js",
     "static/media/vl.png": "./static/media/vl.32b23e589659b608eb30.png",
     "static/media/mangthit6.png": "./static/media/mangthit6.21d6925dd1ebf2131471.png",
     "static/media/orangebackground.webm": "./static/media/orangebackground.4b59570bec21a379aa82.webm",
@@ -92,6 +92,7 @@
     "static/media/tanhoanglong2.webp": "./static/media/tanhoanglong2.98f035582d9e8aba5971.webp",
     "static/media/mangthit2.jpg": "./static/media/mangthit2.3f0f9e2500deb9c7791c.jpg",
     "static/media/longan.jpg": "./static/media/longan.c5774485222b5c554f40.jpg",
+    "static/media/trantrinang.jpg": "./static/media/trantrinang.4393a9ba218cea2d7ec4.jpg",
     "static/media/sgvl4.jpg": "./static/media/sgvl4.bb33e8f96a4be197a487.jpg",
     "static/media/senviet2.webp": "./static/media/senviet2.baea7ecf03c02bd4cf30.webp",
     "static/media/sikmin.jpg": "./static/media/sikmin.74e8fb5b564a85c786a5.jpg",
@@ -156,10 +157,10 @@
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
     "main.70a34005.css.map": "./static/css/main.70a34005.css.map",
-    "main.1966005e.js.map": "./static/js/main.1966005e.js.map"
+    "main.47b96d67.js.map": "./static/js/main.47b96d67.js.map"
   },
   "entrypoints": [
     "static/css/main.70a34005.css",
-    "static/js/main.1966005e.js"
+    "static/js/main.47b96d67.js"
   ]
 }
