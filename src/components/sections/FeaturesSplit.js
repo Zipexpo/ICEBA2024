@@ -143,7 +143,7 @@ class FeaturesSplit extends React.Component {
                     Science, 227 Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city,
                     Vietnam and Mien Tay Construction University, Ministry of
                     Construction (Vinh Long Province), 20B Pho Co Dieu Str.,
-                    Ward 3, Vinh Long city, Vietnam
+                    Ward 3, Vinh Long, Vietnam
                   </p>
                 </div>
               </div>

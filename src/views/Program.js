@@ -323,7 +323,7 @@ class Program extends React.Component {
                           </Typography>
                           <strong>
                             at Mien Tay Construction University, Vinh Long
-                            province.
+                            Province.
                           </strong>
                           <br />
                           <strong>Invited talk:</strong> 20 min (15 min for talk
