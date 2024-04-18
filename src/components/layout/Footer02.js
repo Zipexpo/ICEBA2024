@@ -47,8 +47,13 @@ class Footer extends React.Component {
                 </p>
               </div> */}
               <div className="footer-block">
-                <div className="footer-block-title">Email</div>
-                <a href="mailto: iceba@hcmus.edu.vn">iceba@hcmus.edu.vn</a>
+                <div
+                  className="footer-block-title"
+                  style={{ textTransform: "none" }}
+                >
+                  Email contact:{" "}
+                  <a href="mailto: iceba@hcmus.edu.vn">iceba@hcmus.edu.vn</a>
+                </div>
               </div>
               {/* <div className="footer-block">
                 <div className="footer-block-title">Contact</div>
