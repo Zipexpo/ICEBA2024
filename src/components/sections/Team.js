@@ -94,7 +94,7 @@ class Team extends React.Component {
                     City
                   </li>
                   <li style={{ textAlign: "left" }}>
-                    Huynh Van Tuan, VVNUHCM-University of Science, Vietnam
+                    Huynh Van Tuan, VNUHCM-University of Science, Vietnam
                   </li>
                 </ul>
               </div>
@@ -143,7 +143,7 @@ class Team extends React.Component {
                   <li style={{ textAlign: "left" }}>
                     Nguyen Hoang Nam, VNU Ha Noi-University of Science-Vietnam
                   </li>
-                  <li style={{ textAlign: "left" }}>….. (will be updated)</li>
+                  <li style={{ textAlign: "left", listStyle: "none" }}>…</li>
                 </ul>
               </div>
             </GenericSection>
@@ -254,7 +254,6 @@ class Team extends React.Component {
                   <li style={{ textAlign: "left" }}>
                     Phan Thien Luan, NCHU-Taiwan (R.O.C)
                   </li>
-                  <li>...</li>
                 </ul>
               </div>
             </GenericSection>
