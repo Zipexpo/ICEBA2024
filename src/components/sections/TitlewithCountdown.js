@@ -96,7 +96,7 @@ class TitlewithCountdown extends React.Component {
               </h4>
               <p
                 className="mt-0 mb-32"
-                style={{ backgroundColor: "rgb(255 252 185 / 44%)" }}
+                style={{ backgroundColor: "rgb(255 252 185)" }}
               >
                 November 11, 2024 - Ho Chi Minh City, Vietnam
                 <br />

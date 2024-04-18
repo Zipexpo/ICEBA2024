@@ -139,11 +139,11 @@ class FeaturesSplit extends React.Component {
               <div className="pb-32">
                 <div className={"container-lg reveal-from-top"}>
                   <p>
-                    This year 5th ICEBA will be hosted at VNUHCM-University of
-                    Science, 227 Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city,
-                    Vietnam and Mien Tay Construction University, Ministry of
-                    Construction (Vinh Long Province), 20B Pho Co Dieu Str.,
-                    Ward 3, Vinh Long, Vietnam
+                    This year 5th ICEBA will be hosted at University of
+                    Science,Vietname National University Ho Chi Minh City, 227
+                    Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city, Vietnam and
+                    Mien Tay Construction University,Vinh Long Province, 20B Pho
+                    Co Dieu Str., Ward 3, Vinh Long, Vietnam
                   </p>
                 </div>
               </div>
