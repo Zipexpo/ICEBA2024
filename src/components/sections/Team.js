@@ -268,7 +268,7 @@ class Team extends React.Component {
                     Nguyen Phuoc Hoang Khang, VNUHCM-US Vietnam
                   </li>
                   <li style={{ textAlign: "left" }}>
-                    <strong>Hua Thi Hoang Yen, VNUHCM-US Vietnam</strong>
+                    Hua Thi Hoang Yen, VNUHCM-US Vietnam
                   </li>
                   <li style={{ textAlign: "left" }}>
                     Nguyen Vuong Thuy Ngan, VNUHCM-US Vietnam
