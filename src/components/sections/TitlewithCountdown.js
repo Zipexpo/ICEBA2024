@@ -103,15 +103,15 @@ class TitlewithCountdown extends React.Component {
                 November 12, 2024 - Vinh Long Province, Vietnam
               </p>
               <Countdown date={new Date("11/11/2024")} />
-              {/* <Button
+              <Button
                 tag="a"
                 color="secondary"
-                href={require("../../assets/files/1. Announcement of 5thICEBA2024.pdf")}
+                href={require("../../assets/files/2. Call For Papers_5thICEBA2024.pdf")}
                 target={"_blank"}
                 className={"mt-16"}
               >
-                Official Announcement
-              </Button> */}
+                Invitation Letter
+              </Button>
             </div>
           </div>
         </div>
