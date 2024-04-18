@@ -70,7 +70,7 @@ class App extends React.Component {
             {/*<AppRoute path="/plenary-speakers" component={Keynote} layout={LayoutAlternative} />*/}
             <AppRoute
               path="/plenary-speakers"
-              component={Upcoming}
+              component={Keynote}
               layout={LayoutAlternative}
             />
             <AppRoute
