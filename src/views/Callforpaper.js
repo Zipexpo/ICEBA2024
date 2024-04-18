@@ -191,7 +191,7 @@ class Callforpaper extends React.Component {
               >
                 ABSTRACT
               </Button>
-              <Button
+              {/* <Button
                 color="primary"
                 style={{ marginLeft: 5, marginRight: 5 }}
                 tag={"a"}
@@ -199,7 +199,7 @@ class Callforpaper extends React.Component {
                 href={submissionfullLink}
               >
                 FULL PAPER
-              </Button>
+              </Button> */}
             </p>
           </GenericSection>
 
