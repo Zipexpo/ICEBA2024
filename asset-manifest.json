@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.c8964e82.css",
-    "main.js": "./static/js/main.a93f7224.js",
+    "main.js": "./static/js/main.93321b96.js",
     "static/media/vl.png": "./static/media/vl.32b23e589659b608eb30.png",
     "static/media/mangthit6.png": "./static/media/mangthit6.21d6925dd1ebf2131471.png",
     "static/media/orangebackground.webm": "./static/media/orangebackground.4b59570bec21a379aa82.webm",
@@ -42,7 +42,6 @@
     "static/media/Ngan Nguyen.jpg": "./static/media/Ngan Nguyen.e57a7e2ebce58a634d7d.jpg",
     "static/media/outside1.jpg": "./static/media/outside1.3dfe8ef8a01d592f9a84.jpg",
     "static/media/kunyu.jpg": "./static/media/kunyu.f1b9ba584d473bd4279e.jpg",
-    "static/media/1. Announcement of 5thICEBA2024.pdf": "./static/media/1. Announcement of 5thICEBA2024.cf83cb46348b8d813881.pdf",
     "static/media/mangthit3.jpg": "./static/media/mangthit3.40a5ac52c07828165fa5.jpg",
     "static/media/features-split-top-01.png": "./static/media/features-split-top-01.f4fabdab0417842c9877.png",
     "static/media/mangthit9.jpg": "./static/media/mangthit9.cae1c59093819baae71c.jpg",
@@ -64,7 +63,6 @@
     "static/media/paymentQR.jpg": "./static/media/paymentQR.fb23f01ad091c8406522.jpg",
     "static/media/rambutan.jpg": "./static/media/rambutan.b15d2532feb0b26caf84.jpg",
     "static/media/senviet5.webp": "./static/media/senviet5.ff9f7c5cc092b871924d.webp",
-    "static/media/5. 5ICEBA_oral and poster presentation information.doc": "./static/media/5. 5ICEBA_oral and poster presentation information.85035e1bf3d61b023159.doc",
     "static/media/senviet1.webp": "./static/media/senviet1.34641229e01b5b6e71fc.webp",
     "static/media/Tania Lorido Botran.jpg": "./static/media/Tania Lorido Botran.51744658465794c30bba.jpg",
     "static/media/senviet4.webp": "./static/media/senviet4.616621134b6b1d486fe3.webp",
@@ -159,10 +157,10 @@
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
     "main.c8964e82.css.map": "./static/css/main.c8964e82.css.map",
-    "main.a93f7224.js.map": "./static/js/main.a93f7224.js.map"
+    "main.93321b96.js.map": "./static/js/main.93321b96.js.map"
   },
   "entrypoints": [
     "static/css/main.c8964e82.css",
-    "static/js/main.a93f7224.js"
+    "static/js/main.93321b96.js"
   ]
 }
