@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.c8964e82.css",
-    "main.js": "./static/js/main.93321b96.js",
+    "main.js": "./static/js/main.d36fd890.js",
     "static/media/vl.png": "./static/media/vl.32b23e589659b608eb30.png",
     "static/media/mangthit6.png": "./static/media/mangthit6.21d6925dd1ebf2131471.png",
     "static/media/orangebackground.webm": "./static/media/orangebackground.4b59570bec21a379aa82.webm",
@@ -48,7 +48,6 @@
     "static/media/mangthit8.jpg": "./static/media/mangthit8.bd0a937d2085c7ca70f1.jpg",
     "static/media/features-split-top-03.png": "./static/media/features-split-top-03.8dd75689ce78696366fc.png",
     "static/media/pt4.jpg": "./static/media/pt4.cd386d755ad8d6c7d572.jpg",
-    "static/media/6. ICEBA2024_ full paper template.docx": "./static/media/6. ICEBA2024_ full paper template.bdb24c3b5d2cc372a051.docx",
     "static/media/North Texas.png": "./static/media/North Texas.8926d35aa409eb884199.png",
     "static/media/outside2.jpg": "./static/media/outside2.177b33f1fa3cdf5bd49a.jpg",
     "static/media/features-split-top-02.png": "./static/media/features-split-top-02.169834d7c001ff9c49a7.png",
@@ -157,10 +156,10 @@
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
     "main.c8964e82.css.map": "./static/css/main.c8964e82.css.map",
-    "main.93321b96.js.map": "./static/js/main.93321b96.js.map"
+    "main.d36fd890.js.map": "./static/js/main.d36fd890.js.map"
   },
   "entrypoints": [
     "static/css/main.c8964e82.css",
-    "static/js/main.93321b96.js"
+    "static/js/main.d36fd890.js"
   ]
 }
