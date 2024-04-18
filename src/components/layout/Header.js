@@ -1,8 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
-import {Link, withRouter} from 'react-router-dom';
-import Logo from './partials/Logo';
+import React from "react";
+import PropTypes from "prop-types";
+import classNames from "classnames";
+import { Link, withRouter } from "react-router-dom";
+import Logo from "./partials/Logo";
+import { Menu, MenuItem } from "@mui/material";
 
 const propTypes = {
   active: PropTypes.bool,
@@ -10,22 +11,21 @@ const propTypes = {
   hideNav: PropTypes.bool,
   hideSignin: PropTypes.bool,
   bottomOuterDivider: PropTypes.bool,
-  bottomDivider: PropTypes.bool
-}
+  bottomDivider: PropTypes.bool,
+};
 
 const defaultProps = {
   active: false,
-  navPosition: '',
+  navPosition: "",
   hideNav: false,
   hideSignin: false,
   bottomOuterDivider: false,
-  bottomDivider: false
-}
+  bottomDivider: false,
+};
 
 class Header extends React.Component {
-
   state = {
-    isActive: false
+    isActive: false,
   };
 
   nav = React.createRef();
@@ -33,37 +33,50 @@ class Header extends React.Component {
 
   componentDidMount() {
     this.props.active && this.openMenu();
-    document.addEventListener('keydown', this.keyPress);
-    document.addEventListener('click', this.clickOutside);
+    document.addEventListener("keydown", this.keyPress);
+    document.addEventListener("click", this.clickOutside);
   }
 
   componentWillUnmount() {
-    document.removeEventListener('keydown', this.keyPress);
-    document.addEventListener('click', this.clickOutside);
+    document.removeEventListener("keydown", this.keyPress);
+    document.addEventListener("click", this.clickOutside);
     this.closeMenu();
   }
 
   openMenu = () => {
-    document.body.classList.add('off-nav-is-active');
-    this.nav.current.style.maxHeight = this.nav.current.scrollHeight + 'px';
+    document.body.classList.add("off-nav-is-active");
+    this.nav.current.style.maxHeight = this.nav.current.scrollHeight + "px";
     this.setState({ isActive: true });
-  }
+  };
 
   closeMenu = () => {
-    document.body.classList.remove('off-nav-is-active');
+    document.body.classList.remove("off-nav-is-active");
     this.nav.current && (this.nav.current.style.maxHeight = null);
     this.setState({ isActive: false });
-  }
+  };
+
+  openMenuSub = (name, anchor) => {
+    this.setState({ [name]: anchor });
+  };
+
+  closeMenuSub = (name) => {
+    this.setState({ [name]: false });
+  };
 
   keyPress = (e) => {
     this.state.isActive && e.keyCode === 27 && this.closeMenu();
-  }
+  };
 
   clickOutside = (e) => {
-    if (!this.nav.current) return
-    if (!this.state.isActive || this.nav.current.contains(e.target) || e.target === this.hamburger.current) return;
+    if (!this.nav.current) return;
+    if (
+      !this.state.isActive ||
+      this.nav.current.contains(e.target) ||
+      e.target === this.hamburger.current
+    )
+      return;
     this.closeMenu();
-  }
+  };
 
   render() {
     const {
@@ -77,26 +90,24 @@ class Header extends React.Component {
       location,
       ...props
     } = this.props;
-    const currentPath= (location.pathname||"").replace('/','');
+    const currentPath = (location.pathname || "").replace("/", "");
     const classes = classNames(
-      'site-header invert-color',
-      bottomOuterDivider && 'has-bottom-divider',
+      "site-header invert-color",
+      bottomOuterDivider && "has-bottom-divider",
       className
     );
 
     return (
-      <header
-        {...props}
-        className={classes}
-      >
+      <header {...props} className={classes}>
         <div className="container">
-          <div className={
-            classNames(
-              'site-header-inner',
-              bottomDivider && 'has-bottom-divider'
-            )}>
+          <div
+            className={classNames(
+              "site-header-inner",
+              bottomDivider && "has-bottom-divider"
+            )}
+          >
             {/*<Logo />*/}
-            {!hideNav &&
+            {!hideNav && (
               <React.Fragment>
                 <button
                   ref={this.hamburger}
@@ -110,28 +121,67 @@ class Header extends React.Component {
                 </button>
                 <nav
                   ref={this.nav}
-                  className={
-                    classNames(
-                      'header-nav',
-                      this.state.isActive && 'is-active'
-                    )}>
+                  className={classNames(
+                    "header-nav",
+                    this.state.isActive && "is-active"
+                  )}
+                >
                   <div className="header-nav-inner">
-                    <ul className={
-                      classNames(
-                        'list-reset text-xxs',
+                    <ul
+                      className={classNames(
+                        "list-reset text-xxs",
                         navPosition && `header-nav-${navPosition}`
-                      )}>
+                      )}
+                    >
                       <li>
-                        <Link className={((currentPath==="")||(currentPath==="home"))?"button":'offbutton'} to="/" onClick={this.closeMenu}>Home</Link>
+                        <Link
+                          className={
+                            currentPath === "" || currentPath === "home"
+                              ? "button"
+                              : "offbutton"
+                          }
+                          to="/"
+                          onClick={this.closeMenu}
+                        >
+                          Home
+                        </Link>
                       </li>
                       <li>
-                        <Link className={(currentPath==="call-for-paper")?"button":'offbutton'} to="/call-for-paper" onClick={this.closeMenu}>Call for paper</Link>
+                        <Link
+                          className={
+                            currentPath === "call-for-paper"
+                              ? "button"
+                              : "offbutton"
+                          }
+                          to="/call-for-paper"
+                          onClick={this.closeMenu}
+                        >
+                          Call for paper
+                        </Link>
                       </li>
                       <li>
-                        <Link className={(currentPath==="chairs-committees")?"button":'offbutton'} to="/chairs-committees" onClick={this.closeMenu}>COMMITTEES</Link>
+                        <Link
+                          className={
+                            currentPath === "chairs-committees"
+                              ? "button"
+                              : "offbutton"
+                          }
+                          to="/chairs-committees"
+                          onClick={this.closeMenu}
+                        >
+                          COMMITTEES
+                        </Link>
                       </li>
                       <li>
-                        <Link className={(currentPath==="programme")?"button":'offbutton'} to="/programme" onClick={this.closeMenu}>Program</Link>
+                        <Link
+                          className={
+                            currentPath === "programme" ? "button" : "offbutton"
+                          }
+                          to="/programme"
+                          onClick={this.closeMenu}
+                        >
+                          Program
+                        </Link>
                       </li>
                       {/*<li>*/}
                       {/*  <Link to="/workshops" onClick={this.closeMenu}>Workshops</Link>*/}
@@ -140,7 +190,17 @@ class Header extends React.Component {
                       {/*  <Link to="/poster" onClick={this.closeMenu}>Call for poster</Link>*/}
                       {/*</li>*/}
                       <li>
-                        <Link className={(currentPath==="plenary-speakers")?"button":'offbutton'} to="/plenary-speakers" onClick={this.closeMenu}>Plenary Speakers</Link>
+                        <Link
+                          className={
+                            currentPath === "plenary-speakers"
+                              ? "button"
+                              : "offbutton"
+                          }
+                          to="/plenary-speakers"
+                          onClick={this.closeMenu}
+                        >
+                          Plenary Speakers
+                        </Link>
                       </li>
                       {/*<li>*/}
                       {/*  <Link to="/travel-award" onClick={this.closeMenu}>Travel Award</Link>*/}
@@ -149,30 +209,74 @@ class Header extends React.Component {
                       {/*  <Link to="/doctoral-symposium" onClick={this.closeMenu}>DOCTORAL SYMPOSIUM</Link>*/}
                       {/*</li>*/}
                       <li>
-                        <Link className={(currentPath==="venue")?"button":'offbutton'} to="/venue" onClick={this.closeMenu}>Venue & Hotel</Link>
+                        <Link
+                          className={
+                            currentPath === "venue" ? "button" : "offbutton"
+                          }
+                          to="/venue"
+                          onClick={this.closeMenu}
+                        >
+                          Venue & Hotel
+                        </Link>
                       </li>
                       <li>
-                        <a className={'offbutton'} href="https://phys.hcmus.edu.vn/ICEBA2023/" target="_blank" onClick={this.closeMenu}>ICEBA2023</a>
+                        <a
+                          className={"offbutton"}
+                          href="#"
+                          onClick={(event) =>
+                            this.openMenuSub("previousc", event.currentTarget)
+                          }
+                        >
+                          Previous
+                        </a>
+                        <Menu
+                          id="basic-menu"
+                          anchorEl={this.state.previousc}
+                          open={this.state.previousc}
+                          onClose={() => this.closeMenuSub("previousc")}
+                          MenuListProps={{
+                            "aria-labelledby": "basic-button",
+                            dense: true,
+                          }}
+                        >
+                          <MenuItem
+                            onClick={() => this.closeMenuSub("previousc")}
+                            target="_blank"
+                            href="https://phys.hcmus.edu.vn/ICEBA2023"
+                            component="a"
+                          >
+                            2023
+                          </MenuItem>
+                        </Menu>
                       </li>
                     </ul>
-                    {!hideSignin &&
+                    {!hideSignin && (
                       <ul
-                        className="list-reset header-nav-center" style={{display:'flex'}}
+                        className="list-reset header-nav-center"
+                        style={{ display: "flex" }}
                       >
                         <li>
                           {/*<Link to="/signup/" className="button button-primary button-wide-mobile button-sm" onClick={this.closeMenu}>Registration</Link>*/}
                           {/*<a target="_blank" href="https://shop.le.ac.uk/conferences-and-events/leicester-conferences/uccbdcat/14th-ieeeacm-international-conference-ucc-2021-8th-ieeeacm-international-conference-bdcat-2021" className="button button-primary button-wide-mobile button-sm" onClick={this.closeMenu}>Registration</a>*/}
-                            <Link to="/registration" onClick={this.closeMenu} className="button button-secondary button-wide-mobile button-sm">Registration</Link>
+                          <Link
+                            to="/registration"
+                            onClick={this.closeMenu}
+                            className="button button-secondary button-wide-mobile button-sm"
+                          >
+                            Registration
+                          </Link>
                           {/*<a target="_blank" href="https://cvent.me/q3vlYw" className="button button-primary button-wide-mobile button-sm">Registration</a>*/}
                         </li>
-                      </ul>}
+                      </ul>
+                    )}
                   </div>
                 </nav>
-              </React.Fragment>}
+              </React.Fragment>
+            )}
           </div>
         </div>
       </header>
-    )
+    );
   }
 }
 
