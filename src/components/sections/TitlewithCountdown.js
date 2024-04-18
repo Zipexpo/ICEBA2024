@@ -81,31 +81,29 @@ class TitlewithCountdown extends React.Component {
               <h1 className="mt-0 mb-16 text-shadow text-color-secondary">
                 ICEBA2024
               </h1>
-              <h4 className="mt-0 mb-16" style={{ color: "white" }}>
+              <h4
+                className="mt-0 mb-16"
+                style={{ color: "rgb(78 78 78)", backgroundColor: "white" }}
+              >
                 The 5th International Conference on Engineering, Physics,
                 MEMS-Biosensors and Applications:
                 <p
                   className="text-sm md:text-xs"
                   style={{ fontStyle: "italic" }}
                 >
-                  Co-operation to developing the Mekong Delta.
+                  Cooperation in R&D, technical transfer & 5 year anniversary
                 </p>
               </h4>
-              <h5 className="mt-0 mb-16" style={{ color: "white" }}>
-                5 years anniversary
-              </h5>
               <p
                 className="mt-0 mb-32"
                 style={{ backgroundColor: "rgb(255 252 185 / 44%)" }}
               >
-                Nov. 11, 2024 - VNUHCM-University of Science, Ho Chi Minh city,
-                Vietnam
+                November 11, 2024 - Ho Chi Minh City, Vietnam
                 <br />
-                Nov. 12, 2024 - MienTay Construction University, Vinh Long city,
-                Vietnam
+                November 12, 2024 - Vinh Long Province, Vietnam
               </p>
               <Countdown date={new Date("11/11/2024")} />
-              <Button
+              {/* <Button
                 tag="a"
                 color="secondary"
                 href={require("../../assets/files/1. Announcement of 5thICEBA2024.pdf")}
@@ -113,7 +111,7 @@ class TitlewithCountdown extends React.Component {
                 className={"mt-16"}
               >
                 Official Announcement
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>

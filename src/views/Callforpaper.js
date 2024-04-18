@@ -137,7 +137,7 @@ class Callforpaper extends React.Component {
             {/*</p>*/}
             <p>
               Forms and Formatting:
-              <ButtonGroup2
+              {/* <ButtonGroup2
                 variant="contained"
                 style={{ marginLeft: 5, marginRight: 5 }}
               >
@@ -157,27 +157,21 @@ class Callforpaper extends React.Component {
                 >
                   <DownloadIcon />
                 </Button2>
-              </ButtonGroup2>
+              </ButtonGroup2> */}
               <ButtonGroup2
                 variant="contained"
                 style={{ marginLeft: 5, marginRight: 5 }}
               >
                 <Button
                   color={"primary"}
-                  href={require("../assets/files/6. ICEBA2024_ full paper template.docx")}
+                  href={
+                    "https://www.ieee.org/conferences/publishing/templates.html"
+                  }
                   target={"_blank"}
                   className={"button"}
                 >
                   Full paper template
                 </Button>
-                <Button2
-                  size="small"
-                  href={require("../assets/files/6. ICEBA2024_ full paper template.docx")}
-                  download
-                  className={"button"}
-                >
-                  <DownloadIcon />
-                </Button2>
               </ButtonGroup2>
             </p>
             <p>
@@ -191,7 +185,7 @@ class Callforpaper extends React.Component {
               >
                 ABSTRACT
               </Button>
-              {/* <Button
+              <Button
                 color="primary"
                 style={{ marginLeft: 5, marginRight: 5 }}
                 tag={"a"}
@@ -199,7 +193,7 @@ class Callforpaper extends React.Component {
                 href={submissionfullLink}
               >
                 FULL PAPER
-              </Button> */}
+              </Button>
             </p>
           </GenericSection>
 
