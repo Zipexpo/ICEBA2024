@@ -161,7 +161,7 @@ class Team extends React.Component {
                     Nguyen Van Toan, Tohoku University-Japan, Co-chair
                   </li>
                   <li style={{ textAlign: "left" }}>
-                    Tran Cong Bang, Mien Tay Construction University-Vietnam,
+                    Truong Cong Bang, Mien Tay Construction University-Vietnam,
                     Co-chair
                   </li>
 

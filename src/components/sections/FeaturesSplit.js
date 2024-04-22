@@ -80,7 +80,7 @@ class FeaturesSplit extends React.Component {
                     The subject areas
                   </h3>
                   <p className="m-0">
-                    Contributed papers
+                    Contributed papers &nbsp;
                     <strong>must be the new research works</strong> and are
                     solicited in the following subject areas (but not limited
                     to):
