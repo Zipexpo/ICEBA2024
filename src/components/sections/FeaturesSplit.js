@@ -102,6 +102,7 @@ class FeaturesSplit extends React.Component {
                         Embedded systems, Internet of Things, Machine Learning,
                         Artificial Intelligence;
                       </li>
+
                       <li>
                         Biomedical Engineering, Digital Microfluidics and their
                         applications;
