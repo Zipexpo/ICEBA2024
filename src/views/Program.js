@@ -288,6 +288,10 @@ class Program extends React.Component {
                         <td className="s5">Will be updated</td>
                       </tr>
                       <tr>
+                        <td className="s4">From Session 8</td>
+                        <td className="s5">Will be updated</td>
+                      </tr>
+                      <tr>
                         <td className="s3">11:45-12:45</td>
                         <td className="s4" colSpan="2">
                           Lunchtime
@@ -444,8 +448,7 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Session 1. Applied Physics, Engineering Physics,
-                                Nuclear Engineering
+                                Session 1. Applied Physics, Engineering Physics
                               </td>
                             </tr>
                             <tr style={{ height: "20px" }}>
@@ -521,7 +524,77 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Session 2. Semiconductor Technologies,
+                                Session 2. Medical Physics and Nuclear
+                                Engineering
+                              </td>
+                            </tr>
+                            <tr style={{ height: "20px" }}>
+                              <td
+                                className="s1 button-secondary"
+                                dir="ltr"
+                                colSpan="3"
+                              >
+                                Room ….… , MTU <br />
+                                Chair: &nbsp; Co-Chair: &nbsp;Secretary:
+                              </td>
+                            </tr>
+                            {[1, 2, 3].map((i) => (
+                              <tr style={{ height: "20px" }}>
+                                <td className="s3" dir="ltr">
+                                  {getTime(8, 0, (i - 1) * 20)}-
+                                  {getTime(8, 0, i * 20)}
+                                </td>
+                                <td className="s4" dir="ltr">
+                                  Invited talk S2-0{i}-I
+                                  {/* <Typography variant={"subtitle2"}>
+                                  Nguyen Bui Trung Kien (VNUHCN- University of
+                                  Science)
+                                </Typography> */}
+                                </td>
+                                <td className="s5" dir="ltr">
+                                  Will be updated
+                                </td>
+                              </tr>
+                            ))}
+                            <tr style={{ height: "20px" }}>
+                              <td className="s3" dir="ltr">
+                                09:00 - 09:15
+                              </td>
+                              <td
+                                className="s4"
+                                style={{ textAlign: "center" }}
+                                colSpan={2}
+                              >
+                                Coffee break
+                              </td>
+                            </tr>
+
+                            {[1, 2, 3, 4, 5, 6, 7].map((i) => (
+                              <tr style={{ height: "20px" }}>
+                                <td className="s3" dir="ltr">
+                                  {getTime(9, 15, (i - 1) * 15)}-
+                                  {getTime(9, 15, i * 15)}
+                                </td>
+                                <td className="s4" dir="ltr">
+                                  Oral S2-0{i}-O
+                                  {/* <Typography variant={"subtitle2"}>
+                                  Nguyen Bui Trung Kien (VNUHCN- University of
+                                  Science)
+                                </Typography> */}
+                                </td>
+                                <td className="s5" dir="ltr">
+                                  Will be updated
+                                </td>
+                              </tr>
+                            ))}
+                            <tr style={{ height: "20px" }}></tr>
+                            <tr style={{ height: "20px" }}>
+                              <td
+                                className="s0  button-primary"
+                                dir="ltr"
+                                colSpan="3"
+                              >
+                                Session 3. Semiconductor Technologies,
                                 Materials, Device and Related
                               </td>
                             </tr>
@@ -591,7 +664,7 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Session 3. MEMS, Biosensors and Application
+                                Session 4. MEMS, Biosensors and Application
                               </td>
                             </tr>
                             <tr style={{ height: "20px" }}>
@@ -660,7 +733,7 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Session 4. Microelectronics, Embedded System and
+                                Session 5. Microelectronics, Embedded System and
                                 AI&IoT
                               </td>
                             </tr>
@@ -730,7 +803,7 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Session 5. Computing Science, Simulation and
+                                Session 6. Computing Science, Simulation and
                                 Modeling
                               </td>
                             </tr>
@@ -801,7 +874,7 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Session 6. Civil and Geology Engineering
+                                Session 7. Civil and Geology Engineering
                               </td>
                             </tr>
                             <tr style={{ height: "20px" }}>
@@ -870,7 +943,7 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Session 7. Geology & Civil Engineering and
+                                Session 8. Geology & Civil Engineering and
                                 Construction, Machines & Mechanical Engineering
                               </td>
                             </tr>
@@ -1012,6 +1085,12 @@ class Program extends React.Component {
                             <tr style={{ height: "20px" }}>
                               <td className="s3" dir="ltr">
                                 From Session 7
+                              </td>
+                              <td className="s4" dir="ltr"></td>
+                            </tr>
+                            <tr style={{ height: "20px" }}>
+                              <td className="s3" dir="ltr">
+                                From Session 8
                               </td>
                               <td className="s4" dir="ltr"></td>
                             </tr>
