@@ -110,11 +110,10 @@ class Program extends React.Component {
                       </tr>
                       <tr>
                         <td className="s3">17:00-18:00</td>
-                        <td className="s4">
-                        Welcome dinner
-                        </td>
+                        <td className="s4">Welcome dinner</td>
                         <td className="s5">
-                        Plenary invited speakers, international guests, VIPs, program committee, etc.
+                          Plenary invited speakers, international guests, VIPs,
+                          program committee, etc.
                         </td>
                       </tr>
                       <tr style={{ height: "20px" }}></tr>
@@ -127,8 +126,8 @@ class Program extends React.Component {
                       <tr>
                         <td className="s3">07:30-07:45</td>
                         <td className="s4">
-                          Registration (Check-list, nameplate,
-                          Abstract & Program,etc.)
+                          Registration (Check-list, nameplate, Abstract &
+                          Program,etc.)
                         </td>
                         <td className="s5">
                           -Lobby of conference room: Building I, University of
@@ -257,10 +256,14 @@ class Program extends React.Component {
                       </tr>
                       <tr>
                         <td className="s3">11:15-11:30</td>
-                        <td className="s4">Closing the plenary session and program ICEBA2024</td>
-                        <td className="s5">Chair, Program Committee of ICEBA2024</td>
+                        <td className="s4">
+                          Closing the plenary session and program ICEBA2024
+                        </td>
+                        <td className="s5">
+                          Chair, Program Committee of ICEBA2024
+                        </td>
                       </tr>
-                      
+
                       <tr>
                         <td className="s3">11:30-12:30</td>
                         <td className="s4" colSpan="2">
@@ -272,7 +275,9 @@ class Program extends React.Component {
                           <Typography variant={"subtitle1"} color={"primary"}>
                             2. TRANSPORTATION FOR Vinh Long Province (MTU)
                           </Typography>
-                          <strong>12:45-12:55</strong> TPick up by Limousine bus of Conference (Bus 01, Bus02 at the gate of the University of Science)
+                          <strong>12:45-12:55</strong> TPick up by Limousine bus
+                          of Conference (Bus 01, Bus02 at the gate of the
+                          University of Science)
                           <br />
                           <strong>13:00-16:00</strong> Transportation for Vinh
                           Long Province (110 km, by Limousine bus)
@@ -318,8 +323,8 @@ class Program extends React.Component {
                             2. POSTER SESSION
                           </Typography>
                           <strong>
-                            Lobby of Conference Hall I, Building I, 227 Nguyen
-                            Van Cu Str., District 5, HCMC
+                            Lobby of Conference Hall, Mien Tay Construction
+                            University, Vinh Long Province
                           </strong>
                           <br />- Chair:
                           <br />- Co-Chair:
@@ -364,7 +369,8 @@ class Program extends React.Component {
                           <Typography variant={"subtitle1"} color={"primary"}>
                             3. CLOSING CEREMONY
                           </Typography>
-                          Location:…………….., Mien Tay Construction University, Vinh Long Province
+                          Location:…………….., Mien Tay Construction University,
+                          Vinh Long Province
                         </td>
                       </tr>
                       <tr>
@@ -391,8 +397,7 @@ class Program extends React.Component {
                             - Speech from the VNUHCM-US representative;
                             <br />
                             - MoA Signing Ceremony;
-                            <br />
-                            - Gifts for VIPs, Guests
+                            <br />- Gifts for VIPs, Guests
                           </Typography>
                         </td>
                         <td className="s5"></td>
@@ -419,7 +424,9 @@ class Program extends React.Component {
                           <Typography variant={"subtitle1"} color={"primary"}>
                             4. FAREWELL LUNCH PARTY
                           </Typography>
-                          <strong>Mien Tay Construction University, Vinh Long Province</strong>
+                          <strong>
+                            Mien Tay Construction University, Vinh Long Province
+                          </strong>
                         </td>
                       </tr>
 
@@ -470,7 +477,8 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Session 1. Engineering Physics and Electrical & Electronic Engineering
+                                Session 1. Engineering Physics and Electrical &
+                                Electronic Engineering
                               </td>
                             </tr>
                             <tr style={{ height: "20px" }}>
@@ -546,7 +554,8 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Session 2. Medical Physics and Nuclear Engineering
+                                Session 2. Medical Physics and Nuclear
+                                Engineering
                               </td>
                             </tr>
                             <tr style={{ height: "20px" }}>
@@ -1051,7 +1060,7 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="2"
                               >
-                                Poster Session - November 11 afternoon 11:00 -
+                                Poster Session - November 12 afternoon 11:00 -
                                 11:30
                               </td>
                             </tr>
