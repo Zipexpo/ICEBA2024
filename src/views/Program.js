@@ -105,7 +105,16 @@ class Program extends React.Component {
                         </td>
                         <td className="s5">
                           VNUHCM- University of Science (227 Nguyen Van Cu,
-                          District 5, HCM city)
+                          District 5, HCM City)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="s3">17:00-18:00</td>
+                        <td className="s4">
+                        Welcome dinner
+                        </td>
+                        <td className="s5">
+                        Plenary invited speakers, international guests, VIPs, program committee, etc.
                         </td>
                       </tr>
                       <tr style={{ height: "20px" }}></tr>
@@ -118,8 +127,8 @@ class Program extends React.Component {
                       <tr>
                         <td className="s3">07:30-07:45</td>
                         <td className="s4">
-                          Registration (Check list, nameplate,
-                          Abstract&Program,etc.)
+                          Registration (Check-list, nameplate,
+                          Abstract & Program,etc.)
                         </td>
                         <td className="s5">
                           -Lobby of conference room: Building I, University of
@@ -175,7 +184,7 @@ class Program extends React.Component {
                             - Invited talks.
                           </Typography>
                         </td>
-                        <td className="s5">Vice President of VNUHCM-US</td>
+                        <td className="s5">President of VNUHCM-US</td>
                       </tr>
                       <tr>
                         <td className="s3">08:40-08:50</td>
@@ -241,9 +250,67 @@ class Program extends React.Component {
                         <td className="s4">. Plenary #5 (code: PL-05).</td>
                         <td className="s5">Will be updated</td>
                       </tr>
-
                       <tr>
-                        <td className="s3" rowSpan={8}>
+                        <td className="s3">11:00-11:15</td>
+                        <td className="s4">Discussion</td>
+                        <td className="s5">Chair and Co-Chair</td>
+                      </tr>
+                      <tr>
+                        <td className="s3">11:15-11:30</td>
+                        <td className="s4">Closing the plenary session and program ICEBA2024</td>
+                        <td className="s5">Chair, Program Committee of ICEBA2024</td>
+                      </tr>
+                      
+                      <tr>
+                        <td className="s3">11:30-12:30</td>
+                        <td className="s4" colSpan="2">
+                          Lunchtime
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="s8 closeleft" colSpan="3">
+                          <Typography variant={"subtitle1"} color={"primary"}>
+                            2. TRANSPORTATION FOR Vinh Long Province (MTU)
+                          </Typography>
+                          <strong>12:45-12:55</strong> TPick up by Limousine bus of Conference (Bus 01, Bus02 at the gate of the University of Science)
+                          <br />
+                          <strong>13:00-16:00</strong> Transportation for Vinh
+                          Long Province (110 km, by Limousine bus)
+                          <br />
+                          <strong>16:00-18:00</strong> Sightseeing in Vinh Long
+                          city
+                          <br />
+                          <strong>18:00-21:00</strong> Check in and dinner
+                        </td>
+                      </tr>
+
+                      <tr style={{ height: "20px" }}></tr>
+                      <tr>
+                        <td className="s0  button-primary" colSpan="3">
+                          November 12 (Tuesday) at Vinh Long Province and Ho Chi
+                          Minh City
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="s3">08:00-11:00</td>
+                        <td className="s8" colSpan="2">
+                          <Typography variant={"subtitle1"} color={"primary"}>
+                            1. PARALLEL SESSION
+                          </Typography>
+                          <strong>
+                            at Mien Tay Construction University, Vinh Long
+                            Province.
+                          </strong>
+                          <br />
+                          <strong>Invited talk:</strong> 20 min (15 min for talk
+                          and 5 min for discussion);
+                          <br />
+                          <strong>Oral presentation:</strong> 15min (12 min for
+                          talk and 3 min for discussion)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="s3" rowSpan={9}>
                           11:00 - 11:30
                         </td>
                         <td className="s8" colSpan="2">
@@ -292,58 +359,12 @@ class Program extends React.Component {
                         <td className="s5">Will be updated</td>
                       </tr>
                       <tr>
-                        <td className="s3">11:45-12:45</td>
-                        <td className="s4" colSpan="2">
-                          Lunchtime
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className="s8 closeleft" colSpan="3">
-                          <Typography variant={"subtitle1"} color={"primary"}>
-                            4. TRANSPORTATION FOR VINH LONG PROVINCE (MTU)
-                          </Typography>
-                          <strong>13:00-16:00</strong> Transportation for Vinh
-                          Long Province (110 km, by Limousine bus)
-                          <br />
-                          <strong>16:00-18:00</strong> Sightseeing in Vinh Long
-                          city
-                          <br />
-                          <strong>18:00-21:00</strong> Check in and dinner
-                        </td>
-                      </tr>
-
-                      <tr style={{ height: "20px" }}></tr>
-                      <tr>
-                        <td className="s0  button-primary" colSpan="3">
-                          November 12 (Tuesday) at Vinh Long Province and Ho Chi
-                          Minh City
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className="s3">08:00-11:00</td>
-                        <td className="s8" colSpan="2">
-                          <Typography variant={"subtitle1"} color={"primary"}>
-                            1. PARALLEL SESSION
-                          </Typography>
-                          <strong>
-                            at Mien Tay Construction University, Vinh Long
-                            Province.
-                          </strong>
-                          <br />
-                          <strong>Invited talk:</strong> 20 min (15 min for talk
-                          and 5 min for discussion);
-                          <br />
-                          <strong>Oral presentation:</strong> 15min (12 min for
-                          talk and 3 min for discussion)
-                        </td>
-                      </tr>
-                      <tr>
                         <td className="s3">11:20-12:30</td>
                         <td className="s8" colSpan="2">
                           <Typography variant={"subtitle1"} color={"primary"}>
-                            2. CLOSING CEREMONY
+                            3. CLOSING CEREMONY
                           </Typography>
-                          Location:…………….., Building I, MTU
+                          Location:…………….., Mien Tay Construction University, Vinh Long Province
                         </td>
                       </tr>
                       <tr>
@@ -365,12 +386,13 @@ class Program extends React.Component {
                       <tr>
                         <td className="s3">11:50-12:10</td>
                         <td className="s4">
-                          3. The 5-Year Anniversary of ICEBA
+                          3. The 5 Year Anniversary of ICEBA
                           <Typography variant="subtitle1">
-                            - Speech from the president of VNUHCM-US;
+                            - Speech from the VNUHCM-US representative;
                             <br />
                             - MoA Signing Ceremony;
-                            <br />- Gifts for VIPs, Guests
+                            <br />
+                            - Gifts for VIPs, Guests
                           </Typography>
                         </td>
                         <td className="s5"></td>
@@ -385,24 +407,24 @@ class Program extends React.Component {
                       <tr>
                         <td className="s3">11:20-11:30</td>
                         <td className="s4">
-                          5. Welcome to ICEBA2025 in Taiwan
+                          5. Announcement of ICEBA2025 in Taiwan
                         </td>
                         <td className="s5">
-                          Co-chair Program ofICEBA2025 (NCU- Taiwan)
+                          Co-chair Program of ICEBA2025 (NCU- Taiwan)
                         </td>
                       </tr>
                       <tr>
-                        <td className="s3">12:30-13:30</td>
+                        <td className="s3">12:30-14:00</td>
                         <td className="s8" colSpan="2">
                           <Typography variant={"subtitle1"} color={"primary"}>
-                            3. FAREWELL LUNCH PARTY
+                            4. FAREWELL LUNCH PARTY
                           </Typography>
-                          <strong>MTU, Vinh Long Province</strong>
+                          <strong>Mien Tay Construction University, Vinh Long Province</strong>
                         </td>
                       </tr>
 
                       <tr>
-                        <td className="s3">14:00-17:00</td>
+                        <td className="s3">14:30-17:30</td>
                         <td className="s8" colSpan="2">
                           <Typography variant={"subtitle1"} color={"primary"}>
                             4. TRANSPORTATION FOR HO CHI MINH CITY
@@ -448,7 +470,7 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Session 1. Applied Physics, Engineering Physics
+                                Session 1. Engineering Physics and Electrical & Electronic Engineering
                               </td>
                             </tr>
                             <tr style={{ height: "20px" }}>
@@ -524,8 +546,7 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Session 2. Medical Physics and Nuclear
-                                Engineering
+                                Session 2. Medical Physics and Nuclear Engineering
                               </td>
                             </tr>
                             <tr style={{ height: "20px" }}>

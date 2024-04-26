@@ -108,6 +108,58 @@ const data = [
   },
   {
     title: "",
+    authorName: "Prof. Tran Tri Nang",
+    orgName: "Minnesota University, USA",
+    avatar: "trantrinang.jpg",
+    abstractFile: "#",
+    bioFile: "#",
+    abstract: ``,
+    bio: (
+      <>
+        Dr. Nang Tran received his PhD in solid state materials and device
+        physics from Osaka Prefecture University in Japan in 1979 and did his
+        postdoctoral research at Harvard University and the University of
+        California, Irvine. Dr. Tran has spent 28 years in industry working on
+        thin film solar cells, transparent conducting oxides, medical
+        electronics, and data storage. His main technical achievements are the
+        co-invention of a direct x-ray digital radiography detector, a major
+        breakthrough for digital mammography in 1990, and the co-invention of
+        transparent conducting ZnO film doped with group III elements in 1983.
+        At present, most of the commercial thin film photovoltaic solar modules
+        have at least one layer of this oxide in the device configuration.
+        During his tenure with the industry, Dr. Tran was instrumental in
+        winning funding for several multimillion-dollar research projects and
+        brought in multimillion-dollar licensing royalties to companies based on
+        his inventions. He was also an invited speaker, a committee member of
+        international conferences, and a lecturer at seminars and workshops. Dr.
+        Tran currently serves as an adjunct professor with the University of
+        Minnesota, and has served as a visiting professor at universities in
+        Vietnam and Japan. He has received more than 62 patents. Products based
+        on his inventions have received many awards, including the prestigious
+        Research and Development 100, Photonic Circle of Excellence. Dr. Tran
+        was also the co-founder of Ecosolar International, a consulting company
+        on solar energy, thin films, teleradiography, and water filtration
+        systems. Dr. Tran is a senior life member of the IEEE, and was selected
+        for inclusion in numerous volumes of Who's Who in America, Who's Who in
+        Science and Engineering, Who's Who in the Midwest, Who's Who in the
+        World, Who's Who in Finance and Industry, and Who's Who in Finance and
+        Business.
+      </>
+    ),
+  },
+  {
+    title: "",
+    authorName: "Prof. Jan Schulz",
+    orgName:
+      "Jade University of Applied Sciences-Germany",
+    avatar: "janschulz.jpg",
+    abstractFile: "#",
+    bioFile: "https://www.jade-hs.de/team/jan-schulz/",
+    abstract: <></>,
+    bio:<></>
+  },
+  {
+    title: "",
     authorName: "Prof. Kyeong-Sik Min",
     orgName:
       "School of Electrical Engineering, Kookmin University, Seoul, Korea",
@@ -500,85 +552,81 @@ const data = [
       </>
     ),
   },
-  // {
-  //     title:'Biological matter recognition using micro-interdigitated electrode array and electrical impedance spectroscopy',
-  //     authorName: 'Prof. Congo Tak Shing Ching',
-  //     orgName: 'Graduate Institute of Biomedical Engineering, National Chung Hsing University, Taichung, Taiwan',
-  //     avatar: 'Ching.jpg',
-  //     abstractFile: '/files/plentary/information_prof. Congo.doc',
-  //     bioFile: '/files/plentary/biography_prf. Congo.docx',
-  //     abstract: <>
-  //         <p>Nowadays, electrical potential, current, impedance, capacitance, etc. play an important role in our daily life, and these electrical parameters can actually have many applications. For example, electrical impedance spectroscopy (EIS) has been widely used for the characterization of (biological) substances. There are many applications of EIS, and the speaker cited his own research experience in applying EIS in E. coli. Identification and quantification, as well as characterization of microplastics.</p>
-  //         <p>In my E. coli. identification and quantification study, a biorecognition-element-free interdigitated microelectrode (IDμE) sensor is designed and developed with good reliability and affordability. Results show that the designed sensor can identify E. coli with good selectivity using an impedance and capacitance of 7.69 MHz. At its optimum impedance of 1.3 kHz, the IDμE sensor can reliably quantify E. coli (Figure 2) in a range of measurement (103.2~106 cfu/mL), linearity (R2 = 0.97), sensitivity (18.15 kΩ/log (cfu/mL)), and limit of detection (103.2 cfu/mL). Therefore, the IDμE sensor developed possesses high potential for industrial and clinical applications.</p>
-  //         <p>In my microplastics identification study, EIS measurements using IDμE confirmed the accurate identification of microplastic materials in question, by using self-normalized ratio between two characteristic frequencies of 7 MHz and 8.9 MHz, Z’f=7 MHz/Z’f=8.9 MHz. 3-kNN classifier built with the ratio Z’f=7 MHz/Z’f=8.9 MHz, and Z’f=8 MHz/Z’f=8.9 MHz, demonstrates accuracy upto 90% for the identification of single or both microplastic types in samples (Figure 4). These results confirm impedance spectroscopy, permitting rapid identification of microplastic without labelling and skillful techniques, as a potential rapid sensor.</p>
-  //     </>,
-  //     bio: <ol>
-  //         <li>Research Areas:</li>
-  //         Biomedical instrumentation design, biosensors, tissue bioimpedance, biomedical electronics, biomedical optoelectronic, AIoT healthcare, assistive healthcare technologies
-  //         <li>Education:  <i>(month/year to month/year, university/institute, country)</i></li>
-  //         <ul>
-  //             <li>PhD in Bioengineering, University of Strathclyde, Glasgow, UK, 2005</li>
-  //             <li>MPhil in Biomedical Engineering, The Hong Kong Polytechnic University, HK, 2002</li>
-  //             <li>BSc in Prosthetics and Orthotics (First Class Honours), The Hong Kong Polytechnic University, HK, 1999</li>
-  //         </ul>
-  //         <li>Academic Activities:
-  //             <br/><i>Members of academic society (name of society, position, where, when)</i>
-  //             <ul>
-  //                 <li>Member, Prosthetics and Orthotics Society of Taiwan, since 2016</li>
-  //                 <li>Life Member, Taiwan Engineering Medicine Biology Association, since 2023</li>
-  //                 <li>Life Member, Association of Chemical Sensors in Taiwan, since 2015</li>
-  //                 <li>Life Member, Taiwan Rehabilitation Engineering and Assistive Technology Society, 2013</li>
-  //                 <li>Life Member, The Chinese Institute of Engineers, Since 2013</li>
-  //                 <li>Member, IEEE, since 2010</li>
-  //                 <li>Member, IEEE Engineering in Medicine and Biology Society, since 2010</li>
-  //                 <li>Life Member, World Association for Chinese Biomedical Engineers, since 2009</li>
-  //                 <li>Member, International Association of Engineers (IAENG), since 2009</li>
-  //                 <li>Life Member, Biomedical Engineering Society of the R.O.C., since 2008</li>
-  //                 <li>Member, The Royal Society of Edinburgh Entrepreneurs' Club, since 2005</li>
-  //             </ul>
-  //             <i>Invited talks for International conference/workshop (name of talk, name of conference/workshop, where, when)</i>
-  //             <ul>
-  //                 <li>Keynote speaker of The International Symposium on Applied Science (ISAS 2023), 13-15 Oct 2023, Ho Chi Minh City, Vietnam</li>
-  //                 <li>Keynote speaker of Rencontres du Vietnam: The first International Symposium of Nano Life Science: Nano Biotechnology, Biosensor, Computation (NanoBioCoM2023), 17-19 Sep 2023, ICISE, Quy Nhon, Vietnam</li>
-  //                 <li>Keynote speaker of International Symposium on Medical Devices and Technology 2023, 27-28 Aug 2023, Johor, Malaysia</li>
-  //                 <li>Plenary speaker of The 3rd International Workshop on Engineering Physics, IC-MEMS-Sensors and Their Applications (3rdIWEMA2022), 25-26 Nov 2022, Ho Chi Minh City, Vietnam</li>
-  //                 <li>Keynote speaker of IEEE The 2nd International Conference on Intelligent Cybernetics Technology & Applications 2022 (IEEE ICICyTA 2022), 15-16 Dec 2022, Bandung, Indonesia</li>
-  //                 <li>Invited speaker of International Joint Symposium on Applied Mathematics, Science and Technology, 01 Dec 2022, Taichung, Taiwan</li>
-  //                 <li>Invited speaker of The 38th SENSOR SYMPOSIUM, 9-11 Nov 2021, Japan</li>
-  //                 <li>Keynote speaker of The International Symposium on Applied Science 2021, 15-17 Oct 2021, Ho Chi Minh City, Vietnam</li>
-  //                 <li>Keynote speaker of The Fifth International Conference on Biological Information and Biomedical Engineering (BIBE2021), 20-22 Jul 2021, Hangzhou, China</li>
-  //                 <li>Keynote speaker of the 3rd International Conference on Bioscience and Medical Engineering (ICBME2021), 29-30 Jun 2021, Johor Bahru, Malaysia</li>
-  //                 <li>Invited speaker of Distinguished Lecture Series, Universiti Teknologi Malaysia, 12 Nov 2020, Malaysia</li>
-  //                 <li>Plenary speaker of International Convention on Rehabilitation Engineering and Technology (i-CREATe 2020), 5-7 Nov 2020, Taipei, Taiwan</li>
-  //                 <li>Keynote speaker of International Conference on Biological Information and Biomedical Engineering (BIBE 2018), 6-8 Jul 2018, Shanghai, China</li>
-  //                 <li>Keynote speaker of The 2nd International Conference on Biomedical and Biological Engineering (BBE2017), 26-28 May 2017, Guilin, China</li>
-  //                 <li>Keynote speaker of The International Conference on Biological Engineering and Pharmacy (BEP2016), 9-11 Dec 2016, Shanghai, China</li>
-  //                 <li>Keynote speaker of The International Conference on Biomedical and Biological Engineering (BBE2016), 15-17 Jul 2016, Shanghai, China</li>
-  //                 <li>Invited speaker of The 11th Annual IEEE International Conference on Nano/Micro Engineered and Molecular Systems, 17-20 April 2016, Matsushima Bay and Sendai MEMS City, Japan</li>
-  //             </ul>
-  //             <i>Visiting researcher/professor (university/institute, where, when)</i>
-  //             <ul>
-  //               <li>Visiting Professor, Department of Physics and Electronic Engineering University of Science (Vietnam National University of Hochiminh City), Vietnam, 06/2019 – 07/2019</li>
-  //               <li>Honorary Professor, Department of Health and Physical Education The Education University of Hong Kong, Hong Kong, 11/2016 – 10/2019</li>
-  //             </ul>
-  //         </li>
-  //         <li>Research Achievements and Awards:
-  //             <a href={'https://www.bme.nchu.edu.tw/members/tsching/index.htm'} target={'_blank'}>
-  //                 <ul>
-  //                     <li>Research projects (2010-now): Chief of Project</li>
-  //                     <li>Intellectual Property</li>
-  //                     <li>Research Awards</li>
-  //                     <li>Research Awards</li>
-  //                 </ul>
-  //             </a>
-  //         </li>
-  //         <li>
-  //             <a href={'https://www.bme.nchu.edu.tw/members/tsching/index.htm'} target={'_blank'}>
-  //                 ISI/Scopus/SCIE Selected Publications (2010-Now)
-  //             </a>
-  //         </li>
-  //     </ol>
-  // },
+  {
+      title:'',
+      authorName: 'Prof. Congo Tak Shing Ching',
+      orgName: 'Graduate Institute of Biomedical Engineering, National Chung Hsing University, Taichung, Taiwan',
+      avatar: 'Ching.jpg',
+      abstractFile: '#',
+      bioFile: '/files/plentary/biography_prf. Congo.docx',
+      abstract: <></>,
+      bio: <ol>
+          <li>Research Areas:</li>
+          Biomedical instrumentation design, biosensors, tissue bioimpedance, biomedical electronics, biomedical optoelectronic, AIoT healthcare, assistive healthcare technologies
+          <li>Education:  <i>(month/year to month/year, university/institute, country)</i></li>
+          <ul>
+              <li>PhD in Bioengineering, University of Strathclyde, Glasgow, UK, 2005</li>
+              <li>MPhil in Biomedical Engineering, The Hong Kong Polytechnic University, HK, 2002</li>
+              <li>BSc in Prosthetics and Orthotics (First Class Honours), The Hong Kong Polytechnic University, HK, 1999</li>
+          </ul>
+          <li>Academic Activities:
+              <br/><i>Members of academic society (name of society, position, where, when)</i>
+              <ul>
+                  <li>Member, Prosthetics and Orthotics Society of Taiwan, since 2016</li>
+                  <li>Life Member, Taiwan Engineering Medicine Biology Association, since 2023</li>
+                  <li>Life Member, Association of Chemical Sensors in Taiwan, since 2015</li>
+                  <li>Life Member, Taiwan Rehabilitation Engineering and Assistive Technology Society, 2013</li>
+                  <li>Life Member, The Chinese Institute of Engineers, Since 2013</li>
+                  <li>Member, IEEE, since 2010</li>
+                  <li>Member, IEEE Engineering in Medicine and Biology Society, since 2010</li>
+                  <li>Life Member, World Association for Chinese Biomedical Engineers, since 2009</li>
+                  <li>Member, International Association of Engineers (IAENG), since 2009</li>
+                  <li>Life Member, Biomedical Engineering Society of the R.O.C., since 2008</li>
+                  <li>Member, The Royal Society of Edinburgh Entrepreneurs' Club, since 2005</li>
+              </ul>
+              <i>Invited talks for International conference/workshop (name of talk, name of conference/workshop, where, when)</i>
+              <ul>
+                  <li>Keynote speaker of The International Symposium on Applied Science (ISAS 2023), 13-15 Oct 2023, Ho Chi Minh City, Vietnam</li>
+                  <li>Keynote speaker of Rencontres du Vietnam: The first International Symposium of Nano Life Science: Nano Biotechnology, Biosensor, Computation (NanoBioCoM2023), 17-19 Sep 2023, ICISE, Quy Nhon, Vietnam</li>
+                  <li>Keynote speaker of International Symposium on Medical Devices and Technology 2023, 27-28 Aug 2023, Johor, Malaysia</li>
+                  <li>Plenary speaker of The 3rd International Workshop on Engineering Physics, IC-MEMS-Sensors and Their Applications (3rdIWEMA2022), 25-26 Nov 2022, Ho Chi Minh City, Vietnam</li>
+                  <li>Keynote speaker of IEEE The 2nd International Conference on Intelligent Cybernetics Technology & Applications 2022 (IEEE ICICyTA 2022), 15-16 Dec 2022, Bandung, Indonesia</li>
+                  <li>Invited speaker of International Joint Symposium on Applied Mathematics, Science and Technology, 01 Dec 2022, Taichung, Taiwan</li>
+                  <li>Invited speaker of The 38th SENSOR SYMPOSIUM, 9-11 Nov 2021, Japan</li>
+                  <li>Keynote speaker of The International Symposium on Applied Science 2021, 15-17 Oct 2021, Ho Chi Minh City, Vietnam</li>
+                  <li>Keynote speaker of The Fifth International Conference on Biological Information and Biomedical Engineering (BIBE2021), 20-22 Jul 2021, Hangzhou, China</li>
+                  <li>Keynote speaker of the 3rd International Conference on Bioscience and Medical Engineering (ICBME2021), 29-30 Jun 2021, Johor Bahru, Malaysia</li>
+                  <li>Invited speaker of Distinguished Lecture Series, Universiti Teknologi Malaysia, 12 Nov 2020, Malaysia</li>
+                  <li>Plenary speaker of International Convention on Rehabilitation Engineering and Technology (i-CREATe 2020), 5-7 Nov 2020, Taipei, Taiwan</li>
+                  <li>Keynote speaker of International Conference on Biological Information and Biomedical Engineering (BIBE 2018), 6-8 Jul 2018, Shanghai, China</li>
+                  <li>Keynote speaker of The 2nd International Conference on Biomedical and Biological Engineering (BBE2017), 26-28 May 2017, Guilin, China</li>
+                  <li>Keynote speaker of The International Conference on Biological Engineering and Pharmacy (BEP2016), 9-11 Dec 2016, Shanghai, China</li>
+                  <li>Keynote speaker of The International Conference on Biomedical and Biological Engineering (BBE2016), 15-17 Jul 2016, Shanghai, China</li>
+                  <li>Invited speaker of The 11th Annual IEEE International Conference on Nano/Micro Engineered and Molecular Systems, 17-20 April 2016, Matsushima Bay and Sendai MEMS City, Japan</li>
+              </ul>
+              <i>Visiting researcher/professor (university/institute, where, when)</i>
+              <ul>
+                <li>Visiting Professor, Department of Physics and Electronic Engineering University of Science (Vietnam National University of Hochiminh City), Vietnam, 06/2019 – 07/2019</li>
+                <li>Honorary Professor, Department of Health and Physical Education The Education University of Hong Kong, Hong Kong, 11/2016 – 10/2019</li>
+              </ul>
+          </li>
+          <li>Research Achievements and Awards:
+              <a href={'https://www.bme.nchu.edu.tw/members/tsching/index.htm'} target={'_blank'}>
+                  <ul>
+                      <li>Research projects (2010-now): Chief of Project</li>
+                      <li>Intellectual Property</li>
+                      <li>Research Awards</li>
+                      <li>Research Awards</li>
+                  </ul>
+              </a>
+          </li>
+          <li>
+              <a href={'https://www.bme.nchu.edu.tw/members/tsching/index.htm'} target={'_blank'}>
+                  ISI/Scopus/SCIE Selected Publications (2010-Now)
+              </a>
+          </li>
+      </ol>
+  },
   {
     title: "",
     authorName: "Prof. Kun-Yu Lai",
@@ -610,45 +658,48 @@ const data = [
   },
   {
     title: "",
-    authorName: "Prof. Tran Tri Nang",
-    orgName: "Minnesota University, USA",
-    avatar: "trantrinang.jpg",
+    authorName: "Assoc. Prof. Nguyen Van Toan",
+    orgName:
+      "Tohoku University-Japan",
+    avatar: "Nguyen-Toan-2.png",
     abstractFile: "#",
     bioFile: "#",
     abstract: ``,
-    bio: (
-      <>
-        Dr. Nang Tran received his PhD in solid state materials and device
-        physics from Osaka Prefecture University in Japan in 1979 and did his
-        postdoctoral research at Harvard University and the University of
-        California, Irvine. Dr. Tran has spent 28 years in industry working on
-        thin film solar cells, transparent conducting oxides, medical
-        electronics, and data storage. His main technical achievements are the
-        co-invention of a direct x-ray digital radiography detector, a major
-        breakthrough for digital mammography in 1990, and the co-invention of
-        transparent conducting ZnO film doped with group III elements in 1983.
-        At present, most of the commercial thin film photovoltaic solar modules
-        have at least one layer of this oxide in the device configuration.
-        During his tenure with the industry, Dr. Tran was instrumental in
-        winning funding for several multimillion-dollar research projects and
-        brought in multimillion-dollar licensing royalties to companies based on
-        his inventions. He was also an invited speaker, a committee member of
-        international conferences, and a lecturer at seminars and workshops. Dr.
-        Tran currently serves as an adjunct professor with the University of
-        Minnesota, and has served as a visiting professor at universities in
-        Vietnam and Japan. He has received more than 62 patents. Products based
-        on his inventions have received many awards, including the prestigious
-        Research and Development 100, Photonic Circle of Excellence. Dr. Tran
-        was also the co-founder of Ecosolar International, a consulting company
-        on solar energy, thin films, teleradiography, and water filtration
-        systems. Dr. Tran is a senior life member of the IEEE, and was selected
-        for inclusion in numerous volumes of Who's Who in America, Who's Who in
-        Science and Engineering, Who's Who in the Midwest, Who's Who in the
-        World, Who's Who in Finance and Industry, and Who's Who in Finance and
-        Business.
-      </>
-    ),
+    bio:<></>
   },
+  {
+    title: "",
+    authorName: "Mr. Nguyen Phuc Vinh",
+    orgName:
+      "GTM-Synopsys-Vietnam",
+    avatar: "vinhpnguyen.jpg",
+    abstractFile: "#",
+    bioFile: "#",
+    abstract: ``,
+    bio:<></>
+  },
+  {
+    title: "",
+    authorName: "Prof. Masaya Toda",
+    orgName:
+      "Graduate School of Engineering, Tohoku University-Japan",
+    avatar: "masayatoda.jpg",
+    abstractFile: "#",
+    bioFile: "https://www.r-info.tohoku.ac.jp/en/cf7d273aa12829d6a143a50f971b9891.html",
+    abstract: ``,
+    bio:<></>
+  },
+  {
+    title: "",
+    authorName: "Dr. Pham Thanh Trung",
+    orgName:
+      "Namur University-Belgium",
+    avatar: "trungpham.jpg",
+    abstractFile: "#",
+    bioFile: "#",
+    abstract: ``,
+    bio:<></>
+  }
 ];
 
 class Keynote extends React.Component {

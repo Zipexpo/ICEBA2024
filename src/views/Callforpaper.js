@@ -62,22 +62,7 @@ class Callforpaper extends React.Component {
           <GenericSection>
             <h2>Call for Papers</h2>
             <p>
-              The purpose of the 5<sup>th</sup> ICEBA2024 is to link the
-              researchers and scientists from Vietnam and countries around the
-              world, especially Asian countries, in the fields of Engineering,
-              Physics, microelectronics, semiconductors, and electronic
-              engineering for their applications in biomedical engineering,
-              health sciences, hi-tech agriculture, and smart cities. Besides,
-              we also contribute to promoting international cooperation
-              activities by joining research projects and international
-              co-publications and proposing good solutions and applied
-              technology for the development of the Mekong Delta area.
-            </p>
-
-            <p>
-              ICEBA2024 will be hosted at VNUHCM-University of Science, Ho Chi
-              Minh city, Vietnam and Mien Tay Construction University – MTU,
-              Vietnam.
+              The purpose of the 5<sup>th</sup> ICEBA2024 is to link the researchers and scientists from Vietnam and countries around the world, especially Asian countries, in the fields of engineering, physics, microelectronics, semiconductors, and electronic engineering for their applications in biomedical engineering, health sciences, hi-tech agriculture, and smart cities. Besides, we also promote international cooperation by joining research projects and international co-publications and proposing good solutions and applied technology for developing the Mekong Delta area.
             </p>
 
             <p>
@@ -98,8 +83,10 @@ class Callforpaper extends React.Component {
             </h2>
             <ul>
               <li>
-                Engineering, Engineering Physics, Electronic Engineering and
-                Nuclear Engineering;
+              Engineering, Engineering Physics, and Electrical & Electronic Engineering;
+              </li>
+              <li>
+                Medical Physics and Nuclear Engineering;
               </li>
               <li>
                 MEMS (MicroElectronMechanical System), Sensors, Biosensors and
@@ -121,59 +108,13 @@ class Callforpaper extends React.Component {
           <GenericSection topDivider>
             <h2>Paper Submission</h2>
             <p>
-              Please submit your registration and abstract (around 200 words)
-              via website or &nbsp;
-              <a href="mailto: iceba@hcmus.edu.vn">iceba@hcmus.edu.vn</a> before
+              Please submit your registration and abstract via&nbsp;<a target="_blank" href="https://easychair.org/conferences/?conf=5thiceba2024">EasyChair</a> before
               &nbsp;<strong>June 10th , 2024</strong>.
             </p>
             <p>
-              Full paper for peer-review process for presentation (as template)
-              must be submit before <strong>July 10th , 2024</strong>
+              Full paper for peer-review process must be submited via the website of the Journal before <strong>July 10th , 2024</strong>
             </p>
-            {/*<p>*/}
-            {/*    All manuscripts will be reviewed and judged on correctness, originality, technical strength,*/}
-            {/*    rigor in analysis, quality of results, quality of presentation, and interest and relevance*/}
-            {/*    to the conference attendees.*/}
-            {/*</p>*/}
-            <p>
-              Forms and Formatting:
-              {/* <ButtonGroup2
-                variant="contained"
-                style={{ marginLeft: 5, marginRight: 5 }}
-              >
-                <Button
-                  color={"primary"}
-                  href={require("../assets/files/5. 5ICEBA_oral and poster presentation information.doc")}
-                  target={"_blank"}
-                  className={"button"}
-                >
-                  Abstract template
-                </Button>
-                <Button2
-                  size="small"
-                  href={require("../assets/files/5. 5ICEBA_oral and poster presentation information.doc")}
-                  download
-                  className={"button"}
-                >
-                  <DownloadIcon />
-                </Button2>
-              </ButtonGroup2> */}
-              <ButtonGroup2
-                variant="contained"
-                style={{ marginLeft: 5, marginRight: 5 }}
-              >
-                <Button
-                  color={"primary"}
-                  href={
-                    "https://www.ieee.org/conferences/publishing/templates.html"
-                  }
-                  target={"_blank"}
-                  className={"button"}
-                >
-                  Full paper template
-                </Button>
-              </ButtonGroup2>
-            </p>
+            
             <p>
               Click here to submit:
               <Button
@@ -232,7 +173,7 @@ class Callforpaper extends React.Component {
           </GenericSection>
           <Organization topDivider bottomDivider />
           <Sponsor topDivider bottomDivider />
-          {/* <GenericSection>
+          <GenericSection>
             <Card sx={{ width: "100%" }} elevation={7}>
               <CardContent>
                 <Box sx={{ display: "flex", justifyContent: "space-between" }}>
@@ -241,13 +182,13 @@ class Callforpaper extends React.Component {
                   </Typography>
                   <div>
                     <IconButton
-                      href={require("../assets/files/2. Call For Papers_5thICEBA2024.pdf")}
+                      href={require("../assets/files/3.Call For Papers_ICEBA2024_Apr25.pdf")}
                       download
                     >
                       <DownloadIcon />
                     </IconButton>
                     <IconButton
-                      href={require("../assets/files/2. Call For Papers_5thICEBA2024.pdf")}
+                      href={require("../assets/files/3.Call For Papers_ICEBA2024_Apr25.pdf")}
                       target={"_blank"}
                     >
                       <OpenInNewIcon />
@@ -272,7 +213,7 @@ class Callforpaper extends React.Component {
                       <div className="Example__container">
                         <div className={"Example__container__document"}>
                           <Document
-                            file={require("../assets/files/2. Call For Papers_5thICEBA2024.pdf")}
+                            file={require("../assets/files/3.Call For Papers_ICEBA2024_Apr25.pdf")}
                             onLoadError={console.error}
                           >
                             <Page
@@ -288,7 +229,7 @@ class Callforpaper extends React.Component {
                 </div>
               </CardContent>
             </Card>
-          </GenericSection> */}
+          </GenericSection>
         </Container>
       </React.Fragment>
     );

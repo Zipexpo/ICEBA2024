@@ -106,7 +106,7 @@ class TitlewithCountdown extends React.Component {
               <Button
                 tag="a"
                 color="secondary"
-                href={require("../../assets/files/2. Call For Papers_5thICEBA2024.pdf")}
+                href={require("../../assets/files/4b. Invitation letter_iceba2024.pdf")}
                 target={"_blank"}
                 className={"mt-16"}
               >

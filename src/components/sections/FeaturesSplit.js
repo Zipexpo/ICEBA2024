@@ -86,8 +86,10 @@ class FeaturesSplit extends React.Component {
                     to):
                     <ul>
                       <li>
-                        Engineering, Engineering Physics, Electronic Engineering
-                        and Nuclear Engineering;
+                        Engineering, Engineering Physics, and Electrical & Electronic Engineering;
+                      </li>
+                      <li>
+                        Medical Physics and Nuclear Engineering;
                       </li>
                       <li>
                         MEMS (MicroElectronMechanical System), Sensors,
@@ -141,11 +143,9 @@ class FeaturesSplit extends React.Component {
                 <div className={"container-lg reveal-from-top"}>
                   <p>
                     This year 5th ICEBA will be hosted at University of
-                    Science,Vietname National University Ho Chi Minh City, 227
+                    Science, Vietname National University Ho Chi Minh City, 227
                     Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city, Vietnam and
-                    Mien Tay Construction University (Ministry of Construction),
-                    Vinh Long Province, 20B Pho Co Dieu Str., Ward 3, Vinh Long,
-                    Vietnam
+                    Mien Tay Construction University, 20B Pho Co Dieu Str., Ward 3, Vinh Long City, Vinh Long Province, Vietnam
                   </p>
                 </div>
               </div>
