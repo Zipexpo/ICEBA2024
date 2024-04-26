@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.70a34005.css",
-    "main.js": "./static/js/main.0ddbc79e.js",
+    "main.js": "./static/js/main.81bb22eb.js",
     "static/media/vl.png": "./static/media/vl.32b23e589659b608eb30.png",
     "static/media/mangthit6.png": "./static/media/mangthit6.21d6925dd1ebf2131471.png",
     "static/media/orangebackground.webm": "./static/media/orangebackground.4b59570bec21a379aa82.webm",
@@ -118,6 +118,7 @@
     "static/media/Chu Vn To.jpg": "./static/media/Chu Vn To.86e5fabe778679604abf.jpg",
     "static/media/uol_logo.jpg": "./static/media/uol_logo.44518d23cca542dc53cf.jpg",
     "static/media/phamtrung.jpg": "./static/media/phamtrung.351fd9a62c7b71131500.jpg",
+    "static/media/janschulz.jpg": "./static/media/janschulz.b7fa4720f6fc5213ab7e.jpg",
     "static/media/ACM2.png": "./static/media/ACM2.c1ba0a9de29ee19eff7c.png",
     "static/media/Jianwu Wang.jpg": "./static/media/Jianwu Wang.a0b886c498fc9d2b6d6f.jpg",
     "static/media/kookmin.png": "./static/media/kookmin.20ed94289f3e638a67b7.png",
@@ -158,10 +159,10 @@
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
     "main.70a34005.css.map": "./static/css/main.70a34005.css.map",
-    "main.0ddbc79e.js.map": "./static/js/main.0ddbc79e.js.map"
+    "main.81bb22eb.js.map": "./static/js/main.81bb22eb.js.map"
   },
   "entrypoints": [
     "static/css/main.70a34005.css",
-    "static/js/main.0ddbc79e.js"
+    "static/js/main.81bb22eb.js"
   ]
 }
