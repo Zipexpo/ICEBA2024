@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.70a34005.css",
-    "main.js": "./static/js/main.81bb22eb.js",
+    "main.js": "./static/js/main.9da2bb19.js",
     "static/media/vl.png": "./static/media/vl.32b23e589659b608eb30.png",
     "static/media/mangthit6.png": "./static/media/mangthit6.21d6925dd1ebf2131471.png",
     "static/media/orangebackground.webm": "./static/media/orangebackground.4b59570bec21a379aa82.webm",
@@ -55,6 +55,7 @@
     "static/media/3.Call For Papers_ICEBA2024_Apr25.pdf": "./static/media/3.Call For Papers_ICEBA2024_Apr25.d0bb6f79f614fc3e4cf7.pdf",
     "static/media/image-placeholder.png": "./static/media/image-placeholder.c4d8197b3c7b51ec54eb.png",
     "static/media/Hohai University.png": "./static/media/Hohai University.fb7ed5c2bfe1bc004a18.png",
+    "static/media/vinhpnguyen.jpg": "./static/media/vinhpnguyen.96c572134e0c54c4a9f4.jpg",
     "static/media/vlf.jpg": "./static/media/vlf.5283d817472bace29279.jpg",
     "static/media/Yan Tang.jpg": "./static/media/Yan Tang.15b9ea712f214ff301d1.jpg",
     "static/media/Zichuan Xu.jpg": "./static/media/Zichuan Xu.c3eb855e6955c4695f51.jpg",
@@ -115,6 +116,7 @@
     "static/media/Kenneth Johnson.jpg": "./static/media/Kenneth Johnson.bd1e1c2a8c2801150638.jpg",
     "static/media/Xinghui Zhao.jpg": "./static/media/Xinghui Zhao.e0469c58f2b932b1a40a.jpg",
     "static/media/ICS_stacked-transparent.gif": "./static/media/ICS_stacked-transparent.bc9f4a8c2b057e491750.gif",
+    "static/media/trungpham.jpg": "./static/media/trungpham.6d451e30989598f989fa.jpg",
     "static/media/Chu Vn To.jpg": "./static/media/Chu Vn To.86e5fabe778679604abf.jpg",
     "static/media/uol_logo.jpg": "./static/media/uol_logo.44518d23cca542dc53cf.jpg",
     "static/media/phamtrung.jpg": "./static/media/phamtrung.351fd9a62c7b71131500.jpg",
@@ -159,10 +161,10 @@
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
     "main.70a34005.css.map": "./static/css/main.70a34005.css.map",
-    "main.81bb22eb.js.map": "./static/js/main.81bb22eb.js.map"
+    "main.9da2bb19.js.map": "./static/js/main.9da2bb19.js.map"
   },
   "entrypoints": [
     "static/css/main.70a34005.css",
-    "static/js/main.81bb22eb.js"
+    "static/js/main.9da2bb19.js"
   ]
 }
