@@ -211,6 +211,9 @@ class Team extends React.Component {
                   <li style={{ textAlign: "left" }}>
                     Nguyen Chi Linh, VNUHCM-University of Science-Vietnam
                   </li>
+                  <li style={{ textAlign: "left" }}>
+                    Truong Van Minh, Dong Nai University-Vietnam
+                  </li>
                 </ul>
               </div>
             </GenericSection>
@@ -247,28 +250,31 @@ class Team extends React.Component {
               <div className={tilesClasses}>
                 <ul style={{ width: 700 }}>
                   <li style={{ textAlign: "left" }}>
-                    Nguyen Chi Nhan, VNUHCM-University of Science Vietnam, Chair
+                    Nguyen Chi Nhan, VNUHCM-University of Science-Vietnam, Chair
                   </li>
                   <li style={{ textAlign: "left" }}>
-                    Vo Hong Hai, VNUHCM-University of Science Vietnam, Co-chair
+                    Vo Hong Hai, VNUHCM-University of Science-Vietnam, Co-chair
                   </li>
                   <li style={{ textAlign: "left" }}>
                     Dao Huy Hoang, Mien Tay Construction University
                   </li>
                   <li style={{ textAlign: "left" }}>
-                    Ho Thanh Huy, VNUHCM-University of Science Vietnam
+                    Ho Thanh Huy, VNUHCM-University of Science-Vietnam
                   </li>
                   <li style={{ textAlign: "left" }}>
-                    Huynh Thanh Nhan, VNUHCM-University of Science Vietnam
+                    Huynh Thanh Nhan, VNUHCM-University of Science-Vietnam
                   </li>
                   <li style={{ textAlign: "left" }}>
-                    Do Duc Cuong, VNUHCM-University of Science Vietnam
+                    Do Duc Cuong, VNUHCM-University of Science-Vietnam
                   </li>
                   <li style={{ textAlign: "left" }}>
-                    Trinh Thi Ly, VNUHCM-University of Science Vietnam
+                    Trinh Thi Ly, VNUHCM-University of Science-Vietnam
                   </li>
                   <li style={{ textAlign: "left" }}>
                     Phan Thien Luan, NCHU-Taiwan (R.O.C)
+                  </li>
+                  <li style={{ textAlign: "left" }}>
+                    Nguyen Dinh Long, Dong Nai Univeristy-Vietnam
                   </li>
                 </ul>
               </div>
