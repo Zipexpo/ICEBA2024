@@ -23,8 +23,8 @@ const defaultProps = {
 // ]
 const _event = [
   {
-    key: "Abstract submission",
-    date: "6/10/2024",
+    key: "Abstract submission (EXTENDED)",
+    date: "6/30/2024",
     href: submissionabstractLink,
   },
   {
