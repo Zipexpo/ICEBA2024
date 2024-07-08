@@ -28,7 +28,7 @@ const _event = [
     href: submissionabstractLink,
   },
   {
-    key: "Abstract result announcement",
+    key: "Abstract result announcement (EXTENDED)",
     date: "7/30/2024",
   },
   {
