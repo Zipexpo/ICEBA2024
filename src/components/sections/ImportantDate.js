@@ -24,20 +24,20 @@ const defaultProps = {
 const _event = [
   {
     key: "Abstract submission (EXTENDED)",
-    date: "7/20/2024",
+    date: "8/30/2024",
     href: submissionabstractLink,
   },
   {
     key: "Abstract result announcement (EXTENDED)",
-    date: "7/30/2024",
-  },
-  {
-    key: "-	Full paper submission (via the website of IEEJ)",
     date: "9/10/2024",
   },
   {
+    key: "-	Full paper submission (via the website of IEEJ)",
+    date: "11/30/2024",
+  },
+  {
     key: "Conference payment fee",
-    date: "10/10/2024",
+    date: "10/30/2024",
     prefix: "before",
     href: "./registration",
   },

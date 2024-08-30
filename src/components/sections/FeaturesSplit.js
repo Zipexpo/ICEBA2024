@@ -86,11 +86,10 @@ class FeaturesSplit extends React.Component {
                     to):
                     <ul>
                       <li>
-                        Engineering, Engineering Physics, and Electrical & Electronic Engineering;
+                        Engineering, Engineering Physics, and Electrical &
+                        Electronic Engineering;
                       </li>
-                      <li>
-                        Medical Physics and Nuclear Engineering;
-                      </li>
+                      <li>Medical Physics and Nuclear Engineering;</li>
                       <li>
                         MEMS (MicroElectronMechanical System), Sensors,
                         Biosensors and semiconducting devices;
@@ -110,9 +109,7 @@ class FeaturesSplit extends React.Component {
                         applications;
                       </li>
                       <li>Civil and Geology Engineering;</li>
-                      <li>
-                        Constructions, Machines, and Mechanical Engineering.
-                      </li>
+                      <li>Architecture, Urban planning and Construction.</li>
                     </ul>
                   </p>
                 </div>
@@ -142,10 +139,11 @@ class FeaturesSplit extends React.Component {
               <div className="pb-32">
                 <div className={"container-lg reveal-from-top"}>
                   <p>
-                    This year 5th ICEBA will be hosted at University of
-                    Science, Vietname National University Ho Chi Minh City, 227
-                    Nguyen Van Cu Str., Dist. 5, Ho Chi Minh city, Vietnam and
-                    Mien Tay Construction University, 20B Pho Co Dieu Str., Ward 3, Vinh Long City, Vinh Long Province, Vietnam
+                    This year 5th ICEBA will be hosted at University of Science,
+                    Vietname National University Ho Chi Minh City, 227 Nguyen
+                    Van Cu Str., Dist. 5, Ho Chi Minh city, Vietnam and Mien Tay
+                    Construction University, 20B Pho Co Dieu Str., Ward 3, Vinh
+                    Long City, Vinh Long Province, Vietnam
                   </p>
                 </div>
               </div>

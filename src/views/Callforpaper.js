@@ -62,7 +62,16 @@ class Callforpaper extends React.Component {
           <GenericSection>
             <h2>Call for Papers</h2>
             <p>
-              The purpose of the 5<sup>th</sup> ICEBA2024 is to link the researchers and scientists from Vietnam and countries around the world, especially Asian countries, in the fields of engineering, physics, microelectronics, semiconductors, and electronic engineering for their applications in biomedical engineering, health sciences, hi-tech agriculture, and smart cities. Besides, we also promote international cooperation by joining research projects and international co-publications and proposing good solutions and applied technology for developing the Mekong Delta area.
+              The purpose of the 5<sup>th</sup> ICEBA2024 is to link the
+              researchers and scientists from Vietnam and countries around the
+              world, especially Asian countries, in the fields of engineering,
+              physics, microelectronics, semiconductors, and electronic
+              engineering for their applications in biomedical engineering,
+              health sciences, hi-tech agriculture, and smart cities. Besides,
+              we also promote international cooperation by joining research
+              projects and international co-publications and proposing good
+              solutions and applied technology for developing the Mekong Delta
+              area.
             </p>
 
             <p>
@@ -83,11 +92,10 @@ class Callforpaper extends React.Component {
             </h2>
             <ul>
               <li>
-              Engineering, Engineering Physics, and Electrical & Electronic Engineering;
+                Engineering, Engineering Physics, and Electrical & Electronic
+                Engineering;
               </li>
-              <li>
-                Medical Physics and Nuclear Engineering;
-              </li>
+              <li>Medical Physics and Nuclear Engineering;</li>
               <li>
                 MEMS (MicroElectronMechanical System), Sensors, Biosensors and
                 semiconducting devices;
@@ -102,19 +110,26 @@ class Callforpaper extends React.Component {
                 Artificial Intelligence, ...
               </li>
               <li>Civil and Geology Engineering;</li>
-              <li>Constructions, Machines, and Mechanical Engineering;</li>
+              <li>Architecture, Urban planning and Construction;</li>
             </ul>
           </GenericSection>
           <GenericSection topDivider>
             <h2>Paper Submission</h2>
             <p>
-              Please submit your registration and abstract via&nbsp;<a target="_blank" href="https://easychair.org/conferences/?conf=5thiceba2024">EasyChair</a> before
-              &nbsp;<strong>June 10th , 2024</strong>.
+              Please submit your registration and abstract via&nbsp;
+              <a
+                target="_blank"
+                href="https://easychair.org/conferences/?conf=5thiceba2024"
+              >
+                EasyChair
+              </a>{" "}
+              before &nbsp;<strong>June 10th , 2024</strong>.
             </p>
             <p>
-              Full paper for peer-review process must be submited via the website of the Journal before <strong>July 10th , 2024</strong>
+              Full paper for peer-review process must be submited via the
+              website of the Journal before <strong>July 10th , 2024</strong>
             </p>
-            
+
             <p>
               Click here to submit:
               <Button
@@ -141,20 +156,25 @@ class Callforpaper extends React.Component {
           <GenericSection topDivider>
             <h2>Publications</h2>
             <p>
-              <strong>The selected papers (from 4 to 8 pages)</strong> will be
-              reviewed or recommended for publication in one of the below
-              Scopus/SCIE/Scimago database Journal (with fee) such as:
+              Full paper for review process of publication (use template) must
+              be submit before November 30th , 2024. Publications: The selected
+              papers (from 4 to 8 pages) will be reviewed and recommended in one
+              of 03 below Scopus/SCIE/Scimago database Journal (1,2,3) or
+              Vietnamese Journal (4) with fee such as:
             </p>
             <ol style={{ marginLeft: 20 }}>
               <li>
-                The special issue of Applied Science (MDPI, Scopus, IF:5.3,
-                Q1/Q2);
+                The special issue of ICEBA2024 on IEEJ Transactions on
+                Electrical and Electronic Engineering (Japan, Scopus-Q3);
               </li>
               <li>
-                IEEJ Transactions on Electrical and Electronic Engineering
-                (Scopus, Q3);
+                The special issue of ICEBA2024 on Applied Science (MDPI, Scopus,
+                IF:5.3, Q1);
               </li>
-              <li>The special issue of ICEBA on IEEJ-TSC (Scopus, Q4);</li>
+              <li>
+                IEEJ Transactions on Sensors and Micromachines (Japan,
+                Scopus-Q4);
+              </li>
               <li>
                 Journal of Construction (Ministry of Construction, Vietnam, ISSN
                 2734-9888);

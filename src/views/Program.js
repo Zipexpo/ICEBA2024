@@ -904,77 +904,8 @@ class Program extends React.Component {
                                 dir="ltr"
                                 colSpan="3"
                               >
-                                Session 7. Civil and Geology Engineering
-                              </td>
-                            </tr>
-                            <tr style={{ height: "20px" }}>
-                              <td
-                                className="s1 button-secondary"
-                                dir="ltr"
-                                colSpan="3"
-                              >
-                                Room ….… , MTU <br />
-                                Chair: &nbsp; Co-Chair: &nbsp;Secretary:
-                              </td>
-                            </tr>
-                            {[1, 2, 3].map((i) => (
-                              <tr style={{ height: "20px" }}>
-                                <td className="s3" dir="ltr">
-                                  {getTime(8, 0, (i - 1) * 20)}-
-                                  {getTime(8, 0, i * 20)}
-                                </td>
-                                <td className="s4" dir="ltr">
-                                  Invited talk S6-0{i}-I
-                                  {/* <Typography variant={"subtitle2"}>
-                                  Nguyen Bui Trung Kien (VNUHCN- University of
-                                  Science)
-                                </Typography> */}
-                                </td>
-                                <td className="s5" dir="ltr">
-                                  Will be updated
-                                </td>
-                              </tr>
-                            ))}
-                            <tr style={{ height: "20px" }}>
-                              <td className="s3" dir="ltr">
-                                09:00 - 09:15
-                              </td>
-                              <td
-                                className="s4"
-                                style={{ textAlign: "center" }}
-                                colSpan={2}
-                              >
-                                Coffee break
-                              </td>
-                            </tr>
-
-                            {[1, 2, 3, 4, 5, 6, 7].map((i) => (
-                              <tr style={{ height: "20px" }}>
-                                <td className="s3" dir="ltr">
-                                  {getTime(9, 15, (i - 1) * 15)}-
-                                  {getTime(9, 15, i * 15)}
-                                </td>
-                                <td className="s4" dir="ltr">
-                                  Oral S6-0{i}-O
-                                  {/* <Typography variant={"subtitle2"}>
-                                  Nguyen Bui Trung Kien (VNUHCN- University of
-                                  Science)
-                                </Typography> */}
-                                </td>
-                                <td className="s5" dir="ltr">
-                                  Will be updated
-                                </td>
-                              </tr>
-                            ))}
-                            <tr style={{ height: "20px" }}></tr>
-                            <tr style={{ height: "20px" }}>
-                              <td
-                                className="s0  button-primary"
-                                dir="ltr"
-                                colSpan="3"
-                              >
-                                Session 8. Geology & Civil Engineering and
-                                Construction, Machines & Mechanical Engineering
+                                Session 7. Architecture, Urban planning and
+                                Construction
                               </td>
                             </tr>
                             <tr style={{ height: "20px" }}>
