@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.70a34005.css",
-    "main.js": "./static/js/main.15bab0df.js",
+    "main.js": "./static/js/main.5e517eae.js",
     "static/media/vl.png": "./static/media/vl.32b23e589659b608eb30.png",
     "static/media/mangthit6.png": "./static/media/mangthit6.21d6925dd1ebf2131471.png",
     "static/media/orangebackground.webm": "./static/media/orangebackground.4b59570bec21a379aa82.webm",
@@ -52,7 +52,7 @@
     "static/media/outside2.jpg": "./static/media/outside2.177b33f1fa3cdf5bd49a.jpg",
     "static/media/features-split-top-02.png": "./static/media/features-split-top-02.169834d7c001ff9c49a7.png",
     "static/media/pt2.jpg": "./static/media/pt2.c48ab8b041e7dbbace7c.jpg",
-    "static/media/3.Call For Papers_ICEBA2024_Apr25.pdf": "./static/media/3.Call For Papers_ICEBA2024_Apr25.d0bb6f79f614fc3e4cf7.pdf",
+    "static/media/3.Call For Papers_ICEBA2024_Apr25.pdf": "./static/media/3.Call For Papers_ICEBA2024_Apr25.847e64599cf3e0a42b68.pdf",
     "static/media/image-placeholder.png": "./static/media/image-placeholder.c4d8197b3c7b51ec54eb.png",
     "static/media/Hohai University.png": "./static/media/Hohai University.fb7ed5c2bfe1bc004a18.png",
     "static/media/vinhpnguyen.jpg": "./static/media/vinhpnguyen.96c572134e0c54c4a9f4.jpg",
@@ -161,10 +161,10 @@
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
     "main.70a34005.css.map": "./static/css/main.70a34005.css.map",
-    "main.15bab0df.js.map": "./static/js/main.15bab0df.js.map"
+    "main.5e517eae.js.map": "./static/js/main.5e517eae.js.map"
   },
   "entrypoints": [
     "static/css/main.70a34005.css",
-    "static/js/main.15bab0df.js"
+    "static/js/main.5e517eae.js"
   ]
 }
