@@ -149,17 +149,6 @@ const data = [
   },
   {
     title: "",
-    authorName: "Prof. Jan Schulz",
-    orgName:
-      "Jade University of Applied Sciences-Germany",
-    avatar: "janschulz.jpg",
-    abstractFile: "#",
-    bioFile: "https://www.jade-hs.de/team/jan-schulz/",
-    abstract: <></>,
-    bio:<></>
-  },
-  {
-    title: "",
     authorName: "Prof. Kyeong-Sik Min",
     orgName:
       "School of Electrical Engineering, Kookmin University, Seoul, Korea",
@@ -553,79 +542,203 @@ const data = [
     ),
   },
   {
-      title:'',
-      authorName: 'Prof. Congo Tak Shing Ching',
-      orgName: 'Graduate Institute of Biomedical Engineering, National Chung Hsing University, Taichung, Taiwan',
-      avatar: 'Ching.jpg',
-      abstractFile: '#',
-      bioFile: '/files/plentary/biography_prf. Congo.docx',
-      abstract: <></>,
-      bio: <ol>
-          <li>Research Areas:</li>
-          Biomedical instrumentation design, biosensors, tissue bioimpedance, biomedical electronics, biomedical optoelectronic, AIoT healthcare, assistive healthcare technologies
-          <li>Education:  <i>(month/year to month/year, university/institute, country)</i></li>
-          <ul>
-              <li>PhD in Bioengineering, University of Strathclyde, Glasgow, UK, 2005</li>
-              <li>MPhil in Biomedical Engineering, The Hong Kong Polytechnic University, HK, 2002</li>
-              <li>BSc in Prosthetics and Orthotics (First Class Honours), The Hong Kong Polytechnic University, HK, 1999</li>
-          </ul>
-          <li>Academic Activities:
-              <br/><i>Members of academic society (name of society, position, where, when)</i>
-              <ul>
-                  <li>Member, Prosthetics and Orthotics Society of Taiwan, since 2016</li>
-                  <li>Life Member, Taiwan Engineering Medicine Biology Association, since 2023</li>
-                  <li>Life Member, Association of Chemical Sensors in Taiwan, since 2015</li>
-                  <li>Life Member, Taiwan Rehabilitation Engineering and Assistive Technology Society, 2013</li>
-                  <li>Life Member, The Chinese Institute of Engineers, Since 2013</li>
-                  <li>Member, IEEE, since 2010</li>
-                  <li>Member, IEEE Engineering in Medicine and Biology Society, since 2010</li>
-                  <li>Life Member, World Association for Chinese Biomedical Engineers, since 2009</li>
-                  <li>Member, International Association of Engineers (IAENG), since 2009</li>
-                  <li>Life Member, Biomedical Engineering Society of the R.O.C., since 2008</li>
-                  <li>Member, The Royal Society of Edinburgh Entrepreneurs' Club, since 2005</li>
-              </ul>
-              <i>Invited talks for International conference/workshop (name of talk, name of conference/workshop, where, when)</i>
-              <ul>
-                  <li>Keynote speaker of The International Symposium on Applied Science (ISAS 2023), 13-15 Oct 2023, Ho Chi Minh City, Vietnam</li>
-                  <li>Keynote speaker of Rencontres du Vietnam: The first International Symposium of Nano Life Science: Nano Biotechnology, Biosensor, Computation (NanoBioCoM2023), 17-19 Sep 2023, ICISE, Quy Nhon, Vietnam</li>
-                  <li>Keynote speaker of International Symposium on Medical Devices and Technology 2023, 27-28 Aug 2023, Johor, Malaysia</li>
-                  <li>Plenary speaker of The 3rd International Workshop on Engineering Physics, IC-MEMS-Sensors and Their Applications (3rdIWEMA2022), 25-26 Nov 2022, Ho Chi Minh City, Vietnam</li>
-                  <li>Keynote speaker of IEEE The 2nd International Conference on Intelligent Cybernetics Technology & Applications 2022 (IEEE ICICyTA 2022), 15-16 Dec 2022, Bandung, Indonesia</li>
-                  <li>Invited speaker of International Joint Symposium on Applied Mathematics, Science and Technology, 01 Dec 2022, Taichung, Taiwan</li>
-                  <li>Invited speaker of The 38th SENSOR SYMPOSIUM, 9-11 Nov 2021, Japan</li>
-                  <li>Keynote speaker of The International Symposium on Applied Science 2021, 15-17 Oct 2021, Ho Chi Minh City, Vietnam</li>
-                  <li>Keynote speaker of The Fifth International Conference on Biological Information and Biomedical Engineering (BIBE2021), 20-22 Jul 2021, Hangzhou, China</li>
-                  <li>Keynote speaker of the 3rd International Conference on Bioscience and Medical Engineering (ICBME2021), 29-30 Jun 2021, Johor Bahru, Malaysia</li>
-                  <li>Invited speaker of Distinguished Lecture Series, Universiti Teknologi Malaysia, 12 Nov 2020, Malaysia</li>
-                  <li>Plenary speaker of International Convention on Rehabilitation Engineering and Technology (i-CREATe 2020), 5-7 Nov 2020, Taipei, Taiwan</li>
-                  <li>Keynote speaker of International Conference on Biological Information and Biomedical Engineering (BIBE 2018), 6-8 Jul 2018, Shanghai, China</li>
-                  <li>Keynote speaker of The 2nd International Conference on Biomedical and Biological Engineering (BBE2017), 26-28 May 2017, Guilin, China</li>
-                  <li>Keynote speaker of The International Conference on Biological Engineering and Pharmacy (BEP2016), 9-11 Dec 2016, Shanghai, China</li>
-                  <li>Keynote speaker of The International Conference on Biomedical and Biological Engineering (BBE2016), 15-17 Jul 2016, Shanghai, China</li>
-                  <li>Invited speaker of The 11th Annual IEEE International Conference on Nano/Micro Engineered and Molecular Systems, 17-20 April 2016, Matsushima Bay and Sendai MEMS City, Japan</li>
-              </ul>
-              <i>Visiting researcher/professor (university/institute, where, when)</i>
-              <ul>
-                <li>Visiting Professor, Department of Physics and Electronic Engineering University of Science (Vietnam National University of Hochiminh City), Vietnam, 06/2019 – 07/2019</li>
-                <li>Honorary Professor, Department of Health and Physical Education The Education University of Hong Kong, Hong Kong, 11/2016 – 10/2019</li>
-              </ul>
-          </li>
-          <li>Research Achievements and Awards:
-              <a href={'https://www.bme.nchu.edu.tw/members/tsching/index.htm'} target={'_blank'}>
-                  <ul>
-                      <li>Research projects (2010-now): Chief of Project</li>
-                      <li>Intellectual Property</li>
-                      <li>Research Awards</li>
-                      <li>Research Awards</li>
-                  </ul>
-              </a>
+    title: "",
+    authorName: "Prof. Congo Tak Shing Ching",
+    orgName:
+      "Graduate Institute of Biomedical Engineering, National Chung Hsing University, Taichung, Taiwan",
+    avatar: "Ching.jpg",
+    abstractFile: "#",
+    bioFile: "/files/plentary/biography_prf. Congo.docx",
+    abstract: <></>,
+    bio: (
+      <ol>
+        <li>Research Areas:</li>
+        Biomedical instrumentation design, biosensors, tissue bioimpedance,
+        biomedical electronics, biomedical optoelectronic, AIoT healthcare,
+        assistive healthcare technologies
+        <li>
+          Education:{" "}
+          <i>(month/year to month/year, university/institute, country)</i>
+        </li>
+        <ul>
+          <li>
+            PhD in Bioengineering, University of Strathclyde, Glasgow, UK, 2005
           </li>
           <li>
-              <a href={'https://www.bme.nchu.edu.tw/members/tsching/index.htm'} target={'_blank'}>
-                  ISI/Scopus/SCIE Selected Publications (2010-Now)
-              </a>
+            MPhil in Biomedical Engineering, The Hong Kong Polytechnic
+            University, HK, 2002
           </li>
+          <li>
+            BSc in Prosthetics and Orthotics (First Class Honours), The Hong
+            Kong Polytechnic University, HK, 1999
+          </li>
+        </ul>
+        <li>
+          Academic Activities:
+          <br />
+          <i>
+            Members of academic society (name of society, position, where, when)
+          </i>
+          <ul>
+            <li>
+              Member, Prosthetics and Orthotics Society of Taiwan, since 2016
+            </li>
+            <li>
+              Life Member, Taiwan Engineering Medicine Biology Association,
+              since 2023
+            </li>
+            <li>
+              Life Member, Association of Chemical Sensors in Taiwan, since 2015
+            </li>
+            <li>
+              Life Member, Taiwan Rehabilitation Engineering and Assistive
+              Technology Society, 2013
+            </li>
+            <li>Life Member, The Chinese Institute of Engineers, Since 2013</li>
+            <li>Member, IEEE, since 2010</li>
+            <li>
+              Member, IEEE Engineering in Medicine and Biology Society, since
+              2010
+            </li>
+            <li>
+              Life Member, World Association for Chinese Biomedical Engineers,
+              since 2009
+            </li>
+            <li>
+              Member, International Association of Engineers (IAENG), since 2009
+            </li>
+            <li>
+              Life Member, Biomedical Engineering Society of the R.O.C., since
+              2008
+            </li>
+            <li>
+              Member, The Royal Society of Edinburgh Entrepreneurs' Club, since
+              2005
+            </li>
+          </ul>
+          <i>
+            Invited talks for International conference/workshop (name of talk,
+            name of conference/workshop, where, when)
+          </i>
+          <ul>
+            <li>
+              Keynote speaker of The International Symposium on Applied Science
+              (ISAS 2023), 13-15 Oct 2023, Ho Chi Minh City, Vietnam
+            </li>
+            <li>
+              Keynote speaker of Rencontres du Vietnam: The first International
+              Symposium of Nano Life Science: Nano Biotechnology, Biosensor,
+              Computation (NanoBioCoM2023), 17-19 Sep 2023, ICISE, Quy Nhon,
+              Vietnam
+            </li>
+            <li>
+              Keynote speaker of International Symposium on Medical Devices and
+              Technology 2023, 27-28 Aug 2023, Johor, Malaysia
+            </li>
+            <li>
+              Plenary speaker of The 3rd International Workshop on Engineering
+              Physics, IC-MEMS-Sensors and Their Applications (3rdIWEMA2022),
+              25-26 Nov 2022, Ho Chi Minh City, Vietnam
+            </li>
+            <li>
+              Keynote speaker of IEEE The 2nd International Conference on
+              Intelligent Cybernetics Technology & Applications 2022 (IEEE
+              ICICyTA 2022), 15-16 Dec 2022, Bandung, Indonesia
+            </li>
+            <li>
+              Invited speaker of International Joint Symposium on Applied
+              Mathematics, Science and Technology, 01 Dec 2022, Taichung, Taiwan
+            </li>
+            <li>
+              Invited speaker of The 38th SENSOR SYMPOSIUM, 9-11 Nov 2021, Japan
+            </li>
+            <li>
+              Keynote speaker of The International Symposium on Applied Science
+              2021, 15-17 Oct 2021, Ho Chi Minh City, Vietnam
+            </li>
+            <li>
+              Keynote speaker of The Fifth International Conference on
+              Biological Information and Biomedical Engineering (BIBE2021),
+              20-22 Jul 2021, Hangzhou, China
+            </li>
+            <li>
+              Keynote speaker of the 3rd International Conference on Bioscience
+              and Medical Engineering (ICBME2021), 29-30 Jun 2021, Johor Bahru,
+              Malaysia
+            </li>
+            <li>
+              Invited speaker of Distinguished Lecture Series, Universiti
+              Teknologi Malaysia, 12 Nov 2020, Malaysia
+            </li>
+            <li>
+              Plenary speaker of International Convention on Rehabilitation
+              Engineering and Technology (i-CREATe 2020), 5-7 Nov 2020, Taipei,
+              Taiwan
+            </li>
+            <li>
+              Keynote speaker of International Conference on Biological
+              Information and Biomedical Engineering (BIBE 2018), 6-8 Jul 2018,
+              Shanghai, China
+            </li>
+            <li>
+              Keynote speaker of The 2nd International Conference on Biomedical
+              and Biological Engineering (BBE2017), 26-28 May 2017, Guilin,
+              China
+            </li>
+            <li>
+              Keynote speaker of The International Conference on Biological
+              Engineering and Pharmacy (BEP2016), 9-11 Dec 2016, Shanghai, China
+            </li>
+            <li>
+              Keynote speaker of The International Conference on Biomedical and
+              Biological Engineering (BBE2016), 15-17 Jul 2016, Shanghai, China
+            </li>
+            <li>
+              Invited speaker of The 11th Annual IEEE International Conference
+              on Nano/Micro Engineered and Molecular Systems, 17-20 April 2016,
+              Matsushima Bay and Sendai MEMS City, Japan
+            </li>
+          </ul>
+          <i>
+            Visiting researcher/professor (university/institute, where, when)
+          </i>
+          <ul>
+            <li>
+              Visiting Professor, Department of Physics and Electronic
+              Engineering University of Science (Vietnam National University of
+              Hochiminh City), Vietnam, 06/2019 – 07/2019
+            </li>
+            <li>
+              Honorary Professor, Department of Health and Physical Education
+              The Education University of Hong Kong, Hong Kong, 11/2016 –
+              10/2019
+            </li>
+          </ul>
+        </li>
+        <li>
+          Research Achievements and Awards:
+          <a
+            href={"https://www.bme.nchu.edu.tw/members/tsching/index.htm"}
+            target={"_blank"}
+          >
+            <ul>
+              <li>Research projects (2010-now): Chief of Project</li>
+              <li>Intellectual Property</li>
+              <li>Research Awards</li>
+              <li>Research Awards</li>
+            </ul>
+          </a>
+        </li>
+        <li>
+          <a
+            href={"https://www.bme.nchu.edu.tw/members/tsching/index.htm"}
+            target={"_blank"}
+          >
+            ISI/Scopus/SCIE Selected Publications (2010-Now)
+          </a>
+        </li>
       </ol>
+    ),
   },
   {
     title: "",
@@ -659,47 +772,44 @@ const data = [
   {
     title: "",
     authorName: "Assoc. Prof. Nguyen Van Toan",
-    orgName:
-      "Tohoku University-Japan",
+    orgName: "Tohoku University-Japan",
     avatar: "Nguyen-Toan-2.png",
     abstractFile: "#",
     bioFile: "#",
     abstract: ``,
-    bio:<></>
+    bio: <></>,
   },
   {
     title: "",
     authorName: "Mr. Nguyen Phuc Vinh",
-    orgName:
-      "GTM-Synopsys-Vietnam",
+    orgName: "GTM-Synopsys-Vietnam",
     avatar: "vinhpnguyen.jpg",
     abstractFile: "#",
     bioFile: "#",
     abstract: ``,
-    bio:<></>
+    bio: <></>,
   },
   {
     title: "",
     authorName: "Prof. Masaya Toda",
-    orgName:
-      "Graduate School of Engineering, Tohoku University-Japan",
+    orgName: "Graduate School of Engineering, Tohoku University-Japan",
     avatar: "masayatoda.jpg",
     abstractFile: "#",
-    bioFile: "https://www.r-info.tohoku.ac.jp/en/cf7d273aa12829d6a143a50f971b9891.html",
+    bioFile:
+      "https://www.r-info.tohoku.ac.jp/en/cf7d273aa12829d6a143a50f971b9891.html",
     abstract: ``,
-    bio:<></>
+    bio: <></>,
   },
   {
     title: "",
     authorName: "Dr. Pham Thanh Trung",
-    orgName:
-      "Namur University-Belgium",
+    orgName: "Namur University-Belgium",
     avatar: "trungpham.jpg",
     abstractFile: "#",
     bioFile: "#",
     abstract: ``,
-    bio:<></>
-  }
+    bio: <></>,
+  },
 ];
 
 class Keynote extends React.Component {
