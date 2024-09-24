@@ -2,6 +2,7 @@ import React from "react";
 import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
 import Image from "../elements/Image";
+import { Grid } from "@mui/material";
 
 const propTypes = {
   ...SectionProps.types,
@@ -42,6 +43,8 @@ class Sponsor extends React.Component {
     return (
       <section {...props} className={outerClasses}>
         <div className="container">
+        <Grid container>
+          <Grid item xs={12} md={6}>
           <div className={innerClasses}>
             <h2 className={"center-content"}>Technical Supports</h2>
             <ul className="list-reset">
@@ -78,8 +81,25 @@ class Sponsor extends React.Component {
                 />
               </li>
             </ul>
+            </div>
+            </Grid>
+            <Grid item xs={12} md={6}>
+            <div className={innerClasses}>
+              <h2 className={"center-content"}>Sponsors</h2>
+              <ul className="list-reset">
+                <li className="reveal-scale-up">
+                  <Image
+                    src={require("./../../assets/images/sonpsor-smater.jpg")}
+                    alt="SMARTer- NCHU- Taiwan"
+                    width={180}
+                    height={39}
+                  />
+                </li>
+              </ul>
+            </div>
+          </Grid>
+          </Grid>
           </div>
-        </div>
       </section>
     );
   }
