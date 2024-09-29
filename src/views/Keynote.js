@@ -107,13 +107,22 @@ const data = [
     ),
   },
   {
-    title: "",
+    title: "Four-side buttable CMOS imaging modules for CT systems ",
     authorName: "Prof. Tran Tri Nang",
-    orgName: "Minnesota University, USA",
+    orgName: (
+      <>
+        College of Science and Technology, University of Minnesota, USA
+        <br />
+        Ecosolar International
+      </>
+    ),
     avatar: "trantrinang.jpg",
     abstractFile: "#",
     bioFile: "#",
-    abstract: ``,
+    abstract: `A CMOS-based four-side buttable imaging module  is proposed for the CT systems such as computed tomography, tomosynthesis and  security airport   inspection scheme . We call this imaging unit a “four-side buttable  CMOS module” , due to the fact that these imaging modules are abutted together to form an X-ray imager which can in turn be employed in an imaging system similar to the computed tomography or CT scan. That is, the X-ray beams are rotated around the patient; and the beams and the X-ray imagers are positioned in the opposite position in relation to the patient or the object.  
+Regarding the components of the four-side buttable CMOS imaging modules , all the photodiodes, transistors and read-out electronics  are  made using single crystal silicon - allowing potential high yield, thus low cost; and high electronic performance in terms of speed and noise. The pixels and thus the  modules can be operated in the low resolution mode (fluoroscopy) and high resolution mode (radiography). In the proposed configuration, small size single crystal silicon CMOS modules are abutted together side-by-side to form a large X-ray imager.  Spaces between modules are kept at less than the width of the pixels. Interconnections and the read-out schemes could be arranged at the top, the bottom or on the side walls of the modules. Each CMOS pixel uses an N-well to P- substrate photodiode to integrate photo-generated charge  and employs a thin oxide capacitor in parallel  with the photodiode to increase  the maximum charge handling capacity of the pixel.  The signal charge is read out to a common signal line using  two series connected NMOS transistors which are controlled by row and column  scanning registers integrated on the imager array. Another unique feature of our circuit design is the pixel element includes at least one configurable transistor in order to implement desirable functions, for example scanning circuitry  and amplification circuitry. The configurable transistor is independent of the pair of switching transistors.    All the devices and  read-out electronics are made using single crystal silicon and the read-out electronics are buried underneath sensing areas. 
+In the proposed modules, structured phosphors are used. Different techniques of making structured  phosphors will also be discussed.
+`,
     bio: (
       <>
         Dr. Nang Tran received his PhD in solid state materials and device

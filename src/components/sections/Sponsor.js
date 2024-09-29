@@ -43,63 +43,79 @@ class Sponsor extends React.Component {
     return (
       <section {...props} className={outerClasses}>
         <div className="container">
-        <Grid container>
-          <Grid item xs={12} md={6}>
-          <div className={innerClasses}>
-            <h2 className={"center-content"}>Technical Supports</h2>
-            <ul className="list-reset">
-              <li className="reveal-scale-up">
-                <Image
-                  src={require("./../../assets/images/ieej-logo-b.jpg")}
-                  alt="Institute Electrical Engineer of Japan (IEEJ, Japan)"
-                  width={80}
-                  height={39}
-                />
-              </li>
-              <li className="reveal-scale-up" data-reveal-delay="200">
-                <Image
-                  src={require("./../../assets/images/IEEE_VN_Logo_Rect.jpg")}
-                  alt="IEEE Vietnam Section"
-                  width={150}
-                  height={30}
-                />
-              </li>
-              <li className="reveal-scale-up" data-reveal-delay="200">
-                <Image
-                  src={require("./../../assets/images/IKEEE.jpg")}
-                  alt="Institute of Korean Electrical& Electronic Engineers (IKEEE, Korea)"
-                  width={200}
-                  height={31}
-                />
-              </li>
-              <li className="reveal-scale-up" data-reveal-delay="400">
-                <Image
-                  src={require("./../../assets/images/HSIA.png")}
-                  alt="Ho Chi Minh Semiconducting Industrial Association (HSIA)"
-                  width={100}
-                  height={30}
-                />
-              </li>
-            </ul>
-            </div>
+          <Grid container>
+            <Grid item xs={12} md={6}>
+              <div className={innerClasses}>
+                <h2 className={"center-content"}>Technical Supports</h2>
+                <ul className="list-reset">
+                  <li className="reveal-scale-up">
+                    <Image
+                      src={require("./../../assets/images/ieej-logo-b.jpg")}
+                      alt="Institute Electrical Engineer of Japan (IEEJ, Japan)"
+                      width={80}
+                      height={39}
+                    />
+                  </li>
+                  <li className="reveal-scale-up" data-reveal-delay="200">
+                    <Image
+                      src={require("./../../assets/images/IEEE_VN_Logo_Rect.jpg")}
+                      alt="IEEE Vietnam Section"
+                      width={150}
+                      height={30}
+                    />
+                  </li>
+                  <li className="reveal-scale-up" data-reveal-delay="200">
+                    <Image
+                      src={require("./../../assets/images/IKEEE.jpg")}
+                      alt="Institute of Korean Electrical& Electronic Engineers (IKEEE, Korea)"
+                      width={200}
+                      height={31}
+                    />
+                  </li>
+                  <li className="reveal-scale-up" data-reveal-delay="400">
+                    <Image
+                      src={require("./../../assets/images/HSIA.png")}
+                      alt="Ho Chi Minh Semiconducting Industrial Association (HSIA)"
+                      width={100}
+                      height={30}
+                    />
+                  </li>
+                </ul>
+              </div>
             </Grid>
             <Grid item xs={12} md={6}>
-            <div className={innerClasses}>
-              <h2 className={"center-content"}>Sponsors</h2>
-              <ul className="list-reset">
-                <li className="reveal-scale-up">
-                  <Image
-                    src={require("./../../assets/images/sonpsor-smater.jpg")}
-                    alt="SMARTer- NCHU- Taiwan"
-                    width={180}
-                    height={39}
-                  />
-                </li>
-              </ul>
-            </div>
+              <div className={innerClasses}>
+                <h2 className={"center-content"}>Sponsors</h2>
+                <ul className="list-reset">
+                  <li className="reveal-scale-up">
+                    <Image
+                      src={require("./../../assets/images/sonpsor-smater.jpg")}
+                      alt="SMARTer- NCHU- Taiwan"
+                      width={180}
+                      height={39}
+                    />
+                  </li>
+                  <li className="reveal-scale-up">
+                    <Image
+                      src={require("./../../assets/images/redsun.jpg")}
+                      alt="Redsun - Vietnam"
+                      width={180}
+                      height={39}
+                    />
+                  </li>
+                  <li className="reveal-scale-up">
+                    <Image
+                      src={require("./../../assets/images/mantis.jpg")}
+                      alt="Mantis- Vietnam"
+                      width={180}
+                      height={39}
+                    />
+                  </li>
+                </ul>
+              </div>
+            </Grid>
           </Grid>
-          </Grid>
-          </div>
+        </div>
       </section>
     );
   }
