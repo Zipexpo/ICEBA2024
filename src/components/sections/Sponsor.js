@@ -106,7 +106,7 @@ class Sponsor extends React.Component {
                   <li className="reveal-scale-up">
                     <Image
                       src={require("./../../assets/images/mantis.jpg")}
-                      alt="Mantis- Vietnam"
+                      alt="Mantis - Vietnam"
                       width={180}
                       height={39}
                     />
