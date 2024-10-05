@@ -91,7 +91,7 @@ class Sponsor extends React.Component {
                     <Image
                       src={require("./../../assets/images/sonpsor-smater.jpg")}
                       alt="SMARTer- NCHU- Taiwan"
-                      width={180}
+                      width={160}
                       height={39}
                     />
                   </li>
@@ -99,15 +99,15 @@ class Sponsor extends React.Component {
                     <Image
                       src={require("./../../assets/images/redsun.jpg")}
                       alt="Redsun - Vietnam"
-                      width={180}
-                      height={39}
+                      width={250}
+                      height={50}
                     />
                   </li>
                   <li className="reveal-scale-up">
                     <Image
                       src={require("./../../assets/images/mantis.jpg")}
                       alt="Mantis - Vietnam"
-                      width={180}
+                      width={120}
                       height={39}
                     />
                   </li>
