@@ -111,6 +111,14 @@ class Sponsor extends React.Component {
                       height={39}
                     />
                   </li>
+                  <li className="reveal-scale-up">
+                    <Image
+                      src={require("./../../assets/images/ITO.jpg")}
+                      alt="ITO - Vietnam"
+                      width={140}
+                      height={43}
+                    />
+                  </li>
                 </ul>
               </div>
             </Grid>
