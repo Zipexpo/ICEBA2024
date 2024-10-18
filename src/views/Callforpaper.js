@@ -151,6 +151,29 @@ class Callforpaper extends React.Component {
                 FULL PAPER
               </Button> */}
             </p>
+            <p>
+              Click here to get the template:
+              <Button
+                color="secondary"
+                style={{ marginLeft: 5, marginRight: 5 }}
+                tag={"a"}
+                target="_blank"
+                href={"/files/ICEBA2024_poster_template_final.pptx"}
+                download
+              >
+                POSTER
+              </Button>
+              <Button
+                color="secondary"
+                style={{ marginLeft: 5, marginRight: 5 }}
+                tag={"a"}
+                target="_blank"
+                href={"/files/ICEBA2024_PaperNumber_final.pptx"}
+                download
+              >
+                PRESETATION
+              </Button>
+            </p>
           </GenericSection>
 
           <GenericSection topDivider>
