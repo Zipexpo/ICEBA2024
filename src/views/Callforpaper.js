@@ -158,7 +158,7 @@ class Callforpaper extends React.Component {
                 style={{ marginLeft: 5, marginRight: 5 }}
                 tag={"a"}
                 target="_blank"
-                href={"/files/ICEBA2024_poster_template_final.pptx"}
+                href={"https://phys.hcmus.edu.vn/ICEBA2024/files/ICEBA2024_poster_template_final.pptx"}
                 download
               >
                 POSTER
@@ -168,7 +168,7 @@ class Callforpaper extends React.Component {
                 style={{ marginLeft: 5, marginRight: 5 }}
                 tag={"a"}
                 target="_blank"
-                href={"/files/ICEBA2024_PaperNumber_final.pptx"}
+                href={"https://phys.hcmus.edu.vn/ICEBA2024/files/ICEBA2024_PaperNumber_final.pptx"}
                 download
               >
                 PRESETATION 
