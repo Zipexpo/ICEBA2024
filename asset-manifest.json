@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.70a34005.css",
-    "main.js": "./static/js/main.a5c85a6f.js",
+    "main.js": "./static/js/main.a637616a.js",
     "static/media/vl.png": "./static/media/vl.32b23e589659b608eb30.png",
     "static/media/mangthit6.png": "./static/media/mangthit6.21d6925dd1ebf2131471.png",
     "static/media/orangebackground.webm": "./static/media/orangebackground.4b59570bec21a379aa82.webm",
@@ -115,6 +115,7 @@
     "static/media/Ganesh Neelakanta Iyer.jpg": "./static/media/Ganesh Neelakanta Iyer.7018e027b00c30212fb6.jpg",
     "static/media/news-image-01.jpg": "./static/media/news-image-01.bf244d866a8b256913d9.jpg",
     "static/media/tohoku-university-logo.png": "./static/media/tohoku-university-logo.76805cd7ac850cc2f512.png",
+    "static/media/semi.png": "./static/media/semi.aca52a31ad020f1e3721.png",
     "static/media/Kenneth Johnson.jpg": "./static/media/Kenneth Johnson.bd1e1c2a8c2801150638.jpg",
     "static/media/Xinghui Zhao.jpg": "./static/media/Xinghui Zhao.e0469c58f2b932b1a40a.jpg",
     "static/media/ICS_stacked-transparent.gif": "./static/media/ICS_stacked-transparent.bc9f4a8c2b057e491750.gif",
@@ -164,10 +165,10 @@
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
     "main.70a34005.css.map": "./static/css/main.70a34005.css.map",
-    "main.a5c85a6f.js.map": "./static/js/main.a5c85a6f.js.map"
+    "main.a637616a.js.map": "./static/js/main.a637616a.js.map"
   },
   "entrypoints": [
     "static/css/main.70a34005.css",
-    "static/js/main.a5c85a6f.js"
+    "static/js/main.a637616a.js"
   ]
 }
