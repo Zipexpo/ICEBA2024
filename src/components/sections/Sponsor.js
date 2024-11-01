@@ -80,6 +80,14 @@ class Sponsor extends React.Component {
                       height={30}
                     />
                   </li>
+                  <li className="reveal-scale-up" data-reveal-delay="400">
+                    <Image
+                      src={require("./../../assets/images/semi.png")}
+                      alt="Ho Chi Minh Semiconducting Industrial Association (HSIA)"
+                      width={200}
+                      height={31}
+                    />
+                  </li>
                 </ul>
               </div>
             </Grid>

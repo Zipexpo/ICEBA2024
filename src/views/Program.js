@@ -275,7 +275,7 @@ class Program extends React.Component {
                           <Typography variant={"subtitle1"} color={"primary"}>
                             2. TRANSPORTATION FOR Vinh Long Province (MTU)
                           </Typography>
-                          <strong>12:45-12:55</strong> TPick up by Limousine bus
+                          <strong>12:45-12:55</strong> Pick up by Limousine bus
                           of Conference (Bus 01, Bus02 at the gate of the
                           University of Science)
                           <br />
