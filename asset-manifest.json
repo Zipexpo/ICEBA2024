@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.70a34005.css",
-    "main.js": "./static/js/main.a637616a.js",
+    "main.js": "./static/js/main.ebfdd278.js",
     "static/media/vl.png": "./static/media/vl.32b23e589659b608eb30.png",
     "static/media/mangthit6.png": "./static/media/mangthit6.21d6925dd1ebf2131471.png",
     "static/media/orangebackground.webm": "./static/media/orangebackground.4b59570bec21a379aa82.webm",
@@ -25,11 +25,13 @@
     "static/media/KHTN.png": "./static/media/KHTN.7733f409fb89e2f63734.png",
     "static/media/IKEEE.jpg": "./static/media/IKEEE.6e8f77e4fe54db50e9ce.jpg",
     "static/media/Brian Larkins.jpg": "./static/media/Brian Larkins.551630b60450cef6be3b.jpg",
+    "static/media/2.Program_ICEBA2024_updated_v3.docx": "./static/media/2.Program_ICEBA2024_updated_v3.aee0b129c7af91d35674.docx",
     "static/media/Weisong Shi.jpg": "./static/media/Weisong Shi.6ddb62d837b498f4a422.jpg",
     "static/media/header.JPG": "./static/media/header.98bdaf53c262baa06b07.JPG",
     "static/media/inside1.jpg": "./static/media/inside1.98bdaf53c262baa06b07.jpg",
     "static/media/Equatorial4.jpg": "./static/media/Equatorial4.40acf481c66ce5f8e08c.jpg",
     "static/media/venueHolder.png": "./static/media/venueHolder.53dc42a817587559862f.png",
+    "static/media/2.Program_ICEBA2024_updated_v3.pdf": "./static/media/2.Program_ICEBA2024_updated_v3.b298e154accbf0965a37.pdf",
     "static/media/MTU2.jpg": "./static/media/MTU2.2b483f065ffb34582ed5.jpg",
     "static/media/4b. Invitation letter_iceba2024.pdf": "./static/media/4b. Invitation letter_iceba2024.74d7bba69ab4b757c1a0.pdf",
     "static/media/MTU3.jpg": "./static/media/MTU3.76772a65316b64a1f029.jpg",
@@ -90,7 +92,6 @@
     "static/media/mtulogo.png": "./static/media/mtulogo.41d0babcaceaf00300fe.png",
     "static/media/redsun.jpg": "./static/media/redsun.bbcf2c7958cd28707d47.jpg",
     "static/media/snake.jpg": "./static/media/snake.6b3c6d598ec7c5c6cfbd.jpg",
-    "static/media/2.Program_ICEBA2024_updated_v2.docx": "./static/media/2.Program_ICEBA2024_updated_v2.bca7216a14fa867df717.docx",
     "static/media/ngochung3.jpg": "./static/media/ngochung3.85297ee9cadee91d466f.jpg",
     "static/media/IEEE_logo.jpg": "./static/media/IEEE_logo.52e039f46fd97039a08c.jpg",
     "static/media/tanhoanglong2.webp": "./static/media/tanhoanglong2.98f035582d9e8aba5971.webp",
@@ -165,10 +166,10 @@
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
     "main.70a34005.css.map": "./static/css/main.70a34005.css.map",
-    "main.a637616a.js.map": "./static/js/main.a637616a.js.map"
+    "main.ebfdd278.js.map": "./static/js/main.ebfdd278.js.map"
   },
   "entrypoints": [
     "static/css/main.70a34005.css",
-    "static/js/main.a637616a.js"
+    "static/js/main.ebfdd278.js"
   ]
 }
