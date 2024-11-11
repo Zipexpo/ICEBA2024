@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.70a34005.css",
-    "main.js": "./static/js/main.ebfdd278.js",
+    "main.js": "./static/js/main.04fc0715.js",
     "static/media/vl.png": "./static/media/vl.32b23e589659b608eb30.png",
     "static/media/mangthit6.png": "./static/media/mangthit6.21d6925dd1ebf2131471.png",
     "static/media/orangebackground.webm": "./static/media/orangebackground.4b59570bec21a379aa82.webm",
@@ -39,6 +39,7 @@
     "static/media/MTU4.jpg": "./static/media/MTU4.848abce6fa7997e27902.jpg",
     "static/media/pt1.jpg": "./static/media/pt1.ba8cfb00efe49c37d925.jpg",
     "static/media/pt3.jpg": "./static/media/pt3.68d20d4727b4c2f4af8b.jpg",
+    "static/media/Ishida.png": "./static/media/Ishida.d5ccd1f7e9d50cfe4af3.png",
     "static/media/mangthit7.jpg": "./static/media/mangthit7.8287ae01f500fdc6b662.jpg",
     "static/media/Equatorial2.webp": "./static/media/Equatorial2.8707ac9c878ccba9c115.webp",
     "static/media/Equatorial3.jpg": "./static/media/Equatorial3.a93998f60cf9da2ea026.jpg",
@@ -166,10 +167,10 @@
     "static/media/illustration-element-06.svg": "./static/media/illustration-element-06.7febaa577c57f1b6f1e2.svg",
     "static/media/hero-image.svg": "./static/media/hero-image.5481698cd98abf5050bc.svg",
     "main.70a34005.css.map": "./static/css/main.70a34005.css.map",
-    "main.ebfdd278.js.map": "./static/js/main.ebfdd278.js.map"
+    "main.04fc0715.js.map": "./static/js/main.04fc0715.js.map"
   },
   "entrypoints": [
     "static/css/main.70a34005.css",
-    "static/js/main.ebfdd278.js"
+    "static/js/main.04fc0715.js"
   ]
 }
